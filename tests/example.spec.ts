@@ -3,6 +3,7 @@ import { page_data } from '../test_data/page.data'
 import { LoginPage } from '../pages/login.page'
 import { loginPageDataPL } from '../test_data/login.data'
 import { defaultUser } from '../test_data/user.data'
+import { assert, log } from 'console'
 
 test.describe('login page tests PL', () => {
   let loginPage: LoginPage
@@ -49,6 +50,14 @@ test.describe('login page tests PL', () => {
     )
   })
 
+  test('check focus', async ({ page }) => {
+    loginPage.validateFocusOnInput(loginPage.emailInput)
+    loginPage.validateFocusOnInput(loginPage.passwordInput)
+
+    loginPage.validateFocusOnButton(loginPage.loginButton)
+    loginPage.validateFocusOnButton(loginPage.registerButton)
+  })
+
   test('incorrect password', async ({ page }) => {
     await expect(loginPage.loginButton).toBeDisabled()
 
@@ -80,6 +89,22 @@ test.describe('login page tests PL', () => {
 
     await loginPage.loginButton.click()
 
-    //TODO: assert main page
+    // TODO: assert main page
+  })
+
+  test('check forgot password link', async ({ page }) => {
+    await loginPage.forgotPassowrdLink.click()
+
+    await expect(page).toHaveURL(
+      'https://professional.signius.eu/#/password-change?email='
+    )
+  })
+
+  test('check register button', async ({ page }) => {
+    await loginPage.registerButton.click()
+
+    await expect(page).toHaveURL(
+      'https://professional.signius.eu/#/registration'
+    )
   })
 })
