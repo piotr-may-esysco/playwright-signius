@@ -1,18 +1,14 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from '@playwright/test'
+import { page_data } from '../test_data/page-data'
 
-test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+test.describe('login page tests', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto(page_data.url)
 
-  // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
-});
+    await page.waitForLoadState('domcontentloaded')
+  })
 
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
-
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
-
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
-});
+  test('has correct title', async ({ page }) => {
+    await expect(page).toHaveTitle(page_data.title)
+  })
+})
