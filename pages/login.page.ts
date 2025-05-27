@@ -32,4 +32,11 @@ export class LoginPage {
     await expect(button).toHaveCSS('outline', '2px solid #385cdb !important')
     await expect(button).toHaveCSS('box-shadow', '0 0 8px #385cdb40')
   }
+
+  async login(email: string, password: string): Promise<void> {
+    await this.emailInput.fill(email)
+    await this.passwordInput.fill(password)
+
+    await this.loginButton.click()
+  }
 }

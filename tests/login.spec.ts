@@ -2,8 +2,7 @@ import { test, expect } from '@playwright/test'
 import { page_data } from '../test_data/page.data'
 import { LoginPage } from '../pages/login.page'
 import { loginPageDataPL } from '../test_data/login.data'
-import { defaultUser } from '../test_data/user.data'
-import { assert, log } from 'console'
+import { defaultUser1 } from '../test_data/users.data'
 
 test.describe('login page tests PL', () => {
   let loginPage: LoginPage
@@ -39,7 +38,7 @@ test.describe('login page tests PL', () => {
 
     await expect(loginPage.loginButton).toBeDisabled()
 
-    await loginPage.passwordInput.fill(defaultUser.password)
+    await loginPage.passwordInput.fill(defaultUser1.password)
 
     await expect(loginPage.loginButton).toBeEnabled()
 
@@ -65,7 +64,7 @@ test.describe('login page tests PL', () => {
 
     await expect(loginPage.loginButton).toBeDisabled()
 
-    await loginPage.emailInput.fill(defaultUser.email)
+    await loginPage.emailInput.fill(defaultUser1.email)
 
     await expect(loginPage.loginButton).toBeEnabled()
 
@@ -83,7 +82,7 @@ test.describe('login page tests PL', () => {
 
     await expect(loginPage.loginButton).toBeDisabled()
 
-    await loginPage.emailInput.fill(defaultUser.email)
+    await loginPage.emailInput.fill(defaultUser1.email)
 
     await expect(loginPage.loginButton).toBeEnabled()
 
