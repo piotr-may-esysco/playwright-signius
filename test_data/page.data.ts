@@ -1,4 +1,9 @@
 export const page_data = {
-  url: 'https://professional.signius.eu/',
-  title: 'Signius Professional'
+  urls: {
+    basic: 'https://sp-test.signius.eu',
+    login: '/#/login',
+    registation: '/#/registration',
+    forgotPassword: '/#/password-change?email=',
+  },
+  title: 'Signius Professional',
 }

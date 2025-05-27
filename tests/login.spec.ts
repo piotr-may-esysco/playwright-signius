@@ -8,7 +8,7 @@ test.describe('login page tests PL', () => {
   let loginPage: LoginPage
 
   test.beforeEach(async ({ page }) => {
-    await page.goto(page_data.url)
+    await page.goto(page_data.urls.login)
     loginPage = new LoginPage(page)
     await page.waitForLoadState('domcontentloaded')
   })
@@ -19,7 +19,7 @@ test.describe('login page tests PL', () => {
 
   test('has correct texts', async ({ page }) => {
     await expect(loginPage.emailLabel).toHaveText(loginPageDataPL.emailLabel)
-    await expect(loginPage.passwordLabal).toHaveText(
+    await expect(loginPage.passwordLabel).toHaveText(
       loginPageDataPL.passwordLabel
     )
     await expect(loginPage.loginButton).toHaveText(
@@ -50,11 +50,30 @@ test.describe('login page tests PL', () => {
   })
 
   test('check focus', async ({ page }) => {
-    loginPage.validateFocusOnInput(loginPage.emailInput)
-    loginPage.validateFocusOnInput(loginPage.passwordInput)
+    await loginPage.validateFocusOnInput(loginPage.emailInput)
+    await loginPage.validateFocusOnInput(loginPage.passwordInput)
 
-    loginPage.validateFocusOnButton(loginPage.loginButton)
-    loginPage.validateFocusOnButton(loginPage.registerButton)
+    await loginPage.emailInput.fill(defaultUser1.email)
+    await loginPage.passwordInput.fill(defaultUser1.password)
+
+    await page.waitForTimeout(500)
+
+    await loginPage.validateFocusOnButton(
+      loginPage.registerButton,
+      'rgb(100, 98, 98)'
+    )
+    await loginPage.validateFocusOnButton(
+      loginPage.accessibilityButton,
+      'rgb(47, 46, 46)'
+    )
+    await loginPage.validateFocusOnButton(
+      loginPage.forgotPassowrdButton,
+      'rgb(56, 92, 219)'
+    )
+    await loginPage.validateFocusOnButton(
+      loginPage.loginButton,
+      'rgb(255, 255, 255)'
+    )
   })
 
   test('incorrect password', async ({ page }) => {
@@ -92,10 +111,10 @@ test.describe('login page tests PL', () => {
   })
 
   test('check forgot password link', async ({ page }) => {
-    await loginPage.forgotPassowrdLink.click()
+    await loginPage.forgotPassowrdButton.click()
 
     await expect(page).toHaveURL(
-      'https://professional.signius.eu/#/password-change?email='
+      page_data.urls.basic + page_data.urls.forgotPassword
     )
   })
 
@@ -103,7 +122,7 @@ test.describe('login page tests PL', () => {
     await loginPage.registerButton.click()
 
     await expect(page).toHaveURL(
-      'https://professional.signius.eu/#/registration'
+      page_data.urls.basic + page_data.urls.registation
     )
   })
 })

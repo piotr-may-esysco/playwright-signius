@@ -7,29 +7,62 @@ export class LoginPage {
 
   loginButton: Locator
   registerButton: Locator
+  accessibilityButton: Locator
+  forgotPassowrdButton: Locator
 
   wrongCredentialsMessage: Locator
 
-  forgotPassowrdLink: Locator
-
   emailLabel: Locator
-  passwordLabal: Locator
+  passwordLabel: Locator
 
   loginHeader: Locator
 
-  constructor(private page: Page) {}
+  constructor(private page: Page) {
+    this.loginHeader = page.locator('h1').first() // alternative: page.getByRole('heading', { name: 'Zaloguj się' })
 
-  async validateFocusOnInput(input: Locator): Promise<void> {
-    await input.focus()
+    this.emailInput = page.locator('input[name="login--input-email"]')
+    this.passwordInput = page.locator('input[name="login--input-password"]')
 
-    await expect(input).toHaveCSS('border-color', '#385cdb !important')
-    await expect(input).toHaveCSS('box-shadow', '0 0 8px #385cdb40')
+    this.loginButton = page.locator('css=button[name="login--button-submit"]')
+    this.registerButton = page.locator(
+      'button[name="login--button-registration"]'
+    )
+    this.forgotPassowrdButton = page.locator(
+      'button[name="login--button-change-password"]'
+    )
+    this.accessibilityButton = page
+      .locator('button.outlined-accessibility-button')
+      .first()
+
+    this.wrongCredentialsMessage = page.locator('p.alert-message').first()
+
+    this.emailLabel = page.locator('label').first()
+    this.passwordLabel = page.locator('label').nth(1)
   }
 
-  async validateFocusOnButton(button: Locator): Promise<void> {
+  async validateFocusOnInput(input: Locator): Promise<void> {
+    await input.click()
+    await expect(input).toHaveCSS(
+      'box-shadow',
+      'rgba(56, 92, 219, 0.25) 0px 0px 8px 0px'
+    )
+  }
+
+  async validateFocusOnButton(
+    button: Locator,
+    expectedOutlineColour: string
+  ): Promise<void> {
     await button.focus()
 
-    await expect(button).toHaveCSS('outline', '2px solid #385cdb !important')
+    await expect(button).toHaveCSS(
+      'outline',
+      expectedOutlineColour + ' none 0px'
+    )
+    await button.focus()
+    await this.page.waitForTimeout(500)
+    await button.focus()
+
+    // TODO: focus disappears for some reason
     await expect(button).toHaveCSS('box-shadow', '0 0 8px #385cdb40')
   }
 

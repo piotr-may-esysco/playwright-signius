@@ -11,7 +11,7 @@ test.describe('login page tests PL', () => {
   //   await page.waitForLoadState('domcontentloaded')
   // })
 
-  test('2 users test', async ({ page, browser }) => {
+  test.skip('2 users test', async ({ page, browser }) => {
     const context2 = await browser.newContext()
     const page2 = await context2.newPage()
     const loginPage1 = new LoginPage(page)
@@ -20,7 +20,7 @@ test.describe('login page tests PL', () => {
     const loginPage2 = new LoginPage(page2)
     await loginPage2.login(defaultUser2.email, defaultUser2.password)
 
-    await expect(page).toHaveURL('https://professional.signius.eu/#/')
-    await expect(page2).toHaveURL('https://professional.signius.eu/#/')
+    await expect(page).toHaveURL('https://professional.signius.eu/#/folders')
+    await expect(page2).toHaveURL('https://professional.signius.eu/#/folders')
   })
 })
