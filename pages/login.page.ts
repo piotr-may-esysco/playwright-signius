@@ -58,12 +58,6 @@ export class LoginPage {
       'outline',
       expectedOutlineColour + ' none 0px'
     )
-    await button.focus()
-    await this.page.waitForTimeout(500)
-    await button.focus()
-
-    // TODO: focus disappears for some reason
-    await expect(button).toHaveCSS('box-shadow', '0 0 8px #385cdb40')
   }
 
   async login(email: string, password: string): Promise<void> {

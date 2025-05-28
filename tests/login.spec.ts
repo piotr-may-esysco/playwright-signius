@@ -3,6 +3,7 @@ import { page_data } from '../test_data/page.data'
 import { LoginPage } from '../pages/login.page'
 import { loginPageDataPL } from '../test_data/login.data'
 import { defaultUser1 } from '../test_data/users.data'
+import { FoldersPage } from '../pages/folders.page'
 
 test.describe('login page tests PL', () => {
   let loginPage: LoginPage
@@ -97,15 +98,22 @@ test.describe('login page tests PL', () => {
   test('positive path', async ({ page }) => {
     await expect(loginPage.loginButton).toBeDisabled()
 
-    await loginPage.passwordInput.fill('pass')
+    await loginPage.emailInput.fill(defaultUser1.email)
 
     await expect(loginPage.loginButton).toBeDisabled()
 
-    await loginPage.emailInput.fill(defaultUser1.email)
+    await loginPage.passwordInput.fill(defaultUser1.password)
 
     await expect(loginPage.loginButton).toBeEnabled()
 
     await loginPage.loginButton.click()
+
+    const foldersPage = new FoldersPage(page)
+    
+    await expect(foldersPage.navbar.userEmail).toHaveText(defaultUser1.email)
+    await expect(foldersPage.navbar.userName).toHaveText(
+      defaultUser1.names + ' ' + defaultUser1.surname
+    )
 
     // TODO: assert main page
   })
