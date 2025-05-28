@@ -32,7 +32,7 @@ test.describe('login page tests PL', () => {
     await expect(foldersNames).toContain(folderName)
   })
 
-  test.afterAll(async ({ page }) => {
-    // TODO: add removal of folders
-  })
+  //   test.afterAll(async ({ page }) => {
+  //     // TODO: add removal of created folders
+  //   })
 })

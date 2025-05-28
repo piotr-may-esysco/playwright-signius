@@ -1,6 +1,7 @@
 import { Locator, Page } from '@playwright/test'
 import { NavbarComponent } from '../components/navbar.component'
 import { AddFolderComponent } from '../components/add-folder.component'
+import { DeleteFolderComponent } from '../components/delete-folder.component'
 
 export class FoldersPage {
   folders: Locator // TODO: check how multiple folders behave
@@ -30,18 +31,17 @@ export class FoldersPage {
   }
 
   async deleteFolder(folderName: string): Promise<void> {
-    // TODO create a delete folder Component
     try {
-      await this.page
+      await this.page // TODO move this to getFolder function
         .locator('sig-folder-item')
         .filter({ hasText: folderName })
         .locator('button[name="folder-menu--button-menu"]')
         .click()
 
       await this.page.locator('li[name="folder-menu--button-delete"]').click()
-      await this.page
-        .locator('button[name="folder-delete-modal--button-delete"]')
-        .click()
+
+      const deleteFolderDialog = new DeleteFolderComponent(this.page)
+      deleteFolderDialog.confirmButton.click()
     } catch {
       console.log('Folder: ' + folderName + ' not found')
     }
