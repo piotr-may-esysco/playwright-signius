@@ -1,7 +1,6 @@
 import { test, expect } from '@playwright/test'
 import { page_data } from '../test_data/page.data'
 import { LoginPage } from '../pages/login.page'
-import { loginPageDataPL } from '../test_data/login.data'
 import { defaultUser1 } from '../test_data/users.data'
 import { FoldersPage } from '../pages/folders.page'
 import { FolderPage } from '../pages/folder.page'
@@ -62,7 +61,7 @@ test.describe('login page tests PL', () => {
 
   test('Upload multiple files into a folder', async ({ page }) => {
     // TODO: update when file in folder component is compleated
-    // TODO: now working 
+    // TODO: now working
     const folderName = 'fileFolder'
     const paths = [
       '../documents-for-tests/4plik.pdf',

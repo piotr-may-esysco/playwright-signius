@@ -1,0 +1,1602 @@
+{
+  "COMMON": {
+    "YOU": "Ty",
+    "CANCEL": "Zrušit",
+    "CLOSE": "Zavřít",
+    "SAVE_CHANGES": "Uložit",
+    "ADD": "Přidat",
+    "NEXT": "Další",
+    "NEVERMIND": "Zrušit",
+    "CHANGE": "Změnit",
+    "OPEN": "Otevřít",
+    "SEND": "Odeslat",
+    "SEARCH_PLACEHOLDER": "Hledat...",
+    "SEARCH_PLACEHOLDER_NEW_HOME_FEATURE": {
+      "FOLDERS": "Hledat složky...",
+      "DOCUMENTS": "Hledat podle názvu dokumentu..."
+    },
+    "CHANGES_SAVED": "Změny byly uloženy",
+    "CHANGES_PHONE": "Telefonní číslo bylo změněno",
+    "COLLAPSE": "Sbalit",
+    "PAY": "Zaplatit",
+    "REJECT": "Odmítnout",
+    "ACCEPT": "Přijmout",
+    "INVOICE": {
+      "NIP": "DIČ",
+      "NIP_MANDATORY": "DIČ (POVINNÉ)",
+      "NAME": "Jméno a příjmení nebo název společnosti",
+      "NAME_SURNAME": "Jméno a příjmení",
+      "ADDRESS": "Adresa",
+      "POSTAL_CODE": "PSČ",
+      "CITY": "Město",
+      "COUNTRY": "Země",
+      "IS_INDIVIDUAL_BILLING": "Faktura pro fyzickou osobu"
+    },
+    "SUPPORT_EMAIL": "support@signius.eu",
+    "SUPPORT_PHONE_NUMBER": "+48 61 415 22 12",
+    "MODAL_SUPPORT_EMAIL": "business.support@signius.eu",
+    "NONE": "Žádné",
+    "SUMMARY": "Shrnutí",
+    "BACK": "Zpět",
+    "TYPE_WORD": "Zadejte slovo “{{value}}”",
+    "DELETE_WORD": "SMAZAT",
+    "SIGNATURES": ["podpis", "podpisy", "podpisů"],
+    "BACK_TO_APPLICATION": "Zpět na aplikaci",
+    "OR": "nebo",
+    "OR_CONTINUE_WITH": "nebo pokračovat s",
+    "NEW": "Novinka",
+    "INDICATE_THE_LOCATION": "Uveďte místo",
+    "STANDARD": "Standard",
+    "FONT": "Písmo",
+    "YOUR_FILE": "Váš soubor",
+    "SELECT": "Vybrat",
+    "CREATE_NEW_ACCOUNT": "Vytvořit nový účet"
+  },
+  "INFO": {
+    "THIS_DOCUMENT_HAS_BEEN_DELETED_BY_DOCUMENT_OWNER": "Tento dokument byl smazán žadatelem"
+  },
+  "ERROR": {
+    "DOCUMENT_ALREADY_SIGNED": "Dokument jste již podepsali nebo jste opět na seznamu podepisujících osob. Kontaktujte osobu, která dokument přidala",
+    "UNKNOWN": "Něco se pokazilo...",
+    "ERROR_DURING_SIGNING": "Při podepisování došlo k chybě.",
+    "VALIDATION": {
+      "INCORRECT_NUMBER": "Zadané číslo je neplatné",
+      "ADULTS_ONLY": "Pouze dospělí",
+      "DATE_NOT_EARLIER_THAN_TODAY": "Datum ne dříve než dnes",
+      "FILE_TYPE_INVALID": "Jsou povoleny pouze soubory ve formátu {{value}}",
+      "FILE_SIZE_INVALID": "Maximální velikost souboru je {{value}}",
+      "FIELD_REQUIRED": "Pole je povinné",
+      "FIELD_INVALID": "Pole obsahuje neplatnou hodnotu",
+      "FIELD_POST_CODE": "Nesprávný kód",
+      "ALLOWED_CHARACTERS": "Povolené znaky jsou: A-Z, 0-9"
+    },
+    "EXCEPTION": {
+      "USER_EXISTS": "Uživatel již existuje",
+      "RE_CAPTCHA_FAILED": "Došlo k chybě reCaptcha",
+      "SESSION_NOT_FOUND": "Došlo k chybě relace. Vyberte prosím dokumenty znovu"
+    },
+    "CERTIFICATE_EXPIRED": {
+      "TITLE": "Zkuste se znovu podepsat",
+      "TIME_EXCEEDED": "Byl překročen časový limit pro podpis dokumentu.",
+      "CONTACT_US": "Pokud máte nějaké dotazy, kontaktujte náš tým zákaznických služeb."
+    },
+    "FORBIDDEN": "Vaše relace vypršela. Přihlaste se prosím znovu.",
+    "FORBIDDEN_LONG_TEXT": "Byli jste automaticky odhlášeni z aplikace nebo nemáte dostatečná oprávnění.",
+    "NOT_FOUND": "Nebyla nalezena žádná stránka s touto adresou",
+    "NO_ACCESS": "Žádný přístup",
+    "SESSION_EXPIRED": "Vaše relace vypršela.",
+    "SESSION_EXPIRED_SUBTITLE": "Otevřete přijatý odkaz znovu.",
+    "PAYMENT": "Chyba platby. Zkuste to prosím znovu",
+    "VOUCHER": {
+      "INVALID": "Neplatný kód poukázky",
+      "USED_OR_INACTIVE": "Platnost kódu vypršela nebo byl již použit"
+    }
+  },
+  "LANGUAGE": {
+    "PL": "Polski",
+    "EN": "English",
+    "DE": "Deutsch",
+    "MT": "Maltese",
+    "UK": "Українська",
+    "SV": "Svenska",
+    "CS": "Čeština",
+    "SK": "Slovenský"
+
+  },
+  "ENUM": {
+    "DOCUMENT_STATUS": {
+      "SIGNED": "Podepsaný",
+      "SIGNING_IN_PROGRESS": "K podpisu",
+      "UPLOADED": "Čekací",
+      "REJECTED": "Odmítnutý"
+    },
+    "PRODUCT_TYPE": {
+      "SIGN": "Kvalifikovaný podpis",
+      "IDENTITY_TM_IDENTITY_VERIFICATION": "Video identifikace"
+    },
+    "FOLDER_TYPE_FILTER": {
+      "RECEIVING": "Přijaté",
+      "SENDING": "Pověřené"
+    },
+    "FILTERS":{
+      "FINISHED": "dokončeno",
+      "AWAITING": "probíhá",
+      "IN_PROGRESS": "k podpisu",
+      "SIGNED": "podepsáno",
+      "CANCELED": "dokončeno",
+      "WAITING_FOR_APPROVE": "ke schválení",
+      "REJECTED": "odmítnuto",
+      "AWAITING_COMPLETION": "k vyplnění"
+    },
+    "SIGN_STATUS": {
+      "SIGNED": "Podepsáno",
+      "IN_PROGRESS": "K podpisu",
+      "AWAITING": "Probíhá",
+      "NOT_SENT": "Neodesláno",
+      "CANCELED": "Dokončeno",
+      "LOCKED": "Vykonávám...",
+      "TO_APPROVE": "Ke schválení",
+      "REJECTED": "Odmítnuto",
+      "AWAITING_COMPLETION": "k vyplnění"
+    },
+    "CURRENCY": {
+      "PLN": "PLN",
+      "EUR": "EUR"
+    },
+    "DOCUMENT_TYPE": {
+      "ID": "Občanský průkaz",
+      "IDCARD": "Občanský průkaz",
+      "PASSPORT": "Cestovní pas",
+      "A": "Pobytová karta",
+      "P": "Cestovní pas"
+    },
+    "DAYS": {
+      "MONDAY": "pondělí",
+      "TUESDAY": "úterý",
+      "WEDNESDAY": "středa",
+      "THURSDAY": "čtvrtek",
+      "FRIDAY": "pátek",
+      "SATURDAY": "sobota",
+      "SUNDAY": "neděle"
+    },
+    "SIGNATURE_TYPE": {
+      "EASY": "Pokročilý podpis",
+      "QUALIFIED": "Kvalifikovaný podpis",
+      "ADVANCED": "Pokročilý podpis &amp; KYC",
+      "TIMESTAMP": "Timestamp"
+    },
+    "PACK_ORIGIN": {
+      "BOUGHT": "Zakoupené",
+      "RECEIVED": "Obdržené"
+    }
+  },
+  "VARIANTS": {
+    "PERSONS_1": "{{value}} osoba",
+    "PERSONS_2": "{{value}} osoby",
+    "PERSONS_3": "{{value}} osob"
+  },
+  "PASSWORD": {
+    "MIN_LENGTH": "min. {{value}} znaků",
+    "DIGIT": "číslice",
+    "BIG_LETTER": "velké písmeno",
+    "SMALL_LETTER": "malé písmeno",
+    "SPECIAL_CHAR": "speciální znak"
+  },
+  "PASSWORD_RESET": {
+    "EMAIL_LABEL": "Zadejte svou e-mailovou adresu",
+    "PASSWORD_LABEL": "Vytvořte nové heslo",
+    "REQUEST_TITLE": "Obnovte vaše heslo",
+    "REQUEST_MESSAGE": "Zapomněli jste heslo? Nebojte se, během chvilky to vyřešíme.",
+    "REQUEST_BUTTON": "Obnovte heslo",
+    "CONFIRMATION_TITLE": "Poslali jsme vám e-mail",
+    "CONFIRMATION_MESSAGE": "Ověřte váš e-mail, klikněte na odkaz, který jsme vám poslali, a nastavte nové heslo.",
+    "NEW_PASSWORD_TITLE": "Vytvořte nové silné heslo",
+    "NEW_PASSWORD_BUTTON": "Potvrďte heslo",
+    "USER_ACTIVATE_LINK_ALREADY_USED_ERROR": "Tento odkaz již byl použit ke změně hesla."
+  },
+  "AUTH": {
+    "LOGIN": "Přihlásit se",
+    "OAUTH2_LOGIN": "Přihlaste se pomocí Google",
+    "LOGIN_DESC": "Přihlášení pro zákazníky a partnery",
+    "GRENKE_BTN": "Přihlášení pro zaměstnance Grenke",
+    "SGGW_EMPLOYEE_LOGIN": "Přihlášení pro zaměstnance SGGW",
+    "EMAIL": "E-mailová adresa",
+    "PASSWORD": "Heslo",
+    "FORGET_PASSWORD": "Zapomněli jste heslo?",
+    "CREATE_FREE_ACCOUNT": "Vytvořte bezplatný účet",
+    "LOGOUT_SUCCESS": "Úspěšně odhlášeno",
+    "INVALID_CREDENTIALS": "Vaše e-mailová adresa nebo heslo se neshodují.",
+    "ACCOUNT_BLOCKED": "Kvůli opakovanému nesprávnému zadání hesla byl váš účet na 5 minut zablokován. Pro rychlejší odblokování vyberte možnost 'Zapomněl jsem heslo'.",
+    "ACTIVATED_ACCOUNT": "Účet byl aktivován.",
+    "FIRST_NAME": "Jméno",
+    "GIVEN_NAMES": "Jméno/Jména",
+    "LAST_NAME": "Příjmení",
+    "PHONE_NUMBER": "Číslo mobilního telefonu",
+    "NEW_ACCOUNT": "Nový účet",
+    "ALREADY_HAVE_ACCOUNT": "Vytvořte si bezplatný účet a podepisujte dokumenty na dálku - ať jste kdekoli a kdykoli chcete. Rychlé a snadné jako nikdy předtím. Máte již účet?",
+    "CREATE_NEW_PASSWORD": "Vytvořte nové heslo",
+    "ACCEPT_TERMS": "Potvrzuji, že jsem si přečetl a přijímám <a href=\"{{terms}}\" target=\"_blank\">Podmínky využívání služby</a>.",
+    "ACCEPT_TERMS_2": "Za účelem poskytování služeb na nejvyšší úrovni používá aplikace soubory cookie. Více informací o tomto a o zpracování osobních údajů naleznete v<a href=\"{{policy}}\" target=\"_blank\">Zásadách ochrany osobních údajů</a>.",
+    "CREATE_ACCOUNT": "Vytvořte účet",
+    "SENT_EMAIL": "Poslali jsme vám e-mail",
+    "SENT_EMAIL_DESCRIPTION": "Ověřte váš e-mail, použijte aktivační odkaz v naší zprávě a potvrďte registraci.",
+    "LINK_EXPIRED": "Tento odkaz již není aktivní",
+    "LINK_EXPIRED_DESCRIPTION": "E-mailová adresa musí být potvrzena do 48 hodin. Nebojte se, můžeme poslat další e-mail s aktivačním odkazem.",
+    "SEND_NEW_LINK": "Odeslat nový aktivační odkaz",
+    "LOGOUT": "Odhlásit se",
+    "NATIONALITY": "Občanství",
+    "SESSION_EXPIRED": "Vaše relace vypršela. Přihlaste se prosím znovu.",
+    "MOBILE_VERIFICATION": "Potvrďte v mobilní aplikaci",
+    "2FA_VERIFICATION_MAIN": "Go to the Approve application on your registered mobile device",
+    "2FA_VERIFICATION_SUB": "Confirm that you wish to sign your chosen documents",
+    "PARTNERED": "Ve spolupráci s",
+    "YOUR_PASS_CHANGED": "Vaše heslo bylo změněno",
+    "CONFIRM_YOU_DATA": "Potvrďte své údaje",
+    "ALMOST_READY": "Už je to skoro hotové! Vaše e-mailová adresa byla ověřena. Chcete-li začít, potvrďte níže uvedené informace."
+  },
+  "WELCOME": {
+    "TITLE": "Vítejte v SIGNIUS Professional",
+    "MESSAGE": "vám odeslal(a) dokument(y) k podpisu: Potvrďte vaše telefonní číslo a vytvořte si bezplatný účet pro elektronické podepisování dokumentů.",
+    "FOLDER": "Složka dokumentů",
+    "PHONE_CONFIRM": "Potvrďte telefonní číslo "
+  },
+  "WELCOME_TOOLTIP": {
+    "DATE_AT": "o",
+    "OK_UNDERSTAND": "Dobře, rozumím",
+    "GOT_NEW_SIGNATURES_PACK": "Obdrželi jste kvalifikované podpisy!",
+    "GOW_NEW_SIGNATURES_PACK_DESC": "Osoba, která vám poslala dokumenty k podpisu, pro vás zakoupila balíček kvalifikovaných podpisů, abyste tyto dokumenty mohli podepsat zdarma.",
+    "VIEW_PACKAGES": "Zobrazit balíčky"
+  },
+  "WELCOME_EASY_TOOLTIP": {
+    "WELCOME": "Vítejte<span> v SIGNIUS Professional</span>!",
+    "GIFT_INFO": "Zde je malý dárek do začátku :) Úspěšné podepisování!"
+  },
+  "DOCUMENTS": {
+    "CHECKBOX_ALERT": "Pro podepsání dokumentů zaškrtněte příslušná políčka.",
+    "APPROVE_DOCUMENT": "Uložit údaje",
+    "SIGN_ON_FIRST_PAGE": "Umístit podpis v horní části dokumentu",
+    "XML": {
+      "MODAL": {
+        "HEADER": "Podepisujte soubory XML na platformě SIGNIUS",
+        "CONTENT": "Nyní můžete snadno a bezpečně podepisovat soubory XML, např. účetní závěrky, i několika lidmi. Objevte nové možnosti!"
+      }
+    },
+    "TYPE_ALERT": "Do složky můžete přidat pouze soubory v jednom formátu (PDF nebo XML) - vyberte jinou složku",
+    "APPROVER": {
+      "HEADER": "Přidat schvalovatele dokumentu(ů)",
+      "DELETE": "Smazat schvalovatele dokumentu(ů)",
+      "FORM_LABEL": "E-mailová adresa schvalovatele",
+      "HEADER_ADD": "Schvalovatel",
+      "APPROVE": "Schválit",
+      "DECLINE": "Odmítnout dokument",
+      "DECLINE_MODAL": {
+        "HEADER": "Odmítnutí dokumentu",
+        "LABEL": "Zadejte důvod odmítnutí"
+      },
+      "APPROVE_DOCUMENT": "Schválit dokument",
+      "ACCEPT_DOCUMENT": "Dokument byl schválen",
+      "REJECT_DOCUMENT": "Dokument byl odmítnut"
+    },
+    "SIGNING": {
+      "HEADER": "Podepisující osoby"
+    },
+    "CONSENT": {
+      "HEADER": "Pokročilá konfigurace pro dokument",
+      "SUB_TITLE": "Nahrajte konfigurační soubor pro tento dokument",
+      "DOC_BTN": "Vyberte konfigurační soubor",
+      "TABS": {
+        "CONSENT": "Souhlasy",
+        "FIELDS": "Editovatelná pole"
+      },
+      "GO_TO": "Přeskočit na souhlasy",
+      "CHECK": "Označit souhlasy",
+      "DESC": "Prohlédněte všechny stránky dokumentu a udělte požadované souhlasy, abyste mohli pokračovat",
+      "BUTTON": "Potvrdit a pokračovat",
+      "DELETE": {
+        "TXT": "Jste si jistí, že chcete odstranit konfigurační soubor?",
+        "ACCEPT": "Ano, odstraňte soubor"
+      },
+      "PREV": "Náhled:",
+      "DELETE_BTN": "Odstranit soubor",
+      "REQ": "(Požadováno)"
+    },
+    "ORDERED_BY":"Pověřené",
+    "DOCUMENTS": "Dokumenty",
+    "PAID": "(Zaplaceno)",
+    "FILE_WITHOUT_SIGNATURES": "<i class=\"icon icon-file\"></i><p class=\"heading\">Dokument neobsahuje dříve umístěné podpisy.</p><p class=\"body\">Bude podepsán v nejvyšším standardu LTA/LTV (Long Term Archiving/Validation) – s validací podpisů a časovým razítkem.</p>",
+    "ALL_SIGNATURES_VALIDATED": "<i class=\"icon icon-file-signatures-validated\"></i><p class=\"heading\">Dokument obsahuje dříve umístěné podpisy.</p><p class=\"body\">Všechny úspěšně prošly validací. Dokument bude podepsán v nejvyšším standardu LTA/LTV (Long Term Archiving/Validation) – s validací všech podpisů a časovým razítkem.</p>",
+    "NOT_ALL_SIGNATURES_VALIDATED": "<i class=\"icon icon-file-signatures-not-validated\"></i><p class=\"heading\">Dokument obsahuje dříve umístěné podpisy.</p><p class=\"body\"> Alespoň 1 z těchto podpisů neprošel úspěšně validaci na LTA. Dokument bude podepsán ve standardu B-T - s časovým razítkem. Ověření některých dříve umístěných podpisů může být nesprávné.</p>",
+    "DOCUMENT_TO_FILL": "<i class=\"icon icon-file_editable\"></i><p class=\"heading\">Dokument obsahuje interaktivní formulář</p><p class=\"body\">Podepisující osoba bude před podpisem požádána o vyplnění formuláře.</p>",
+    "DOCUMENT_CONSENT" : "Pokročilá konfigurace pro dokument",
+    "SIGN_ALL": "Podepisuji vše ({{value}})",
+    "SIGN_ALL_PAY": "Podepisuji a platím ({{value}})",
+    "READ_ALL_DOCUMENTS": "Přečetl(a) jsem si podepisované dokumenty",
+    "REDIRECT": "Dále",
+    "REDIRECT_ORANGE": "Zpět do obchodu",
+    "DOWNLOAD_SIGNED_DOCUMENTS": "Stáhnout podepsané dokumenty",
+    "ALL_DOCUMENT_SIGNED": "Všechny dokumenty byly podepsány",
+    "DOCUMENTS_SIGNED": "Dokumenty byly podepsány: {{value}}",
+    "PREPARING_FILES": "Příprava souborů ke stažení",
+    "SELECT_FILE": "Vybrat soubor",
+    "SELECT_FILES": "Vybrat soubory",
+    "DRAG_IT_HERE": "nebo jej přetáhněte sem",
+    "DRAG_THEM_HERE": "nebo je přetáhněte sem",
+    "DROP_IT_HERE": "Přetáhněte soubor sem",
+    "WHICH_FILES":"Jaké soubory?",
+    "DROP_THEM_HERE": "Přetáhněte soubory sem",
+    "NAME_DOCUMENT": "Váš název dokumentu",
+    "CONFIRM_CANCEL_ORDER": "Ano, přerušit přidávání dokumentu",
+    "CANCEL_ORDER_CONFIRM_TITLE": "Opravdu chcete přerušit přidávání dokumentu k podpisu?",
+    "CONFIRM_STOP_ADDING_DOCUMENTS": "Ano, přerušit přidávání dokumentů",
+    "ARE_YOU_SURE_STOP_ADDING_DOCUMENTS": "Opravdu chcete přerušit přidávání dokumentů k podpisu?",
+    "CANCEL_ORDER_CONFRIM_MESSAGE": "Pokud nyní přerušíte, změny nebudou uloženy a budete vráceni do složky.",
+    "DOCUMENT_TO_SIGN": "Dokument k podpisu",
+    "ADD_SIGNERS": "Přidat podepisující osoby",
+    "ADD_MESSAGE": "Přidat zprávu pro všechny v seznamu",
+    "DELETE_MESSAGE": "Smazat zprávu",
+    "LABEL_MESSAGE": "Obsah zprávy",
+    "PLACEHOLDER_MESSAGE": "Dobrý den...",
+    "ERROR_MESSAGE": "Zpráva může mít maximálně {{value}} znaků",
+    "ADD_SIGNERS_DESC": "E-mail s odkazem na dokument bude automaticky odeslán první podepisující osobě. Jakmile dokument podepíše, bude odkaz automaticky odeslán dalším osobám ve vámi nastaveném pořadí.",
+    "ADD_ANOTHER": "Přidat další osobu",
+    "REQUIRED": "Povinné",
+    "ADD_ME": "Přidat mě",
+    "CONTACT_SELF": "{{name}} (Ty)",
+    "SIGN_DOCUMENT": "Podepište tento dokument",
+    "SIGNERS": "Podepisující osoba",
+    "APPROVERS": "Schvalovatel",
+    "SIGNERS_FULL_LIST": "Úplný seznam podepisujících osob a odkazy na složku",
+    "SIGNED_BY": "Podepsaly {{value1}}/{{value2}} osoby",
+    "SIGNED": "Podepsaly",
+    "SIGNED_VALUE": "{{value1}}/{{value2}} osoby",
+    "CREATION_TIME": "{{value1}} o {{value2}}",
+    "SAVE_DOCUMENT_INFO": "Uložte dokument do paměti vašeho zařízení, abyste se k němu mohli v budoucnu vrátit.",
+    "SEE_WHO": "Podívejte se kdo",
+    "I_SIGN": "Podepisuji",
+    "I_SIGN_FREE": "Podepisuji (zaplaceno)",
+    "SIGN_PAID_TOOLTIP_TITLE": "Cena podpisu již byla zaplacena",
+    "SIGN_PAID_TOOLTIP_MESSAGE": "Nehradíte náklady na podpis tohoto dokumentu.",
+    "READ_DOCUMENT_CONFIRMATION": "Přečetl(a) jsem si výše uvedený dokument",
+    "DOWNLOAD_SIGNED_DOCUMENT": "Stáhnout podepsaný dokument",
+    "SENT_BY": "Vlastník složky",
+    "ADDING_DOCUMENT": "Přidávání dokumentu do složky",
+    "ADDING_DOCUMENTS": "Přidávání dokumentů",
+    "WE_COULD_NOT_ADD_SOME_DOCUMENTS": "Nepodařilo se nám přidat některé dokumenty",
+    "ERRORS_DETECTED": "Byly zjištěny chyby",
+    "DOCUMENTS_CONTAINS_ERRORS": "Následující dokumenty nelze přidat do složky:",
+    "ERROR_VIRUS_FOUND": "V tomto souboru byl zjištěn virus",
+    "ERROR_FILE_IS_PROTECTED_WITH_PASSWORD": "Soubor chráněný heslem",
+    "ERROR_FILE_SIZE_EXCEEDS": "Velikost souboru přesahuje {{value}}",
+    "ERROR_MIME_TYPE_NOT_SUPPORTED": "Neplatný formát souboru",
+    "ERROR_FILE_TYPE_IS_NOT_SUPPORTED": "Neplatný formát souboru",
+    "ERROR_DOCUMENT_UPLOAD_FILENAME_TOO_LONG": "Příliš dlouhý název souboru - max. 100 znaků",
+    "ERROR_DOCUMENT_UPLOAD_INCORRECT_FILENAME": "Název souboru obsahuje nepovolené znaky. Povolené znaky jsou: A-Ź, a-ź, 0-9, ,.'!@#$%^&amp;()-=_+ ",
+    "ERROR_FILE_WITH_SAME_NAME_ALREADY_EXISTS": "Soubor s tímto názvem již v této složce existuje",
+    "ERROR_FILE_HAS_DIFFERENT_EXTENSION": "Do složky můžete přidat pouze soubory v jednom formátu (PDF nebo XML) - vyberte jinou složku",
+    "ERROR_FILE_CONTAINS_ACTIVE_FORMS": "Neplatný formát souboru. Převeďte soubor na neinteraktivní a zkuste to znovu.",
+    "DOCUMENT_HAS_SIGNATURE": "Tento dokument již má podpis",
+    "ADDING_DOCUMENTS_TO_FOLDER": "Přidávání dokumentů do složky",
+    "ADDING_DOCUMENTS_INFO": {
+      "HEADER": "Povolené soubory",
+      "TERM_2": "Název souboru do 100 znaků",
+      "TERM_4": "Pouze jeden soubor s daným názvem v dané složce."
+    },
+    "DOCUMENTS_TO_SIGN": "Dokumenty k podpisu: {{value}}",
+    "FILES": "souborů",
+    "ADDING_DOCUMENT_DISABLE": "Dokumenty do složky může přidávat pouze osoba, která ji vytvořila.",
+    "ADD_THIS_DOCUMENT": "Odeslat dokument k podpisu",
+    "CLOSE_PREVIEW": "Zavřít náhled",
+    "SIGNER_EMAIL": "E-mailová adresa podepisující osoby",
+    "PHONE_NUMBER": "Číslo mobilního telefonu",
+    "USER_FOLDER_LINK": "Vyhrazený odkaz na složku",
+    "COPY": "Kopírovat",
+    "COPIED": "Zkopírováno",
+    "COPY_LINK": "Kopírovat přímý odkaz",
+    "COPIED_LINK": "Zkopírováno!",
+    "READY": "Připraveno",
+    "NO_SIGNERS": "Nebyly přidány žádné podepisující osoby",
+    "SIGN_SELECTED_DOCUMENTS": "Podepsat vybrané dokumenty",
+    "MAX_FILE_SIZE": "Ne větší než {{value}}",
+    "MAX_FILES_SIZE": "Maximální velikost souboru: {{value}} MB",
+    "SIGN_IN_PROGRESS": "Probíhá podepisování...",
+    "IDENTIFICATION_FAILED_TITLE": "Bohužel, identifikace se nepodařila",
+    "IDENTIFICATION_FAILED": "Ujistěte se, že máte platný občanský průkaz nebo cestovní pas, funkční webovou kameru a mikrofon a vhodné podmínky pro konverzaci a zkuste to znovu.",
+    "SIGN_FAILED": "Podepsání dokumentu se nepodařilo",
+    "SESSION_FAILED": "Nepodařilo se vytvořit relaci podepisování",
+    "BACK_TO_FOLDER": "Zpět do složky",
+    "VERIFICATION_IN_PROGRESS": "Čekání na potvrzení vaší totožnosti",
+    "SHOW_DOCUMENT": "Náhled",
+    "DOCUMENT_PREVIEW": "Náhled dokumentu",
+    "LIST_OF_SIGNERS": "Seznam podepisujících osob",
+    "DOWNLOAD_ORIGINAL_DOCUMENT": "Stáhnout původní dokument",
+    "DOCUMENT_NOT_SENT": "Žádost nebyla odeslána podepisujícím osobám",
+    "CHECK": "Ověřit",
+    "BUY_MORE_SIGNATURES": "Kupte si balíček pokročilých podpisů s identifikací KYC",
+    "BUY_MORE_QUALIFIED_SIGNATURES": "Kupte si balíček kvalifikovaných podpisů",
+    "ADDED_NOTIFICATION": "<h2>Dokumenty přidané do složky: {{value1}}</h2> <em>Stáhli jsme</em> <strong>{{value2}} {{value3}}</strong> <em>z vašeho balíčku.</em>",
+    "ADDED_NOTIFICATION_WITHOUT_DESCRIPTION": "<h2>Dokumenty přidané do složky: {{value1}}</h2>",
+    "FILE_WITH_SAME_NAME_ALREADY_EXISTS": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Soubor s tímto názvem již v této složce existuje</h2>",
+    "FILE_IS_PROTECTED_WITH_PASSWORD": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Soubor chráněný heslem!</h2>",
+    "FILE_CONTAINS_ACTIVE_FORMS": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Neplatný formát souboru!</h2> <br/> <em>Převeďte soubor na neinteraktivní a zkuste to znovu.</em>",
+    "VIRUS_FOUND": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Soubor je infikován!</h2> <em>V odesílaném  souboru jsme detekovali virus. Proces odesílání tohoto dokumentu byl přerušen.</em>",
+    "DOCUMENT_UPLOAD_INCORRECT_FILENAME": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Název souboru obsahuje nepovolené znaky.</h2> <em>Povolené znaky jsou: A-Ź, a-ź, 0-9, ,.'!@#$%^&amp;()-=_+</em>",
+    "DOCUMENT_UPLOAD_FILENAME_TOO_LONG": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Příliš dlouhý název souboru.</h2> <em>Název souboru může mít až 100 znaků.</em>",
+    "DELETE_DOCUMENT": "Smazat dokument",
+    "DELETE_FAILED_TITLE": "Nelze smazat dokument",
+    "DELETE_FAILED_NOT_OWNER": "Nemáte dostatečná oprávnění ke smazání tohoto dokumentu. Dokument může smazat <strong>pouze</strong> osoba, která si vyžaduje jej podepsat, nebo vlastník složky, ve které se dokument nachází.",
+    "OK_UNDERSTAND": "Dobře, rozumím",
+    "SELECT_SIGNATURE_TYPE": "Vyberte typ podpisu",
+    "ADVANCED": "Pokročilý &amp; KYC",
+    "QUALIFIED": "Kvalifikovaný",
+    "EASY": "Pokročilý",
+    "EASY_TOOLTIP": "Pro použití pokročilého podpisu vytvořte novou složku dokumentů. Každá složka má přiřazen jeden typ podpisu.",
+    "EASY_DESC": "Když potřebujete rychle podepsat dokumenty s uživatelem, který je vám/vaší společnosti známý<span>Při neexistenci požadavku na písemnou formu a u smluv s nižší úrovní formalit</span><span><b>Ověření totožnosti</b> na základě e-mailu a SMS kódu</span>",
+    "ADVANCED_DESC": "U většiny smluv a dokumentů v obchodních vztazích<span>Při neexistenci právního požadavku na písemnou formu</span><span>Vydaný na základě <b>ověřování totožnosti na dálku</b></span><span>Můžete jej použít k podpisu např. obchodních dohod a smluv, NDA dohod, mandátních smluv/smluv o dílo, žádostí o dovolenou atd.</span>",
+    "QUALIFIED_DESC": "Podpis ekvivalentní vlastnoručnímu podpisu<span>Ověřený kvalifikovaným osobním certifikátem</span><span>Pro smlouvy a dokumenty vyžadující písemnou formu</span><span>Vydaný na základě <b>ověřování totožnosti na dálku</b></span><span>Můžete jej použít k podpisu téměř všech dokumentů, např. úřední dokumenty, pracovní smlouvy, nabídky ve výběrovém řízení, lékařská potvrzení apod.</span>",
+    "FIND_OUT_MORE": "Dozvíte se více",
+    "ADVANCED_TOOLTIP": "Pro použití pokročilého podpisu s identifikací KYC vytvořte novou složku dokumentů. Každá složka má přiřazen jeden typ podpisu.",
+    "QUALIFIED_TOOLTIP": "Pro použití kvalifikovaného podpisu vytvořte novou složku dokumentů. Každá složka má přiřazen jeden typ podpisu.",
+    "SWITCH": "Přepnout",
+    "YOU_HAVE_QUALIFIED_SIGNATURES": "Máte kvalifikované podpisy",
+    "SWITCH_TO_ADVANCED_SIGNATURES": "Přepnout na pokročilé podpisy s identifikací KYC",
+    "EASY_SIGNATURE": "Pokročilý podpis",
+    "ADVANCED_SIGNATURE": "Pokročilý podpis &amp; KYC",
+    "QUALIFIED_SIGNATURE": "Kvalifikovaný podpis",
+    "NO_SIGNATURE": "Není vybrán žádný podpis",
+    "PRIMARY": "Základní",
+    "HIGH": "Vysoká",
+    "HIGHEST": "Nejvyšší",
+    "COMPARE_THE_SIGNATURES": "Porovnat podpisy",
+    "QUALIFIED_NOT_ENOUGH": "V aktivním balíčku nemáte dostatek kvalifikovaných podpisů k podepsání tohoto dokumentu  Nejprve podepište vybrané dokumenty pomocí tohoto balíčku, a poté aktivujte (nebo kupte) nový balíček, abyste mohli podepisovat další.",
+    "DELETED_DOCUMENT": "Dokument smazán",
+    "FULL_STORAGE_MODAL_TITLE": "Nedostatek místa na disku!",
+    "FULL_STORAGE_MODAL_MESSAGE": "Nemáte dostatek místa na disku pro přidání dalšího dokumentu. Smažte nepotřebné dokumenty, abyste uvolnili místo.",
+    "CURRENT_STORAGE": "Aktuální využití:",
+    "CURRENT_STORAGE_SEPARATOR": "z",
+    "DOWNLOAD_MENU": {
+      "HEADER": "STÁHNOUT DOKUMENT",
+      "ORIGINAL": "Původní",
+      "SIGNED": "Podepsaný",
+      "SEE_WHO": "Zkontrolujte, kdo podepsal"
+    },
+    "SIGNED_DATE": "{{date}} o {{time}}",
+    "SEND_REMINDER": "Odeslat e-mail s připomenutím",
+    "DELETE_MODAL": {
+      "TITLE": "Smazání dokumentu",
+      "DELETE_MESSAGE": "Opravdu chcete <strong>trvale</strong> smazat tento dokument z platformy?",
+      "DELETE_SIGNED_MESSAGE": "<strong>Stáhněte si podepsaný dokument před jeho smazáním</strong> a dále jej sami archivujte.",
+      "DELETE_THIS_DOCUMENT": "Smazat tento dokument",
+      "DELETE_WITHOUT_DOWNLOAD_DOCUMENT": "Smazat bez stažení",
+      "DOWNLOAD_AND_DELETE_DOCUMENT": "Stáhnout a smazat"
+    },
+    "PREVIEW": {
+      "GO_TO_LIST_OF_SIGNERS": "Posuňte se na seznam podepisujících osob",
+      "ON_FIRST_PAGE": "Umístit podpisy na první stránku"
+    },
+    "ADD_GRAPH_REPRESENTATION": "Přidat grafické znázornění podpisů",
+    "DO_NOT_ADD": "Nepřidávat",
+    "QUALIFIED_ONLY": "pouze kvalifikovaný",
+    "ADD_FIRST_PAGE": "Vizualizace na první stránce dokumentu",
+    "ADD_LAST_PAGE": "Dodatečná stránka na konci dokumentu",
+    "INDICATE_PLACE_OF_SIGN": "Uveďte místo sami",
+    "INDICATE_PLACE_OF_SIGN_DISABLED_INFO": "při přidání max. 1 dokumentu",
+    "MANUAL_TOOLTIP_MESSAGE": "Vyberete místo v dokumentu, kde se zobrazí seznam osob, které dokument podepsaly, a čas podpisů.",
+    "FIRST_PAGE_WITH_QUALIFIED_SIGNATURE_TOOLTIP_MESSAGE": "Na okraji první stránky dokumentu se zobrazí seznam osob, které dokument podepsaly, včetně času podpisů.",
+    "LAST_PAGE_WITHOUT_SIGNATURES": "Dodatečná stránka na konci dokumentu bude obsahovat seznam osob, které dokument podepsaly, včetně stavu a času podpisů.",
+    "LAST_PAGE_WITH_SIGNATURES": "Pokud jsou na dokumentu dříve umístěné podpisy, výběrem této možnosti je odstraníte.",
+    "FIRST_PAGE_WITH_OTHER_SIGNATURES_TOOLTIP_MESSAGE": "Na okraji první stránky dokumentu se zobrazí seznam osob, které dokument podepsaly, včetně času podpisů. V případě pokročilého podpisu to bude seznam e-mailových adres.",
+    "DEFINE_ORDER": "Určete pořadí podepisování",
+    "CHANGE_DOCUMENT_TITLE": "Změna názvu dokumentu",
+    "DOCUMENT_NAME_ERROR": "Název dokumentu může mít maximálně {{value}} znaků",
+    "MAX_SIGNERS": "Max. {{value}} podepisujících osob",
+    "MAX_8_SIGNERS_INFO": "Vizualizace na první stránce dokumentu umožňuje maximálně 8 podepisujících osob. Vyberte jiné grafické znázornění podpisu nebo upravte počet podepisujících osob.",
+    "MAX_12_SIGNERS_INFO": "Vybrané grafické znázornění podpisu umožňuje maximálně 12 podepisujících osob. Upravte počet podepisujících osob nebo vyberte „Nepřidávat“.",
+    "WHICH_DOCUMENT": "Dokument {{value1}} z {{value2}}",
+    "SHOW_DOCUMENTS": "Zobrazit dokumenty",
+    "DOCUMENTS_TO_SIGN_STATUS": "k podpisu",
+    "SIGNED_DOCUMENTS": "podepsané",
+    "OTHER_DOCUMENTS": "probíhá",
+    "FINISHED": "dokončené",
+    "NO_DOCUMENTS_FOUND": "Nebyly nalezeny žádné dokumenty",
+    "FILTERS_NO_DOCUMENTS":"Vaše nastavení filtru skrylo složky.",
+    "FILTERS_RETURN": "Obnovit",
+    "FILTERS_SUBMIT": "Použít",
+    "FILTERS_CANCEL": "Zrušit",
+    "FILTERS_ADDED": "přidané",
+    "FILTERS_SOON": "brzy",
+    "FILTERING": "Filtrování",
+    "FILTERING_TOLTIP_HEADER": "Novinka - filtrování a řazení!",
+    "FILTERING_TOLTIP_CONTENT": "Nyní můžete pohodlně filtrovat a třídit dokumenty a složky. Vyzkoušejte nové možnosti!",
+    "DOCUMENTS_TOLTIP_HEADER": "Přidali jsme novou kartu „Dokumenty“",
+    "DOCUMENTS_TOLTIP_CONTENT": "Nyní můžete procházet a vyhledávat dokumenty ze všech složek na jednom místě. To vám usnadní hledání potřebných souborů, aniž byste museli prohledávat více složek.",
+    "TO_FILL": "Doplňte dokument"
+  },
+  "PIN_CONFIRMATION": {
+    "CODE": {
+      "TITLE": "Poslali jsme vám SMS s kódem",
+      "STEP": "<strong>Krok 2.</strong> Nyní potvrdíme, zda je vámi zadané telefonní číslo platné.",
+      "LABEL": "nové číslo mobilního telefonu",
+      "ERROR": "Kód e-mail je neplatný"
+    },
+    "SMS_ERROR": "Došlo k neočekávané chybě. Zkuste to znovu.",
+    "TITLE": "Poslali jsme vám SMS",
+    "YOUR_PHONE_NUMBER": "Číslo vašeho mobilního telefonu",
+    "ENTER_SMS_CODE": "Zadejte SMS kód",
+    "AWAREMENT": "Jsem si vědom(a), že pokračováním v tomto procesu podepisuji tento dokument.",
+    "SEND_CODE_AGAIN": "Odeslat kód znovu",
+    "CHALLENGE_ERROR": "SMS kód je neplatný",
+    "TIME_TO_UNLOCK": "Zbývá {{value}} k odblokování relace",
+    "ATTEMPTS_LEFT": "Zbývá {{value}} pokusů",
+    "RESEND_TIME": "Ještě {{timeLeft}}, než budete moci odeslat znovu",
+    "SMS_CODE_SENT": "SMS s kódem byl odeslán",
+    "STEP": "<strong>Krok 2.</strong> Nyní potvrdíme, zda je vámi zadané telefonní číslo platné. ",
+    "EMAIL": {
+      "TITLE": "Poslali jsme vám e-mail s kódem",
+      "ENTER_YOUR_EMAIL_CODE": "Zadejte kód z e-mailu",
+      "YOUR_EMAIL": "Vaše e-mailová adresa",
+      "SEND_CODE_AGAIN": "Odeslat e-mail znovu",
+      "STEP": "<strong>Krok 1.</strong> Pro zvýšení zabezpečení potvrdíme Vaši e-mailovou adresu."
+    }
+  },
+  "FILTERS":{
+    "FINISHED": "dokončeno",
+    "TO_SIGN": "k podpisu",
+    "IN_PROGRESS": "probíhá",
+    "SIGNED": "podepsáno",
+    "REJECTED": "odmítnuto"
+  },
+  "FOLDERS": {
+    "FOLDERS": "Složky",
+    "DOCUMENTS": "Dokumenty",
+    "SHOW_ONLY_MY": "Zobrazit pouze mé složky",
+    "FIND_DOCUMENTS": "Najít dokumenty",
+    "FOLDER_CREATED": "Složka vytvořena",
+    "DOCUMENTS_FOLDERS": "Složky dokumentů",
+    "CREATE_FOLDER": "Vytvořit složku<br>a přidat dokumenty k podpisu",
+    "SIGNERS": "Podepisující osoba",
+    "ADD_NEW_FOLDER": "Přidávání složky",
+    "NAME_YOUR_FOLDER": "Pojmenujte tuto složku",
+    "FOLDER_NAME_ERROR": "Název složky může mít maximálně {{value}} znaků",
+    "ADD_CONFIRM": "Potvrďte",
+    "FOLDER_SIGNERS": "Osoba podepisující tuto složku",
+    "DELETE_FOLDER": "Smazat tuto složku",
+    "CHANGE_FOLDER_NAME": "Změnit název složky",
+    "DELETE_MODAL_TITLE": "Smazání složky",
+    "DELETE_MODAL_MESSAGE": "Opravdu chcete smazat tuto složku?",
+    "EDIT_MODAL_TITLE": "Změna názvu složky",
+    "SAVE_CHANGE": "Uložit změnu",
+    "NAME_CHANGED": "Název složky byl změněn",
+    "DELETED": "Složka byla smazána",
+    "DELETE_MODAL_ERROR_TITLE": "Nelze smazat složku",
+    "DELETE_MODAL_ERROR_MESSAGE": "Ve složce jsou nesmazané podepsané dokumenty. Nejprve je smažte, abyste mohli smazat složku.",
+    "DELETE_MODAL_ERROR_CONFIRM": "Dobře, rozumím",
+    "DOCUMENTS_TO_SIGN": "Dokumenty k podpisu",
+    "SELECTED_TO_BE_SIGNED": "Vybráno k podpisu",
+    "FOLDERS_PREVIEW": "Náhled složek zaměstnanců",
+    "PREVIEW_FOLDERS": "Náhled složek zaměstnance",
+    "NO_FOLDERS": "Uživatel nemá žádné složky.",
+    "FOLDERS_PREVIEW_REMOVED": "Náhled složek zaměstnanců byl přesunut do sekce „<a href=\"{{url}}\">Můj tým</a>“ v Nastavení.",
+    "SHOW_FOLDERS": "Zobrazit složky...",
+    "WITH_SIGNED_DOCUMENTS": "s podepsanými dokumenty",
+    "WITH_DOCUMENTS_TO_SIGN": "s dokumenty k podpisu",
+    "OTHER_FOLDERS": "ostatní složky",
+    "CREATED_BY_ME": "mnou",
+    "CREATED_BY_OTHERS": "jinými",
+    "TUTORIAL": {
+      "STEP_1_HEADER": "Přidat dokument(y) k podpisu",
+      "STEP_1_CONTENT": "Podepisujte a delegujte dokumenty k podpisu – začněte zde.",
+      "STEP_1_BACK": "Přeskočit",
+      "STEP_1_NEXT": "Další",
+      "STEP_2_HEADER": "Ověřte svou totožnost",
+      "STEP_2_CONTENT": "Kupte si balíček podpisů a dokončete proces ověření totožnosti.",
+      "STEP_2_CLOSE": "Dokončit"
+    }
+  },
+  "DASHBOARD": {
+    "GET_READY": "Připravte se k podpisu.<br> Jaký podpis potřebujete?",
+    "GET_READY_SMALL": "Připravte se k<br> podpisu",
+    "MY_SIGNATURES": "Moje podpisy",
+    "PREPARE_SIGN": "Připravte se k podpisu",
+    "STEPS_INFO": "Jste jen 2 kroky od podepisování dokumentů online. Kupte si balíček podpisů a ověřte svou totožnost. Začněme!",
+    "BUY_SIGNATURES": "Kupte podpisy",
+    "SEE_PACKAGES": "Zobrazit balíčky",
+    "IDENTITY_VERIFICATION": "Ověření totožnosti",
+    "IDENTITY_INFO": "<strong>Ověření totožnosti je krátký, jednorázový a bezpečný proces,</strong> při kterém ověříme vaše údaje před podpisem prvního dokumentu na platformě (nebo v případě změny údajů).",
+    "NO_SIGN_EASY": "Nemáte pokročilé podpisy",
+    "NO_SIGN_ADVANCED": "Nemáte pokročilé podpisy s identifikací KYC",
+    "NO_SIGN_QUALIFIED": "Nemáte kvalifikované podpisy",
+    "YOU_HAVE_SIGNATURES": "Máte podpisy",
+    "PURCHASED_BY_QUALIFIED": "Kvalifikované podpisy placené {{value}}",
+    "PURCHASED_BY_ADVANCED": "Pokročilé podpisy s identifikací KYC placené {{value}}",
+    "PURCHASED_BY_EASY": "Pokročilé podpisy placené {{value}}",
+    "NOT_VERIFIED": "Vaše totožnost ještě nebyla ověřena.",
+    "TO_FILL": "První podepisující osoba bude muset vyplnit formulář v dokumentu",
+    "CONFIRM_IDENTITY": "Potvrďte totožnost",
+    "IDENTITY_CONFIRMED": "Totožnost potvrzena",
+    "START_SIGNING": "Můžete začít podepisovat!",
+    "READY": "Připraveno!"
+  },
+  "PARTNER": {
+    "MBANK": {
+      "HEADER": "Platforma podpisů"
+    }
+  },
+  "PAYMENTS": {
+    "SELECT_OPTION": "Vybírám",
+    "CHANGE_PRODUCT": "Změnit produkt",
+    "CHANGE_METHOD": "Změnit způsob platby",
+    "PAY_SUB_BUTTON": "Zaplatit a začít předplatné",
+    "CARD_NUMBER": "Číslo karty",
+    "EXPIRATION_DATE": "Datum vypršení platnosti",
+    "CVV": "Bezpečnostní kód",
+    "INVOICE_CHECKBOX": "Chci obdržet fakturu s DPH",
+    "PAYMENT_PROCESSING": "Zpracování platby",
+    "SELECT_PAY_METHOD": "Vybrat způsob platby",
+    "CHANGE_INVOICE_DETAILS": "Změnit fakturační údaje",
+    "PRODUCT_NAME": {
+      "SIGNATURES_PACK": "Jednorázový podpis",
+      "SUBSCRIPTION": {
+        "MONTHLY": "Měsíční balíček",
+        "YEARLY": "Roční balíček"
+      }
+    },
+    "EMPTY_PACKAGE_LABEL": "Nechci kupovat balíček",
+    "PRODUCT_DESC": {
+      "SIGN_SINGLE": "Podepsat 1 vybraný dokument",
+      "DATE": "DATUM",
+      "RECEIVED_FROM": "OBDRŽENÝ OD",
+      "PACK": "BALÍČEK",
+      "SIGNATURES_PACK": {
+        "HOURLY": "Balíček {{value}} podpisů platný jednu hodinu",
+        "MONTHLY": "Balíček {{value}} podpisů platný jeden měsíc",
+        "YEARLY": "Balíček {{value}} podpisů platný jeden rok"
+      },
+      "SUBSCRIPTION": {
+        "MONTHLY": "Podepisujte až {{value}} dokumentů za měsíc",
+        "YEARLY": "Balíček {{value}} podpisů platný celý rok"
+      }
+    },
+    "SELECTED_PRODUCT_DESC": {
+      "SIGNATURES_PACK": "Vybraný balíček: {{value}} podpisů",
+      "SUBSCRIPTION": {
+        "MONTHLY": " / měsíc, obnovuje se automaticky",
+        "YEARLY": " / rok, obnovuje se automaticky"
+      }
+    },
+    "PAYMENT_SUCCESS": {
+      "SUBSCRIPTION": "Váš balíček e-podpisů je nyní aktivní!",
+      "SIGNATURES_PACK": "Služba zaplacena, děkujeme"
+    },
+    "AGREEMENT": {
+      "SUBSCRIPTION": "Předplatné bude zahájeno po přijetí platby. Souhlasím s odečtením z mé karty výše uvedené částky a s pravidelným obnovováním předplatného v souladu s <a href=\"{{url}}\" target=\"_blank\">Podmínky používání služby</a>, dokud nezruším předplatné."
+    },
+    "PAYMENT_FAILED": "Platba se nepodařila",
+    "TRY_AGAIN": "Zkuste to prosím znovu",
+    "SUBSCRIPTION": "Předplatné",
+    "MONTHLY": "měsíc",
+    "YEARLY": "rok",
+    "SINGLE_SIGNATURE": "1 podpis",
+    "SIGNATURES_NUMBER": "{{value}} podpisů",
+    "NETTO": "netto",
+    "ACCEPT_TERMS": "Přečetl jsem a přijímám <br> <a href=\"{{url}}\" target=\"_blank\">Podmínky důvěryhodných služeb</a>.",
+    "ACTIVATE_INFO": "Váš balíček podpisů <br>bude nyní aktivován",
+    "QUALIFIED": ["kvalifikovaný", "kvalifikovaných"],
+    "ADVANCED": ["pokročilý &amp; KYC", "pokročilých &amp; KYC"],
+    "EASY": ["pokročilý", "pokročilých"]
+  },
+  "PROFILE": {
+    "ACCOUNT": "Účet",
+    "MY_TEAM": "Můj tým",
+    "ADMINS": "Správci",
+    "ADMIN": "Správce",
+    "ADMINS_DESC": "Mohou přidávat osoby do svého týmu, blokovat jejich účty a prohlížet všechny jejich složky s dokumenty.",
+    "NO_OTHER_ADMINS": "(Žádní další správci)",
+    "EMPLOYEES": "Zaměstnanci",
+    "EMPLOYEE": "Zaměstnanec",
+    "EMPLOYESS_DESC": "Odesílají dokumenty k podpisu v rámci balíčků společnosti. Nemají žádná další oprávnění.",
+    "NO_OTHER_EMPLOYESS": "(Žádní zaměstnanci)",
+    "INVITATION_DECLINED": "Pozvánka odmítnuta",
+    "INVITATION_PENDING": "Pozvánka čeká na vyřízení",
+    "INVITATION_SENT": "Pozvánka odeslána",
+    "ADD_PERRSON": "Přidat osobu",
+    "ADDING_PEOPLE": "Přidávání osob do týmu",
+    "SEND_INVITATION": "Odeslat pozvánku",
+    "ROLE": "Role",
+    "CANCEL_INVITATION": "Zrušit pozvánku",
+    "BLOCK_ACCOUNT": "Zablokovat účet",
+    "UNLOCK_ACCOUNT": "Odblokovat účet",
+    "ADD_ANOTHER": "Přidat další",
+    "SIGNATURES": "Pokročilé podpisy &amp; KYC",
+    "CARD_DETAILS": "Platební karta",
+    "INVOICE": "Fakturační údaje",
+    "PERSONAL_DATA": "Osobní údaje",
+    "EMAIL": "Vaše e-mailová adresa",
+    "PART_OF_THE_TEAM": "Jste součástí týmu",
+    "APP_LANGUAGE": "Jazyk aplikace",
+    "DATA_CHANGED": "Moje údaje se změnily",
+    "IDENTITY_DOCUMENT": "Doklad totožnosti",
+    "NO_IDENTITY_CONFIRMED": "Totožnost není potvrzena",
+    "NEW_IDENTIFICATION_REQUIRED": "Při příštím podepisování dokumentu ověříme vaši totožnost na dálku.",
+    "INVOICE_ALWAYS": "Chci po každém nákupu obdržet fakturu s DPH",
+    "SIGNATURES_AVAILABLE": "Dostupné podpisy",
+    "UNTIL_DATE": "do {{value}}",
+    "RENEWAL": "Obnova",
+    "DISABLE_RENEWAL": "Zastavit obnovení předplatného",
+    "DISABLE_RENEWAL_SHORT": "Zastavit obnovení",
+    "DISABLE_RENEWAL_CONFIRMATION_TITLE": "Zastavení obnovení předplatného",
+    "DISABLE_RENEWAL_CONFIRMATION_MESSAGE": "Služba, kterou jste si zakoupili, zůstane aktivní, ale údaje o vaší platební kartě budou smazány, a služba se automaticky neobnoví.",
+    "COST": "Cena",
+    "DELETE_CARD": "Smazat kartu",
+    "DELETE_CARD_CONFIRMATION_TITLE": "Smazání údajů o platební kartě",
+    "DELETE_CARD_CONFIRMATION_MESSAGE": "Smazáním karty také zastavíte automatické obnovení předplatného. Služba, kterou jste si zakoupili, zůstane aktivní, ale údaje se automaticky neobnoví - neodečteme žádnou částku z karty.",
+    "DELETE_CARD_CONFIRMATION_MESSAGE_2": "Vámi uvedené údaje o platební kartě budou smazány.",
+    "WAITING_PAYMENT_CONFIRM": "Čekáme na potvrzení transakce",
+    "NO_CARD": "Údaje o kartě se zobrazí zde po zakoupení balíčku podpisů s předplatným.",
+    "QUALIFIED_SIGNATURES": "Kvalifikované podpisy",
+    "MY_QUALIFIED_SIGNATURES": "Moje kvalifikované podpisy",
+    "MY_ADVANCED_SIGNATURES": "Moje pokročilé podpisy &amp; KYC",
+    "SIGNATURES_PACKS": "Balíčky podpisů",
+    "PENDING_ACTIVATION": "Čekací na aktivaci",
+    "PACKAGE_OVERVIEW": "Přehled balíčku",
+    "SHOW_ONLY_MINE": "Zobrazit pouze moje",
+    "PURCHASED_FOR": "Nákup pro",
+    "PURCHASED_DATE": "Datum nákupu",
+    "PURCHASED_PACKAGE": "Zakoupený balíček",
+    "RECEIVED_FROM": "Obdržený od",
+    "PACKAGE": "Balíček",
+    "DATE": "Datum",
+    "PER_MONTH": "/měsíc",
+    "PER_YEAR": "/rok",
+    "PURCHASED_NO_DATA": "Zde najdete všechny balíčky, které jste si zakoupili.",
+    "RECEIVED_NO_DATA": "Zde najdete všechny obdržené balíčky.",
+    "NO_RESULTS": "Žádné výsledky",
+    "EASY": "Pokročilé podpisy",
+    "MY_EASY_SIGNATURES": "Moje pokročilé podpisy",
+    "SETTINGS": "Nastavení",
+    "AUTOMATIC_DOCUMENT_DELETION_TITLE": "Automatické smazání dokumentů",
+    "AUTOMATIC_DOCUMENT_DELETION_MESSAGE": "Dokumenty, které jste přidali před více než 30 dny, budou smazány každý den o půlnoci (UTC).",
+    "TEAM_AUTOMATIC_DOCUMENT_DELETION_MESSAGE": "Dokumenty přidané vámi a členy vašeho týmu budou automaticky smazány z platformy po 30 dnech.",
+    "INVITATION_WAITING": "Pozvánka čeká na vyřízení",
+    "INVITATION_REJECTED": "Pozvánka odmítnuta",
+    "SHOW_ONLY_ACTIVE_ACCOUNTS": "Zobrazit pouze<br/>aktivní účty",
+    "SIGN_DOCUMENT_TO_ACTIVATE": "Podepište dokument, abyste aktivovali balíček poskytnutý {{value}}.",
+    "DELETING_ACCOUNT": "Smazání účtu",
+    "DELETE_ACCOUNT": "Smazat účet",
+    "CURRENT_PASS": "Zadejte aktuální heslo",
+    "DELETE_ACCOUNT_FOREVER": "Smazat účet navždy",
+    "HOW_WE_CAN_IMPROVE": "Jak můžeme platformu zlepšit? (volitelné)",
+    "DELETE_WARNING": "Když smažete účet, složky, které jste vytvořili, a dokumenty, které jste přidali, budou <strong>nenávratně smazány</strong>, a vaše údaje budou anonymizovány. <span>Všechny vaše balíčky podpisů budou deaktivovány bez ohledu na jejich stav. Obnovení všech předplatných bude automaticky přerušeno.</span>",
+    "DELETE_BC_USER_WARNING": "Když smažete účet zaměstnance, složky, které vytvořil, a dokumenty, které přidal, budou <strong>nenávratně smazány</strong>, a jeho údaje budou anonymizovány. Všechny jeho balíčky podpisů budou deaktivovány bez ohledu na jejich stav. Obnovení jeho předplatných bude automaticky přerušeno.",
+    "DOCUMENTS_DELETION": "Mazání dokumentů probíhá...",
+    "FOLDERS_DELETION": "Mazání složek probíhá...",
+    "ACOUNT_DELETION": "Mazání dokumentů probíhá...",
+    "ACOUNT_DELETED": "Účet byl smazán.",
+    "CREATE_NEW_PASSWORD": "Vytvořte nové heslo",
+    "CURRENT_PASSWORD": "Aktuální heslo",
+    "CONFIRM_CHANGE": "Potvrďte změnu",
+    "INCORECT_PASS": "Zadali jste neplatné heslo.",
+    "CHANGE_REQUEST_BLOCKED": "Kvůli opakovanému nesprávnému zadání hesla byla na 5 minut zablokována možnost změny hesla. Zkuste to znovu později.",
+    "MEMBERS": "Členové",
+    "SETUP": "Konfigurace",
+    "IDENTITY_DESC": "Ověření totožnosti pro kvalifikovaný podpis",
+    "IDENTITY_QUAL": "Potřebujete kvalifikovaný podpis?",
+    "IDENTITY_QUAL_BTN": "Kupte si balíček a potvrďte svou totožnost",
+    "IDENTITY_DESC_TOOLTIP": {
+      "HEADER": "Pro získání kvalifikovaného podpisu je nutné ověřit vaši totožnost.",
+      "DOT1": "Tento proces je bezpečný a je vyžadován zákonem.",
+      "DOT2": "Provádíme jej jednou před vydáním kvalifikovaného podpisu a při změně vašich údajů.",
+      "DOT3": "Proces obvykle trvá 5-20 minut v závislosti na zvolené metodě, kvalitě internetového připojení a technických podmínkách (např. osvětlení a fotoaparát).",
+      "DOT4": "Připravte si občanský průkaz nebo cestovní pas."
+    },
+    "SECURITY": {
+      "TITLE": "Bezpečnost",
+      "DESC": "Vyberte způsob autorizace",
+      "APP": "Autorizační aplikace",
+      "SMS": "Získejte jednorázové kódy v SMS zprávách zasílaných na vaše telefonní číslo",
+      "2FA": "Získejte kódy v autorizační aplikaci spárované se SIGNIUS na vašem mobilním zařízení",
+      "BADAGE": "Doporučené",
+      "CONNECT": "Připojit",
+      "SMS_HEADER": "SMS",
+      "RECONNECT": "Připojit znovu",
+      "2FA_MODAL": {
+        "TITLE": "Naskenujte QR kód",
+        "VER_CODE": "Ověřovací kód:",
+        "ERROR": "Neplatný kód nebo systémová chyba",
+        "SCAN_CODE_TXT_1": "1. Z obchodu s mobilními aplikacemi si stáhněte autorizační aplikaci do svého mobilního zařízení",
+        "SCAN_CODE_TXT_2": "2. Pro spárování vybrané autorizační aplikace se SIGNIUS naskenujte níže zobrazený QR kód."
+      }
+    }
+  },
+  "SIGN_SUMMARY": {
+    "TITLE": "Dokumenty k podpisu",
+    "SUBTITLE": "Za chvilku elektronicky podepíšete následující dokumenty:",
+    "ALL_DOCUMENTS": "Všechny dokumenty ({{value}})",
+    "IDENTIFICATION_DATA": "Údaje, které budou použity pro podepisování",
+    "IDENTITY_CONFIRMATION": "Potvrzuji, že moje údaje jsou aktuální",
+    "SIGN_SELECTED": "Podepište dokumenty",
+    "SIGN_SELECTED_AND_PAY": "Podepisuji dokumenty a platím",
+    "IDENTITY_CHANGED": "Moje údaje se změnily",
+    "WAIT_A_MINUTE": "Počkejte chvíli!",
+    "DOCUMENT_BEING_SIGNED": "Dokument podepisuje jiná osoba. Z technických důvodů může současně dokument podepisovat pouze jedna osoba.",
+    "LESS_THAN_2_MINUTES": "Zabere to méně než 2 minuty.",
+    "CANCEL_AND_SIGN_LATER": "Zastavte se a podepište později",
+    "YOU_CAN_SIGN": "Už můžete podepsat!",
+    "THANKS_FOR_PATIENCE": "Děkujeme za trpělivost.",
+    "CONTINUE": "Pokračovat",
+    "YOUR_SIGNATURE_SYMBOL": "Váš grafický symbol podpisu",
+    "GRAPHICAL_SYMBOL_INFO": "Typ symbolu podpisu nemá<br> vliv na platnost<br> umístěného podpisu.",
+    "CHANGE_SYMBOL": "Změnit symbol",
+    "SELECT_SYMBOL": "Vyberte typ symbolu podpisu",
+    "NAME_DISPLAYED": "Název zobrazený na dokumentu",
+    "NAME_LENGTH_ERROR": "Název může mít maximálně {{value}} znaků",
+    "QUEUE_INFO_HEADING": "Podepisování mnoha dokumentů probíhá...",
+    "QUEUE_INFO_TEXT": "To vyžaduje trochu více času.",
+    "QUEUE_INFO_TEXT2": "Nemusíte čekat - můžete se soustředit na jiné záležitosti, a průběh podepisování zkontrolujete ve složce.",
+    "BATCH_EXCEEDED_SUBTITLE": "Za chvilku elektronicky podepíšete {{value}} dokumentů:",
+    "ORANGE_TITLE": "Přijměte a podepište dokumenty"
+  },
+  "IDENTITY_METHOD_SELECTOR": {
+    "SELECT_PROVIDER": "Vyberte způsob identifikace",
+    "VIDEO_1": "Video identifikace",
+    "VIDEO_2": "Pro osoby s kamerou, mikrofonem a dobrým připojením k internetu",
+    "VIDEO_3": "Promluvte si s naším zástupcem, který potvrdí vaši totožnost.",
+    "VIDEO_4": "Budete potřebovat občanský průkaz nebo cestovní pas.",
+    "AUTHOLOGIC_1": "Identifikace prostřednictvím elektronického bankovnictví",
+    "AUTHOLOGIC_2": "Vaše bankovní údaje jsou bezpečné. Banka nám pouze potvrzuje jméno a příjmení.",
+    "VERIMI_1": "Digital Identity Hub",
+    "VERIMI_2": "Uživatelé Verimi s potvrzenou digitální totožností mohou dokumenty podepisovat okamžitě.",
+    "VERIMI_3": "Nejste uživatelem Verimi? Pohodlně potvrďte svou totožnost pomocí funkce eID vašeho občanského průkazu.",
+    "IDENTT": "Testovací identifikace",
+    "NECT_1": "Identifikace pomocí selfie",
+    "NECT_2": "Potvrďte totožnost v aplikaci NECT na vašem smartphonu.",
+    "NECT_3": "Natočte si občanský průkaz a selfie video - 2 minuty a máte hotovo!",
+    "MOBYWATEL": {
+      "HEADER": "mObywatel",
+      "TXT": "Potvrďte svou totožnost rychle a bezpečně pomocí aplikace mObywatel.",
+      "METHOD": {
+        "HEADER":"Aplikace mObywatel",
+        "TXT":"Pro potvrzení totožnosti naskenujte QR kód pomocí aplikace mObywatel.",
+        "MOBILE_TXT": "Pro potvrzení vaší totožnosti:",
+        "REFRESH":"Obnovte QR kód",
+        "KEY": "V aplikaci mObywatel zadejte níže zobrazený klíč.",
+        "COPY_BTN": "Zkopírujte kód",
+        "CUSTOM_CODE": {
+          "HEADER": "Nemůžete naskenovat QR kód?",
+          "TXT": "V aplikaci mObywatel zadejte níže zobrazený klíč."
+        },
+        "INSTRUCTION": {
+          "FIRST_STEP": "1. Přihlaste se do aplikace mObywatel",
+          "SECOND_STEP": "2. Vyberte ikonu QR kódu v dolní části obrazovky.",
+          "THIRD_STEP": "3. Naskenujte kód ze stránky."
+        },
+        "INSTRUCTION_MOBILE": {
+          "FIRST_STEP": "1. Klikněte na tlačítko \"Kopírovat kód\" níže",
+          "SECOND_STEP": "2. .Přihlaste se do aplikace mObywatel",
+          "THIRD_STEP": "3. Vyberte ikonu QR kódu v dolní části obrazovky.",
+          "FOURTH_STEP": "4. Vložte kód do textového pole."
+        }
+      }
+    }
+  },
+  "IDENTITY_DATA": {
+    "PERSONAL_DATA_CHANGE": "Změna osobních údajů",
+    "FIRST_NAME": "Jméno",
+    "LAST_NAME": "Příjmení",
+    "NATIONALITY": "Občanství",
+    "DOCUMENT_TYPE": "Typ dokumentu",
+    "DOCUMENT_NUMBER": "Číslo dokumentu",
+    "PESEL": "Rodné číslo",
+    "GIVEN_NAMES": "Jména",
+    "ISSUING_AUTHORITY": "Vydávající orgán",
+    "DOCUMENT_SERIES_AND_NUMBER": "Série  a číslo dokumentu",
+    "DATE_OF_BIRTH": "Datum narození",
+    "DOCUMENT_EXPIRE_DATE": "Datum vypršení platnosti",
+    "PHONE_NUMBER": "Číslo mobilního telefonu",
+    "IDENTITY_DOCUMENT_CHANGED": "Můj doklad totožnosti se měnil",
+    "CONFIRMED_IDENTITY_DOCUMENT": "Potvrzený doklad totožnosti",
+    "NEW_IDENTIFICATION_REQUIRED_INFO": "<strong>Pozor!</strong><br/> <em>Změna potvrzených údajů vyžaduje opětovné dokončení procesu ověření totožnosti. Budete o to požádáni při podepisování dalšího dokumentu.<br/><br/> Pokud se blíží datum vypršení platnosti vašeho dokladu totožnosti, nezapomeňte jej před dalším potvrzením totožnosti prodloužit.</em>",
+    "EXTERNAL_ID": "ID number",
+    "PROVIDE_DATA_FROM_ID_CARD": "Zadejte údaje z občanského průkazu",
+    "PROVIDE_DATA_FROM_PASSPORT": "Zadejte údaje z cestovního pasu",
+    "VERIFICATION": {
+      "TITLE": "Nyní potvrdíme vaši totožnost",
+      "DESC_1": "Za chvilku budete spojeni s video konzultantem, který vás krok za krokem provede procesem identifikace.",
+      "DESC_2": "<strong>Připravte si platný doklad totožnosti</strong> (občanský průkaz nebo cestovní pas) a mějte po ruce váš <strong>mobilní telefon</strong>.",
+      "DESC_3": "Po úspěšném dokončení ověřovacího procesu budete moci podepisovat dokumenty elektronickým podpisem.",
+      "VIDEO": "Video hovor s konzultantem"
+    },
+    "EMAIL": "E-mailová adresa"
+  },
+  "HELP": {
+    "BUTTON": "Pomoc",
+    "TITLE": "Máte nějaké dotazy? Potřebujete podporu?",
+    "EMAIL_MESSAGE": "Kontaktujte nás",
+    "TUTORIAL_HEADER": "Tutoriál",
+    "TUTORIAL_MESSAGE": "Podívejte se krok za krokem, jak používat platformu",
+    "FAQ_MESSAGE": "Najděte odpovědi na často kladené otázky",
+    "GITBOOK_MESSAGE": "Objevte průvodce platformy plný pokynů"
+  },
+  "VIDEO_VERIFICATION": {
+    "START": "Start",
+    "PHOTO_OF_ID": "Fotografie ID",
+    "DATA_FROM_ID": "Údaje ID",
+    "VIDEO_CALL": "Video hovor",
+    "TITLE": "Video ověření",
+    "BEFORE_YOU_CONNECT": "Než se spojíte s video konzultantem...",
+    "MAKE_SURE_YOU_HAVE": "Ujistěte se, že máte:",
+    "VALID_IDENTITY_CARD_PASSPORT": "platný občanský průkaz nebo cestovní pas",
+    "WORKING_CAMERA_MIC": "dobře fungující kameru a mikrofon",
+    "STABLE_INTERNET": "stabilní internet",
+    "FEW_MINUTES": "pár minut ticha a klidu",
+    "START_CONVERSATION": "Začít hovor",
+    "NEXT": "Další"
+  },
+  "BIRTH_DATE_VERIFICATION": {
+    "TITLE": "Zdá se, že váš účet již existuje!",
+    "MESSAGE": "Tato e-mailová adresa je již zaregistrována. Pro potvrzení, zda se jedná o váš účet, zadejte vaše datum narození.",
+    "TITLE_DATE_INVALID": "Uvedené datum narození neodpovídá e-mailové adrese.",
+    "MESSAGE_DATE_INVALID": "Vytvořte si nový účet pomocí jiné e-mailové adresy a začněte podepisovat dokumenty na SIGNIUS Professional."
+  },
+  "VERIFICATION_OFFLINE": {
+    "TITLE": "Ověření totožnosti",
+    "SUBTITLE": "Vraťte se k nám v tuto dobu.",
+    "MESSAGE": "Abychom zajistili plnou bezpečnost transakce, jednorázově před podpisem prvního dokumentu (nebo v případě změny údajů) ověříme vaši totožnost. Po potvrzení totožnosti budete moci dokumenty podepisovat kdykoli.",
+    "BACK_TO_FOLDER": "Zpět do složky"
+  },
+  "IDENTITY_TM_CONFIRMATION": {
+    "TITLE": "Vyberte typ dokumentu, který chcete použít k identifikaci",
+    "NATIONAL_ID_LABEL_OPTION": "Občanský průkaz",
+    "PASSPORT_LABEL_OPTION": "Cestovní pas",
+    "TYPE_CHANGE_CONFIRM_TITLE": "Můžete přidat pouze jeden typ dokumentu.",
+    "TYPE_CHANGE_CONFIRM_MESSAGE": "Smazat již přidané fotografie dokumentů?",
+    "TYPE_CHANGE_CONFIRM_BUTTON": "Smazat fotografie a pokračovat"
+  },
+  "WEBCAM_COMPONENT": {
+    "ID_FRONT_PHOTO": "Fotografie přední strany dokumentu",
+    "ID_BACK_PHOTO": "Fotografie zadní strany dokumentu",
+    "PASSPORT_PHOTO": "Fotografie stránky s fotografií",
+    "TURN_ON_CAMERA": "Zapnout fotoaparát",
+    "SNAPSHOT": "Vyfotit",
+    "SELECT_FILE": "Vybrat soubor",
+    "REMOVE_PHOTO": "Smazat tuto fotografii",
+    "UPLOAD_ERROR": "Při přenosu souboru došlo k neočekávané chybě. Zkuste to znovu.",
+    "OR": "nebo",
+    "PHOTO_ADDED": "Přidáno",
+    "MAX_SIZE_EXCEEDED": "Vybraný soubor překračuje limit maximální velikosti souboru ({{size}})",
+    "ALLOWED_FILE": "{{extensions}}. Max. {{size}}"
+  },
+  "PAYMENT_DETAILS": {
+    "TITLE": "Rozhodněte se, čí poplatek za podpis budete hradit",
+    "TITLE_QUALIFIED": "Volitelně: Kupte balíčky pro své podepisující osoby",
+    "SUBTITLE": "Podpisy níže vybraných podepisujících osob budou staženy z vašeho balíčku",
+    "SUBTITLE_QUALIFIED": "Zasláním dokumentu k podpisu si můžete zakoupit balíček kvalifikovaných podpisů pro vybrané osoby. Budou jej moci použít k podepsání vašich i jiných dokumentů.",
+    "SIGNS": "Podpisy",
+    "SIGNS_OWNED": "Držené",
+    "SIGNS_NEEDED": "Potřebné",
+    "NUMBER_SELECTED_SIGNERS": "počet označených podepisujících osob",
+    "NUMBER_DOCUMENTS": "počet dokumentů",
+    "SIGNS_MISSING": "Chybějící",
+    "SIGNS_REMAINING": "Zůstane",
+    "NEW_SIGNERS_TITLE": "Nové podepisující osoby",
+    "NEW_SIGNER": "1 nová podepisující osoba × {{price}}",
+    "NEW_SIGNERS": "{{count}} nových podepisujících osob × {{price}}",
+    "TOTAL_PRICE": "Celkem k zaplacení",
+    "SIGNER_PAYS": "Hradí podepisující osoba",
+    "BUY_MORE_TO_CONTINUE": "Pro pokračování si kupte balíček podpisů",
+    "NEW": "Nový",
+    "ADD_DOCUMENT": "Předat k podpisu",
+    "SELECT_PACKAGE": "Vybrat baliček",
+    "SELECT_PACKAGE_TITLE": "Váš balíček podpisů",
+    "CHANGE_PACKAGE": "Změnit balíček",
+    "GO_TO_PAYMENT": "Přejít k platbě",
+    "STOP_PAYMENT": "Přerušit platbu",
+    "TOOLTIP_TITLE": "Potvrzení totožnosti nových uživatelů",
+    "TOOLTIP_CONTENT": "Ověřujeme totožnost každého nového uživatele, abychom zajistili plnou bezpečnost služby. Cena jednorázové identifikace je {{value}}. Pokrytím nákladů na identifikaci nových podepisujících osob jim umožníte vytvořit si účet a podepisovat se zdarma.",
+    "USER_TOOLTIP_CONTENT": "Náklady na váš podpis musíte uhradit vy.",
+    "AVAILABLE_SIGNATURES": "Držené podpisy",
+    "PURCHASED": "Zakoupené",
+    "WANT_TO_BAY": "Chci si koupit více",
+    "ALREADY_HAVE_SIGNATURE": "Již máte kvalifikované podpisy"
+  },
+  "PRODUCTS": {
+    "YEARLY_SUBSCRIPTION": "Roční předplatné",
+    "MONTHLY_SUBSCRIPTION": "Měsíční předplatné",
+    "SIGNATURE_PACK": "Jednorázový nákup",
+    "SIGNATURES_QUANTITY": "Počet podpisů",
+    "UNIT_PRICE": "{{value}} za podpis",
+    "SUBSCRIPTION_INFO_RENEWED": "Balíček se obnovuje každý měsíc.",
+    "SUBSCRIPTION_INFO_RESIGNATION": "Z předplatného se můžete odhlásit kdykoli.",
+    "SIGNATURE_PACK_INFO": "Platnost balíčku je jeden rok od data zakoupení.",
+    "PROMOTIONAL_TEXT": "Ušetříte 20 %",
+    "PER_YEAR": " / rok",
+    "PER_MONTH": " / měsíc",
+    "QUALIFIED_SIGNATURES_COUNT": "{{value}} kvalifikovaných podpisů",
+    "ADVANCED_SIGNATURES_COUNT": "{{value}} pokročilých podpisů s KYC",
+    "EASY_SIGNATURES_COUNT": "{{value}} pokročilých podpisů",
+    "ONE_QUALIFIED_SIGNATURE": "1 kvalifikovaný podpis",
+    "QUALIFIED_DESCRIPTION": "Zde zkontrolujete stav vašich balíčků kvalifikovaných podpisů. Podepište jakékoli dokumenty pomocí aktivního balíčku - balíčky nejsou spojeny s žádným dokumentem. Kvalifikovaný podpis je vždy přidělen konkrétní osobě.",
+    "ADVANCED_DESCRIPTION": "Zde zkontrolujete stav vašich balíčků pokročilých podpisů s identifikací KYC. Pamatujte, že při žádosti o podpis dokumentů můžete své pokročilé podpisy poskytovat ostatním podepisujícím osobám, a umožnit jim tak podepisování zdarma.",
+    "EASY_DESCRIPTION": "Zde zkontrolujete stav vašich balíčků pokročilých podpisů. Pamatujte, že při žádosti o podpis dokumentů můžete své pokročilé podpisy poskytovat ostatním podepisujícím osobám, a umožnit jim tak podepisování zdarma.",
+    "COST": "Cena",
+    "EXPIRE": "vyprší",
+    "EXPIRE_DATE": "{{date}} o {{time}}",
+    "EASY": {
+      "DESC_WEEKLY": "Balíček je aktivní 7 dní od data zakoupení.",
+      "DESC_MONTHLY": "Balíček je aktivní 30 dní od data zakoupení.",
+      "DESC_YEARLY": "Balíček je aktivní 1 rok od data zakoupení.",
+      "SELECT_PRODUCT": "Vyberte balíček pokročilých podpisů",
+      "SELECT_PRODUCT_DESC": "Dobrá volba v situacích, kdy chcete rychle podepsat dokumenty s již ověřeným uživatelem, při neexistenci požadavku na písemnou formu a u smluv s nižším rizikem odpovědnosti. Podpis se vydává bez ověření totožnosti, ihned."
+    },
+    "ADVANCED": {
+      "DESC_WEEKLY": "Balíček je aktivní 7 dní od data zakoupení.",
+      "DESC_MONTHLY": "Balíček je aktivní 30 dní od data zakoupení.",
+      "DESC_YEARLY": "Balíček je aktivní 1 rok od data zakoupení.",
+      "SELECT_PRODUCT": "Kupte si balíček pokročilých podpisů s identifikací KYC",
+      "SELECT_PRODUCT_DESC": "Doporučený pro většinu smluv a dokumentů v obchodních vztazích a při neexistenci požadavku na písemnou formu. Můžete jej použít k podpisu např. obchodních smluv, NDA dohod, mandátních smluv a mluv o dílo. Vydává se na základě ověření totožnosti na dálku."
+    },
+    "QUALIFIED": {
+      "SELECT_PRODUCT": "Kupte si balíček kvalifikovaných podpisů",
+      "SELECT_PRODUCT_DESC": "Podpis ekvivalentní vlastnoručnímu podpisu. Používá se pro dokumenty vyžadující písemnou formu. Ověřený kvalifikovaným osobním certifikátem. Můžete jej použít k podpisu téměř všech dokumentů, např. úřední dokumenty, pracovní smlouvy, nabídky ve výběrovém řízení. Vydaný na základě certifikovaného ověřování totožnosti na dálku.",
+      "VALID_FOR_HOURLY": "platný 1 hodinu",
+      "VALID_FOR_MONTHLY": "platný 30 dnů",
+      "VALID_FOR_YEARLY": "platný 1 rok",
+      "VALID_FOR_TWO_YEARS": "platný 2 roky",
+      "VALID_FOR_DAILY": "platný 24 hodiny",
+      "DESC_HOURLY": "Balíček je platný 1 hodinu od prvního podpisu.",
+      "DESC_WEEKLY": "Balíček je platný 7 dnů od prvního podpisu.",
+      "DESC_MONTHLY": "Balíček je platný 30 dnů od prvního podpisu.",
+      "DESC_YEARLY": "Balíček je platný 1 rok od prvního podpisu.",
+      "DESC_TWO_YEARS": "Balíček je platný 2 roky od prvního podpisu.",
+      "DESC_DAILY": "Balíček je platný 24 hodiny od prvního podpisu."
+    }
+  },
+  "VOUCHER": {
+    "LABEL": "Zadejte kód z poukázky",
+    "BUTTON_TEXT": "Použít",
+    "MY_NOTIFICATION_FOR_QUALIFIED": "<h2>Poukázka byla použita!</h2> <em>Balíček {{value}} kvalifikovaných podpisů byl přidán k účtu: {{user}}</em>",
+    "MY_NOTIFICATION_FOR_ADVANCED": "<h2>Poukázka byla použita!</h2> <em>Balíček {{value}} pokročilých podpisů s identifikací KYC byl přidán k účtu: {{user}}</em>",
+    "MY_NOTIFICATION_FOR_EASY": "<h2>Poukázka byla použita!</h2> <em>Balíček {{value}} pokročilých podpisů byl přidán k účtu: {{user}}</em>",
+    "I_WANT_TO_USE": "Chci použít poukázku",
+    "USE_VOUCHER": "Použijte poukázku na balíček podpisů"
+  },
+  "BATCH": {
+    "LOADING_IN_PROGRES": "Loading documents",
+    "VERIFICATION_TITLE": "Aby byly vaše podpisy platné, přečtěte si nejprve všechny dokumenty, které podepisujete.",
+    "VIEWED": "Prohlédnuté",
+    "PAGES": "stran",
+    "SIGN_ABOVE": "Podepište výše uvedené dokumenty"
+  },
+  "TIMESTAMP": {
+    "ID_NUMBER": "ID number",
+    "PLEASE_APPROVE": "Ke schválení",
+    "APPROVE_DOCUMENT": "I want to approve this",
+    "APPROVE_DOCUMENTS": "Approve above documents",
+    "LOADING_MESSAGE": "Document is being time stamped",
+    "ERROR_MESSAGE": "Time stamp error",
+    "SUCCESS_MESSAGE": "Documents ({{value}}) time stamped successfuly",
+    "REJECTED": "Odmítnuto",
+    "REJECTED_MODAL": {
+      "HEADER": "Důvod odmítnutí",
+      "MESSAGE_HEADER": "Zpráva od žadatele"
+    }
+  },
+  "USER_ORDERS": {
+    "TITLE": "Nedávno jste pro tuto osobu zakoupili",
+    "ORDER_DATE": "{{date}} o {{time}}"
+  },
+  "PROMO_MODAL": {
+    "TITLE": "Od této chvíle podepisujte dokumenty <span>za méně než minutu!</span>",
+    "LIST_1": {
+      "PARAGRAPH_1": "Používejte elektronický podpis, ať jste kdekoli, 24 hodin denně",
+      "PARAGRAPH_2": "Vy rozhodujete, kdo zaplatí za podpisy jiných osob, vy nebo vaše podepisující osoby",
+      "PARAGRAPH_3": "Buďte eko a #paperless – starejte se o životní prostředí!"
+    },
+    "LIST_2": {
+      "PARAGRAPH_1": "Požadujte o podpis dokumentů jiné osoby",
+      "PARAGRAPH_2": "Podepisující osoba automaticky obdrží pozvánku k podpisu"
+    },
+    "LINK": "<a href=\"{{url}}\" target=\"_blank\">Dozvíte se více <i class=\"icon icon-external-link\"></i></a>"
+  },
+  "INCENTIVE_TO_REGISTER_MODAL": {
+    "TITLE": "Gratulujeme! Dokumenty již byly podepsány.",
+    "PARAGRAPH": "Na platformě SIGNIUS Professional podepíšete dokumenty s kýmkoli po celém světě, 24 hodin denně.",
+    "DISMISS": "Později",
+    "REGISTER": "Vytvořte si bezplatný účet nyní"
+  },
+  "BUSINESS_CLIENT_INVITATION_MODAL": {
+    "TITLE": "Pozvánka do týmu",
+    "INVITATION_FROM": "vás zve do svého týmu:",
+    "YOUR_ACCOUNT": "Váš účet:",
+    "WILL_BE_SIGNED": "bude přiřazen k týmu.",
+    "WHAT_SHOULD_YOU_KNOW": "Co stojí za to vědět?\"",
+    "WHEN_YOU_JOIN_THE_TEAM": "Když se připojíte k týmu:",
+    "PARAGRAPH_1": "od této doby bude hradit náklady na vaše podpisy a podpisy dalších osob, kterým posíláte dokumenty k podpisu.",
+    "PARAGRAPH_2": "Správce týmu bude mít přístup ke všem vašim složkám dokumentů.",
+    "PARAGRAPH_3": "Správce bude mít právo dočasně nebo trvale zablokovat váš účet.",
+    "PARAGRAPH_4": "Správce bude moci trvale smazat váš účet.",
+    "YOU_ACCEPT_CONDITION": "Vstupem do týmu přijímáte výše uvedené podmínky.",
+    "INVITATION_REJECTED": "Pozvánka odmítnuta",
+    "INVITATION_ACCEPTED": "Pozvánka přijata"
+  },
+  "MODAL": {
+    "NO_REG_IDENTIFICATION": {
+      "TITLE": "Vaše údaje jsou neplatné?",
+      "DESCRIPTION": "Kontaktujte osobu, která vás požádala o podepsání dokumentu: <a href=\"mailto:{{email}}\">{{email}}</a> a požádejte ji o opravu.",
+      "WHAT_NEXT": "Co by měl udělat žadatel?",
+      "STEP_1": "Odstranit ze složky dokumenty, které byly nesprávně adresovány",
+      "STEP_2": "Znovu přidat tyto dokumenty do složky zadáním správných údajů o podepisujících osobách",
+      "STEP_3": "Znovu odeslat dokumenty k podpisu",
+      "FINALLY": "Požádejte žadatele, aby provedl výše uvedené kroky, abyste mohli dokument podepsat.",
+      "CONFIRM": "Dobře, rozumím"
+    }
+  },
+  "TUTORIAL_KEYS": {
+    "NEW_DOCS_VIEW": {
+      "HEADER": "Nyní je k dispozici nové zobrazení dokumentu!",
+      "CONTENT": "Nyní si můžete vybrat preferované zobrazení dokumentů ve složce - „Zobrazení dlaždic“ nebo „Zobrazení seznamu“. Klikněte na ikonu a upravte vzhled složky podle svých potřeb."
+    }
+  },
+  "ACCESSIBILITY": {
+    "DROPDOWN_LABEL": "Rozbalit nastavení přístupu",
+    "ACCESSIBILITY_KIND_HEADER": {
+      "CONTRAST": "KONTRAST",
+      "TEXT_SIZE": "VELIKOST TEXTU"
+    },
+    "MODULES": {
+      "PROFILE": {
+        "COMPONENTS": {
+          "PURCHASED_PACKAGES_TABLE": {
+            "SHOW_MINE_LABEL": "Zobrazit pouze moje balíčky"
+          },
+          "TEAM_MEMBER_MENU": {
+            "TEAM_MEMBER_MENU_BUTTON": "Otevřít menu zaměstnance",
+            "DELETE_REJECTED_BUTTON": "Smazat odmítnutou pozvánku"
+          }
+        },
+        "PAGES": {
+          "PROFILE_ACCOUNT": {
+            "LANG_SELECT_LABEL": "Vyberte jazyk",
+            "AUTO_DOC_DELETE_SWITCH_LABEL": "Změňte nastavení automatického smazání dokumentů"
+          },
+          "PROFILE_TEAM": {
+            "SHOW_ACTIVE_ACCOUNTS": "Zobrazit pouze aktivní účty"
+          }
+        }
+      },
+      "DOCUMENTS": {
+        "PAGES": {
+          "DOCUMENTS": {
+            "GO_HOME_LABEL": "Návrat na hlavní stránku"
+          },
+          "SIGN_SUMMARY": {
+            "ACCEPT_TERMS": "Přečetl jsem a přijímám Podmínky důvěryhodných služeb"
+          }
+        },
+        "COMPONENTS": {
+          "MODALS": {
+            "IDENTIFICATION_FORM_MODAL": {
+              "ID_CHANGED": "Můj doklad totožnosti se měnil"
+            }
+          },
+          "CONTACTS": {
+            "DETERMINE_SIGN_ORDER": "Určete pořadí podepisování"
+          },
+          "DOCUMENTS_LIST": {
+            "DOCUMENTS_LIST_ITEM": {
+              "SELECT_DOC_LABEL": "Vyberte dokument k podpisu"
+            }
+          },
+          "SIGNERS_LINK_LIST": {
+            "DEDICATED_LINK": "Vyhrazený odkaz na složku {{ username }}"
+          }
+        }
+      }
+    },
+    "SHARED": {
+      "COMPONENTS": {
+        "CHANGE_SIGNATURE": {
+          "CHANGE_SYMBOL_MODAL": {
+            "FILE_INPUT": "Vyberte váš soubor"
+          }
+        },
+        "FOLDER_ACTIONS": {
+          "SORTING_DROPDOWN": {
+            "DROPDOWN_LABEL": "Rozbalit nastavení řazení",
+            "SORTING_DATE": "Seřadit podle data vytvoření",
+            "SORTING_NAME": "Seřadit podle názvu",
+            "NEWEST": "od nejnovějších",
+            "OLDEST": "od nejstarších",
+            "FROM_A": "od A",
+            "FROM_Z": "od Z"
+          },
+          "FOLDER-_MENU": {
+            "EDIT": "Upravit"
+          },
+          "FILTRATION_DROPDOWN": {
+            "TO_SIGN_LABEL": "Zobrazit složky s dokumenty k podpisu",
+            "SIGNED_LABEL": "Zobrazit složky s podepsanými dokumenty",
+            "OTHERS_LABEL": "Zobrazit ostatní složky",
+            "CREATED_BY_ME_LABEL": "Zobrazit vámi vytvořené složky",
+            "CREATED_BY_OTHERS_LABEL": "Zobrazit složky vytvořené ostatními"
+          }
+        },
+        "CHECKBOX": {
+          "CHECKBOX": {
+            "CONTENT": "Potvrďte"
+          }
+        },
+        "INVOICE_FORM": {
+          "ALWAYS_GET_INVOICE_LABEL": "Obdržte faktury po každém nákupu",
+          "SELECT_COUNTRY": "Vybrat zemi",
+          "NIP_INPUT_LABEL": "Zadejte DIČ",
+          "INVOICE_FOR_INDIVIDUAL_LABEL": "Faktura je pro fyzickou osobu",
+          "INVOICE_NAME_LABEL": "Zadejte jméno a příjmení",
+          "INVOICE_ADDRESS_LABEL": "Zadejte adresu",
+          "INVOICE_POSTAL_CODE_LABEL": "Zadejte PSČ",
+          "INVOICE_CITY_LABEL": "Zadejte město"
+        },
+        "PASSWORD_INPUT": {
+          "CONTENT": "Zadejte heslo"
+        },
+        "PHONE_INPUT": {
+          "CONTENT": "Zadejte telefonní číslo "
+        }
+      }
+    },
+    "AUTH": {
+      "LOGIN": {
+        "LOADING": "Načítání",
+        "LOGIN_FORM": "Přihlašovací formulář",
+        "LOGO": "Logo Signius",
+        "TENANT_LOGO": "Logo společnosti nájemce",
+        "ALERT_MESSAGE": "Výstražná zpráva",
+        "EMAIL_INPUT": "Zadejte e-mail",
+        "PASSWORD_INPUT": "Zadejte heslo",
+        "FORGOT_PASSWORD_BUTTON": "Připomenout heslo",
+        "LOGIN_BUTTON": "Přihlásit se",
+        "CREATE_ACCOUNT_BUTTON": "Vytvořte účet",
+        "GOOGLE_AUTH_BUTTON": "Přihlásit se pomocí Google",
+        "AZURE_AUTH_BUTTON": "Přihlásit se pomocí Azure",
+        "KEYCLOAK_AUTH_BUTTON": "Přihlásit se pomocí Keycloak"
+      },
+      "LINK-EXPIRED-CONFIRMATION": {
+        "RESEND_BUTTON": "Odeslat odkaz znovu"
+      },
+      "REGISTRATION": {
+        "LOADING": "Načítání",
+        "REGISTRATION_FORM": "Registrační formulář uživatele",
+        "LOGO": "Logo Signius",
+        "TENANT_LOGO": "Logo společnosti nájemce",
+        "EMAIL_INPUT": "Zadejte e-mail",
+        "PHONE_NUMBER_INPUT": "Zadejte telefonní číslo ",
+        "FIRST_NAME_INPUT": "Zadejte jméno",
+        "LAST_NAME_INPUT": "Zadejte příjmení",
+        "PASSWORD_INPUT": "Zadejte heslo",
+        "TERMS_CHECKBOX": "Přijímám podmínky používání",
+        "CREATE_ACCOUNT_BUTTON": "Vytvořte účet"
+      },
+      "OAUTH2-REGISTRATION": {
+        "LOADING": "Načítání",
+        "REGISTRATION_FORM": "Registrační formulář uživatele",
+        "LOGO": "Logo Signius",
+        "TENANT_LOGO": "Logo společnosti nájemce",
+        "EMAIL_INPUT": "zadejte e-mail",
+        "PHONE_NUMBER_INPUT": "Zadejte telefonní číslo ",
+        "FIRST_NAME_INPUT": "Zadejte jméno",
+        "LAST_NAME_INPUT": "Zadejte příjmení",
+        "TERMS_CHECKBOX": "Přijímám podmínky používání",
+        "SUBMIT_BUTTON": "Potvrzuji registraci"
+      },
+      "PASSWORD-CHANGE": {
+        "PASSWORD-CHANGE-FORM": {
+          "FORM": "Formulář pro změnu hesla",
+          "LOGO_SIGNIUS": "Logo Signius, kliknutím se přihlaste",
+          "LOGO_TENANT": "Logo nájemce, kliknutím se přihlaste",
+          "PASSWORD_INPUT": "Zadejte heslo",
+          "RESET_PASSWORD_BUTTON": "Obnovte heslo"
+        },
+        "PASSWORD-CHANGE-REQUEST": {
+          "FORM": "Formulář pro změnu hesla",
+          "LOGO": "Logo Signius",
+          "TENANT-LOGO": "Logo společnosti nájemce",
+          "EMAIL_INPUT": "Zadejte e-mail",
+          "RESET_PASSWORD_BUTTON": "Obnovte heslo"
+        }
+      },
+      "SMS-LOGIN": {
+        "PAGE": "SMS ověření",
+        "YOUR_PHONE_NUMBER": "Vaše telefonní číslo ",
+        "ENTER_SMS_CODE": "Zadejte SMS kód",
+        "SEND_CODE_AGAIN": "Odeslat kód znovu",
+        "SMS_CODE_SENT": "SMS kód odeslán"
+      },
+      "WELCOME": {
+        "PHONE_CONFIRM": "Potvrďte telefonní číslo "
+      }
+    },
+    "BATCH": {
+      "COMPONENTS": {
+        "BATCH-DOCUMENT-PAGE": {
+          "DOCUMENT_PAGE": "Stránka dokumentu"
+        },
+        "BATCH-DOCUMENT-PAGE-THUMBNAIL": {
+          "THUMBNAIL_DOCUMENT": "Miniatura dokumentu",
+          "DOCUMENT_PAGE": "Stránka dokumentu",
+          "MARKED_AS_READ": "Označeno jako přečtené",
+          "PAGE_NUMBER": "Číslo stránky"
+        },
+        "BATCH-DOCUMENT-PREVIEW": {
+          "DOCUMENT_VIEWER": "Prohlížeč dokumentů",
+          "SIDEBAR_SCROLL": "Posouvání bočního panelu",
+          "DOCUMENT_THUMBNAILS": "Miniatury dokumentů",
+          "DOCUMENT_THUMBNAIL": "Miniatura dokumentu",
+          "DOCUMENT_PAGE": "Stránka dokumentu",
+          "CONTENT_SCROLL": "Posouvání obsahu"
+        },
+        "BATCH-LIST": {
+          "DOCUMENT_LIST": "Seznam dokumentů",
+          "DOCUMENT": "Dokument"
+        },
+        "BATCH-LIST-ITEM": {
+          "THUMBNAIL_DOCUMENT": "Miniatura dokumentu",
+          "CONFIRMED_DOCUMENT": "Dokument schválený",
+          "DOCUMENT_NAME": "Název dokumentu",
+          "PAGE_COUNTER": "Počítadlo stránek"
+        }
+      },
+      "PAGES": {
+        "BATCH-VERIFICATION": {
+          "BATCH-VERIFICATION": {
+            "DOCUMENT_LIST": "Seznam dokumentů"
+          }
+        }
+      }
+    },
+    "DASHBOARD": {
+      "COMPONENTS": {
+        "DASHBOARD-IDENTITY": {
+          "IDENTITY_VERIFICATION_STATUS": "Stav ověření totožnosti",
+          "IDENTITY_VERIFIED": "Totožnost byla ověřena",
+          "IDENTITY_VERIFICATION_REQUIRED": "Vyžaduje se ověření totožnosti",
+          "IDENTITY_VERIFICATION_NOT_READY": "Ověření totožnosti není připraveno",
+          "CONFIRM_IDENTITY_BUTTON": "Potvrďte totožnost"
+        },
+        "DASHBOARD-PURCHASE": {
+          "PURCHASED_SIGNATURES": "Zakoupené podpisy",
+          "BUY_SIGNATURES": "Kupte podpisy"
+        },
+        "DASHBOARD-READY": {
+          "READY": "Připraveno"
+        }
+      },
+      "PAGES": {
+        "DASHBOARD": {
+          "CONTENT_LABEL": "Obsah plochy",
+          "BACK_BUTTON_LABEL": "Zpět",
+          "PURCHASE_DETAILS_LABEL": "Podrobnosti o nákupu",
+          "IDENTITY_LABEL": "Totožnost",
+          "READY_TO_SIGN_LABEL": "Připravený k podpisu"
+        },
+        "DASHBOARD-VERIFIED-METHOD": {
+          "VERIFICATION_METHOD_SELECT": "Vyberte způsob ověření totožnosti",
+          "BACK_BUTTON": "Zpět",
+          "ACTION_FAILED": "Akce se nepodařila"
+        }
+      }
+    },
+    "PROFILE": {
+      "HOME_BUTTON": "Návrat na profil",
+      "PAGES": {
+        "PROFILE-ACCOUNT": {
+          "YOUR_EMAIL_INPUT": "Vaše e-mailová adresa",
+          "YOUR_ORGANISATION_INPUT": "Vaše organizace",
+          "YOUR_CARD_NUMBER_INPUT": "Číslo vaší karty",
+          "YOUR_FIRST_NAME_INPUT": "Vaše jméno",
+          "YOUR_SECOND_NAME_INPUT": "Vaše příjmení",
+          "YOUR_PHONE_NUMBER_INPUT": "Vaše telefonní číslo ",
+          "SELECTED_LANGUAGE": "Vybraný jazyk"
+        }
+      }
+    },
+    "VERIFICATION": {
+      "BIRTH-DATE-VERIFICATION": {
+        "DATEPICKER": "Vyberte vaše datum narození",
+        "SUBMIT_BUTTON": "Odeslat",
+        "CREATE_NEW_ACCOUNT": "Vytvořit nový účet",
+        "BACK_BUTTON": "Zpět"
+      },
+      "IDENTITY-ITEM": {
+        "IDENTITY_METHOD_SELECT": "Vyberte způsob ověření totožnosti",
+        "IDENTITY_METHOD_NAME": "Název způsobu",
+        "IDENTITY_METHOD_SUBTITLE": "Podtitul způsobu"
+      },
+      "PHOTO-UPLOADER": {
+        "IDENTITY_CONFIRMATION_TITLE": "Potvrzení totožnosti",
+        "SELECT_ID_CARD": "Vyberte občanský průkaz",
+        "SELECT_PASSPORT": "Vyberte cestovní pas",
+        "TAKE_ID_FRONT_PHOTO": "Vyfoťte přední stranu průkazu totožnosti",
+        "TAKE_ID_BACK_PHOTO": "Vyfoťte zadní stranu průkazu totožnosti",
+        "TAKE_PASSPORT_PHOTO": "Vyfoťte cestovní pas"
+      },
+      "SELECT-VERIFICATION-METHOD": {
+        "WERYFIKACJA_WIDEO": "Video ověření",
+        "LOADING_SIGNATURE": "Načítání podpisu"
+      },
+      "UPLOAD-DOCUMENT-VERIFICATION": {
+        "UPLOAD_PHOTO": "Odeslat fotografii",
+        "VERIFICATION_STEP_UPLOAD_PHOTO": "Krok ověření – Nahrát fotografii",
+        "VERIFICATION_STEP_ID_DATA": "Krok ověření – ID údaje",
+        "VERIFICATION_STEP_INFO": "Krok ověření – Informace",
+        "VERIFICATION_STEP_VIDEO": "Krok ověření – Video"
+      },
+      "VERIFICATION-FORM": {
+        "GIVEN_NAME_INPUT": "Zadejte jméno",
+        "LAST_NAME_INPUT": "Zadejte příjmení",
+        "NATIONALITY_SELECT": "Vyberte občanství",
+        "PESEL_INPUT": "Zadejte rodné číslo ",
+        "ISSUING_AUTHORITY_INPUT": "Zadejte název vydávajícího orgánu",
+        "BIRTH_DATE_INPUT": "Vyberte vaše datum narození",
+        "DOCUMENT_NUMBER_INPUT": "Zadejte sérii a číslo dokladu totožnosti",
+        "DOCUMENT_EXPIRE_DATE_INPUT": "Vyberte datum vypršení platnosti dokumentu"
+      },
+      "VIDEO-VERIFICATION-CONTAINER": {
+        "START_VERIFICATION": "Zahájení ověřování",
+        "START_VIDEO_VERIFICATION": "Zahájení video ověřování",
+        "UPLOAD_DOCUMENTS_FOR_VERIFICATION": "Odeslat dokumenty k ověření"
+      },
+      "VIDEO-VERIFICATION-START": {
+        "ICON_ID_CARD_ALT": "Ikona občanského průkazu",
+        "ICON_CAMERA_WEB_ALT": "Ikona webové kamery",
+        "ICON_SIGNAL_BARS_ALT": "Ikona stability připojení",
+        "ICON_BELL_SLASH_ALT": "Ikona ztlumení",
+        "ICON_START_VERIFICATION": "Člověk ukazující průkaz totožnosti"
+      },
+      "WEBCAM-PHOTO-UPLOADER": {
+        "CAPTURED_PHOTO": "Pořízená fotografie",
+        "SELECT_FILE": "Vybrat soubor"
+      }
+    },
+    "DOCUMENTS": {
+      "COMPONENTS": {
+        "ADD_PAGE": {
+          "ADD_GRAPH_REPRESENTATION": "Přidat grafické znázornění",
+          "ADD_FIRST_PAGE": "Přidat první stránku",
+          "ADD_LAST_PAGE": "Přidat poslední stránku",
+          "INDICATE_PLACE_OF_SIGN": "Uveďte místo podpisu",
+          "DO_NOT_ADD": "Nepřidávat",
+          "CLOSE_TOOLTIP": "Zavřít",
+          "HELP": "Pomoc"
+        },
+        "BATCH-DOCUMENT-ITEM": {
+          "SHOW_DOCUMENT": "Zobrazit dokument",
+          "DELETE_DOCUMENT": "Smazat dokument",
+          "FILE_WITHOUT_SIGNATURES": "Soubor bez podpisů",
+          "ALL_SIGNATURES_VALIDATED": "Všechny podpisy byly ověřeny",
+          "EDIT_DOCUMENT": "Upravit název dokumentu",
+          "NOT_ALL_SIGNATURES_VALIDATED": "Ne všechny podpisy byly ověřeny"
+        },
+        "CONTACTS": {
+          "CONTACT-FORM": {
+            "FORM_LABEL": "Kontaktní formulář",
+            "EMAIL_INPUT": "Zadejte e-mailovou adresu",
+            "PHONE_INPUT": "Zadejte telefonní číslo ",
+            "NAME_INPUT": "Zadejte jméno",
+            "SURNAME_INPUT": "Zadejte příjmení",
+            "CANCEL_BUTTON": "Zrušit",
+            "ADD_ME_BUTTON": "Přidat mě",
+            "SAVE_CHANGES_BUTTON": "Uložit změny",
+            "CONTACT_SUGGESTIONS": "Návrhy kontaktů"
+          },
+          "CONTACT-ROW": {
+            "CONTACT_ROW": "Kontakt",
+            "SCROLL_BUTTON": "Posunovací tlačítko",
+            "EDIT_BUTTON": "Upravit",
+            "REMOVE_BUTTON": "Smazat",
+            "CLEAR_BUTTON": "Vyčistit",
+            "CONTACT_FORM": "Kontaktní formulář"
+          }
+        },
+        "CONTACTS-TIMESTAMP": {
+          "CONTACT-ITEM": {
+            "CONTACT-TIMESTAMP-ITEM": {
+              "FORM_LABEL": "Kontaktní formulář",
+              "ID_NUMBER_INPUT": "Zadejte číslo dokladu totožnosti",
+              "EMAIL_INPUT": "Zadejte e-mailovou adresu",
+              "CONTACT_SUGGESTIONS": "Návrhy kontaktů"
+            }
+          },
+          "ADD_SIGNERS": "Přidat podepisující osoby",
+          "ADD_ANOTHER": "Přidat další",
+          "DRAG_BUTTON": "Tlačítko přetažení",
+          "REMOVE_BUTTON": "Smazat",
+          "CLEAR_BUTTON": "Vyčistit",
+          "MOVE_UP": "Přejít nahoru",
+          "MOVE_DOWN": "Přejít dolů"
+        },
+        "DOCUMENT-ADD": {
+          "ADDING_DOCUMENTS": "Přidávání dokumentů",
+          "BACK_BUTTON": "Návrat",
+          "FOLDER_DETAILS": "Podrobnosti o složce",
+          "DOCUMENT_UPLOADER": "Odesílání dokumentu",
+          "MULTI_DOCUMENT_UPLOADER": "Odesílání více dokumentů",
+          "SIGNATURE_TYPE_SELECTION": "Výběr typu podpisu",
+          "ADD_PAGE": "Přidávání stránky",
+          "CONTACTS": "Kontakty",
+          "CONTACTS_TIMESTAMP": "Datum a čas podepsání dokumentu uživatelem"
+        },
+        "DOCUMENT-MENU": {
+          "EXPAND_BUTTON": "Rozbalit menu"
+        },
+        "DOCUMENT-VIEWER": {
+          "CUSTOM-SIGN-PLACEMENT": {
+            "PDF_VIEWER": "Prohlížeč PDF",
+            "LOADING": "Načítání",
+            "TOGGLE_DOCUMENT": "Přepínání dokumentu",
+            "BACK": "Zpět",
+            "PREVIOUS_DOCUMENT": "Předchozí dokument",
+            "NEXT_DOCUMENT": "Další dokument"
+          },
+          "PDF-VIEWER": {
+            "CLOSE_BUTTON": "Zavřít"
+          },
+          "DOCUMENT_THUMBNAIL": "Miniatura dokumentu",
+          "DELETED_DOCUMENT_THUMBNAIL": "Smazaná miniatura dokumentu",
+          "SHOW_PREVIEW": "Náhled celého dokumentu"
+        },
+        "MODALS": {
+          "IDENTIFICATION-FORM-MODAL": {
+            "FIRST_NAME_INPUT": "Zadejte jméno",
+            "LAST_NAME_INPUT": "Zadejte příjmení",
+            "PHONE_NUMBER_INPUT": "Zadejte telefonní číslo "
+          }
+        },
+        "REMINDER-BUTTON": {
+          "REMIND_BUTTON": "Odeslat připomenutí"
+        },
+        "SELECT-ALL-CHECKBOX": {
+          "SELECT_ALL": "Vybrat vše"
+        },
+        "SIGN-ALL-CHECKBOX": {
+          "SIGN_ALL": "Podepsat vše"
+        },
+        "SIGNATURE-TYPE": {
+          "EASY_SIGNATURE": "Vyberte pokročilý podpis",
+          "ADVANCED_SIGNATURE": "Vyberte pokročilý podpis s KYC",
+          "QUALIFIED_SIGNATURE": "Vyberte kvalifikovaný podpis"
+        },
+        "SWITCH-VIEW-BUTTONS": {
+          "GRID_VIEW": "Přepnout na zobrazení dlaždic",
+          "LIST_VIEW": "Přepnout na zobrazení seznamu"
+        }
+      }
+    },
+    "FOLDERS": {
+      "COMPONENTS": {
+        "DASBOARD-BAR": {
+          "SELECT_SIGNATURE_TYPE": "Vyberte typ podpisu",
+          "REQUIRES_COMPLETION": "Vyžaduje dokončení"
+        },
+        "FOLDER-ADD-BUTTON":{
+          "ADD_FOLDER_BUTTON": "Přidat složku"
+        }
+      }
+    }
+  },
+  "TENANT": {
+    "SGGW": {
+      "SGGW_FOOTER_CONTENT": "„SGGW – Dostupná univerzita“ spolufinancováno z Operačního programu Znalosti Vzdělávání Rozvoj (Prioritní osa: III Vysoké školství pro ekonomiku a rozvoj, Opatření: 3.5 Komplexní vysokoškolské programy)"
+    }
+  },
+  "GOOGLE_AUTH": {
+    "TITLE": "Vyžadovaná autorizace Google Authenticator",
+    "ENTER_CODE": "Zadejte ověřovací kód pro dvoufaktorovou autentizaci"
+  },
+  "DOCUMENT": {
+    "FIELD": {
+      "VALIDATION": {
+        "MAX-LENGTH": "Příliš dlouhá hodnota pole",
+        "REQUIRED": "Pole je povinné"
+      }
+    }
+  }
+}

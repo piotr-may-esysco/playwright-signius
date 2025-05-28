@@ -1,17 +1,18 @@
 import { test, expect } from '@playwright/test'
 import { page_data } from '../test_data/page.data'
 import { LoginPage } from '../pages/login.page'
-import { loginPageDataPL } from '../test_data/login.data'
 import { defaultUser1 } from '../test_data/users.data'
 import { FoldersPage } from '../pages/folders.page'
+import { getTextContent } from '../test_data/page-content.data'
 
 test.describe('login page tests PL', () => {
   let loginPage: LoginPage
-
+  let textContent
   test.beforeEach(async ({ page }) => {
     await page.goto(page_data.urls.login)
     loginPage = new LoginPage(page)
     await page.waitForLoadState('domcontentloaded')
+    textContent = getTextContent('pl')
   })
 
   test('has correct title', async ({ page }) => {
@@ -19,17 +20,16 @@ test.describe('login page tests PL', () => {
   })
 
   test('has correct texts', async ({ page }) => {
-    await expect(loginPage.emailLabel).toHaveText(loginPageDataPL.emailLabel)
-    await expect(loginPage.passwordLabel).toHaveText(
-      loginPageDataPL.passwordLabel
-    )
-    await expect(loginPage.loginButton).toHaveText(
-      loginPageDataPL.loginButtonText
-    )
+    await expect(loginPage.emailLabel).toHaveText(textContent.AUTH.EMAIL)
+    await expect(loginPage.passwordLabel).toHaveText(textContent.AUTH.PASSWORD)
+    await expect(loginPage.loginButton).toHaveText(textContent.AUTH.LOGIN)
     await expect(loginPage.registerButton).toHaveText(
-      loginPageDataPL.registerButtonText
+      textContent.AUTH.CREATE_FREE_ACCOUNT
     )
-    await expect(loginPage.loginHeader).toHaveText(loginPageDataPL.header)
+    await expect(loginPage.forgotPassowrdButton).toHaveText(
+      textContent.AUTH.FORGET_PASSWORD
+    )
+    await expect(loginPage.loginHeader).toHaveText(textContent.AUTH.LOGIN)
   })
 
   test('incorrect email', async ({ page }) => {
@@ -46,7 +46,7 @@ test.describe('login page tests PL', () => {
     await loginPage.loginButton.click()
 
     await expect(loginPage.wrongCredentialsMessage).toHaveText(
-      loginPageDataPL.wrongCredentials
+      textContent.AUTH.INVALID_CREDENTIALS
     )
   })
 
@@ -117,7 +117,7 @@ test.describe('login page tests PL', () => {
     await loginPage.loginButton.click()
 
     await expect(loginPage.wrongCredentialsMessage).toHaveText(
-      loginPageDataPL.wrongCredentials
+      textContent.AUTH.INVALID_CREDENTIALS
     )
   })
 

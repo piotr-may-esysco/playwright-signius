@@ -1,0 +1,1601 @@
+{
+  "COMMON": {
+    "YOU": "Ty",
+    "CANCEL": "Zrušiť",
+    "CLOSE": "Zatvoriť",
+    "SAVE_CHANGES": "Uložiť",
+    "ADD": "Pridať",
+    "NEXT": "Ďalej",
+    "NEVERMIND": "Zrušiť",
+    "CHANGE": "Zmeniť",
+    "OPEN": "Otvoriť",
+    "SEND": "Odoslať",
+    "SEARCH_PLACEHOLDER": "Hľadať...",
+    "SEARCH_PLACEHOLDER_NEW_HOME_FEATURE": {
+      "FOLDERS": "Hľadať zložky...",
+      "DOCUMENTS": "Hľadať podľa názvu dokumentu..."
+    },
+    "CHANGES_SAVED": "Zmeny boli zaznamenané.",
+    "CHANGES_PHONE": "Telefónne číslo bolo zmenené",
+    "COLLAPSE": "Zbaliť",
+    "PAY": "Zaplatiť",
+    "REJECT": "Zamietnuť",
+    "ACCEPT": "Potvrdiť",
+    "INVOICE": {
+      "NIP": "DIČ",
+      "NIP_MANDATORY": "DIČ (POVINNÉ)",
+      "NAME": "Meno a priezvisko alebo názov spoločnosti",
+      "NAME_SURNAME": "Meno a priezvisko",
+      "ADDRESS": "Adresa",
+      "POSTAL_CODE": "PSČ",
+      "CITY": "Mesto",
+      "COUNTRY": "Štát",
+      "IS_INDIVIDUAL_BILLING": "Faktúra pre fyzickú osobu"
+    },
+    "SUPPORT_EMAIL": "support@signius.eu",
+    "SUPPORT_PHONE_NUMBER": "+48 61 415 22 12",
+    "MODAL_SUPPORT_EMAIL": "business.support@signius.eu",
+    "NONE": "Žiadne",
+    "SUMMARY": "Zhrnutie",
+    "BACK": "Späť",
+    "TYPE_WORD": "Zadajte slovo “{{value}}”",
+    "DELETE_WORD": "ODSTRÁNIŤ",
+    "SIGNATURES": ["podpis", "podpisy", "podpisov"],
+    "BACK_TO_APPLICATION": "Späť do aplikácie",
+    "OR": "alebo",
+    "OR_CONTINUE_WITH": "alebo pokračovať z",
+    "NEW": "Novinka",
+    "INDICATE_THE_LOCATION": "Uveďte miesto",
+    "STANDARD": "Štandard",
+    "FONT": "Písmo",
+    "YOUR_FILE": "Váš súbor",
+    "SELECT": "Vybrať",
+    "CREATE_NEW_ACCOUNT": "Vytvorte si nový účet"
+  },
+  "INFO": {
+    "THIS_DOCUMENT_HAS_BEEN_DELETED_BY_DOCUMENT_OWNER": "Tento dokument bol vymazaný žiadateľom"
+  },
+  "ERROR": {
+    "DOCUMENT_ALREADY_SIGNED": "Dokument ste už podpísali alebo ste späť na zozname podpisovateľov. Kontaktujte osobu, ktorá dokument pridala",
+    "UNKNOWN": "Niečo sa pokazilo...",
+    "ERROR_DURING_SIGNING": "Pri podpisovaní sa vyskytla chyba.",
+    "VALIDATION": {
+      "INCORRECT_NUMBER": "Uvedené číslo je nesprávne",
+      "ADULTS_ONLY": "Len pre dospelých",
+      "DATE_NOT_EARLIER_THAN_TODAY": "Dátum nie skôr ako dnes",
+      "FILE_TYPE_INVALID": "Povolené sú iba súbory vo formáte {{value}}",
+      "FILE_SIZE_INVALID": "Maximálna veľkosť súboru je {{value}}",
+      "FIELD_REQUIRED": "Pole je povinné",
+      "FIELD_INVALID": "Pole obsahuje nesprávnu hodnotu",
+      "FIELD_POST_CODE": "Neplatný kód",
+      "ALLOWED_CHARACTERS": "Povolené znaky sú: A-Z, 0-9"
+    },
+    "EXCEPTION": {
+      "USER_EXISTS": "Používateľ už existuje",
+      "RE_CAPTCHA_FAILED": "Vyskytla sa chyba reCaptcha",
+      "SESSION_NOT_FOUND": "Vyskytla sa chyba relácie. Znova vyberte dokumenty"
+    },
+    "CERTIFICATE_EXPIRED": {
+      "TITLE": "Skúste sa znova podpísať",
+      "TIME_EXCEEDED": "Časový limit na podpísanie dokumentu bol prekročený.",
+      "CONTACT_US": "Ak máte nejaké otázky, kontaktujte náš tím zákazníckych služieb."
+    },
+    "FORBIDDEN": "Vaša relácia vypršala. Prihláste sa znova.",
+    "FORBIDDEN_LONG_TEXT": "Boli ste automaticky odhlásení z aplikácie alebo nemáte dostatočné oprávnenia.",
+    "NOT_FOUND": "Nenašla sa žiadna stránka s touto adresou",
+    "NO_ACCESS": "Žiadny prístup",
+    "SESSION_EXPIRED": "Vaša relácia vypršala.",
+    "SESSION_EXPIRED_SUBTITLE": "Znovu otvorte prijatý odkaz.",
+    "PAYMENT": "Chyba platby! Skúste to znova",
+    "VOUCHER": {
+      "INVALID": "Neplatný kód kupónu",
+      "USED_OR_INACTIVE": "Platnosť kódu vypršala alebo bol už použitý"
+    }
+  },
+  "LANGUAGE": {
+    "PL": "Polski",
+    "EN": "English",
+    "DE": "Deutsch",
+    "MT": "Maltese",
+    "UK": "Українська",
+    "SV": "Svenska",
+    "CS": "Čeština",
+    "SK": "Slovenský"
+  },
+  "ENUM": {
+    "DOCUMENT_STATUS": {
+      "SIGNED": "Podpísaný",
+      "SIGNING_IN_PROGRESS": "Na podpísanie",
+      "UPLOADED": "Čakajúci",
+      "REJECTED": "Odmietnutý"
+    },
+    "PRODUCT_TYPE": {
+      "SIGN": "Kvalifikovaný podpis",
+      "IDENTITY_TM_IDENTITY_VERIFICATION": "Videoidentifikácia"
+    },
+    "FOLDER_TYPE_FILTER": {
+      "RECEIVING": "Prijaté",
+      "SENDING": "Poverené"
+    },
+    "FILTERS":{
+      "FINISHED": "ukončené",
+      "AWAITING": "prebieha",
+      "IN_PROGRESS": "na podpísanie",
+      "SIGNED": "podpísané",
+      "CANCELED": "ukončené",
+      "WAITING_FOR_APPROVE": "na potvrdenie",
+      "REJECTED": "zamietnuté",
+      "AWAITING_COMPLETION": "na vyplnenie"
+    },
+    "SIGN_STATUS": {
+      "SIGNED": "Podpísané",
+      "IN_PROGRESS": "Na podpísanie",
+      "AWAITING": "Prebieha",
+      "NOT_SENT": "Neodoslané",
+      "CANCELED": "Ukončené",
+      "LOCKED": "Spracovávam...",
+      "TO_APPROVE": "Na potvrdenie",
+      "REJECTED": "Zamietnuté",
+      "AWAITING_COMPLETION": "na vyplnenie"
+    },
+    "CURRENCY": {
+      "PLN": "zł",
+      "EUR": "€"
+    },
+    "DOCUMENT_TYPE": {
+      "ID": "Občiansky preukaz",
+      "IDCARD": "Občiansky preukaz",
+      "PASSPORT": "Cestovný pas",
+      "A": "Karta pobytu",
+      "P": "Cestovný pas"
+    },
+    "DAYS": {
+      "MONDAY": "pondelok",
+      "TUESDAY": "utorok",
+      "WEDNESDAY": "streda",
+      "THURSDAY": "štvrtok",
+      "FRIDAY": "piatok",
+      "SATURDAY": "sobota",
+      "SUNDAY": "nedeľa"
+    },
+    "SIGNATURE_TYPE": {
+      "EASY": "Zaručený podpis",
+      "QUALIFIED": "Kvalifikovaný podpis",
+      "ADVANCED": "Zaručený podpis & KYC",
+      "TIMESTAMP": "Timestamp"
+    },
+    "PACK_ORIGIN": {
+      "BOUGHT": "Kúpené",
+      "RECEIVED": "Prijaté"
+    }
+  },
+  "VARIANTS": {
+    "PERSONS_1": "{{value}} osoba",
+    "PERSONS_2": "{{value}} osoby",
+    "PERSONS_3": "{{value}} osôb"
+  },
+  "PASSWORD": {
+    "MIN_LENGTH": "min. {{value}} znakov",
+    "DIGIT": "číslica",
+    "BIG_LETTER": "veľké písmeno",
+    "SMALL_LETTER": "malé písmeno",
+    "SPECIAL_CHAR": "špeciálny znak"
+  },
+  "PASSWORD_RESET": {
+    "EMAIL_LABEL": "Zadajte svoju e-mailovú adresu",
+    "PASSWORD_LABEL": "Vytvorte si nové heslo",
+    "REQUEST_TITLE": "Obnovte heslo",
+    "REQUEST_MESSAGE": "Zabudli ste heslo? \nNebojte sa, za chvíľu to vyriešime.",
+    "REQUEST_BUTTON": "Obnovte heslo",
+    "CONFIRMATION_TITLE": "Poslali sme vám e-mail",
+    "CONFIRMATION_MESSAGE": "Skontrolujte si doručenú poštu, kliknite na odkaz, ktorý sme vám poslali, a nastavte si nové heslo.",
+    "NEW_PASSWORD_TITLE": "Vytvorte nové, silné heslo",
+    "NEW_PASSWORD_BUTTON": "Potvrďte heslo.",
+    "USER_ACTIVATE_LINK_ALREADY_USED_ERROR": "Tento odkaz už bol použitý na zmenu hesla."
+  },
+  "AUTH": {
+    "LOGIN": "Prihlásiť sa",
+    "OAUTH2_LOGIN": "Prihlásiť sa cez Google",
+    "SGGW_EMPLOYEE_LOGIN": "Prihlásenie pre zamestnancov SGGW",
+    "LOGIN_DESC": "Prihlásenie pre zákazníkov a partnerov",
+    "GRENKE_BTN": "Prihlásenie pre zamestnancov Grenke",
+    "EMAIL": "Emailová adresa",
+    "PASSWORD": "Heslo",
+    "FORGET_PASSWORD": "Zabudli ste heslo?",
+    "CREATE_FREE_ACCOUNT": "Vytvorte si bezplatný účet",
+    "LOGOUT_SUCCESS": "Úspešne ste sa odhlásili",
+    "INVALID_CREDENTIALS": "Vaša e-mailová adresa alebo heslo sa nezhodujú.",
+    "ACCOUNT_BLOCKED": "Z dôvodu opakovaného nesprávneho zadania hesla bol váš účet zablokovaný na 5 minút. Ak ich chcete odomknúť, najskôr vyberte možnosť „Zabudli ste heslo“.",
+    "ACTIVATED_ACCOUNT": "Účet bol aktivovaný.",
+    "FIRST_NAME": "Meno",
+    "GIVEN_NAMES": "Meno/Mená",
+    "LAST_NAME": "Priezvisko",
+    "PHONE_NUMBER": "Číslo mobilného telefónu",
+    "NEW_ACCOUNT": "Nový účet",
+    "ALREADY_HAVE_ACCOUNT": "Vytvorte si bezplatný účet a podpisujte dokumenty na diaľku – nech ste kdekoľvek a kedykoľvek chcete. Rýchle a jednoduché ako nikdy predtým.\nUž máte účet?",
+    "CREATE_NEW_PASSWORD": "Vytvorte si nové heslo",
+    "ACCEPT_TERMS": "Potvrdzujem, že som si prečítal a prijímam <a href=\"{{terms}}\" target=“_blank“>Pravidla využívania služby</a>.",
+    "ACCEPT_TERMS_2": "Za účelom poskytovania služieb na najvyššej úrovni používa aplikácia cookies. \nViac informácií o tomto a spracovaní osobných údajov je k dispozícii v <a href=\"{{policy}}\" target=\"_blank\">Pravidlách ochrany osobných údajov</a>.",
+    "CREATE_ACCOUNT": "Vytvorte si účet",
+    "SENT_EMAIL": "Poslali sme vám e-mail",
+    "SENT_EMAIL_DESCRIPTION": "Skontrolujte si doručenú poštu, použite aktivačný odkaz v našej správe a potvrďte svoju registráciu.",
+    "LINK_EXPIRED": "Tento odkaz už nie je aktívny",
+    "LINK_EXPIRED_DESCRIPTION": "E-mailová adresa musí byť potvrdená do 48 hodín. Nebojte sa, môžeme vám poslať ďalší e-mail s aktivačným odkazom.",
+    "SEND_NEW_LINK": "Pošlite nový aktivačný odkaz",
+    "LOGOUT": "Odhlásiť",
+    "NATIONALITY": "Štátne občianstvo",
+    "SESSION_EXPIRED": "Vaša relácia vypršala. Prihláste sa znova.",
+    "MOBILE_VERIFICATION": "Potvrďte v mobilnej aplikácii",
+    "2FA_VERIFICATION_MAIN": "Go to the Approve application on your registered mobile device",
+    "2FA_VERIFICATION_SUB": "Confirm that you wish to sign your chosen documents",
+    "PARTNERED": "V spolupráci s",
+    "YOUR_PASS_CHANGED": "Vaše heslo bolo zmenené",
+    "CONFIRM_YOU_DATA": "Potvrďte svoje údaje",
+    "ALMOST_READY": "Už takmer hotové! Vaša e-mailová adresa bola overená. Ak chcete začať, potvrďte informácie uvedené nižšie."
+  },
+  "WELCOME": {
+    "TITLE": "Vitajte v SIGNIUS Professional",
+    "MESSAGE": "poslal/a vám dokument(y) na podpis Potvrďte svoje telefónne číslo a vytvorte si bezplatný účet na elektronické podpisovanie dokumentov.",
+    "FOLDER": "Priečinok dokumentov",
+    "PHONE_CONFIRM": "Potvrďte telefónne číslo"
+  },
+  "WELCOME_TOOLTIP": {
+    "DATE_AT": "o",
+    "OK_UNDERSTAND": "Dobre, rozumiem",
+    "GOT_NEW_SIGNATURES_PACK": "Dostali ste kvalifikované podpisy!",
+    "GOW_NEW_SIGNATURES_PACK_DESC": "Osoba, ktorá vám poslala dokumenty na podpis, zakúpila pre vás balík kvalifikovaných podpisov, aby ste tieto dokumenty mohli podpisovať zadarmo.",
+    "VIEW_PACKAGES": "Pozrite si balíčky"
+  },
+  "WELCOME_EASY_TOOLTIP": {
+    "WELCOME": "Vitajte<span>&nbsp;v SIGNIUS Professional</span>!",
+    "GIFT_INFO": "Tu je malý darček, ktorý vám pomôže začať :) Prajeme vám príjemné podpisovanie!"
+  },
+  "DOCUMENTS": {
+    "CHECKBOX_ALERT": "Ak chcete podpísať dokumenty, začiarknite príslušné políčka.",
+    "APPROVE_DOCUMENT": "Uložiť údaje",
+    "SIGN_ON_FIRST_PAGE": "Umiestnite svoj podpis do hornej časti dokumentu",
+    "XML": {
+      "MODAL": {
+        "HEADER": "Podpíšte XML súbory na platforme SIGNIUS",
+        "CONTENT": "Teraz môžete jednoducho a bezpečne podpisovať XML súbory, napr. účtovné závierky, aj viacerými osobami. Objavte nové možnosti!"
+      }
+    },
+    "TYPE_ALERT": "Do priečinka môžete pridať iba súbory v jednom formáte (PDF alebo XML) - vyberte iný priečinok",
+    "APPROVER": {
+      "HEADER": "Pridajte schvaľovateľa dokumentu (dokumentov).",
+      "DELETE": "Odstráňte schvaľovateľov dokumentu (dokumentov).",
+      "FORM_LABEL": "E-mailová adresa schvaľovateľa",
+      "HEADER_ADD": "Schvaľovateľ",
+      "APPROVE": "Potvrdiť",
+      "DECLINE": "Odmietnuť dokument",
+      "DECLINE_MODAL": {
+        "HEADER": "Odmietnutie dokumentu",
+        "LABEL": "Uveďte dôvod odmietnutia"
+      },
+      "APPROVE_DOCUMENT": "Potvrdiť doklad",
+      "ACCEPT_DOCUMENT": "Dokument bol schválený",
+      "REJECT_DOCUMENT": "Dokument bol zamietnutý"
+    },
+    "SIGNING": {
+      "HEADER": "Podpisovatelia"
+    },
+    "CONSENT": {
+      "HEADER": "Pokročilá konfigurácia pre dokument",
+      "SUB_TITLE": "Nahrajte konfiguračný súbor pre tento dokument",
+      "DOC_BTN": "Vyberte konfiguračný súbor",
+      "TABS": {
+        "CONSENT": "Súhlasy",
+        "FIELDS": "Editovateľné polia"
+      },
+      "GO_TO": "Preskočiť na súhlasy",
+      "CHECK": "Označiť súhlasy",
+      "DESC": "Prezriďte všetky strany dokumentu a udeľte požadované súhlasy, aby ste mohli pokračovať",
+      "BUTTON": "Potvrdiť a pokračovať",
+      "DELETE": {
+        "TXT": "Ste si istí, že chcete odstrániť konfiguračný súbor?",
+        "ACCEPT": "Áno, odstráňte súbor"
+      },
+      "PREV": "Náhled:",
+      "DELETE_BTN": "Odstrániť súbor",
+      "REQ": "(Požadované)"
+    },
+    "ORDERED_BY":"Objednané",
+    "DOCUMENTS": "Dokumenty",
+    "PAID": "(Zaplatené)",
+    "FILE_WITHOUT_SIGNATURES": "<i class=\"icon icon-file\"></i><p class=\"heading\">Dokument neobsahuje žiadne predtým odoslané podpisy.</p><p class=\"body\">Bude podpísaný v najvyššom štandarde LTA/LTV (dlhodobá archivácia/overenie) – s overením podpisu a časovou pečiatkou.</p>",
+    "ALL_SIGNATURES_VALIDATED": "<i class=\"icon icon-file-signatures-validated\"></i><p class=\"heading\">Dokument obsahuje predtým odoslané podpisy.</p><p class=\"body\">Všetky boli úspešne prešli validáciou. Dokument bude podpísaný v najvyššom štandarde LTA/LTV (Long Term Archiving/Validation) – s validáciou všetkých podpisov a časovou pečiatkou.</p>",
+    "NOT_ALL_SIGNATURES_VALIDATED": "<i class=\"icon icon-file-signatures-not-validated\"></i><p class=\"heading\">Dokument obsahuje predtým odoslané podpisy.</p><p class=\"body\"> Aspoň 1 z týchto podpisov nebol úspešne overený na LTA. Dokument bude podpísaný v štandarde B-T - s časovou pečiatkou. Overenie niektorých predtým odoslaných podpisov môže byť nesprávne.</p>",
+    "DOCUMENT_TO_FILL": "i class=\"icon icon-file_editable\"></i><p class=\"heading\">Dokument obsahuje interaktívny formulár</p><p class=\"body\">Podpisovateľ bude vyzvaný na vyplnenie formulára pred podpisovanie.</p>",
+    "DOCUMENT_CONSENT" : "Pokročilá konfigurácia pre dokument",
+    "SIGN_ALL": "Podpisujem všetky ({{value}})",
+    "SIGN_ALL_PAY": "Podpisujem a zaplatím ({{value}})",
+    "READ_ALL_DOCUMENTS": "Prečítal/a som si dokumenty, ktoré podpisujem",
+    "REDIRECT": "Pokračovať",
+    "REDIRECT_ORANGE": "Späť do obchodu",
+    "DOWNLOAD_SIGNED_DOCUMENTS": "Stiahnuť podpísané dokumenty",
+    "ALL_DOCUMENT_SIGNED": "Všetky dokumenty boli podpísané",
+    "DOCUMENTS_SIGNED": "Boli podpísané dokumenty: {{value}}",
+    "PREPARING_FILES": "Príprava súborov na stiahnutie",
+    "SELECT_FILE": "Vyberte súbor",
+    "SELECT_FILES": "Vyberte súbory",
+    "DRAG_IT_HERE": "alebo ho pretiahnite sem",
+    "DRAG_THEM_HERE": "alebo ich pretiahnite sem",
+    "DROP_IT_HERE": "Súbor presuňte sem",
+    "WHICH_FILES":"Aké súbory?",
+    "DROP_THEM_HERE": "Súbory presuňte sem",
+    "NAME_DOCUMENT": "Váš názov dokumentu",
+    "CONFIRM_CANCEL_ORDER": "Áno, zastaviť pridávanie dokumentu",
+    "CANCEL_ORDER_CONFIRM_TITLE": "Naozaj chcete zastaviť pridávanie dokumentu do svojho podpisu?",
+    "CONFIRM_STOP_ADDING_DOCUMENTS": "Áno, zastaviť pridávanie dokumentov",
+    "ARE_YOU_SURE_STOP_ADDING_DOCUMENTS": "Naozaj chcete zastaviť pridávanie dokumentov do svojho podpisu?",
+    "CANCEL_ORDER_CONFRIM_MESSAGE": "Ak teraz zastavíte, vaše zmeny sa neuložia a vrátite sa do priečinka.",
+    "DOCUMENT_TO_SIGN": "Dokument na podpísanie",
+    "ADD_SIGNERS": "Pridať podpisovateľov",
+    "ADD_MESSAGE": "Pridať správu všetkým na zozname",
+    "DELETE_MESSAGE": "Odstrániť správu",
+    "LABEL_MESSAGE": "Obsah správy",
+    "PLACEHOLDER_MESSAGE": "Dobrý deň...",
+    "ERROR_MESSAGE": "Správa môže mať maximálne {{value}} znakov",
+    "ADD_SIGNERS_DESC": "E-mail s odkazom na dokument sa automaticky odošle prvému podpisovateľovi. \nKeď dokument podpíše, odkaz sa automaticky odošle ďalším osobám v poradí, ktoré ste nastavili.",
+    "ADD_ANOTHER": "Pridať ďalšiu osobu",
+    "REQUIRED": "Požadované",
+    "ADD_ME": "Pridať mňa",
+    "CONTACT_SELF": "{{name}} (Ty)",
+    "SIGN_DOCUMENT": "Podpíšte tento dokument",
+    "SIGNERS": "Podpisovateľ",
+    "APPROVERS": "Schvaľovateľ",
+    "SIGNERS_FULL_LIST": "Úplný zoznam podpisovateľov a odkazy na priečinok",
+    "SIGNED_BY": "Podpísali {{value1}}/{{value2}} osoby",
+    "SIGNED": "Podpísali",
+    "SIGNED_VALUE": "{{value1}}/{{value2}} osoby",
+    "CREATION_TIME": "{{value1}} o {{value2}}",
+    "SAVE_DOCUMENT_INFO": "Uložte dokument do pamäte zariadenia, aby ste si ho mohli v budúcnosti pozrieť.",
+    "SEE_WHO": "Pozri kto",
+    "I_SIGN": "Podpisujem",
+    "I_SIGN_FREE": "Podpisujem (zaplatené)",
+    "SIGN_PAID_TOOLTIP_TITLE": "Poplatok za podpis je už zaplatený",
+    "SIGN_PAID_TOOLTIP_MESSAGE": "Za podpísanie tohto dokumentu sa neplatí.",
+    "READ_DOCUMENT_CONFIRMATION": "Prečítal som si vyššie uvedený dokument",
+    "DOWNLOAD_SIGNED_DOCUMENT": "Stiahnuť podpísaný dokument",
+    "SENT_BY": "Vlastník priečinka",
+    "ADDING_DOCUMENT": "Pridávanie dokumentu do priečinka",
+    "ADDING_DOCUMENTS": "Pridávanie dokumentov",
+    "WE_COULD_NOT_ADD_SOME_DOCUMENTS": "Nepodarilo sa nám pridať niektoré dokumenty",
+    "ERRORS_DETECTED": "Boli zistené chyby",
+    "DOCUMENTS_CONTAINS_ERRORS": "Do priečinka nemôžeme pridať nasledujúce dokumenty:",
+    "ERROR_VIRUS_FOUND": "V tomto súbore bol zistený vírus",
+    "ERROR_FILE_IS_PROTECTED_WITH_PASSWORD": "Súbor chránený heslom",
+    "ERROR_FILE_SIZE_EXCEEDS": "Veľkosť súboru presahuje {{value}}",
+    "ERROR_MIME_TYPE_NOT_SUPPORTED": "Neplatný formát súboru",
+    "ERROR_FILE_TYPE_IS_NOT_SUPPORTED": "Neplatný formát súboru",
+    "ERROR_DOCUMENT_UPLOAD_FILENAME_TOO_LONG": "Názov súboru je príliš dlhý – max. 100 znakov",
+    "ERROR_DOCUMENT_UPLOAD_INCORRECT_FILENAME": "Názov súboru obsahuje nepovolené znaky. Povolené znaky sú: A-Ž, a-ž, 0-9, ,.'!@#$%^&()-=_+ ",
+    "ERROR_FILE_WITH_SAME_NAME_ALREADY_EXISTS": "Súbor s týmto názvom už v tomto priečinku existuje",
+    "ERROR_FILE_HAS_DIFFERENT_EXTENSION": "Do priečinka môžete pridať iba súbory v jednom formáte (PDF alebo XML) - vyberte iný priečinok",
+    "ERROR_FILE_CONTAINS_ACTIVE_FORMS": "Nesprávny formát súboru. Skonvertujte súbor na neinteraktívny a skúste to znova.",
+    "DOCUMENT_HAS_SIGNATURE": "Tento dokument už má podpis",
+    "ADDING_DOCUMENTS_TO_FOLDER": "Pridávanie dokumentov do priečinka",
+    "ADDING_DOCUMENTS_INFO": {
+      "HEADER": "Povolené súbory",
+      "TERM_2": "Názov súboru do 100 znakov",
+      "TERM_4": "Iba jeden súbor s daným názvom v danom priečinku."
+    },
+    "DOCUMENTS_TO_SIGN": "Dokumenty na podpísanie: {{value}}",
+    "FILES": "súborov",
+    "ADDING_DOCUMENT_DISABLE": "Dokumenty do priečinka môže pridávať iba osoba, ktorá ho vytvorila.",
+    "ADD_THIS_DOCUMENT": "Pošlite dokument na podpis",
+    "CLOSE_PREVIEW": "Zavrieť ukážku",
+    "SIGNER_EMAIL": "E-mailová adresa podpisovateľa",
+    "PHONE_NUMBER": "Číslo mobilného telefónu",
+    "USER_FOLDER_LINK": "Vyhradený odkaz na priečinok",
+    "COPY": "Kopírovať",
+    "COPIED": "Kopírované",
+    "COPY_LINK": "Skopírujte priamy odkaz",
+    "COPIED_LINK": "Kopírované!",
+    "READY": "Hotové",
+    "NO_SIGNERS": "Neboli pridaní žiadni podpisovatelia",
+    "SIGN_SELECTED_DOCUMENTS": "Podpíšte vybrané dokumenty",
+    "MAX_FILE_SIZE": "Nie väčší ako {{value}}",
+    "MAX_FILES_SIZE": "Maximálna veľkosť súboru: {{value}} MB",
+    "SIGN_IN_PROGRESS": "Prebieha podpisovanie...",
+    "IDENTIFICATION_FAILED_TITLE": "Bohužiaľ, identifikácia zlyhala",
+    "IDENTIFICATION_FAILED": "Uistite sa, že máte platný občiansky preukaz alebo pas, funkčnú webovú kameru a mikrofón a vhodné podmienky na konverzáciu a skúste to znova.",
+    "SIGN_FAILED": "Podpísanie dokumentu zlyhalo",
+    "SESSION_FAILED": "Nepodarilo sa vytvoriť reláciu podpisovania",
+    "BACK_TO_FOLDER": "Späť do priečinka",
+    "VERIFICATION_IN_PROGRESS": "Očakávanie na potvrdenie vašej totožnosti",
+    "SHOW_DOCUMENT": "Náhľad",
+    "DOCUMENT_PREVIEW": "Náhľad dokumentu",
+    "LIST_OF_SIGNERS": "Zoznam podpisovateľov",
+    "DOWNLOAD_ORIGINAL_DOCUMENT": "Stiahnite si pôvodný dokument",
+    "DOCUMENT_NOT_SENT": "Objednávka nebola odoslaná podpisovateľom",
+    "CHECK": "Zistiť",
+    "BUY_MORE_SIGNATURES": "Kúpte si balík zaručeného podpisu s identifikáciou KYC",
+    "BUY_MORE_QUALIFIED_SIGNATURES": "Kúpte si balík kvalifikovaných podpisov",
+    "ADDED_NOTIFICATION": "<h2>Dokumenty pridané do priečinka: {{value1}}</h2> <em>Stiahli sme</em> <strong>{{value2}} {{value3}}</strong> <em>z vášho balíka. </em>",
+    "ADDED_NOTIFICATION_WITHOUT_DESCRIPTION": "<h2>Dokumenty pridané do priečinka: {{value1}}</h2>",
+    "FILE_WITH_SAME_NAME_ALREADY_EXISTS": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Súbor s týmto názvom už v tomto priečinku existuje</h2>",
+    "FILE_IS_PROTECTED_WITH_PASSWORD": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Súbor chránený heslom!</h2>",
+    "FILE_CONTAINS_ACTIVE_FORMS": "<i class=\"icon icon-file-text mr-1“></i>{{filename}}<h2>Nesprávny formát súboru!</h2> <br/> <em>Skonvertujte súbor na neinteraktívny a skúste to znova.</em>",
+    "VIRUS_FOUND": "<i class=\"icon icon-file-text mr-1\"></i>{{názov súboru}}<h2>Súbor je infikovaný!</h2> <em>V nahrávanom súbore sme zistili vírus. Proces nahrávania tohto dokumentu bol prerušený</em>",
+    "DOCUMENT_UPLOAD_INCORRECT_FILENAME": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Názov súboru obsahuje nepovolené znaky.</h2> <em>Povolené znaky sú: A-Ž, a-ž, 0-9, ,.'!@#$%^&()-=_+</em>",
+    "DOCUMENT_UPLOAD_FILENAME_TOO_LONG": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Názov súboru je príliš dlhý.</h2> <em>Názov súboru môže mať až 100 znakov.< /em>",
+    "DELETE_DOCUMENT": "Vymazať dokument",
+    "DELETE_FAILED_TITLE": "Dokument nie je možné vymazať",
+    "DELETE_FAILED_NOT_OWNER": "Nemáte dostatočné povolenia na odstránenie tohto dokumentu. \nDokument môže vymazať <strong>iba</strong> ten, kto si ho objednal na podpis, alebo vlastník priečinka, v ktorom sa dokument nachádza.",
+    "OK_UNDERSTAND": "Dobre, rozumiem",
+    "SELECT_SIGNATURE_TYPE": "Vybrať druh podpisu",
+    "ADVANCED": "Zaručený & KYC",
+    "QUALIFIED": "Kvalifikovaný",
+    "EASY": "Pokročilý",
+    "EASY_TOOLTIP": "Ak chcete použiť zaručený podpis, vytvorte nový priečinok dokumentov. Každému priečinku je priradený jeden typ podpisu.",
+    "EASY_DESC": "Keď potrebujete rýchlo podpísať dokumenty s používateľom, ktorého poznáte vy/vaša spoločnosť <span>Pri absencii požiadavky na písomnú formu a pri zmluvách s nižšou úrovňou formalizácie</span><span><b>Overenie totožnosti</b> na základe e-mailu a SMS kódu </span>",
+    "ADVANCED_DESC": "Pre väčšinu zmlúv a dokumentov v obchodných vzťahoch<span>Pri absencii zákonnej požiadavky na písomnú formu</span><span>Vydaný na základe <b>overenia totožnosti na diaľku</b></span><span>Môžete ho použiť na podpisovanie, napr. obchodných dohôd a zmlúv, zmlúv o NDA, príkaznych/zmlúv o dielo, žiadostí o dovolenku atď.</span>",
+    "QUALIFIED_DESC": "Podpis ekvivalentný vlastnoručnému podpisu<span>Overené kvalifikovaným osobným certifikátom</span><span>Pre zmluvy a dokumenty vyžadujúce písomnú formu</span><span>Vydané na základe <b>certifikovaného overenia totožnosti na diaľku</b> </ span><span>Môžete s ním podpisovať takmer všetky dokumenty vrátane: úradné dokumenty, pracovné zmluvy, ponuky, lekárske potvrdenia atď.</span>",
+    "FIND_OUT_MORE": "Dozveďte sa viac",
+    "ADVANCED_TOOLTIP": "Ak chcete použiť zaručený podpis s identifikáciou KYC, vytvorte nový priečinok dokumentov. Každému priečinku je priradený jeden typ podpisu.",
+    "QUALIFIED_TOOLTIP": "Ak chcete použiť kvalifikovaný podpis, vytvorte nový priečinok dokumentov. Každému priečinku je priradený jeden typ podpisu.",
+    "SWITCH": "Prepnúť",
+    "YOU_HAVE_QUALIFIED_SIGNATURES": "Máte kvalifikované podpisy",
+    "SWITCH_TO_ADVANCED_SIGNATURES": "Prejdite na zaručené podpisy s identifikáciou KYC",
+    "EASY_SIGNATURE": "Zaručený podpis",
+    "ADVANCED_SIGNATURE": "Zaručený podpis & KYC",
+    "QUALIFIED_SIGNATURE": "Kvalifikovaný podpis",
+    "NO_SIGNATURE": "Nie je vybratý žiadny podpis",
+    "PRIMARY": "Základná",
+    "HIGH": "Vysoká",
+    "HIGHEST": "Najvyššia",
+    "COMPARE_THE_SIGNATURES": "Porovnať podpisy",
+    "QUALIFIED_NOT_ENOUGH": "V aktívnom balíku nemáte dostatok kvalifikovaných podpisov na podpísanie tohto dokumentu. Najprv podpíšte vybrané dokumenty pomocou tohto balíka a potom aktivujte (alebo si zakúpte) nový balík, aby ste mohli podpísať ďalšie.",
+    "DELETED_DOCUMENT": "Dokument bol vymazaný",
+    "FULL_STORAGE_MODAL_TITLE": "Nedostatok miesta na disku!",
+    "FULL_STORAGE_MODAL_MESSAGE": "Na pridanie ďalšieho dokumentu nemáte dostatok miesta na disku. Odstráňte nepotrebné dokumenty, aby ste uvoľnili miesto.",
+    "CURRENT_STORAGE": "Aktuálne využitie:",
+    "CURRENT_STORAGE_SEPARATOR": "z",
+    "DOWNLOAD_MENU": {
+      "HEADER": "STIAHNUŤ DOKUMENT",
+      "ORIGINAL": "Originálny",
+      "SIGNED": "Podpísaný",
+      "SEE_WHO": "Pozrite sa, kto podpísal"
+    },
+    "SIGNED_DATE": "{{date}} o {{time}}",
+    "SEND_REMINDER": "Odoslať e-mail s pripomenutím",
+    "DELETE_MODAL": {
+      "TITLE": "Vymazanie dokladu",
+      "DELETE_MESSAGE": "Naozaj chcete <strong>natrvalo</strong> odstrániť tento dokument z platformy?",
+      "DELETE_SIGNED_MESSAGE": "<strong>Pred odstránením si stiahnite podpísaný dokument</strong>a ďalej ho sami archivujte.",
+      "DELETE_THIS_DOCUMENT": "Vymazať tento dokument",
+      "DELETE_WITHOUT_DOWNLOAD_DOCUMENT": "Vymazať bez sťahovania",
+      "DOWNLOAD_AND_DELETE_DOCUMENT": "Stiahnuť a odstrániť"
+    },
+    "PREVIEW": {
+      "GO_TO_LIST_OF_SIGNERS": "Prejdite na zoznam podpisovateľov",
+      "ON_FIRST_PAGE": "Umiestnite podpisy na prvej strane dokumentu"
+    },
+    "ADD_GRAPH_REPRESENTATION": "Pridajte grafické znázornenie vašich podpisov",
+    "DO_NOT_ADD": "Nepridávať",
+    "QUALIFIED_ONLY": "iba kvalifikovaný",
+    "ADD_FIRST_PAGE": "Vizualizácia na prvej strane dokumentu",
+    "ADD_LAST_PAGE": "Ďalšia strana na konci dokumentu",
+    "INDICATE_PLACE_OF_SIGN": "Miesto uveďte sami",
+    "INDICATE_PLACE_OF_SIGN_DISABLED_INFO": "pri pridávaní max. 1 dokumentu",
+    "MANUAL_TOOLTIP_MESSAGE": "Vyberiete si miesto na dokumente, kde sa zobrazí zoznam osôb, ktoré dokument podpísali a čas podpisu.",
+    "FIRST_PAGE_WITH_QUALIFIED_SIGNATURE_TOOLTIP_MESSAGE": "Na okraji prvej strany dokumentu bude zoznam osôb, ktoré dokument podpísali spolu s časom podpisu.",
+    "LAST_PAGE_WITHOUT_SIGNATURES": "Stránka pridaná na koniec dokumentu bude obsahovať zoznam ľudí, ktorí dokument podpísali spolu so stavom a časom podpisu.",
+    "LAST_PAGE_WITH_SIGNATURES": "Ak sú na dokumente predtým odoslané podpisy, výberom tejto možnosti ich odstránite.",
+    "FIRST_PAGE_WITH_OTHER_SIGNATURES_TOOLTIP_MESSAGE": "Na okraji prvej strany dokumentu bude zoznam osôb, ktoré dokument podpísali spolu s časom podpisu. V prípade zaručeného podpisu to bude zoznam e-mailových adries.",
+    "DEFINE_ORDER": "Určite poradie podpisu",
+    "CHANGE_DOCUMENT_TITLE": "Zmena názvu dokumentu",
+    "DOCUMENT_NAME_ERROR": "Názov dokumentu môže mať maximálne {{value}} znakov",
+    "MAX_SIGNERS": "Max. {{value}} podpisovateľov",
+    "MAX_8_SIGNERS_INFO": "Vizualizácia na prvej strane dokumentu umožňuje maximálne 8 podpisovateľov. Vyberte si iné grafické znázornenie podpisu alebo upravte počet podpisujúcich.",
+    "MAX_12_SIGNERS_INFO": "Zvolené grafické znázornenie podpisu umožňuje maximálne 12 podpisovateľov. Upravte počet podpisovateľov alebo zvoľte „Nepridávať“.",
+    "WHICH_DOCUMENT": "Dokument {{value1}} z {{value2}}",
+    "SHOW_DOCUMENTS": "Zobraziť dokumenty...",
+    "DOCUMENTS_TO_SIGN_STATUS": "na podpísanie",
+    "SIGNED_DOCUMENTS": "podpísané",
+    "OTHER_DOCUMENTS": "prebieha",
+    "FINISHED": "ukončené",
+    "NO_DOCUMENTS_FOUND": "Neboli nájdené dokumenty",
+    "FILTERS_NO_DOCUMENTS":"Vaše nastavenia filtra majú skryté priečinky.",
+    "FILTERS_RETURN": "Obnoviť",
+    "FILTERS_SUBMIT": "Použiť",
+    "FILTERS_CANCEL": "Zrušiť",
+    "FILTERS_ADDED": "pridané",
+    "FILTERS_SOON": "čoskoro:",
+    "FILTERING": "Filtrovanie",
+    "FILTERING_TOLTIP_HEADER": "Novinka - filtrovanie a triedenie!",
+    "FILTERING_TOLTIP_CONTENT": "Teraz môžete pohodlne filtrovať a triediť dokumenty a priečinky. Skontrolujte nové možnosti!",
+    "DOCUMENTS_TOLTIP_HEADER": "Pridali sme novú kartu „Dokumenty“.",
+    "DOCUMENTS_TOLTIP_CONTENT": "Teraz môžete prechádzať a vyhľadávať dokumenty zo všetkých priečinkov na jednom mieste. To vám uľahčí hľadanie potrebných súborov bez toho, aby ste museli prehľadávať viacero priečinkov.",
+    "TO_FILL": "Doplňte dokument"
+  },
+  "PIN_CONFIRMATION": {
+    "CODE": {
+      "TITLE": "Poslali sme vám SMS s kódom",
+      "STEP": "<strong>Krok 2</strong> Teraz potvrdíme, či je zadané telefónne číslo správne.",
+      "LABEL": "nové mobilné číslo",
+      "ERROR": "E-mailový kód je neplatný"
+    },
+    "SMS_ERROR": "Vyskytla sa neočakávaná chyba. Skúste to znova.",
+    "TITLE": "Poslali \nsme vám SMS",
+    "YOUR_PHONE_NUMBER": "Číslo vášho mobilného telefónu",
+    "ENTER_SMS_CODE": "Zadajte kód z SMS",
+    "AWAREMENT": "Som si vedomý toho, že pokračovaním v tomto procese podpisujem tento dokument.",
+    "SEND_CODE_AGAIN": "Pošlite kód znova",
+    "CHALLENGE_ERROR": "SMS kód je nesprávny",
+    "TIME_TO_UNLOCK": "Zostáva {{value}} na odomknutie relácie",
+    "ATTEMPTS_LEFT": "Zostáva {{value}} pokusov",
+    "RESEND_TIME": "Ešte {{timeLeft}}, než budete môcť znova odoslať",
+    "SMS_CODE_SENT": "SMS s kódom bola odoslaná",
+    "STEP": "<strong>Krok 2</strong> Teraz potvrdíme, či je zadané telefónne číslo správne. ",
+    "EMAIL": {
+      "TITLE": "Poslali sme vám e-mail s kódom",
+      "ENTER_YOUR_EMAIL_CODE": "Zadajte kód z e-mailu",
+      "YOUR_EMAIL": "Vaša e-mailová adresa",
+      "SEND_CODE_AGAIN": "Pošlite e-mail znova",
+      "STEP": "<strong>Krok 1</strong> Na zvýšenie bezpečnosti potvrdíme vašu e-mailovú adresu."
+    }
+  },
+  "FILTERS":{
+    "FINISHED": "ukončené",
+    "TO_SIGN": "na podpísanie",
+    "IN_PROGRESS": "prebieha",
+    "SIGNED": "podpísané",
+    "REJECTED": "zamietnuté"
+  },
+  "FOLDERS": {
+    "FOLDERS": "Priečinky",
+    "DOCUMENTS": "Dokumenty",
+    "SHOW_ONLY_MY": "Zobraziť iba moje priečinky",
+    "FIND_DOCUMENTS": "Nájdite dokumenty",
+    "FOLDER_CREATED": "Priečinok bol vytvorený",
+    "DOCUMENTS_FOLDERS": "Priečinok dokumentov",
+    "CREATE_FOLDER": "Vytvorte priečinok<br>a pridajte dokumenty na podpis",
+    "SIGNERS": "Podpisovateľ",
+    "ADD_NEW_FOLDER": "Pridávanie priečinka",
+    "NAME_YOUR_FOLDER": "Pomenujte tento priečinok",
+    "FOLDER_NAME_ERROR": "Názov priečinka môže mať maximálne {{value}} znakov",
+    "ADD_CONFIRM": "Potvrdiť",
+    "FOLDER_SIGNERS": "Podpisovateľ tohto priečinka",
+    "DELETE_FOLDER": "Odstráňte tento priečinok",
+    "CHANGE_FOLDER_NAME": "Premenovať priečinok",
+    "DELETE_MODAL_TITLE": "Odstránenie priečinka",
+    "DELETE_MODAL_MESSAGE": "Určite chcete tento priečinok odstrániť?",
+    "EDIT_MODAL_TITLE": "Zmena názvu priečinka",
+    "SAVE_CHANGE": "Uložiť zmenu",
+    "NAME_CHANGED": "Názov priečinka bol zmenený",
+    "DELETED": "Priečinok bol odstránený",
+    "DELETE_MODAL_ERROR_TITLE": "Priečinok nie je možné vymazať",
+    "DELETE_MODAL_ERROR_MESSAGE": "V priečinku sú nevymazané podpísané dokumenty. Najprv ich odstráňte, aby ste mohli odstrániť priečinok.",
+    "DELETE_MODAL_ERROR_CONFIRM": "Dobre, rozumiem",
+    "DOCUMENTS_TO_SIGN": "Dokumenty na podpísanie",
+    "SELECTED_TO_BE_SIGNED": "Vybraté na podpísanie",
+    "FOLDERS_PREVIEW": "Náhľad priečinkov zamestnancov",
+    "PREVIEW_FOLDERS": "Náhľad priečinkov zamestnancov",
+    "NO_FOLDERS": "Používateľ nemá žiadne priečinky.",
+    "FOLDERS_PREVIEW_REMOVED": "Ukážka priečinkov zamestnancov bola presunutá do sekcie \"<a href=\"{{url}}\">Môj tím</a>\" v Nastaveniach.",
+    "SHOW_FOLDERS": "Zobraziť priečinky...",
+    "WITH_SIGNED_DOCUMENTS": "s podpísanými dokumentmi",
+    "WITH_DOCUMENTS_TO_SIGN": "s dokumentmi na podpísanie",
+    "OTHER_FOLDERS": "zostávajúce priečinky",
+    "CREATED_BY_ME": "mnou",
+    "CREATED_BY_OTHERS": "ostatnými",
+    "TUTORIAL": {
+      "STEP_1_HEADER": "Pridajte dokumenty na podpis",
+      "STEP_1_CONTENT": "Podpisujte a delegujte dokumenty na podpis – začnite tu.",
+      "STEP_1_BACK": "Preskočiť",
+      "STEP_1_NEXT": "Ďalší",
+      "STEP_2_HEADER": "Overte svoju identitu",
+      "STEP_2_CONTENT": "Kúpte si balík podpisov a dokončite proces overenia identity.",
+      "STEP_2_CLOSE": "Ukončiť"
+    }
+  },
+  "DASHBOARD": {
+    "GET_READY": "Pripravte sa na podpisovanie.<br> Aký podpis potrebujete?",
+    "GET_READY_SMALL": "Pripravte sa na<br>podpísanie",
+    "MY_SIGNATURES": "Moje podpisy",
+    "PREPARE_SIGN": "Pripravte sa na podpis.",
+    "STEPS_INFO": "Od podpisu dokumentov online vás delia len 2 kroky. Kúpte si balík podpisov a overte svoju identitu. Ideme na to!",
+    "BUY_SIGNATURES": "Kúpte podpisy",
+    "SEE_PACKAGES": "Pozrite si balíčky",
+    "IDENTITY_VERIFICATION": "Overenie identity",
+    "IDENTITY_INFO": "<strong>Overenie identity je krátky, jednorazový a bezpečný proces,</strong> v rámci ktorého overíme vaše údaje pred podpísaním prvého dokumentu na platforme (alebo v prípade zmeny údajov).",
+    "NO_SIGN_EASY": "Nemáte zaručené podpisy",
+    "NO_SIGN_ADVANCED": "Nemáte zaručené podpisy s identifikáciou KYC",
+    "NO_SIGN_QUALIFIED": "Nemáte kvalifikované podpisy",
+    "YOU_HAVE_SIGNATURES": "Máte podpisy",
+    "PURCHASED_BY_QUALIFIED": "Kvalifikované podpisy zaplatené {{value}}",
+    "PURCHASED_BY_ADVANCED": "Zaručené podpisy s identifikáciou KYC zaplatené {{value}}",
+    "PURCHASED_BY_EASY": "Zaručené podpisy zaplatené {{value}}",
+    "NOT_VERIFIED": "Vaša identita ešte nebola overená.",
+    "TO_FILL": "Prvý podpisovateľ bude musieť vyplniť formulár v dokumente",
+    "CONFIRM_IDENTITY": "Potvrdiť identitu",
+    "IDENTITY_CONFIRMED": "Identita bola potvrdená",
+    "START_SIGNING": "Môžete začať podpisovať!",
+    "READY": "Hotovo!"
+  },
+  "PARTNER": {
+    "MBANK": {
+      "HEADER": "Platforma podpisov"
+    }
+  },
+  "PAYMENTS": {
+    "SELECT_OPTION": "Vyberám",
+    "CHANGE_PRODUCT": "Zmeniť produkt",
+    "CHANGE_METHOD": "Zmeniť spôsob platby",
+    "PAY_SUB_BUTTON": "Zaplaťte a spustite predplatné",
+    "CARD_NUMBER": "Číslo karty",
+    "EXPIRATION_DATE": "Dátum platnosti",
+    "CVV": "Bezpečnostný kód",
+    "INVOICE_CHECKBOX": "Chcem dostať faktúru s DPH",
+    "PAYMENT_PROCESSING": "Spracovanie platby",
+    "SELECT_PAY_METHOD": "Vyberte spôsob platby",
+    "CHANGE_INVOICE_DETAILS": "Zmeniť fakturačné údaje",
+    "PRODUCT_NAME": {
+      "SIGNATURES_PACK": "Jednorázový podpis",
+      "SUBSCRIPTION": {
+        "MONTHLY": "Mesačný balík",
+        "YEARLY": "Ročný balík"
+      }
+    },
+    "EMPTY_PACKAGE_LABEL": "Nechcem kúpiť balík",
+    "PRODUCT_DESC": {
+      "SIGN_SINGLE": "Podpíšte 1 vybraný dokument",
+      "DATE": "DÁTUM",
+      "RECEIVED_FROM": "OBDRŽANÝ OD",
+      "PACK": "BALÍK",
+      "SIGNATURES_PACK": {
+        "HOURLY": "Balík {{value}} podpisov platný hodinu",
+        "MONTHLY": "Balík {{value}} podpisov platný mesiac",
+        "YEARLY": "Balík {{value}} podpisov platný rok"
+      },
+      "SUBSCRIPTION": {
+        "MONTHLY": "Podpisujte až do {{value}} dokumentov za mesiac",
+        "YEARLY": "Balík {{value}} podpisov platných celý rok"
+      }
+    },
+    "SELECTED_PRODUCT_DESC": {
+      "SIGNATURES_PACK": "Vybraný balík: {{value}} podpisov",
+      "SUBSCRIPTION": {
+        "MONTHLY": " / mesiac, automaticky sa obnovuje",
+        "YEARLY": " / rok, automaticky sa obnovuje"
+      }
+    },
+    "PAYMENT_SUCCESS": {
+      "SUBSCRIPTION": "Váš balík elektronických podpisov je teraz aktívny!",
+      "SIGNATURES_PACK": "Služba zaplatená, ďakujeme"
+    },
+    "AGREEMENT": {
+      "SUBSCRIPTION": "Predplatné sa spustí po zaúčtovaní platby. \nPovoľujem naúčtovanie sumy uvedenej vyššie na moju kartu a pravidelné obnovovanie odberu v súlade so <a href=\"{{url}}\" target=\"_blank\">Zmluvnými podmienkami</a>, kým predplatné nezruším."
+    },
+    "PAYMENT_FAILED": "Platba zlyhala",
+    "TRY_AGAIN": "Skúste to znova",
+    "SUBSCRIPTION": "Predplatné",
+    "MONTHLY": "mesiac",
+    "YEARLY": "rok",
+    "SINGLE_SIGNATURE": "1 podpis",
+    "SIGNATURES_NUMBER": "{{value}} podpisov",
+    "NETTO": "netto",
+    "ACCEPT_TERMS": "Prečítal som si <a href=\"{{url}}\" target=“_blank“>Pravidlá dôveryhodných služieb</a> a súhlasím s nimi.",
+    "ACTIVATE_INFO": "Váš balík <br>podpisov bude teraz aktivovaný",
+    "QUALIFIED": ["kvalifikovaný", "kvalifikovaných"],
+    "ADVANCED": ["zaručený & KYC", "zaručených & KYC"],
+    "EASY": ["zaručený", "zaručených"]
+  },
+  "PROFILE": {
+    "ACCOUNT": "Účet",
+    "MY_TEAM": "Môj tím",
+    "ADMINS": "Správcovia",
+    "ADMIN": "Správca",
+    "ADMINS_DESC": "Môžu pridať ľudí do svojho tímu, zablokovať ich účty a zobraziť všetky ich priečinky s dokumentmi.",
+    "NO_OTHER_ADMINS": "(Žiadni ďalší správcovia)",
+    "EMPLOYEES": "Zamestnanci",
+    "EMPLOYEE": "Zamestnanec",
+    "EMPLOYESS_DESC": "Posielajú dokumenty na podpis v rámci firemných balíkov. Nemajú žiadne ďalšie práva.",
+    "NO_OTHER_EMPLOYESS": "(Žiadni zamestnanci)",
+    "INVITATION_DECLINED": "Pozvánka bola odmietnutá",
+    "INVITATION_PENDING": "Pozvánka očakáva",
+    "INVITATION_SENT": "Pozvánka odoslaná",
+    "ADD_PERRSON": "Pridať osobu",
+    "ADDING_PEOPLE": "Pridávanie osôb do tímu",
+    "SEND_INVITATION": "Pošlite pozvánku",
+    "ROLE": "Úloha",
+    "CANCEL_INVITATION": "Zrušiť pozvánku",
+    "BLOCK_ACCOUNT": "Zablokovať účet",
+    "UNLOCK_ACCOUNT": "Odblokovať účet",
+    "ADD_ANOTHER": "Pridať ďalšiu",
+    "SIGNATURES": "Zaručené podpisy & KYC",
+    "CARD_DETAILS": "Platobná karta",
+    "INVOICE": "Fakturačné údaje",
+    "PERSONAL_DATA": "Osobné údaje",
+    "EMAIL": "Vaša emailová adresa",
+    "PART_OF_THE_TEAM": "Ste súčasťou tímu",
+    "APP_LANGUAGE": "Jazyk aplikácie",
+    "DATA_CHANGED": "Moje údaje sa zmenili",
+    "IDENTITY_DOCUMENT": "Doklad totožnosti",
+    "NO_IDENTITY_CONFIRMED": "Bez potvrdenej identity",
+    "NEW_IDENTIFICATION_REQUIRED": "Pri ďalšom podpise dokumentu overíme vašu identitu na diaľku.",
+    "INVOICE_ALWAYS": "Chcem dostať faktúru s DPH po každom nákupe",
+    "SIGNATURES_AVAILABLE": "Dostupné podpisy",
+    "UNTIL_DATE": "do {{value}}",
+    "RENEWAL": "Obnovenie",
+    "DISABLE_RENEWAL": "Vypnite obnovenie predplatného",
+    "DISABLE_RENEWAL_SHORT": "Vypnite obnovenie",
+    "DISABLE_RENEWAL_CONFIRMATION_TITLE": "Vypnite obnovenie predplatného",
+    "DISABLE_RENEWAL_CONFIRMATION_MESSAGE": "Služba, ktorú ste si zakúpili, zostane aktívna, no údaje o vašej platobnej karte budú vymazané a služba sa automaticky neobnoví.",
+    "COST": "Náklad",
+    "DELETE_CARD": "Odstrániť kartu",
+    "DELETE_CARD_CONFIRMATION_TITLE": "Vymazanie údajov o platobnej karte",
+    "DELETE_CARD_CONFIRMATION_MESSAGE": "Odstránením karty sa vypne aj automatické obnovenie predplatného.\nSlužba, ktorú ste si zakúpili, zostane aktívna, ale nebude sa automaticky obnovovať – nebudeme vám účtovať poplatky z vašej karty.",
+    "DELETE_CARD_CONFIRMATION_MESSAGE_2": "Údaje o platobnej karte, ktoré ste uviedli, budú vymazané.",
+    "WAITING_PAYMENT_CONFIRM": "Čakáme na potvrdenie transakcie",
+    "NO_CARD": "Podrobnosti o karte sa tu zobrazia po zakúpení balíka podpisov s predplatným.",
+    "QUALIFIED_SIGNATURES": "Kvalifikované podpisy",
+    "MY_QUALIFIED_SIGNATURES": "Moje kvalifikované podpisy",
+    "MY_ADVANCED_SIGNATURES": "Moje zaručené podpisy & KYC",
+    "SIGNATURES_PACKS": "Podpisové balíky",
+    "PENDING_ACTIVATION": "Očakáva na aktiváciu",
+    "PACKAGE_OVERVIEW": "Prehľad balíkov",
+    "SHOW_ONLY_MINE": "Zobraziť len moje",
+    "PURCHASED_FOR": "Nákup pre",
+    "PURCHASED_DATE": "Dátum nákupu",
+    "PURCHASED_PACKAGE": "Kúpený balík",
+    "RECEIVED_FROM": "Obdržaný od",
+    "PACKAGE": "Balík",
+    "DATE": "Dátum",
+    "PER_MONTH": "/mes.",
+    "PER_YEAR": "/year.",
+    "PURCHASED_NO_DATA": "Tu nájdete všetky balíky, ktoré ste si zakúpili.",
+    "RECEIVED_NO_DATA": "Tu nájdete všetky balíky, ktoré ste dostali.",
+    "NO_RESULTS": "Žiadne výsledky",
+    "EASY": "Zaručené podpisy",
+    "MY_EASY_SIGNATURES": "Moje zaručené podpisy",
+    "SETTINGS": "Nastavenia",
+    "AUTOMATIC_DOCUMENT_DELETION_TITLE": "Automatické mazanie dokumentov",
+    "AUTOMATIC_DOCUMENT_DELETION_MESSAGE": "Dokumenty, ktoré ste pridali pred viac ako 30 dňami, budú odstránené každý deň o polnoci (UTC).",
+    "TEAM_AUTOMATIC_DOCUMENT_DELETION_MESSAGE": "Dokumenty pridané vami a členmi vášho tímu budú po 30 dňoch automaticky odstránené z platformy.",
+    "INVITATION_WAITING": "Pozvánka očakáva",
+    "INVITATION_REJECTED": "Pozvánka bola odmietnutá",
+    "SHOW_ONLY_ACTIVE_ACCOUNTS": "Zobraziť iba<br/>aktívne účty",
+    "SIGN_DOCUMENT_TO_ACTIVATE": "Podpíšte dokument, aby aktivovať balík poskytnutý {{value}}.",
+    "DELETING_ACCOUNT": "Odstránenie účtu",
+    "DELETE_ACCOUNT": "Odstrániť účet",
+    "CURRENT_PASS": "Zadajte aktuálne heslo",
+    "DELETE_ACCOUNT_FOREVER": "Odstrániť účet navždy",
+    "HOW_WE_CAN_IMPROVE": "Ako môžeme zlepšiť platformu? (voliteľné)",
+    "DELETE_WARNING": "Keď odstránite svoj účet, vami vytvorené priečinky a pridané dokumenty sa<strong>nenávratne odstránia</strong>a vaše údaje budú anonymizované. <span>Všetky vaše podpisové balíčky budú deaktivované bez ohľadu na ich stav. Obnovenie všetkých odberov bude automaticky zakázané.</span>",
+    "DELETE_BC_USER_WARNING": "Keď odstránite účet Zamestnanca, ním vytvorené priečinky a pridané dokumenty budú nenávratne odstránené a jeho údaje budú anonymizované. Všetky jeho podpisové balíky budú deaktivované bez ohľadu na ich stav. Obnovenie jeho predplatného bude automaticky vypnuté.",
+    "DOCUMENTS_DELETION": "Prebieha odstraňovanie dokumentov...",
+    "FOLDERS_DELETION": "Prebieha odstraňovanie priečinkov...",
+    "ACOUNT_DELETION": "Prebieha odstraňovanie účtu...",
+    "ACOUNT_DELETED": "Účet nebol odstránený.",
+    "CREATE_NEW_PASSWORD": "Vytvorte si nové heslo",
+    "CURRENT_PASSWORD": "Aktuálne heslo",
+    "CONFIRM_CHANGE": "Potvrdiť zmenu",
+    "INCORECT_PASS": "Zadali ste nesprávne heslo.",
+    "CHANGE_REQUEST_BLOCKED": "Z dôvodu opakovaného nesprávneho zadania hesla bola na 5 minút zablokovaná možnosť zmeniť heslo. Skúste neskôr prosím",
+    "MEMBERS": "Členovia",
+    "SETUP": "Konfigurácia",
+    "IDENTITY_DESC": "Overenie totožnosti na kvalifikovaný podpis",
+    "IDENTITY_QUAL": "Potrebujete kvalifikovaný podpis?",
+    "IDENTITY_QUAL_BTN": "Kúpte si balík a potvrďte svoju totožnosť",
+    "IDENTITY_DESC_TOOLTIP": {
+      "HEADER": "Na získanie kvalifikovaného podpisu je potrebné overiť vašu totožnosť.",
+      "DOT1": "Tento proces je bezpečný a vyžaduje ho zákon.",
+      "DOT2": "Vykonávame ho raz pred vydaním kvalifikovaného podpisu a pri zmene vašich údajov.",
+      "DOT3": "Proces zvyčajne trvá 5 až 20 minút v závislosti od zvoleného spôsobu, kvality internetového pripojenia a technických podmienok (napr. osvetlenie a kamera).",
+      "DOT4": "Pripravte si občiansky preukaz alebo cestovný pas."
+    },
+    "SECURITY": {
+      "TITLE": "Bezpečnosť",
+      "DESC": "Vyberte spôsob platby",
+      "APP": "Autorizačná aplikácia",
+      "SMS": "Dostávajte jednorazové kódy v SMS správach odoslaných na vaše telefónne číslo",
+      "2FA": "Prijímajte kódy v autorizačnej aplikácii spárovanej so SIGNIUS na vašom mobilnom zariadení",
+      "BADAGE": "Odporúčané",
+      "CONNECT": "Spojte!",
+      "SMS_HEADER": "SMS",
+      "RECONNECT": "Znovu sa pripojte",
+      "2FA_MODAL": {
+        "TITLE": "Naskenujte QR kód",
+        "VER_CODE": "Overovací kód:",
+        "ERROR": "Neplatný kód alebo systémová chyba",
+        "SCAN_CODE_TXT_1": "1. Stiahnite si autorizačnú aplikáciu z obchodu s mobilnými aplikáciami do svojho mobilného zariadenia",
+        "SCAN_CODE_TXT_2": "2. Ak chcete spárovať vybranú autorizačnú aplikáciu so SIGNIUS, naskenujte nižšie uvedený QR kód."
+      }
+    }
+  },
+  "SIGN_SUMMARY": {
+    "TITLE": "Dokumenty na podpis",
+    "SUBTITLE": "Chystáte sa elektronicky podpísať nasledujúce dokumenty:",
+    "ALL_DOCUMENTS": "Všetky dokumenty ({{value}})",
+    "IDENTIFICATION_DATA": "Údaje, ktoré budú použité na podpis",
+    "IDENTITY_CONFIRMATION": "Potvrdzujem, že moje údaje sú aktuálne",
+    "SIGN_SELECTED": "Podpíšte dokumenty",
+    "SIGN_SELECTED_AND_PAY": "Podpíšem dokumenty a zaplatím",
+    "IDENTITY_CHANGED": "Moje údaje sa zmenili",
+    "WAIT_A_MINUTE": "Počkajte chvíľu!",
+    "DOCUMENT_BEING_SIGNED": "Dokument práve podpisuje iná osoba. Z technických dôvodov môže dokument podpísať súčasne iba jedna osoba.",
+    "LESS_THAN_2_MINUTES": "Bude to trvať menej ako 2 minúty.",
+    "CANCEL_AND_SIGN_LATER": "Zastavte sa a podpíšte sa neskôr",
+    "YOU_CAN_SIGN": "Už môžete podpísať!",
+    "THANKS_FOR_PATIENCE": "Ďakujeme za trpezlivosť.",
+    "CONTINUE": "Pokračovať",
+    "YOUR_SIGNATURE_SYMBOL": "Váš grafický symbol podpisu",
+    "GRAPHICAL_SYMBOL_INFO": "Typ symbolu podpisu<br> nemá vplyv na platnosť<br> podpisu.",
+    "CHANGE_SYMBOL": "Zmeniť symbol",
+    "SELECT_SYMBOL": "Vyberte typ symbolu podpisu",
+    "NAME_DISPLAYED": "Názov zobrazený v dokumente",
+    "NAME_LENGTH_ERROR": "Názov môže mať maximálne {{value}} znakov",
+    "QUEUE_INFO_HEADING": "Prebieha podpisovanie mnohých dokumentov...",
+    "QUEUE_INFO_TEXT": "To si vyžaduje trochu viac času.",
+    "QUEUE_INFO_TEXT2": "Nemusíte čakať – môžete sa venovať iným záležitostiam a priebeh podpisovania si môžete jednoducho skontrolovať v priečinku.",
+    "BATCH_EXCEEDED_SUBTITLE": "Chystáte sa elektronicky podpísať {{value}} dokumentov",
+    "ORANGE_TITLE": "Prijmite a podpíšte dokumenty"
+  },
+  "IDENTITY_METHOD_SELECTOR": {
+    "SELECT_PROVIDER": "Vyberte spôsob identifikácie",
+    "VIDEO_1": "Videoidentifikácia",
+    "VIDEO_2": "Pre osoby s kamerou, mikrofónom a dobrým internetovým pripojením",
+    "VIDEO_3": "Porozprávajte sa s naším zástupcom, ktorý potvrdí vašu totožnosť.",
+    "VIDEO_4": "Budete potrebovať občiansky preukaz alebo pas.",
+    "AUTHOLOGIC_1": "Identifikácia prostredníctvom elektronického bankovníctva",
+    "AUTHOLOGIC_2": "Vaše bankové údaje sú v bezpečí. Banka nám potvrdzuje len meno a priezvisko.",
+    "VERIMI_1": "Digital Identity Hub",
+    "VERIMI_2": "Používatelia Verimi s potvrdenou digitálnou identitou môžu podpisovať dokumenty okamžite.",
+    "VERIMI_3": "Nie ste používateľom Verimi? Pohodlne potvrďte svoju identitu pomocou funkcie eID vášho občianskeho preukazu.",
+    "IDENTT": "Testová identifikácia",
+    "NECT_1": "Identifikácia podľa selfie",
+    "NECT_2": "Potvrďte svoju identitu v aplikácii NECT na svojom smartfóne.",
+    "NECT_3": "Nahrajte si občiansky preukaz a selfie video - 2 minúty a je to pripravené!",
+    "MOBYWATEL": {
+      "HEADER": "mObywatel",
+      "TXT": "Potvrďte svoju identitu rýchlo a bezpečne pomocou aplikácie mObywatel.",
+      "METHOD": {
+        "HEADER":"Aplikácia mObywatel",
+        "TXT":"Ak chcete potvrdiť svoju identitu, naskenujte QR kód pomocou aplikácie mObywatel.",
+        "MOBILE_TXT": "Ak chcete potvrdiť svoju identitu:",
+        "REFRESH":"Obnoviť QR kód",
+        "KEY": "V aplikácii mObywatel zadajte kľúč nižšie.",
+        "COPY_BTN": "Skopírujte kód",
+        "CUSTOM_CODE": {
+          "HEADER": "Nemôžete naskenovať QR kód?",
+          "TXT": "V aplikácii mObywatel zadajte nižšie uvedený kľúč."
+        },
+        "INSTRUCTION": {
+          "FIRST_STEP": "1. Prihláste sa do aplikácie mObywatel",
+          "SECOND_STEP": "2. V dolnej časti obrazovky vyberte ikonu QR kódu.",
+          "THIRD_STEP": "3. Naskenujte kód z webovej stránky."
+        },
+        "INSTRUCTION_MOBILE": {
+          "FIRST_STEP": "1. Kliknite na tlačidlo „Kopírovať kód“ nižšie",
+          "SECOND_STEP": "2. Prihláste sa do aplikácie mObywatel",
+          "THIRD_STEP": "3. V dolnej časti obrazovky vyberte ikonu QR kódu.",
+          "FOURTH_STEP": "4. Vložte kód do textového poľa."
+        }
+      }
+    }
+  },
+  "IDENTITY_DATA": {
+    "PERSONAL_DATA_CHANGE": "Zmena osobných údajov",
+    "FIRST_NAME": "Meno",
+    "LAST_NAME": "Priezvisko",
+    "NATIONALITY": "Štátne občianstvo",
+    "DOCUMENT_TYPE": "Typ dokladu",
+    "DOCUMENT_NUMBER": "Číslo dokumentu",
+    "PESEL": "Rodné číslo",
+    "GIVEN_NAMES": "Mená",
+    "ISSUING_AUTHORITY": "Vydavateľ",
+    "DOCUMENT_SERIES_AND_NUMBER": "Séria a číslo dokladu",
+    "DATE_OF_BIRTH": "Dátum narodenia",
+    "DOCUMENT_EXPIRE_DATE": "Dátum platnosti",
+    "PHONE_NUMBER": "Číslo mobilného telefónu",
+    "IDENTITY_DOCUMENT_CHANGED": "Môj doklad totožnosti sa zmenil",
+    "CONFIRMED_IDENTITY_DOCUMENT": "Potvrdený doklad totožnosti",
+    "NEW_IDENTIFICATION_REQUIRED_INFO": "<strong>Pozor!</strong><br/> <em>Zmena potvrdených údajov si vyžaduje opätovné dokončenie procesu overenia identity. Budete o to požiadaní pri podpisovaní ďalšieho dokumentu.<br/><br/> Ak sa blíži dátum vypršania platnosti vášho dokladu totožnosti, nezabudnite ho pred opätovným potvrdením totožnosti predĺžiť.</em>",
+    "EXTERNAL_ID": "ID number",
+    "PROVIDE_DATA_FROM_ID_CARD": "Uveďte údaje z občianskeho preukazu",
+    "PROVIDE_DATA_FROM_PASSPORT": "Uveďte údaje z cestovného pasu",
+    "VERIFICATION": {
+      "TITLE": "Teraz potvrdíme vašu identitu",
+      "DESC_1": "O chvíľu budete spojení s video konzultantom, ktorý vás krok za krokom prevedie procesom identifikácie.",
+      "DESC_2": "<strong>Pripravte si platný doklad totožnosti</strong>(občiansky preukaz alebo cestovný pas) a majte po ruke svoj<strong>mobilný telefón</strong>.",
+      "DESC_3": "Po úspešnom absolvovaní overovacieho procesu budete môcť podpisovať dokumenty elektronickým podpisom.",
+      "VIDEO": "Video rozhovor s konzultantom"
+    },
+    "EMAIL": "Emailová adresa"
+  },
+  "HELP": {
+    "BUTTON": "Pomoc",
+    "TITLE": "Máte otázky? \nPotrebujete pomoc?",
+    "EMAIL_MESSAGE": "Kontaktujte nás",
+    "TUTORIAL_HEADER": "Tutorial",
+    "TUTORIAL_MESSAGE": "Pozrite si krok za krokom, ako používať platformu",
+    "FAQ_MESSAGE": "Nájdite odpovede na často kladené otázky",
+    "GITBOOK_MESSAGE": "Pozrite si nášho sprievodcu platformou s pokynmi"
+  },
+  "VIDEO_VERIFICATION": {
+    "START": "Štart",
+    "PHOTO_OF_ID": "Fotografie ID",
+    "DATA_FROM_ID": "Údaje z ID",
+    "VIDEO_CALL": "Videohovor",
+    "TITLE": "Overenie videom",
+    "BEFORE_YOU_CONNECT": "Skôr než sa spojíte s video poradcom...",
+    "MAKE_SURE_YOU_HAVE": "Uistite sa, že ho máte:",
+    "VALID_IDENTITY_CARD_PASSPORT": "platný občiansky preukaz alebo pas",
+    "WORKING_CAMERA_MIC": "dobre funkčná kamera a mikrofón",
+    "STABLE_INTERNET": "stabilný internet",
+    "FEW_MINUTES": "pár minút pokoja a ticha",
+    "START_CONVERSATION": "Začnite rozhovor",
+    "NEXT": "Ďalšie"
+  },
+  "BIRTH_DATE_VERIFICATION": {
+    "TITLE": "Zdá sa, že váš účet už existuje!",
+    "MESSAGE": "Táto e-mailová adresa je už zaregistrovaná. Ak chcete potvrdiť, či je toto váš účet, zadajte svoj dátum narodenia.",
+    "TITLE_DATE_INVALID": "Uvedený dátum narodenia sa nezhoduje s e-mailovou adresou.",
+    "MESSAGE_DATE_INVALID": "Ak chcete začať podpisovať dokumenty na SIGNIUS Professional, vytvorte si nový účet pomocou inej e-mailovej adresy."
+  },
+  "VERIFICATION_OFFLINE": {
+    "TITLE": "Overenie identity",
+    "SUBTITLE": "Vráťte sa k nám v tomto čase.",
+    "MESSAGE": "Aby sme zaistili úplnú bezpečnosť transakcie, pred podpisom prvého dokumentu (alebo v prípade zmeny údajov) raz overíme vašu identitu. \nPo potvrdení vašej identity budete môcť dokumenty kedykoľvek podpísať.",
+    "BACK_TO_FOLDER": "Späť do priečinka"
+  },
+  "IDENTITY_TM_CONFIRMATION": {
+    "TITLE": "Vyberte typ dokumentu, ktorý chcete použiť na identifikáciu",
+    "NATIONAL_ID_LABEL_OPTION": "Občiansky preukaz",
+    "PASSPORT_LABEL_OPTION": "Cestovný pas",
+    "TYPE_CHANGE_CONFIRM_TITLE": "Môžete pridať iba jeden typ dokumentu.",
+    "TYPE_CHANGE_CONFIRM_MESSAGE": "Odstrániť už pridané snímky dokumentov?",
+    "TYPE_CHANGE_CONFIRM_BUTTON": "Odstrániť snímky a pokračovať"
+  },
+  "WEBCAM_COMPONENT": {
+    "ID_FRONT_PHOTO": "Snímka prednej strany dokumentu",
+    "ID_BACK_PHOTO": "Snímka zadnej strany dokumentu",
+    "PASSPORT_PHOTO": "Snímka strany s fotkou",
+    "TURN_ON_CAMERA": "Zapnite fotoaparát",
+    "SNAPSHOT": "Odfotiť",
+    "SELECT_FILE": "Vyberte súbor",
+    "REMOVE_PHOTO": "Odstrániť túto snímku",
+    "UPLOAD_ERROR": "Pri prenose súboru sa vyskytla neočakávaná chyba. Skúste to znova.",
+    "OR": "alebo",
+    "PHOTO_ADDED": "Bolo pridané",
+    "MAX_SIZE_EXCEEDED": "Vybratý súbor prekračuje limit maximálnej veľkosti súboru ({{size}})",
+    "ALLOWED_FILE": "{{extensions}}. Max. {{size}}"
+  },
+  "PAYMENT_DETAILS": {
+    "TITLE": "Rozhodnite sa, koho poplatok za podpis budete hradiť",
+    "TITLE_QUALIFIED": "Voliteľne: Kúpte si balíky pre svojich podpisovateľov",
+    "SUBTITLE": "Podpisy podpisovateľov vybraných nižšie sa stiahnu z vášho balíka",
+    "SUBTITLE_QUALIFIED": "Zaslaním dokumentu na podpis si môžete zakúpiť balík kvalifikovaných podpisov pre vybrané osoby. Budú ho môcť použiť na podpisovanie vášho aj iných dokumentov.",
+    "SIGNS": "Podpisy",
+    "SIGNS_OWNED": "Vlastnené",
+    "SIGNS_NEEDED": "Nevyhnutné",
+    "NUMBER_SELECTED_SIGNERS": "počet označených podpisovateľov",
+    "NUMBER_DOCUMENTS": "počet dokumentov",
+    "SIGNS_MISSING": "Chýbajúce",
+    "SIGNS_REMAINING": "Zostane",
+    "NEW_SIGNERS_TITLE": "Noví podpisovatelia",
+    "NEW_SIGNER": "1 nový podpisovateľ × {{price}}",
+    "NEW_SIGNERS": "{{count}} nových podpisovateľov × {{price}}",
+    "TOTAL_PRICE": "Spolu k úhrade",
+    "SIGNER_PAYS": "Platí podpisovateľ",
+    "BUY_MORE_TO_CONTINUE": "Ak chcete pokračovať, zakúpte si balík podpisov",
+    "NEW": "Nový",
+    "ADD_DOCUMENT": "Preposlať na podpis",
+    "SELECT_PACKAGE": "Vybrať balík",
+    "SELECT_PACKAGE_TITLE": "Vybrať balík podpisov",
+    "CHANGE_PACKAGE": "Zmeniť balík",
+    "GO_TO_PAYMENT": "Prejsť na platbu",
+    "STOP_PAYMENT": "Zastaviť platbu",
+    "TOOLTIP_TITLE": "Potvrdenie identity nových používateľov",
+    "TOOLTIP_CONTENT": "Overujeme identitu každého nového používateľa, aby sme zaistili úplnú bezpečnosť služby. Cena jednorazovej identifikácie je {{value}}. Pokrytím nákladov na identifikáciu nových podpisovateľov im umožníte vytvoriť si účet a prihlásiť sa zadarmo.",
+    "USER_TOOLTIP_CONTENT": "Náklady na váš podpis musíte uhradiť vy.",
+    "AVAILABLE_SIGNATURES": "Vlastnené podpisy",
+    "PURCHASED": "Kúpené",
+    "WANT_TO_BAY": "Chcem kúpiť viac",
+    "ALREADY_HAVE_SIGNATURE": "Už máte kvalifikované podpisy"
+  },
+  "PRODUCTS": {
+    "YEARLY_SUBSCRIPTION": "Ročné predplatné",
+    "MONTHLY_SUBSCRIPTION": "Mesačné predplatné",
+    "SIGNATURE_PACK": "Jednorazový nákup",
+    "SIGNATURES_QUANTITY": "Počet podpisov",
+    "UNIT_PRICE": "{{value}} za podpis",
+    "SUBSCRIPTION_INFO_RENEWED": "Balíček sa obnovuje každý mesiac.",
+    "SUBSCRIPTION_INFO_RESIGNATION": "Z odberu predplatného sa môžete kedykoľvek odhlásiť.",
+    "SIGNATURE_PACK_INFO": "Balík je platný jeden rok od dátumu zakúpenia.",
+    "PROMOTIONAL_TEXT": "Ušetríte 20%",
+    "PER_YEAR": " / rok",
+    "PER_MONTH": " / mesiac",
+    "QUALIFIED_SIGNATURES_COUNT": "{{value}} kvalifikovaných podpisov",
+    "ADVANCED_SIGNATURES_COUNT": "{{value}} zaručených podpisov s KYC",
+    "EASY_SIGNATURES_COUNT": "{{value}} zaručených podpisov",
+    "ONE_QUALIFIED_SIGNATURE": "1 kvalifikovaný podpis",
+    "QUALIFIED_DESCRIPTION": "Tu môžete skontrolovať stav svojich balíkov kvalifikovaných podpisov. Podpíšte akékoľvek dokumenty pomocou aktívneho balíka - balíky nie sú spojené so žiadnym dokumentom. Kvalifikovaný podpis je vždy priradený konkrétnej osobe.",
+    "ADVANCED_DESCRIPTION": "Tu môžete skontrolovať stav vašich balíčkov zaručených podpisov s identifikáciou KYC. Pamätajte, že pri objednávaní dokumentov na podpis môžete poskytnúť svoje zaručené podpisy iným podpisovateľom, čím im umožníte podpisovať zadarmo.",
+    "EASY_DESCRIPTION": "Tu môžete skontrolovať stav svojich balíkov zaručených podpisov. Pamätajte, že pri objednávaní dokumentov na podpis môžete poskytnúť svoje zaručené podpisy iným podpisovateľom, čím im umožníte podpisovať zadarmo.",
+    "COST": "Náklad",
+    "EXPIRE": "vyprší",
+    "EXPIRE_DATE": "{{date}} o {{time}}",
+    "EASY": {
+      "DESC_WEEKLY": "Balík je aktívny 7 dní od dátumu zakúpenia.",
+      "DESC_MONTHLY": "Balík je aktívny 30 dní od dátumu zakúpenia.",
+      "DESC_YEARLY": "Balík je aktívny 1 rok od dátumu zakúpenia.",
+      "SELECT_PRODUCT": "Vybrať balík zaručených podpisov",
+      "SELECT_PRODUCT_DESC": "Dobrá voľba v situáciách, keď chcete rýchlo podpísať dokumenty s už overeným používateľom, keď nie je vyžadovaná písomná forma a pre zmluvy s nižším rizikom zodpovednosti. Podpis vystavený bez overenia identity, ihneď."
+    },
+    "ADVANCED": {
+      "DESC_WEEKLY": "Balíček je aktívny 7 dní od dátumu zakúpenia.",
+      "DESC_MONTHLY": "Balík je aktívny 30 dní od dátumu zakúpenia.",
+      "DESC_YEARLY": "Balík je aktívny 1 rok od dátumu zakúpenia.",
+      "SELECT_PRODUCT": "Kúpte si balík zaručeného podpisu s identifikáciou KYC",
+      "SELECT_PRODUCT_DESC": "Odporúča sa pre väčšinu zmlúv a dokumentov v obchodných vzťahoch a tam, kde nie je vyžadovaná písomná forma. Môžete s ním podpisovať napríklad obchodné zmluvy, NDA zmluvy, príkazne zmluvy a zmluvy o dielo. Vydáva sa na základe overenia identity na diaľku."
+    },
+    "QUALIFIED": {
+      "SELECT_PRODUCT": "Vyberte si balík kvalifikovaných podpisov",
+      "SELECT_PRODUCT_DESC": "Podpis ekvivalentný vlastnoručnému podpisu. Používa sa pre dokumenty vyžadujúce písomnú formu. Certifikované osobným kvalifikovaným certifikátom. Môžete s ním podpísať takmer všetky dokumenty, vrátane: úradných dokumentov, pracovných zmlúv, ponúk do výberového konania. Vydáva sa na základe overenia identity na diaľku.",
+      "VALID_FOR_HOURLY": "platný 1h",
+      "VALID_FOR_MONTHLY": "platný 30 dní",
+      "VALID_FOR_YEARLY": "platný 1 rok",
+      "VALID_FOR_TWO_YEARS": "platný 2 roky",
+      "VALID_FOR_DAILY": "platný 24 hod",
+      "DESC_HOURLY": "Balík je platný 1 hodinu od prvého podpisu.",
+      "DESC_WEEKLY": "Balík je aktívny 7 dní od prvého podpisu.",
+      "DESC_MONTHLY": "Balík je aktívny 30 dní od prvého podpisu.",
+      "DESC_YEARLY": "Balík je aktívny 1 rok od prvého podpisu.",
+      "DESC_TWO_YEARS": "Balík je platný 2 roky od prvého podpisu.",
+      "DESC_DAILY": "Balík je aktívny 24 hodiny od prvého podpisu."
+    }
+  },
+  "VOUCHER": {
+    "LABEL": "Zadajte kód z voucheru",
+    "BUTTON_TEXT": "Uplatniť",
+    "MY_NOTIFICATION_FOR_QUALIFIED": "<h2>Voucher bol uplatnený!</h2> <em>Do účtu bol pridaný balík kvalifikovaných podpisov {{value}}: {{user}}</em>",
+    "MY_NOTIFICATION_FOR_ADVANCED": "<h2>Voucher bol uplatnený!</h2> <em>Balík {{value}} zaručených podpisov s identifikáciou KYC bol pridaný do účtu: {{user}}</em>",
+    "MY_NOTIFICATION_FOR_EASY": "<h2>Voucher bol uplatnený!</h2> <em>Do účtu bol pridaný balík zaručených podpisov {{value}}: {{user}}</em>",
+    "I_WANT_TO_USE": "Chcem uplatniť voucher",
+    "USE_VOUCHER": "Uplatnite voucher na balíček podpisov"
+  },
+  "BATCH": {
+    "LOADING_IN_PROGRES": "Loading documents",
+    "VERIFICATION_TITLE": "Aby boli vaše podpisy platné, prečítajte si najskôr všetky dokumenty, ktoré podpisujete.",
+    "VIEWED": "Skontrolované",
+    "PAGES": "strán",
+    "SIGN_ABOVE": "Podpíšte vyššie uvedené dokumenty"
+  },
+  "TIMESTAMP": {
+    "ID_NUMBER": "ID number",
+    "PLEASE_APPROVE": "Na potvrdenie",
+    "APPROVE_DOCUMENT": "I want to approve this",
+    "APPROVE_DOCUMENTS": "Approve above documents",
+    "LOADING_MESSAGE": "Document is being time stamped",
+    "ERROR_MESSAGE": "Time stamp error",
+    "SUCCESS_MESSAGE": "Documents ({{value}}) time stamped successfuly",
+    "REJECTED": "Zamietnuté",
+    "REJECTED_MODAL": {
+      "HEADER": "Dôvod odmietnutia",
+      "MESSAGE_HEADER": "Správa od objednávateľa"
+    }
+  },
+  "USER_ORDERS": {
+    "TITLE": "Naposledy ste kúpil/a od tejto osoby",
+    "ORDER_DATE": "{{date}} o {{time}}"
+  },
+  "PROMO_MODAL": {
+    "TITLE": "Odteraz podpisujte dokumenty <span>za menej ako minútu!</span>",
+    "LIST_1": {
+      "PARAGRAPH_1": "Používajte elektronický podpis, bez ohľadu na to, kde ste, 24h/deň",
+      "PARAGRAPH_2": "Vy rozhodujete, kto platí za podpis(y) iných, vy alebo vaši podpisovatelia",
+      "PARAGRAPH_3": "Buďte eko a #paperless – starajte sa o životné prostredie!"
+    },
+    "LIST_2": {
+      "PARAGRAPH_1": "Dávajte dokumenty k podpisu iným osobám",
+      "PARAGRAPH_2": "Podpisovateľ, ktorý podpisuje automaticky, obdrží pozvánku na podpísanie"
+    },
+    "LINK": "<a href=\"{{url}}\" target=\"_blank\">Zistite viac <i class=\"icon icon-external-link\"></i></a>"
+  },
+  "INCENTIVE_TO_REGISTER_MODAL": {
+    "TITLE": "Gratulujeme! Dokumenty sú už podpísané.",
+    "PARAGRAPH": "Na platforme SIGNIUS Professional môžete podpisovať dokumenty s kýmkoľvek na celom svete 24 hodín denne.",
+    "DISMISS": "Neskôr",
+    "REGISTER": "Vytvorte si účet zdarma teraz"
+  },
+  "BUSINESS_CLIENT_INVITATION_MODAL": {
+    "TITLE": "Pozvánka do tímu",
+    "INVITATION_FROM": "vás pozýva do svojho tímu:",
+    "YOUR_ACCOUNT": "Váš účet:",
+    "WILL_BE_SIGNED": "bude priradené k tímu.",
+    "WHAT_SHOULD_YOU_KNOW": "Čo stojí za to vedieť?",
+    "WHEN_YOU_JOIN_THE_TEAM": "Ak sa pripojíte k tímu:",
+    "PARAGRAPH_1": "bude odteraz hradiť náklady na vaše podpisy a podpisy iných osôb, ktorým odosielate dokumenty na podpísanie.",
+    "PARAGRAPH_2": "Správca tímu bude môcť prehliadať všetky vaše priečinky dokumentov.",
+    "PARAGRAPH_3": "Správca bude oprávnený dočasne alebo natrvalo zablokovať váš účet.",
+    "PARAGRAPH_4": "Správca bude môcť natrvalo odstrániť váš účet.",
+    "YOU_ACCEPT_CONDITION": "Pripojením sa k tímu, súhlasíte s vyššie uvedenými podmienkami.",
+    "INVITATION_REJECTED": "Pozvánka bola odmietnutá",
+    "INVITATION_ACCEPTED": "Pozvánka bola prijatá"
+  },
+  "MODAL": {
+    "NO_REG_IDENTIFICATION": {
+      "TITLE": "Sú vaše údaje chybné?",
+      "DESCRIPTION": "Kontaktujte osobu, ktorá vás požiadala o podpísanie dokumentu: <a href=\"mailto:{{email}}\">{{email}}</a> a požiadajte ju o opravu.",
+      "WHAT_NEXT": "Čo má objednávateľ urobiť?",
+      "STEP_1": "Odstráňte dokumenty z priečinka, ktoré boli nesprávne adresované",
+      "STEP_2": "Opätovne pridať tieto dokumenty do priečinka so zadaním správnych údajov podpisovateľov",
+      "STEP_3": "Preposlať ešte jednou dokumenty na podpis",
+      "FINALLY": "Požiadajte Objednávateľa, aby vykonal vyššie uvedené kroky, aby ste mohli dokument podpísať.",
+      "CONFIRM": "Dobre, rozumiem"
+    }
+  },
+  "TUTORIAL_KEYS": {
+    "NEW_DOCS_VIEW": {
+      "HEADER": "Nový náhľad dokumentov už je dostupný!",
+      "CONTENT": "Teraz si môžete vybrať preferované zobrazenie dokumentov v priečinku - \"Zobrazenie dlaždíc\" alebo \"Zobrazenie zoznamu\". Kliknite na ikonu a prispôsobte vzhľad priečinka vašim potrebám."
+    }
+  },
+  "ACCESSIBILITY": {
+    "DROPDOWN_LABEL": "Rozbaľte nastavenia dostupnosti",
+    "ACCESSIBILITY_KIND_HEADER": {
+      "CONTRAST": "KONTRAST",
+      "TEXT_SIZE": "VEĽKOSŤ TEXTU"
+    },
+    "MODULES": {
+      "PROFILE": {
+        "COMPONENTS": {
+          "PURCHASED_PACKAGES_TABLE": {
+            "SHOW_MINE_LABEL": "Zobraziť len moje balíky"
+          },
+          "TEAM_MEMBER_MENU": {
+            "TEAM_MEMBER_MENU_BUTTON": "Otvoriť ponuku zamestnanca",
+            "DELETE_REJECTED_BUTTON": "Odstrániť zamietnutú pozvánku"
+          }
+        },
+        "PAGES": {
+          "PROFILE_ACCOUNT": {
+            "LANG_SELECT_LABEL": "Zvoliť jazyk",
+            "AUTO_DOC_DELETE_SWITCH_LABEL": "Zmeniť nastavenia automatického mazania dokumentov"
+          },
+          "PROFILE_TEAM": {
+            "SHOW_ACTIVE_ACCOUNTS": "Zobraziť len aktívne účty"
+          }
+        }
+      },
+      "DOCUMENTS": {
+        "PAGES": {
+          "DOCUMENTS": {
+            "GO_HOME_LABEL": "Späť na úvodnú stránku"
+          },
+          "SIGN_SUMMARY": {
+            "ACCEPT_TERMS": "Prečítal som si a súhlasím s Pravidlami dôveryhodných služieb"
+          }
+        },
+        "COMPONENTS": {
+          "MODALS": {
+            "IDENTIFICATION_FORM_MODAL": {
+              "ID_CHANGED": "Môj doklad totožnosti sa zmenil"
+            }
+          },
+          "CONTACTS": {
+            "DETERMINE_SIGN_ORDER": "Určite poradie podpisu"
+          },
+          "DOCUMENTS_LIST": {
+            "DOCUMENTS_LIST_ITEM": {
+              "SELECT_DOC_LABEL": "Vyberte dokument na podpísanie"
+            }
+          },
+          "SIGNERS_LINK_LIST": {
+            "DEDICATED_LINK": "Vyhradený odkaz na priečinok {{ username }}"
+          }
+        }
+      }
+    },
+    "SHARED": {
+      "COMPONENTS": {
+        "CHANGE_SIGNATURE": {
+          "CHANGE_SYMBOL_MODAL": {
+            "FILE_INPUT": "Vyberte svoj súbor"
+          }
+        },
+        "FOLDER_ACTIONS": {
+          "SORTING_DROPDOWN": {
+            "DROPDOWN_LABEL": "Rozbaliť nastavenia triedenia",
+            "SORTING_DATE": "Triediť podľa dátumu vytvorenia",
+            "SORTING_NAME": "Triediť podľa názvu",
+            "NEWEST": "od najnovších",
+            "OLDEST": "od najstarších",
+            "FROM_A": "od A",
+            "FROM_Z": "od Z"
+          },
+          "FOLDER-_MENU": {
+            "EDIT": "Editovať"
+          },
+          "FILTRATION_DROPDOWN": {
+            "TO_SIGN_LABEL": "Zobraziť priečinky s dokumentmi na podpísanie",
+            "SIGNED_LABEL": "Zobraziť priečinky s podpísanými dokumentmi",
+            "OTHERS_LABEL": "Zobraziť zostávajúce priečinky",
+            "CREATED_BY_ME_LABEL": "Zobraziť vami vytvorené priečinky",
+            "CREATED_BY_OTHERS_LABEL": "Zobraziť priečinky vytvorené inými osobami"
+          }
+        },
+        "CHECKBOX": {
+          "CHECKBOX": {
+            "CONTENT": "Potvrdiť"
+          }
+        },
+        "INVOICE_FORM": {
+          "ALWAYS_GET_INVOICE_LABEL": "Dostávajte faktúry po každom nákupe",
+          "SELECT_COUNTRY": "Vyberte krajinu",
+          "NIP_INPUT_LABEL": "Zadajte DIČ",
+          "INVOICE_FOR_INDIVIDUAL_LABEL": "Faktúra je pre fyzickú osobu",
+          "INVOICE_NAME_LABEL": "Zadajte meno a priezvisko",
+          "INVOICE_ADDRESS_LABEL": "Zadajte adresu",
+          "INVOICE_POSTAL_CODE_LABEL": "Zadajte PSČ",
+          "INVOICE_CITY_LABEL": "Zadajte mesto"
+        },
+        "PASSWORD_INPUT": {
+          "CONTENT": "Zadajte heslo"
+        },
+        "PHONE_INPUT": {
+          "CONTENT": "Zadajte telefónne číslo"
+        }
+      }
+    },
+    "AUTH": {
+      "LOGIN": {
+        "LOADING": "Nabíjanie",
+        "LOGIN_FORM": "Prihlasovací formulár",
+        "LOGO": "Logo Signius",
+        "TENANT_LOGO": "Logo spoločnosti nájomcu",
+        "ALERT_MESSAGE": "Výstražná správa",
+        "EMAIL_INPUT": "Zadajte e-mail",
+        "PASSWORD_INPUT": "Zadajte heslo",
+        "FORGOT_PASSWORD_BUTTON": "Pripomenúť heslo",
+        "LOGIN_BUTTON": "Prihlásenie",
+        "CREATE_ACCOUNT_BUTTON": "Vytvorte si účet",
+        "GOOGLE_AUTH_BUTTON": "Prihláste sa pomocou Google",
+        "AZURE_AUTH_BUTTON": "Prihláste sa pomocou Azure",
+        "KEYCLOAK_AUTH_BUTTON": "Prihláste sa pomocou Keycloak"
+      },
+      "LINK-EXPIRED-CONFIRMATION": {
+        "RESEND_BUTTON": "Odoslať odkaz opätovne"
+      },
+      "REGISTRATION": {
+        "LOADING": "Nabíjanie",
+        "REGISTRATION_FORM": "Formulár registrácie používateľa",
+        "LOGO": "Logo Signius",
+        "TENANT_LOGO": "Logo spoločnosti nájomcu",
+        "EMAIL_INPUT": "Zadajte e-mail",
+        "PHONE_NUMBER_INPUT": "Zadajte telefónne číslo",
+        "FIRST_NAME_INPUT": "Zadajte meno",
+        "LAST_NAME_INPUT": "Zadajte priezvisko",
+        "PASSWORD_INPUT": "Zadajte heslo",
+        "TERMS_CHECKBOX": "Súhlasím s pravidlami",
+        "CREATE_ACCOUNT_BUTTON": "Vytvorte si účet"
+      },
+      "OAUTH2-REGISTRATION": {
+        "LOADING": "Nabíjanie",
+        "REGISTRATION_FORM": "Formulár registrácie používateľa",
+        "LOGO": "Logo Signius",
+        "TENANT_LOGO": "Logo spoločnosti nájomcu",
+        "EMAIL_INPUT": "zadajte e-mail",
+        "PHONE_NUMBER_INPUT": "Zadajte telefónne číslo",
+        "FIRST_NAME_INPUT": "Zadajte meno",
+        "LAST_NAME_INPUT": "Zadajte priezvisko",
+        "TERMS_CHECKBOX": "Súhlasím s pravidlami",
+        "SUBMIT_BUTTON": "Potvrdzujem registráciu"
+      },
+      "PASSWORD-CHANGE": {
+        "PASSWORD-CHANGE-FORM": {
+          "FORM": "Formulár zmeny hesla",
+          "LOGO_SIGNIUS": "Logo Signius, kliknutím sa prihláste",
+          "LOGO_TENANT": "Logo nájomcu, kliknutím sa prihláste",
+          "PASSWORD_INPUT": "Zadajte heslo",
+          "RESET_PASSWORD_BUTTON": "Obnovenie hesla"
+        },
+        "PASSWORD-CHANGE-REQUEST": {
+          "FORM": "Formulár zmeny hesla",
+          "LOGO": "Logo Signius",
+          "TENANT-LOGO": "Logo spoločnosti nájomcu",
+          "EMAIL_INPUT": "Zadajte e-mail",
+          "RESET_PASSWORD_BUTTON": "Obnovenie hesla"
+        }
+      },
+      "SMS-LOGIN": {
+        "PAGE": "Overenie SMS",
+        "YOUR_PHONE_NUMBER": "Vaše telefónne číslo",
+        "ENTER_SMS_CODE": "Zadajte SMS kód",
+        "SEND_CODE_AGAIN": "Pošlite kód znova",
+        "SMS_CODE_SENT": "SMS kód bol odoslaný!"
+      },
+      "WELCOME": {
+        "PHONE_CONFIRM": "Potvrďte telefónne číslo"
+      }
+    },
+    "BATCH": {
+      "COMPONENTS": {
+        "BATCH-DOCUMENT-PAGE": {
+          "DOCUMENT_PAGE": "Strana dokumentu"
+        },
+        "BATCH-DOCUMENT-PAGE-THUMBNAIL": {
+          "THUMBNAIL_DOCUMENT": "Miniatúra dokumentu",
+          "DOCUMENT_PAGE": "Strana dokumentu",
+          "MARKED_AS_READ": "Označené ako prečítané",
+          "PAGE_NUMBER": "Číslo strany"
+        },
+        "BATCH-DOCUMENT-PREVIEW": {
+          "DOCUMENT_VIEWER": "Prehliadač dokumentov",
+          "SIDEBAR_SCROLL": "Posúvanie bočného panela",
+          "DOCUMENT_THUMBNAILS": "Miniatúry dokumentov",
+          "DOCUMENT_THUMBNAIL": "Miniatúra dokumentu",
+          "DOCUMENT_PAGE": "Strana dokumentu",
+          "CONTENT_SCROLL": "Posúvanie obsahu"
+        },
+        "BATCH-LIST": {
+          "DOCUMENT_LIST": "Zoznam dokumentov",
+          "DOCUMENT": "Doklad"
+        },
+        "BATCH-LIST-ITEM": {
+          "THUMBNAIL_DOCUMENT": "Miniatúra dokumentu",
+          "CONFIRMED_DOCUMENT": "Doklad bol schválený",
+          "DOCUMENT_NAME": "Názov dokladu",
+          "PAGE_COUNTER": "Počítadlo strán"
+        }
+      },
+      "PAGES": {
+        "BATCH-VERIFICATION": {
+          "BATCH-VERIFICATION": {
+            "DOCUMENT_LIST": "Zoznam dokumentov"
+          }
+        }
+      }
+    },
+    "DASHBOARD": {
+      "COMPONENTS": {
+        "DASHBOARD-IDENTITY": {
+          "IDENTITY_VERIFICATION_STATUS": "Stav overenia identity",
+          "IDENTITY_VERIFIED": "Identita bola overená",
+          "IDENTITY_VERIFICATION_REQUIRED": "Vyžaduje sa overenie identity",
+          "IDENTITY_VERIFICATION_NOT_READY": "Overenie identity nie je pripravené",
+          "CONFIRM_IDENTITY_BUTTON": "Potvrdenie identity"
+        },
+        "DASHBOARD-PURCHASE": {
+          "PURCHASED_SIGNATURES": "Zakúpené podpisy",
+          "BUY_SIGNATURES": "Kúpte podpisy"
+        },
+        "DASHBOARD-READY": {
+          "READY": "Hotové"
+        }
+      },
+      "PAGES": {
+        "DASHBOARD": {
+          "CONTENT_LABEL": "Obsah pracovnej plochy",
+          "BACK_BUTTON_LABEL": "Späť",
+          "PURCHASE_DETAILS_LABEL": "Podrobnosti o nákupe",
+          "IDENTITY_LABEL": "Identita",
+          "READY_TO_SIGN_LABEL": "Hotový na podpísanie"
+        },
+        "DASHBOARD-VERIFIED-METHOD": {
+          "VERIFICATION_METHOD_SELECT": "Vyberte spôsob overenia identity",
+          "BACK_BUTTON": "Späť",
+          "ACTION_FAILED": "Zlyhanie akcie"
+        }
+      }
+    },
+    "PROFILE": {
+      "HOME_BUTTON": "Späť na profil",
+      "PAGES": {
+        "PROFILE-ACCOUNT": {
+          "YOUR_EMAIL_INPUT": "Vaša emailová adresa",
+          "YOUR_ORGANISATION_INPUT": "Vaša organizácia",
+          "YOUR_CARD_NUMBER_INPUT": "Vaše číslo karty",
+          "YOUR_FIRST_NAME_INPUT": "Vaše meno",
+          "YOUR_SECOND_NAME_INPUT": "Vaše priezvisko",
+          "YOUR_PHONE_NUMBER_INPUT": "Vaše telefónne číslo",
+          "SELECTED_LANGUAGE": "Zvolený jazyk"
+        }
+      }
+    },
+    "VERIFICATION": {
+      "BIRTH-DATE-VERIFICATION": {
+        "DATEPICKER": "Vyberte váš dátum narodenia",
+        "SUBMIT_BUTTON": "Odoslať",
+        "CREATE_NEW_ACCOUNT": "Vytvorte si nový účet",
+        "BACK_BUTTON": "Späť"
+      },
+      "IDENTITY-ITEM": {
+        "IDENTITY_METHOD_SELECT": "Vyberte spôsob overenia identity",
+        "IDENTITY_METHOD_NAME": "Názov metódy",
+        "IDENTITY_METHOD_SUBTITLE": "Podnadpis metódy"
+      },
+      "PHOTO-UPLOADER": {
+        "IDENTITY_CONFIRMATION_TITLE": "Potvrdenie totožnosti",
+        "SELECT_ID_CARD": "Vyberte občiansky preukaz",
+        "SELECT_PASSPORT": "Vyberte cestovný pas",
+        "TAKE_ID_FRONT_PHOTO": "Odfoťte prednú stranu dokladu totožnosti",
+        "TAKE_ID_BACK_PHOTO": "Odfoťte zadnú stranu dokladu totožnosti",
+        "TAKE_PASSPORT_PHOTO": "Odfoťte cestovný pas"
+      },
+      "SELECT-VERIFICATION-METHOD": {
+        "WERYFIKACJA_WIDEO": "Overenie videom",
+        "LOADING_SIGNATURE": "Načítavanie podpisu"
+      },
+      "UPLOAD-DOCUMENT-VERIFICATION": {
+        "UPLOAD_PHOTO": "Nahrajte fotku",
+        "VERIFICATION_STEP_UPLOAD_PHOTO": "Krok overenia – Nahrajte fotku",
+        "VERIFICATION_STEP_ID_DATA": "Krok overenia - Údaje ID",
+        "VERIFICATION_STEP_INFO": "Krok overenia - Informácie",
+        "VERIFICATION_STEP_VIDEO": "Krok overenia - Video"
+      },
+      "VERIFICATION-FORM": {
+        "GIVEN_NAME_INPUT": "Zadajte meno",
+        "LAST_NAME_INPUT": "Zadajte priezvisko",
+        "NATIONALITY_SELECT": "Vyberte štátne občianstvo",
+        "PESEL_INPUT": "Zadajte rodné číslo",
+        "ISSUING_AUTHORITY_INPUT": "Zadajte názov vydavateľa",
+        "BIRTH_DATE_INPUT": "Vyberte váš dátum narodenia",
+        "DOCUMENT_NUMBER_INPUT": "Zadajte sériu a číslo dokladu totožnosti",
+        "DOCUMENT_EXPIRE_DATE_INPUT": "Vyberte dátum vypršania platnosti dokumentu"
+      },
+      "VIDEO-VERIFICATION-CONTAINER": {
+        "START_VERIFICATION": "Začiatok overovania",
+        "START_VIDEO_VERIFICATION": "Začiatok overovania videom",
+        "UPLOAD_DOCUMENTS_FOR_VERIFICATION": "Odoslať dokumenty na overenie"
+      },
+      "VIDEO-VERIFICATION-START": {
+        "ICON_ID_CARD_ALT": "Ikona občianskeho preukazu",
+        "ICON_CAMERA_WEB_ALT": "Ikona webovej kamery",
+        "ICON_SIGNAL_BARS_ALT": "Ikona stability spojenia",
+        "ICON_BELL_SLASH_ALT": "Ikona stlmenia zvuku",
+        "ICON_START_VERIFICATION": "Človek ukazujúci občiansky preukaz"
+      },
+      "WEBCAM-PHOTO-UPLOADER": {
+        "CAPTURED_PHOTO": "Zachytená fotka",
+        "SELECT_FILE": "Vyberte súbor"
+      }
+    },
+    "DOCUMENTS": {
+      "COMPONENTS": {
+        "ADD_PAGE": {
+          "ADD_GRAPH_REPRESENTATION": "Pridajte grafické znázornenie",
+          "ADD_FIRST_PAGE": "Pridajte prvú stranu",
+          "ADD_LAST_PAGE": "Pridajte druhú stranu",
+          "INDICATE_PLACE_OF_SIGN": "Uveďte miesto podpisu",
+          "DO_NOT_ADD": "Nepridávajte",
+          "CLOSE_TOOLTIP": "Zatvoriť",
+          "HELP": "Pomoc"
+        },
+        "BATCH-DOCUMENT-ITEM": {
+          "SHOW_DOCUMENT": "Zobraziť dokument",
+          "DELETE_DOCUMENT": "Vymazať dokument",
+          "FILE_WITHOUT_SIGNATURES": "Súbor bez podpisov",
+          "ALL_SIGNATURES_VALIDATED": "Všetky overené podpisy",
+          "EDIT_DOCUMENT": "Upraviť názov dokumentu",
+          "NOT_ALL_SIGNATURES_VALIDATED": "Nie všetky podpisy boli overené"
+        },
+        "CONTACTS": {
+          "CONTACT-FORM": {
+            "FORM_LABEL": "Kontaktný formulár",
+            "EMAIL_INPUT": "Zadajte e-mailovú adresu",
+            "PHONE_INPUT": "Zadajte telefónne číslo",
+            "NAME_INPUT": "Zadajte meno",
+            "SURNAME_INPUT": "Zadajte priezvisko",
+            "CANCEL_BUTTON": "Zrušiť",
+            "ADD_ME_BUTTON": "Pridať mňa",
+            "SAVE_CHANGES_BUTTON": "Uložiť zmeny",
+            "CONTACT_SUGGESTIONS": "Návrhy kontaktov"
+          },
+          "CONTACT-ROW": {
+            "CONTACT_ROW": "Kontakt",
+            "SCROLL_BUTTON": "Tlačidlo posúvania",
+            "EDIT_BUTTON": "Editovať",
+            "REMOVE_BUTTON": "Odstrániť",
+            "CLEAR_BUTTON": "Vymazať",
+            "CONTACT_FORM": "Kontaktný formulár"
+          }
+        },
+        "CONTACTS-TIMESTAMP": {
+          "CONTACT-ITEM": {
+            "CONTACT-TIMESTAMP-ITEM": {
+              "FORM_LABEL": "Kontaktný formulár",
+              "ID_NUMBER_INPUT": "Zadajte číslo dokladu totožnosti",
+              "EMAIL_INPUT": "Zadajte e-mailovú adresu",
+              "CONTACT_SUGGESTIONS": "Návrhy kontaktov"
+            }
+          },
+          "ADD_SIGNERS": "Pridať podpisovateľov",
+          "ADD_ANOTHER": "Pridať ďalší",
+          "DRAG_BUTTON": "Tlačidlo preťahovania",
+          "REMOVE_BUTTON": "Odstrániť",
+          "CLEAR_BUTTON": "Vymazať",
+          "MOVE_UP": "Presunúť hore",
+          "MOVE_DOWN": "Presunúť dole"
+        },
+        "DOCUMENT-ADD": {
+          "ADDING_DOCUMENTS": "Pridávanie dokumentov",
+          "BACK_BUTTON": "Späť",
+          "FOLDER_DETAILS": "Podrobnosti o priečinku",
+          "DOCUMENT_UPLOADER": "Odoslanie dokumentu",
+          "MULTI_DOCUMENT_UPLOADER": "Odoslanie viacerých dokumentov",
+          "SIGNATURE_TYPE_SELECTION": "Voľba typu podpisu",
+          "ADD_PAGE": "Pridávanie strany",
+          "CONTACTS": "Kontakty",
+          "CONTACTS_TIMESTAMP": "Dátum a čas podpisu dokumentu používateľom"
+        },
+        "DOCUMENT-MENU": {
+          "EXPAND_BUTTON": "Rozbaliť menu"
+        },
+        "DOCUMENT-VIEWER": {
+          "CUSTOM-SIGN-PLACEMENT": {
+            "PDF_VIEWER": "Prehliadač PDF",
+            "LOADING": "Nabíjanie",
+            "TOGGLE_DOCUMENT": "Prepínanie dokumentu",
+            "BACK": "Späť",
+            "PREVIOUS_DOCUMENT": "Predchádzajúci dokument",
+            "NEXT_DOCUMENT": "Nasledujúci dokument"
+          },
+          "PDF-VIEWER": {
+            "CLOSE_BUTTON": "Zatvoriť"
+          },
+          "DOCUMENT_THUMBNAIL": "Miniatúra dokumentu",
+          "DELETED_DOCUMENT_THUMBNAIL": "Miniatúra dokumentu bola odstránená",
+          "SHOW_PREVIEW": "Náhľad celého dokumentu"
+        },
+        "MODALS": {
+          "IDENTIFICATION-FORM-MODAL": {
+            "FIRST_NAME_INPUT": "Zadajte meno",
+            "LAST_NAME_INPUT": "Zadajte priezvisko",
+            "PHONE_NUMBER_INPUT": "Zadajte telefónne číslo"
+          }
+        },
+        "REMINDER-BUTTON": {
+          "REMIND_BUTTON": "Odoslať pripomienku"
+        },
+        "SELECT-ALL-CHECKBOX": {
+          "SELECT_ALL": "Vybrať všetko"
+        },
+        "SIGN-ALL-CHECKBOX": {
+          "SIGN_ALL": "Podpísať všetko"
+        },
+        "SIGNATURE-TYPE": {
+          "EASY_SIGNATURE": "Vyberte zaručený podpis",
+          "ADVANCED_SIGNATURE": "Vyberte zaručený podpis s KYC",
+          "QUALIFIED_SIGNATURE": "Vybrať kvalifikovaný podpis"
+        },
+        "SWITCH-VIEW-BUTTONS": {
+          "GRID_VIEW": "Prepnúť na zobrazenie dlaždíc",
+          "LIST_VIEW": "Prepnúť na náhľad zoznamu"
+        }
+      }
+    },
+    "FOLDERS": {
+      "COMPONENTS": {
+        "DASBOARD-BAR": {
+          "SELECT_SIGNATURE_TYPE": "Vybrať typ podpisu",
+          "REQUIRES_COMPLETION": "Vyžaduje ukončenie"
+        },
+        "FOLDER-ADD-BUTTON":{
+          "ADD_FOLDER_BUTTON": "Pridať priečinok"
+        }
+      }
+    }
+  },
+  "TENANT": {
+    "SGGW": {
+      "SGGW_FOOTER_CONTENT": "„SGGW - Dostupná vysoká škola\", spolufinancovaného z Operačného programu Vedomosti Vzdelávanie Rozvoj (Prioritná os: III. Vysokoškolské vzdelávanie pre ekonomiku a rozvoj, Akcia 3.5 Komplexné programy pre vysoké školy)"
+    }
+  },
+  "GOOGLE_AUTH": {
+    "TITLE": "Vyžaduje sa autorizácia Google Authenticator",
+    "ENTER_CODE": "Zadajte overovací kód pre dvojzložkové overovanie"
+  },
+  "DOCUMENT": {
+    "FIELD": {
+      "VALIDATION": {
+        "MAX-LENGTH": "Príliš dlhá hodnota políčka",
+        "REQUIRED": "Pole je povinné"
+      }
+    }
+  }
+}

@@ -1,0 +1,718 @@
+{
+  "COMMON": {
+    "YOU": "Int",
+    "CANCEL": "Ikkanċella",
+    "CLOSE": "Agħlaq",
+    "SAVE_CHANGES": "Issejvja",
+    "ADD": "Żid",
+    "NEXT": "Li jmiss",
+    "NEVERMIND": "Ikkanċella",
+    "CHANGE": "Ibdel",
+    "OPEN": "Iftaħ",
+    "SEARCH_PLACEHOLDER": "Fittex...",
+    "CHANGES_SAVED": "Il-bidliet ġew issejvjati",
+    "COLLAPSE": "Agħlaq",
+    "SUPPORT_EMAIL": "infoeid@gov.mt",
+    "SUPPORT_PHONE_NUMBER": "(+356) 2590 4300",
+    "CONTACT_EMAIL": "infoeid@gov.mt",
+    "CONTACT_PHONE_NUMBER": "(+356) 2590 4300",
+    "NONE": "L-ebda",
+    "SUMMARY": "Sommarju",
+    "BACK": "Lura"
+  },
+  "ERROR": {
+    "DOCUMENT_ALREADY_SIGNED": "Id-dokument diġà ġie ffirmat minnek jew int imsemmi bħala dak li ffirma għal darba oħra. Jekk jogħġbok ikkuntattja lill-persuna li tellgħet id-dokument.",
+    "UNKNOWN": "Ġara xi ħaġa ħażina",
+    "VALIDATION": {
+      "FILE_TYPE_INVALID": "Fajls f'format {{value}} biss huma permessi",
+      "FILE_SIZE_INVALID": "Id-daqs massimu tal-fajl huwa {{value}}",
+      "FIELD_REQUIRED": "It-taqsima hija meħtieġa",
+      "FIELD_INVALID": "It-taqsima fiha valur mhux validu",
+      "FIELD_POST_CODE": "Kodiċi ta’ żball"
+    },
+    "EXCEPTION": {
+      "USER_EXISTS": "L-utent jeżisti diġà",
+      "SESSION_NOT_FOUND": "Seħħ żball ta’ sessjoni. Jekk jogħġbok erġa’ agħżel id-dokumenti tiegħek"
+    },
+    "FORBIDDEN": "Is-sessjoni tiegħek skadiet. Jekk jogħġbok erġa’ idħol.",
+    "NOT_FOUND": "Ma nstabitx il-paġna għal dan l-indirizz",
+    "NO_ACCESS": "L-ebda aċċess"
+  },
+  "LANGUAGE": {
+    "EN": "Ingliż",
+    "MT": "Malti"
+  },
+  "ENUM": {
+    "DOCUMENT_STATUS": {
+      "SIGNED": "Iffirmat",
+      "SIGNING_IN_PROGRESS": "Iffirmar għaddej",
+      "UPLOADED": "Imtella’",
+      "REJECTED": "Miċħud"
+    },
+    "PRODUCT_TYPE": {
+      "SIGN": "Firma kwalifikata"
+    },
+    "FOLDER_TYPE_FILTER": {
+      "RECEIVING": "Riċevut",
+      "SENDING": "Mibgħut"
+    },
+    "SIGN_STATUS": {
+      "SIGNED": "Iffirmat",
+      "IN_PROGRESS": "Jekk jogħġbol iffirma!",
+      "AWAITING": "Għaddej",
+      "NOT_SENT": "Mhux mibgħut",
+      "CANCELED": "Lest"
+    },
+    "DOCUMENT_TYPE": {
+      "ID": "Karta tal-Identità",
+      "IDCARD": "Karta tal-Identità",
+      "PASSPORT": "Passaport"
+    },
+    "DAYS": {
+      "MONDAY": "It-Tnejn",
+      "TUESDAY": "It-Tlieta",
+      "WEDNESDAY": "L-Erbgħa",
+      "THURSDAY": "Il-Ħamis",
+      "FRIDAY": "Il-Ġimgħa",
+      "SATURDAY": "Is-Sibt",
+      "SUNDAY": "Il-Ħadd"
+    },
+    "SIGNATURE_TYPE": {
+      "QUALIFIED": "Firma Kwalifikata",
+      "ADVANCED": "Firma Avvanzata",
+      "TIMESTAMP": "Timbru tal-ħin"
+    },
+    "PACK_ORIGIN": {
+      "BOUGHT": "Mixtri",
+      "RECEIVED": "Riċevut"
+    }
+  },
+  "VARIANTS": {
+    "PERSONS_1": "{{value}} persuna",
+    "PERSONS_2": "{{value}} persuni",
+    "PERSONS_3": "{{value}} persuni"
+  },
+  "AUTH": {
+    "LOGOUT_SUCCESS": "Ħriġt b’suċċess",
+    "LOGOUT": "Oħroġ",
+    "SESSION_EXPIRED": "Is-sessjoni tiegħek skadiet. Jekk jogħġbok erġa’ idħol.",
+    "MOBILE_VERIFICATION": "Ikkonferma fuq l-applikazzjoni tal-mowbajl",
+    "2FA_VERIFICATION_MAIN": "Mur fl-applikazzjoni “Approve” fuq il-mobile reġistrat tiegħek",
+    "2FA_VERIFICATION_SUB": "Ikkonferma li tixtieq tiffirma d-dokumenti magħżula tiegħek"
+  },
+  "WELCOME": {
+    "TITLE": "Merħba għand SIGNIUS Professional",
+    "MESSAGE": "tħalla/tħallew dokument/i għalik biex tiffirma hawn. Biex tiffirmah/tiffirmahom, ikkonferma n-numru tal-mowbajl tiegħek, u mbagħad oħloq kont.",
+    "FOLDER": "Folder tad-dokumenti"
+  },
+  "DOCUMENTS": {
+    "PAID": "(Imħallas)",
+    "SELECT_FILE": "Agħżel fajl mill-kompjuter tiegħek",
+    "DRAG_IT_HERE": "jew inkella mexxih hawn",
+    "DROP_IT_HERE": "Itfa’ l-fajl hawn",
+    "NAME_DOCUMENT": "Isem tad-dokument ippersonalizzat",
+    "CONFIRM_CANCEL_ORDER": "Iva, ieqaf żid id-dokument",
+    "CANCEL_ORDER_CONFIRM_TITLE": "Ċert li trid tieqaf iżżid id-dokument għall-iffirmar?",
+    "CANCEL_ORDER_CONFRIM_MESSAGE": "Jekk tieqaf issa, il-bidliet li għamilt mhux se jiġu ssejvjati u se terġa’ tmur lura għall-folder.",
+    "DOCUMENT_TO_SIGN": "Dokument li għandu jiġi ffirmat",
+    "ADD_SIGNERS": "Żid lil dawk li se jiffirmaw",
+    "ADD_SIGNERS_DESC": "Messaġġ b’email b’ħolqa għad-dokument se jintbagħat awtomatikament lill-ewwel wieħed li jiffirma. \n Meta hu jew hi jiffirmaw id-dokument, il-ħolqa se tintbagħat awtomatikament lill-persuna li jmiss fis-sekwenza li int stabbilejt.",
+    "ADD_SIGNERS_DESC_MALTA": "L-ordni li l-firmatarji jiġu miżjuda mad-dokument tiddetermina l-ordni li fiha d-dokument se jiġi ffirmat. Kull utent se jirċievi email fl-ordni murija biex jiffirma qabel ma l-utent li jmiss ikun jista' jiffirma. \nInnota li persuni biss b'karta tal-identita’ Maltija (eID) jew permess ta’residenza (eRP) valida se jkunu jistgħu jiffirmaw dan id-dokument.",
+    "ADD_ANOTHER": "Żid ieħor",
+    "ADD_ME": "Żidni",
+    "CONTACT_SELF": "{{name}} (Int)",
+    "SIGN_DOCUMENT": "Iffirma dan id-dokument",
+    "SIGNERS": "Dawk li se jiffirmaw",
+    "SIGNERS_FULL_LIST": "Lista sħiħa ta’ firmatarji u ħoloq għall-folder",
+    "SIGNED_BY": "Iffirmat minn {{value1}}/{{value2}} persuna/persuni",
+    "SEE_WHO": "Ara min",
+    "I_SIGN": "Iffirmah",
+    "I_SIGN_FREE": "Iffirma (imħallas)",
+    "SIGN_PAID_TOOLTIP_TITLE": "L-ispiża tal-firma ġiet imħallsa",
+    "SIGN_PAID_TOOLTIP_MESSAGE": "Int mhux se tintalab tħallas għall-iffirmar ta’ dan id-dokument.",
+    "READ_DOCUMENT_CONFIRMATION": "Jien qrajt id-dokument ta’ hawn fuq",
+    "DOWNLOAD_SIGNED_DOCUMENT": "Niżżel id-dokument iffirmat",
+    "SENT_BY": "Sid tal-folder",
+    "ADDING_DOCUMENT_DISABLE": "Il-persuna li ħolqot il-folder biss tista' żżid dokumenti fih.",
+    "ADDING_DOCUMENT": "Iżżid dokument ġo folder",
+    "SIGNER_EMAIL": "L-indirizz tal-email ta’ min se jiffirma",
+    "PHONE_NUMBER": "Numru tal-mowbajl",
+    "USER_FOLDER_LINK": "Ħolqa dedikata għall-folder",
+    "COPY": "Ikkopja",
+    "COPIED": "Ikkopjat",
+    "COPY_LINK": "Ikkopja rabta diretta",
+    "COPIED_LINK": "Link ikkupjat!",
+    "READY": "Lest",
+    "NO_SIGNERS": "Ma żdiedu l-ebda nies li se jiffirmaw",
+    "SIGN_SELECTED_DOCUMENTS": "Iffirma d-dokumenti magħżula",
+    "MAX_FILE_SIZE": "Mhux akbar minn {{value}}",
+    "SIGN_IN_PROGRESS": "Iffirmar għaddej",
+    "SIGN_FAILED": "L-iffirmar ma rnexxiex",
+    "SESSION_FAILED": "Il-ħolqien ta’ sessjoni ta’ ffirmar ma rnexxiex",
+    "BACK_TO_FOLDER": "Lura għall-folder",
+    "SHOW_DOCUMENT": "Previżjoni",
+    "DOCUMENT_NOT_SENT": "L-ordni ma ntbagħtitx lil dawk li se jiffirmaw",
+    "CHECK": "Ivverifika",
+    "ADDED_NOTIFICATION": "<h2> Id-dokument żdied mal-folder. !</h2> <em>  Aħna għaddejnieh lill-ewwel persuna fuq il-lista tal-iffirmar.</em><br/><em> Naqqasna firma/firem mill</em> <strong>{{value}} signatures</strong> <em>pakketti tiegħek. </em>",
+    "ADDED_NOTIFICATION_WITHOUT_DESCRIPTION": "<h2> Id-dokument żdied mal-folder.</h2> <em> Aħna għaddejnieh lill-ewwel persuna fuq il-lista tal-iffirmar.</em>",
+    "FILE_WITH_SAME_NAME_ALREADY_EXISTS": "<h2> F’dan il-folder diġà jeżisti fajl b’dan l-isem </h2>",
+    "FILE_IS_PROTECTED_WITH_PASSWORD": "<h2>Fajl protett bil-password!</h2>",
+    "FILE_CONTAINS_ACTIVE_FORMS": "<h2>Format tal-fajl mhux korrett!</h2> <br/> <em>Ikkonverti fajl għal mhux interattiv u erġa' pprova.</em>",
+    "VIRUS_FOUND": "<h2> Il-fajl huwa infettat!</h2> <em> Sibna virus f’dan il-fajl. Il-proċess tat-tlugħ tad-dokument twaqqaf.</em>",
+    "DOCUMENT_UPLOAD_INCORRECT_FILENAME": "<h2> L-isem tal-fajl fih karattri mhux validi.</h2> <em> Il-karattri permessi huma A-Ż, a-ż, 0-9 , ,.'!@#$%^&()-=_+</em>",
+    "DOCUMENT_UPLOAD_FILENAME_TOO_LONG": "<h2> L-isem tal-fajl huwa twil wisq.</h2> <em> L-isem tal-fajl jista’ jkun sa 100 karattru twil.</em>",
+    "DELETE_DOCUMENT": "Ħassar id-dokument",
+    "DELETE_FAILED_TITLE": "Id-dokument ma jistax jitħassar",
+    "DELETE_FAILED_NOT_OWNER": "M’intix awtorizzat tħassar dan id-dokument. Id-dokument jista’ jitħassar biss mill-persuna li qed tordna l-iffirmar tiegħu, jew mis-sid tal-folder li fih jinsab id-dokument.",
+    "OK_UNDERSTAND": "OK, nifhem",
+    "SWITCH": "Ibdel",
+    "DELETED_DOCUMENT": "Id-dokument tħassar",
+    "FULL_STORAGE_MODAL_TITLE": "Ma fadalx spazju fuq id-disk!",
+    "FULL_STORAGE_MODAL_MESSAGE": "M’għandekx biżżejjed spazju fuq id-disk biex iżżid dokument ieħor. Ħassar dokumenti mhux meħtieġa biex tikseb l-ispazju.",
+    "CURRENT_STORAGE": "Użu attwali",
+    "CURRENT_STORAGE_SEPARATOR": "ta’",
+    "DOWNLOAD_MENU": {
+      "HEADER": "NIŻŻEL DOKUMENT",
+      "ORIGINAL": "Oriġinali",
+      "SIGNED": "Iffirmat"
+    },
+    "DELETE_MODAL": {
+      "TITLE": "Id-dokument qed jitħassar",
+      "DELETE_MESSAGE": "Ċert li trid tħassar dan id-dokument b’mod <strong>permanenti</strong>?",
+      "DELETE_SIGNED_MESSAGE": "<strong> Niżżel id-dokument iffirmat qabel ma tħassru </strong> u arkivjah ulterjorament waħdek.",
+      "DELETE_THIS_DOCUMENT": "Ħassar id-dokument",
+      "DELETE_WITHOUT_DOWNLOAD_DOCUMENT": "Ħassar (l-ebda tniżżil)",
+      "DOWNLOAD_AND_DELETE_DOCUMENT": "Niżżel u ħassar"
+    },
+    "LAST_PAGE_WITHOUT_SIGNATURES": "Żid paġna b’rappreżentazzjoni grafika ta’ firem fl-aħħar tad-dokument",
+    "LAST_PAGE_WITHOUT_SIGNATURES": "Il-paġna miżjuda fl-aħħar tad-dokument se jkun fiha lista tal-persuni kollha li se jiffirmaw id-dokument flimkien mal-istat tal-firem tagħhom. Jekk diġà tqiegħdu firem elettroniċi fuq id-dokument, aħna nirrakkomandaw li ma żżidx paġna addizzjonali, għaliex jekk tagħżel din l-għażla, din se tneħħihom mid-dokument."
+  },
+  "FOLDERS": {
+    "DOCUMENTS_FOLDERS": "Folders tad-dokumenti",
+    "SIGNERS": "Dawk li se jiffirmaw",
+    "ADD_NEW_FOLDER": "Żid folder",
+    "NAME_YOUR_FOLDER": "Semmi dan il-folder",
+    "FOLDER_NAME_ERROR": "L-isem tal-folder jista' jkun twil sa {{value}} karattru",
+    "ADD_CONFIRM": "Ikkonferma",
+    "FOLDER_SIGNERS": "Dawk li se jiffirmaw dan il-folder",
+    "DELETE_FOLDER": "Ħassar dan il-folder",
+    "CHANGE_FOLDER_NAME": "Biddel l-isem tal-folder",
+    "DELETE_MODAL_TITLE": "Il-folder qed jitħassar",
+    "DELETE_MODAL_MESSAGE": "Jekk tħassar dan il-folder, int se tkun ukoll qed tħassar id-dokumenti li jinsabu f’dan il-folder b’mod permanenti. Jekk għandek bżonnhom, niżżilhom fuq il-kompjuter tiegħek qabel ma tħassar il-folder.",
+    "EDIT_MODAL_TITLE": "Qed jinbidel isem il-folder",
+    "SAVE_CHANGE": "Issejvja l-bidla",
+    "NAME_CHANGED": "L-isem tal-folder inbidel",
+    "DELETED": "Il-folder tħassar",
+    "DELETE_MODAL_ERROR_TITLE": "Il-folder ma jistax jiġi mħassar",
+    "DELETE_MODAL_ERROR_MESSAGE": "Il-folder fih dokumenti ffirmati. Ħassarhom sabiex tkun tista’ tħassar il-folder.",
+    "DELETE_MODAL_ERROR_CONFIRM": "Iva, nifhem",
+    "DOCUMENTS_TO_SIGN": "Dokumenti biex tiffirma",
+    "SELECTED_TO_BE_SIGNED": "Magħżula biex jiġu ffirmati"
+  },
+  "PARTNER": {
+    "MBANK": {
+      "HEADER": "Pjattaforma tal-firma"
+    }
+  },
+  "PROFILE": {
+    "ACCOUNT": "Kont",
+    "PERSONAL_DATA": "Data personali",
+    "EMAIL": "L-indirizz tal-email tiegħek",
+    "ID_CARD_NUMBER": "In-numru tal-karta tal-identita’ tiegħek",
+    "APP_LANGUAGE": "Lingwa tal-applikazzjoni",
+    "DATA_CHANGED": "Id-dettalji tiegħi nbidlu",
+    "IDENTITY_DOCUMENT": "Dokument tal-identità",
+    "NO_RESULTS": "L-ebda riżultati"
+  },
+  "SIGN_SUMMARY": {
+    "TITLE": "Dokumenti magħżula għall-iffirmar",
+    "SUBTITLE": "Int se tiffirma d-dokumenti li ġejjin elettronikament",
+    "ALL_DOCUMENTS": "Id-dokumenti kollha ({{value}})",
+    "IDENTIFICATION_DATA": "Id-dettalji tiegħek għall-iffirmar tad-dokument",
+    "IDENTITY_CONFIRMATION": "Nikkonferma li d-data tiegħi hija aġġornata",
+    "SIGN_SELECTED": "Iffirma d-dokumenti magħżula",
+    "IDENTITY_CHANGED": "Id-dettalji tiegħi nbidlu"
+  },
+  "IDENTITY_DATA": {
+    "PERSONAL_DATA_CHANGE": "Bidla fid-data personali",
+    "FIRST_NAME": "Isem",
+    "LAST_NAME": "Kunjom",
+    "NATIONALITY": "Nazzjonalità",
+    "DOCUMENT_TYPE": "Tip ta’ dokument",
+    "DOCUMENT_NUMBER": "Numru tad-dokument",
+    "PESEL": "Nru tal-identifikazzjoni nazzjonali",
+    "DOCUMENT_EXPIRE_DATE": "Data ta’ skadenza",
+    "PHONE_NUMBER": "Numru tal-mowbajl",
+    "IDENTITY_DOCUMENT_CHANGED": "Id-dokument tal-identità tiegħi nbidel",
+    "CONFIRMED_IDENTITY_DOCUMENT": "Dokument tal-identità kkonfermat",
+    "EXTERNAL_ID": "Numru tal-identità "
+  },
+  "HELP": {
+    "BUTTON": "Għajnuna",
+    "TITLE": "Għandek xi mistoqsijiet? \n Għandek bżonn l-għajnuna?",
+    "MESSAGE": "Ikkuntattjana, aħna ngħinuk malajr!"
+  },
+  "BATCH": {
+    "LOADING_IN_PROGRES": "Id-dokumenti qed jillowdjaw",
+    "VERIFICATION_TITLE": "Biex il-firem tiegħek ikunu validi, l-ewwel aqra d-dokumenti kollha li se tiffirma.",
+    "VIEWED": "Muri",
+    "PAGES": "paġni",
+    "SIGN_ABOVE": "Iffirma d-dokumenti ta’ hawn fuq"
+  },
+  "PAYMENT_DETAILS": {
+    "ADD_DOCUMENT": "Ibgħat biex jiġi ffirmat"
+  },
+  "PROMO_MODAL": {
+    "TITLE": "Minn issa 'l quddiem, tista tiffirma dokumenti <span>f'inqas minn minuta!</span>",
+    "LIST_1": {
+      "PARAGRAPH_1": "Uża l-firma elettronika tkun fejn tkun, erbgħa u għoxrin siegħa kuljum",
+      "PARAGRAPH_2": "Iddeċiedi min iħallas għall-firma/firem ta' ħaddieħor, int jew il-firmatarji tiegħek",
+      "PARAGRAPH_3": "Kun eko u #bla karti – ħu ħsieb l-ambjent!"
+    },
+    "LIST_2": {
+      "PARAGRAPH_1": "Ibgħat dokumenti għall-firma lil nies oħra",
+      "PARAGRAPH_2": "Firmatarji jirċievu stedina awtomatika biex jiffirmaw"
+    },
+    "LINK": "<a href=\"{{url}}\" target=\"_blank\">Sir af aktar <i class=\"icon icon-external-link\"></i></a>"
+  },
+  "ACCESSIBILITY": {
+    "DROPDOWN_LABEL": "Tespandi s-settings ta 'aċċessibilità",
+    "ACCESSIBILITY_KIND_HEADER": {
+      "CONTRAST": "KUNTRAST",
+      "TEXT_SIZE": "DAQS TAT-TEST"
+    },
+    "MODULES": {
+      "PROFILE": {
+        "COMPONENTS": {
+          "PURCHASED_PACKAGES_TABLE": {
+            "SHOW_MINE_LABEL": "Ara biss il-pakketti tiegħi"
+          },
+          "TEAM_MEMBER_MENU": {
+            "TEAM_MEMBER_MENU_BUTTON": "Iftaħ il-menu tal-impjegat",
+            "DELETE_REJECTED_BUTTON": "Ħassar stedina miċħuda"
+          }
+        },
+        "PAGES": {
+          "PROFILE_ACCOUNT": {
+            "LANG_SELECT_LABEL": "agħżel il-lingwa",
+            "AUTO_DOC_DELETE_SWITCH_LABEL": "Ibdel l-issettjar tat-tħassir awtomatiku tad-dokument"
+          },
+          "PROFILE_TEAM": {
+            "SHOW_ACTIVE_ACCOUNTS": "Uri biss kontijiet attivi"
+          }
+        }
+      },
+      "DOCUMENTS": {
+        "MODALS": {
+          "IDENTIFICATION_FORM_MODAL": {
+            "ID_CHANGED": "L-ID tiegħi nbidlet"
+          }
+        },
+        "PAGES": {
+          "DOCUMENTS": {
+            "GO_HOME_LABEL": "Irritorna għall-paġna ewlenija"
+          },
+          "SIGN_SUMMARY": {
+            "ACCEPT_TERMS": "Qrajt u naċċetta r-Regolamenti dwar is-Servizzi Fiduċjarji"
+          }
+        },
+        "COMPONENTS": {
+          "CONTACTS": {
+            "DETERMINE_SIGN_ORDER": "Iddetermina l-ordni tal-iffirmar"
+          },
+          "DOCUMENTS_LIST": {
+            "DOCUMENTS_LIST_ITEM": {
+              "SELECT_DOC_LABEL": "Agħżel id-dokument li trid tiffirma"
+            }
+          },
+          "SIGNERS_LINK_LIST": {
+            "DEDICATED_LINK": "Ħolqa mogħniema għall-foldr {{ username }}"
+          }
+        }
+      }
+    },
+    "SHARED": {
+      "COMPONENTS": {
+        "CHANGE_SIGNATURE": {
+          "CHANGE_SYMBOL_MODAL": {
+            "FILE_INPUT": "Agħżel il-fajl tiegħek"
+          }
+        },
+        "FOLDER_ACTIONS": {
+          "FOLDER_MENU": {
+            "EDIT": "Editja"
+          },
+          "SORTING_DROPDOWN": {
+            "DROPDOWN_LABEL": "Jespandu s-settings tal-issortjar"
+          },
+          "FILTRATION_DROPDOWN": {
+            "TO_SIGN_LABEL": "Ara folders b'dokumenti li jridu jiġu ffirmati",
+            "SIGNED_LABEL": "Ara folders b'dokumenti ffirmati",
+            "OTHERS_LABEL": "Ara l-folders li jifdal",
+            "CREATED_BY_ME_LABEL": "Ara folders li ħloqt",
+            "CREATED_BY_OTHERS_LABEL": "Ara folders maħluqa minn oħrajn"
+          }
+        },
+        "CHECKBOX": {
+          "CHECKBOX": {
+            "CONTENT": "Ikkonferma"
+          }
+        },
+        "INVOICE_FORM": {
+          "ALWAYS_GET_INVOICE_LABEL": "Irċievi fatturi wara kull xiri",
+          "SELECT_COUNTRY": "agħżel pajjiż",
+          "NIP_INPUT_LABEL": "Daħħal in-Numru ta' Identifikazzjoni tat-Taxxa tiegħek",
+          "INVOICE_FOR_INDIVIDUAL_LABEL": "Il-fattura hija għal persuna fiżika",
+          "INVOICE_NAME_LABEL": "Daħħal ismek u kunjom",
+          "INVOICE_ADDRESS_LABEL": "Daħħal l-indirizz",
+          "INVOICE_POSTAL_CODE_LABEL": "Daħħal il-kodiċi zip tiegħek",
+          "INVOICE_CITY_LABEL": "Daħħal il-belt"
+        },
+        "PASSWORD_INPUT": {
+          "CONTENT": "Daħħal il-password tiegħek"
+        },
+        "PHONE_INPUT": {
+          "CONTENT": "Daħħal in-numru tat-telefon tiegħek"
+        }
+      }
+    },
+    "AUTH": {
+      "LOGIN": {
+        "LOADING": "Inżul",
+        "LOGIN_FORM": "Formola tal-login",
+        "LOGO": "Logo Signius",
+        "TENANT_LOGO": "Logo tal-kumpanija tal-kerrej",
+        "ALERT_MESSAGE": "Messaġġ ta' twissija",
+        "EMAIL_INPUT": "Daħħal l-email",
+        "PASSWORD_INPUT": "Daħħal il-password tiegħek",
+        "FORGOT_PASSWORD_BUTTON": "ifakkru l-password",
+        "LOGIN_BUTTON": "Idħol",
+        "CREATE_ACCOUNT_BUTTON": "Oħloq kont",
+        "GOOGLE_AUTH_BUTTON": "Idħol ma' Google",
+        "AZURE_AUTH_BUTTON": "Idħol ma' Azure",
+        "KEYCLOAK_AUTH_BUTTON": "Idħol ma' Keycloak"
+      },
+      "LINK-EXPIRED-CONFIRMATION": {
+        "RESEND_BUTTON": "Ibgħat mill-ġdid il-link"
+      },
+      "REGISTRATION": {
+        "LOADING": "Inżul",
+        "REGISTRATION_FORM": "Formola ta' reġistrazzjoni tal-utent",
+        "LOGO": "Logo Signius",
+        "TENANT_LOGO": "Logo tal-kumpanija tal-kerrej",
+        "EMAIL_INPUT": "Daħħal l-email",
+        "PHONE_NUMBER_INPUT": "Daħħal in-numru tat-telefon tiegħek",
+        "FIRST_NAME_INPUT": "Daħħal l-isem",
+        "LAST_NAME_INPUT": "Daħħal ismek",
+        "PASSWORD_INPUT": "Daħħal il-password tiegħek",
+        "TERMS_CHECKBOX": "Naċċetta t-termini u l-kundizzjonijiet",
+        "CREATE_ACCOUNT_BUTTON": "Oħloq kont"
+      },
+      "OAUTH2-REGISTRATION": {
+        "LOADING": "Inżul",
+        "REGISTRATION_FORM": "Formola ta' reġistrazzjoni tal-utent",
+        "LOGO": "Logo Signius",
+        "TENANT_LOGO": "Logo tal-kumpanija tal-kerrej",
+        "EMAIL_INPUT": "Daħħal l-email",
+        "PHONE_NUMBER_INPUT": "Daħħal in-numru tat-telefon tiegħek",
+        "FIRST_NAME_INPUT": "Daħħal l-isem",
+        "LAST_NAME_INPUT": "Daħħal ismek",
+        "TERMS_CHECKBOX": "Naċċetta t-termini u l-kundizzjonijiet",
+        "SUBMIT_BUTTON": "Nikkonferma r-reġistrazzjonię"
+      },
+      "PASSWORD-CHANGE": {
+        "PASSWORD-CHANGE-FORM": {
+          "FORM": "Formola tal-bidla tal-password",
+          "LOGO_SIGNIUS": "Logo Signius, ikklikkja biex tidħol",
+          "LOGO_TENANT": "Logo tal-kerrej, ikklikkja biex tidħol",
+          "PASSWORD_INPUT": "Daħħal il-password tiegħek",
+          "RESET_PASSWORD_BUTTON": "Irrisettja l-password tiegħek"
+        },
+        "PASSWORD-CHANGE-REQUEST": {
+          "FORM": "Formola tal-bidla tal-password",
+          "LOGO": "Logo Signius",
+          "TENANT-LOGO": "Logo tal-kumpanija tal-kerrej",
+          "EMAIL_INPUT": "Daħħal l-email",
+          "RESET_PASSWORD_BUTTON": "Irrisettja l-password tiegħek"
+        }
+      },
+      "SMS-LOGIN": {
+        "PAGE": "Verifika SMS",
+        "YOUR_PHONE_NUMBER": "in-numru tat-telefon tiegħek",
+        "ENTER_SMS_CODE": "Daħħal il-kodiċi tal-SMS",
+        "SEND_CODE_AGAIN": "Jekk jogħġbok ibgħat mill-ġdid il-kodiċi",
+        "SMS_CODE_SENT": "Kodiċi SMS mibgħut"
+      },
+      "WELCOME": {
+        "PHONE_CONFIRM": "Ikkonferma n-numru tat-telefon tiegħek"
+      }
+    },
+    "BATCH": {
+      "COMPONENTS": {
+        "BATCH-DOCUMENT-PAGE": {
+          "DOCUMENT_PAGE": "Paġna tad-dokument"
+        },
+        "BATCH-DOCUMENT-PAGE-THUMBNAIL": {
+          "THUMBNAIL_DOCUMENT": "Minjatura tad-dokument",
+          "DOCUMENT_PAGE": "Paġna tad-dokument",
+          "MARKED_AS_READ": "Immarkat bħala moqri",
+          "PAGE_NUMBER": "Numru tal-paġna"
+        },
+        "BATCH-DOCUMENT-PREVIEW": {
+          "DOCUMENT_VIEWER": "Telespettatur tad-dokumenti",
+          "SIDEBAR_SCROLL": "Scrolling tal-sidebar",
+          "DOCUMENT_THUMBNAILS": "Minjaturi tad-dokument",
+          "DOCUMENT_THUMBNAIL": "Minjatura tad-dokument",
+          "DOCUMENT_PAGE": "Paġna tad-dokument",
+          "CONTENT_SCROLL": "Scrolling kontenut"
+        },
+        "BATCH-LIST": {
+          "DOCUMENT_LIST": "Lista tad-dokumenti",
+          "DOCUMENT": "Dokument"
+        },
+        "BATCH-LIST-ITEM": {
+          "THUMBNAIL_DOCUMENT": "Minjatura tad-dokument",
+          "CONFIRMED_DOCUMENT": "Dokument approvat",
+          "DOCUMENT_NAME": "Isem id-dokument",
+          "PAGE_COUNTER": "Page counter"
+        }
+      },
+      "PAGES": {
+        "BATCH-VERIFICATION": {
+          "BATCH-VERIFICATION": {
+            "DOCUMENT_LIST": "Lista tad-dokumenti"
+          }
+        }
+      }
+    },
+    "DASHBOARD": {
+      "COMPONENTS": {
+        "DASHBOARD-IDENTITY": {
+          "IDENTITY_VERIFICATION_STATUS": "Status tal-verifika tal-identità",
+          "IDENTITY_VERIFIED": "Identità vverifikata",
+          "IDENTITY_VERIFICATION_REQUIRED": "Verifika tal-identità meħtieġa",
+          "IDENTITY_VERIFICATION_NOT_READY": "Il-verifika tal-identità mhix lesta",
+          "CONFIRM_IDENTITY_BUTTON": "Ikkonferma l-identità tiegħek"
+        },
+        "DASHBOARD-PURCHASE": {
+          "PURCHASED_SIGNATURES": "Firem mixtrija",
+          "BUY_SIGNATURES": "Ixtri firem"
+        },
+        "DASHBOARD-READY": {
+          "READY": "Lest"
+        }
+      },
+      "PAGES": {
+        "DASHBOARD": {
+          "CONTENT_LABEL": "Kontenut tad-desktop",
+          "BACK_BUTTON_LABEL": "Buttuna lura",
+          "PURCHASE_DETAILS_LABEL": "Dettalji tax-xiri",
+          "IDENTITY_LABEL": "Identità",
+          "READY_TO_SIGN_LABEL": "Lest biex jiffirma"
+        },
+        "DASHBOARD-VERIFIED-METHOD": {
+          "VERIFICATION_METHOD_SELECT": "Agħżel metodu ta' verifika tal-identità",
+          "BACK_BUTTON": "Buttuna lura",
+          "ACTION_FAILED": "Falliment ta' azzjoni"
+        }
+      }
+    },
+    "PROFILE": {
+      "HOME_BUTTON": "Ritorn għall-profil",
+      "PAGES": {
+        "PROFILE-ACCOUNT": {
+          "YOUR_EMAIL_INPUT": "L-indirizz eletroniku tiegħek",
+          "YOUR_ORGANISATION_INPUT": "L-organizzazzjoni tiegħek",
+          "YOUR_CARD_NUMBER_INPUT": "In-numru tal-karta tiegħek",
+          "YOUR_FIRST_NAME_INPUT": "Ismek",
+          "YOUR_SECOND_NAME_INPUT": "kunjok",
+          "YOUR_PHONE_NUMBER_INPUT": "in-numru tat-telefon tiegħek",
+          "SELECTED_LANGUAGE": "Lingwa magħżula"
+        }
+      }
+    },
+    "VERIFICATION": {
+      "BIRTH-DATE-VERIFICATION": {
+        "DATEPICKER": "Agħżel id-data tat-twelid tiegħek",
+        "SUBMIT_BUTTON": "Issottometti",
+        "CREATE_NEW_ACCOUNT": "toħloq kont ġdid",
+        "BACK_BUTTON": "Ejja lura"
+      },
+      "IDENTITY-ITEM": {
+        "IDENTITY_METHOD_SELECT": "Agħżel metodu ta' verifika tal-identità",
+        "IDENTITY_METHOD_NAME": "Isem il-metodu",
+        "IDENTITY_METHOD_SUBTITLE": "Sottotitolu tal-metodu"
+      },
+      "PHOTO-UPLOADER": {
+        "IDENTITY_CONFIRMATION_TITLE": "Prova ta' identità",
+        "SELECT_ID_CARD": "Agħżel il-karta tal-identità",
+        "SELECT_PASSPORT": "Agħżel passaport",
+        "TAKE_ID_FRONT_PHOTO": "Ħu ritratt tal-faċċata tal-ID tiegħek",
+        "TAKE_ID_BACK_PHOTO": "Ħu ritratt ta' wara tal-ID tiegħek",
+        "TAKE_PASSPORT_PHOTO": "Ħu ritratt tal-passaport tiegħek"
+      },
+      "SELECT-VERIFICATION-METHOD": {
+        "WERYFIKACJA_WIDEO": "Verifika bil-vidjo",
+        "LOADING_SIGNATURE": "Firma tat-tagħbija"
+      },
+      "UPLOAD-DOCUMENT-VERIFICATION": {
+        "UPLOAD_PHOTO": "Ittella’ ritratt",
+        "VERIFICATION_STEP_UPLOAD_PHOTO": "Pass ta' verifika - Ittella' ritratt",
+        "VERIFICATION_STEP_ID_DATA": "Pass tal-verifika - dettalji tal-ID",
+        "VERIFICATION_STEP_INFO": "Pass ta' verifika - Informazzjoni",
+        "VERIFICATION_STEP_VIDEO": "Pass tal-verifika - Vidjow"
+      },
+      "VERIFICATION-FORM": {
+        "GIVEN_NAME_INPUT": "Daħħal l-isem",
+        "LAST_NAME_INPUT": "Daħħal ismek",
+        "NATIONALITY_SELECT": "Agħżel in-nazzjonalità tiegħek",
+        "PESEL_INPUT": "Daħħal in-numru PESEL tiegħek",
+        "ISSUING_AUTHORITY_INPUT": "Daħħal l-isem tal-awtorità emittenti",
+        "BIRTH_DATE_INPUT": "Agħżel id-data tat-twelid tiegħek",
+        "DOCUMENT_NUMBER_INPUT": "Daħħal is-serje u n-numru tad-dokument tal-identità tiegħek",
+        "DOCUMENT_EXPIRE_DATE_INPUT": "Agħżel id-data ta' skadenza tad-dokument"
+      },
+      "VIDEO-VERIFICATION-CONTAINER": {
+        "START_VERIFICATION": "Il-verifika tibda",
+        "START_VIDEO_VERIFICATION": "Tibda l-verifika tal-vidjo",
+        "UPLOAD_DOCUMENTS_FOR_VERIFICATION": "Ibgħat dokumenti għall-verifika"
+      },
+      "VIDEO-VERIFICATION-START": {
+        "ICON_ID_CARD_ALT": "Ikona tal-karta tal-identità",
+        "ICON_CAMERA_WEB_ALT": "Ikona tal-webcam",
+        "ICON_SIGNAL_BARS_ALT": "Ikona tal-istabbiltà tal-konnessjoni",
+        "ICON_BELL_SLASH_ALT": "Ikona mute",
+        "ICON_START_VERIFICATION": "Raġel juri karta tal-identità"
+      },
+      "WEBCAM-PHOTO-UPLOADER": {
+        "CAPTURED_PHOTO": "Ritratt maqbud",
+        "SELECT_FILE": "agħżel fajl"
+      }
+    },
+    "DOCUMENTS": {
+      "COMPONENTS": {
+        "ADD_PAGE": {
+          "ADD_GRAPH_REPRESENTATION": "Żid rappreżentazzjoni grafika",
+          "ADD_FIRST_PAGE": "Żid l-ewwel paġna",
+          "ADD_LAST_PAGE": "Żid l-aħħar paġna",
+          "INDICATE_PLACE_OF_SIGN": "Indika l-post tal-firma",
+          "DO_NOT_ADD": "Żidx",
+          "CLOSE_TOOLTIP": "Agħlaq",
+          "HELP": "Għajnuna"
+        },
+        "BATCH-DOCUMENT-ITEM": {
+          "SHOW_DOCUMENT": "Uri dokument",
+          "DELETE_DOCUMENT": "Ħassar id-dokument",
+          "FILE_WITHOUT_SIGNATURES": "Fajl mingħajr firem",
+          "ALL_SIGNATURES_VALIDATED": "Il-firem kollha vverifikati",
+          "EDIT_DOCUMENT": "Editja l-isem tad-dokument",
+          "NOT_ALL_SIGNATURES_VALIDATED": "Mhux il-firem kollha ġew verifikati"
+        },
+        "CONTACTS": {
+          "CONTACT-FORM": {
+            "FORM_LABEL": "Formola ta' kuntatt",
+            "EMAIL_INPUT": "Daħħal l-indirizz elettroniku",
+            "PHONE_INPUT": "Daħħal in-numru tat-telefon",
+            "NAME_INPUT": "Daħħal l-isem",
+            "SURNAME_INPUT": "Daħħal is-surname",
+            "CANCEL_BUTTON": "Ikkanċella",
+            "ADD_ME_BUTTON": "Żidni",
+            "SAVE_CHANGES_BUTTON": "Salva t-tibdil",
+            "CONTACT_SUGGESTIONS": "Suggerimenti ta' kuntatt"
+          },
+          "CONTACT-ROW": {
+            "CONTACT_ROW": "Kuntatt",
+            "SCROLL_BUTTON": "Buttur għall-skrolljar",
+            "EDIT_BUTTON": "Editja",
+            "REMOVE_BUTTON": "Neħħi",
+            "CLEAR_BUTTON": "Ċċar",
+            "CONTACT_FORM": "Formola ta' kuntatt"
+          }
+        },
+        "CONTACTS-TIMESTAMP": {
+          "CONTACT-ITEM": {
+            "CONTACT-TIMESTAMP-ITEM": {
+              "FORM_LABEL": "Formola ta' kuntatt",
+              "ID_NUMBER_INPUT": "Ikteb in-numru tar-identità",
+              "EMAIL_INPUT": "Ikteb l-indirizz elettroniku",
+              "CONTACT_SUGGESTIONS": "Suggerimenti ta' kuntatt"
+            }
+          },
+          "ADD_SIGNERS": "Żid is-sinjaturi",
+          "ADD_ANOTHER": "Żid ieħor",
+          "DRAG_BUTTON": "Għażla tat-tluq",
+          "REMOVE_BUTTON": "Neħħi",
+          "CLEAR_BUTTON": "Ċċar",
+          "MOVE_UP": "Swipe xellug",
+          "MOVE_DOWN": "Swipe lemin"
+        },
+        "DOCUMENT-ADD": {
+          "ADDING_DOCUMENTS": "Żieda ta' dokumenti",
+          "BACK_BUTTON": "Ritorna",
+          "FOLDER_DETAILS": "Dettalji tal-folder",
+          "DOCUMENT_UPLOADER": "Uploader tad-dokument",
+          "MULTI_DOCUMENT_UPLOADER": "Uploader ta' dokumenti multipli",
+          "SIGNATURE_TYPE_SELECTION": "Għażla tad-tip ta' firma",
+          "ADD_PAGE": "Żieda ta' paġna",
+          "CONTACTS": "Kuntatti",
+          "CONTACTS_TIMESTAMP": "Data u ħin ta' firma tad-dokument minn utent"
+        },
+        "DOCUMENT-MENU": {
+          "EXPAND_BUTTON": "Expandi l-menu"
+        },
+        "DOCUMENT-VIEWER": {
+          "CUSTOM-SIGN-PLACEMENT": {
+            "PDF_VIEWER": "Skanner tal-PDF",
+            "LOADING": "Iħejji",
+            "TOGGLE_DOCUMENT": "Togħli dokument",
+            "BACK": "Arreġġa",
+            "PREVIOUS_DOCUMENT": "Dokument preċedenti",
+            "NEXT_DOCUMENT": "Dokument li jmiss"
+          },
+          "PDF-VIEWER": {
+            "CLOSE_BUTTON": "Agħlaq"
+          },
+          "DOCUMENT_THUMBNAIL": "Ittri dokumentu",
+          "DELETED_DOCUMENT_THUMBNAIL": "Ittri dokumentu maħrug",
+          "SHOW_PREVIEW": "Uri l-previżjoni kollha tad-dokument"
+        },
+        "MODALS": {
+          "IDENTIFICATION-FORM-MODAL": {
+            "FIRST_NAME_INPUT": "Ikteb l-isem",
+            "LAST_NAME_INPUT": "Ikteb is-surname",
+            "PHONE_NUMBER_INPUT": "Ikteb in-numru tat-telefon"
+          }
+        },
+        "REMINDER-BUTTON": {
+          "REMIND_BUTTON": "Ibgħat reminiscenza"
+        },
+        "SELECT-ALL-CHECKBOX": {
+          "SELECT_ALL": "Agħżel kollox"
+        },
+        "SIGN-ALL-CHECKBOX": {
+          "SIGN_ALL": "Ippodma kollox"
+        },
+        "SIGNATURE-TYPE": {
+          "EASY_SIGNATURE": "Agħżel it-tip ta' firma sempliċi",
+          "ADVANCED_SIGNATURE": "Agħżel it-tip ta' firma avvanzata b'KYC",
+          "QUALIFIED_SIGNATURE": "Agħżel it-tip ta' firma kwalifikata"
+        },
+        "SWITCH-VIEW-BUTTONS": {
+          "GRID_VIEW": "Togħla għan-nar ta' quadrati",
+          "LIST_VIEW": "Togħla għan-nar ta' lista"
+        }
+      }
+    },
+    "FOLDERS": {
+      "COMPONENTS": {
+        "DASBOARD-BAR": {
+          "SELECT_SIGNATURE_TYPE": "Agħżel it-tip ta' firma",
+          "REQUIRES_COMPLETION": "Għandu bżonn it-temmina"
+        },
+        "FOLDER-ADD-BUTTON": {
+          "ADD_FOLDER_BUTTON": "Żid folder"
+        }
+      }
+    }
+  }
+}

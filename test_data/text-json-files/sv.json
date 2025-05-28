@@ -1,0 +1,1580 @@
+{
+  "COMMON": {
+    "YOU": "Du",
+    "CANCEL": "Avbryt",
+    "CLOSE": "Stäng",
+    "SAVE_CHANGES": "Spara",
+    "ADD": "Lägg till",
+    "NEXT": "Fortsätt",
+    "NEVERMIND": "Avbryt",
+    "CHANGE": "Ändra",
+    "OPEN": "Öppna",
+    "SEND": "Skicka",
+    "SEARCH_PLACEHOLDER": "Sök...",
+    "SEARCH_PLACEHOLDER_NEW_HOME_FEATURE": {
+      "FOLDERS": "Sök i mappar...",
+      "DOCUMENTS": "Sök efter dokumentnamn..."
+    },
+    "CHANGES_SAVED": "Ändringar har sparats",
+    "CHANGES_PHONE": "Telefonnumret har ändrats",
+    "COLLAPSE": "Kollapsa",
+    "PAY": "Betala",
+    "REJECT": "Avvisa",
+    "ACCEPT": "Acceptera",
+    "INVOICE": {
+      "NIP": "Momsregistreringsnummer",
+      "NIP_MANDATORY": "Momsregistreringsnummer (OBLIGATORISK)",
+      "NAME": "Namn och Efternamn eller företagsnamn",
+      "NAME_SURNAME": "Namn och efternamn",
+      "ADDRESS": "Adress",
+      "POSTAL_CODE": "Postkod",
+      "CITY": "Ort",
+      "COUNTRY": "Land",
+      "IS_INDIVIDUAL_BILLING": "Faktura utfärdat på en fysisk person"
+    },
+    "SUPPORT_EMAIL": "support@signius.eu",
+    "SUPPORT_PHONE_NUMBER": "+48 61 415 22 12",
+    "MODAL_SUPPORT_EMAIL": "business.support@signius.eu",
+    "NONE": "Inga",
+    "SUMMARY": "Totalt",
+    "BACK": "Tillbaka",
+    "TYPE_WORD": "Skriv “{{value}}”",
+    "DELETE_WORD": "TA BORT",
+    "SIGNATURES": [
+      "signatur",
+      "signaturer"
+    ],
+    "BACK_TO_APPLICATION": "Tillbaka till ansökan",
+    "OR": "eller",
+    "OR_CONTINUE_WITH": "eller fortsätt med",
+    "NEW": "Ny",
+    "INDICATE_THE_LOCATION": "Ange platsen",
+    "STANDARD": "Standard",
+    "FONT": "Font",
+    "YOUR_FILE": "Din fil",
+    "SELECT": "Välj",
+    "CREATE_NEW_ACCOUNT": "Skapa ett nytt konto"
+  },
+  "INFO": {
+    "THIS_DOCUMENT_HAS_BEEN_DELETED_BY_DOCUMENT_OWNER": "Detta dokument har raderats av personen som beordrar att signera"
+  },
+  "ERROR": {
+    "DOCUMENT_ALREADY_SIGNED": "Dokumentet har redan signerats av dig eller så finns du på signeringslistan igen. Kontakta personen som har lagt till dokumentet",
+    "UNKNOWN": "Något har gått fel...",
+    "ERROR_DURING_SIGNING": "Ett fel uppstod under signeringen.",
+    "VALIDATION": {
+      "INCORRECT_NUMBER": "Numret du har angett är felaktigt",
+      "ADULTS_ONLY": "Endast vuxna",
+      "DATE_NOT_EARLIER_THAN_TODAY": "Datum inte tidigare än idag",
+      "FILE_TYPE_INVALID": "Endast filer i formatet {{value}} är tillåtna",
+      "FILE_SIZE_INVALID": "Maximal filstorlek är {{value}}",
+      "FIELD_REQUIRED": "Fältet är obligatoriskt",
+      "FIELD_INVALID": "Fältet innehåller ett ogiltigt värde",
+      "FIELD_POST_CODE": "Fel kod",
+      "ALLOWED_CHARACTERS": "Tillåtna tecken är: A-Z, 0-9"
+    },
+    "EXCEPTION": {
+      "USER_EXISTS": "Användaren finns redan",
+      "RE_CAPTCHA_FAILED": "Ett reCaptcha-fel har inträffat",
+      "SESSION_NOT_FOUND": "Ett sessionsfel har inträffat. Välj dokument igen"
+    },
+    "CERTIFICATE_EXPIRED": {
+      "TITLE": "Försök att signera igen",
+      "TIME_EXCEEDED": "Du har överskridit tidsfristen för att underteckna dokumentet.",
+      "CONTACT_US": "Om du har några frågor, vänligen kontakta vår kundtjänst."
+    },
+    "FORBIDDEN": "Din session har gått ut. Logga in igen.",
+    "FORBIDDEN_LONG_TEXT": "Du har blivit automatiskt utloggad från applikationen eller så har du inte tillräckliga behörigheter.",
+    "NOT_FOUND": "Sidan med denna adress hittades inte",
+    "NO_ACCESS": "Ingen åtkomst",
+    "SESSION_EXPIRED": "Din session har gått ut.",
+    "SESSION_EXPIRED_SUBTITLE": "Vänligen öppna länken du fick igen.",
+    "PAYMENT": "Betalningsfel. Försök igen",
+    "VOUCHER": {
+      "INVALID": "Ogiltig voucherkod",
+      "USED_OR_INACTIVE": "Koden har upphört att gälla eller har redan använts"
+    }
+  },
+  "LANGUAGE": {
+    "PL": "Polski",
+    "EN": "English",
+    "DE": "Deutsch",
+    "MT": "Maltański",
+    "UK": "Українська",
+    "SV": "Svenska",
+    "CS": "Čeština",
+    "SK": "Slovenský"
+  },
+  "ENUM": {
+    "DOCUMENT_STATUS": {
+      "SIGNED": "Signerat",
+      "SIGNING_IN_PROGRESS": "För signering",
+      "UPLOADED": "Väntar",
+      "REJECTED": "Avvisad"
+    },
+    "PRODUCT_TYPE": {
+      "SIGN": "Kvalificerad signatur",
+      "IDENTITY_TM_IDENTITY_VERIFICATION": "Videoidentifiering"
+    },
+    "FOLDER_TYPE_FILTER": {
+      "RECEIVING": "Mottagna",
+      "SENDING": "Beställda"
+    },
+    "FILTERS":{
+      "FINISHED": "avslutad",
+      "AWAITING": "pågår",
+      "IN_PROGRESS": "att skriva under",
+      "SIGNED": "signerad",
+      "CANCELED": "avslutad",
+      "WAITING_FOR_APPROVE": "för godkännande",
+      "REJECTED": "ravvisad",
+      "AWAITING_COMPLETION": "för att komplettera"
+    },
+    "SIGN_STATUS": {
+      "SIGNED": "Signerat",
+      "IN_PROGRESS": "Att skriva under",
+      "AWAITING": "Pågår",
+      "NOT_SENT": "Icke skickat",
+      "CANCELED": "Avbruten",
+      "LOCKED": "Bearbetar...",
+      "TO_APPROVE": "För godkännande",
+      "REJECTED": "Ravvisad",
+      "AWAITING_COMPLETION": "för att komplettera"
+    },
+    "CURRENCY": {
+      "PLN": "PLN",
+      "EUR": "€"
+    },
+    "DOCUMENT_TYPE": {
+      "ID": "ID-kort",
+      "IDCARD": "ID-kort",
+      "PASSPORT": "Pass",
+      "A": "Pobytová karta",
+      "P": "Pass"
+    },
+    "DAYS": {
+      "MONDAY": "Måndag",
+      "TUESDAY": "Tisdag",
+      "WEDNESDAY": "Onsdag",
+      "THURSDAY": "Torsdag",
+      "FRIDAY": "Fredag",
+      "SATURDAY": "Lördag",
+      "SUNDAY": "Söndag"
+    },
+    "SIGNATURE_TYPE": {
+      "EASY": "Avancerad signatur",
+      "QUALIFIED": "Kvalificerad signatur",
+      "ADVANCED": "Avancerad signatur & KYC",
+      "TIMESTAMP": "Tidsstämpel"
+    },
+    "PACK_ORIGIN": {
+      "BOUGHT": "Köpt",
+      "RECEIVED": "Mottaget"
+    }
+  },
+  "VARIANTS": {
+    "PERSONS_1": "{{value}} person",
+    "PERSONS_2": "{{value}} personer",
+    "PERSONS_3": "{{value}} personer"
+  },
+  "PASSWORD": {
+    "MIN_LENGTH": "minst {{value}} tecken",
+    "DIGIT": "siffra",
+    "BIG_LETTER": "Stora bokstäver",
+    "SMALL_LETTER": "Små bokstöver",
+    "SPECIAL_CHAR": "specialtecken"
+  },
+  "PASSWORD_RESET": {
+    "EMAIL_LABEL": "Ange din e-postadress",
+    "PASSWORD_LABEL": "Skapa nytt lösenord",
+    "REQUEST_TITLE": "Återställ ditt lösenord",
+    "REQUEST_MESSAGE": "Har du glömt ditt lösenord? \nOroa dig inte, vi fixar det på nolltid.",
+    "REQUEST_BUTTON": "Återställ lösenord",
+    "CONFIRMATION_TITLE": "Vi har skickat ett e-postmeddelande till dig",
+    "CONFIRMATION_MESSAGE": "Kontrollera din inkorg, klicka på länken vi skickade och ange ett nytt lösenord.",
+    "NEW_PASSWORD_TITLE": "Skapa ett nytt, starkt lösenord",
+    "NEW_PASSWORD_BUTTON": "Bekräfta lösenord",
+    "USER_ACTIVATE_LINK_ALREADY_USED_ERROR": "Den här länken har redan använts för att ändra lösenordet."
+  },
+  "AUTH": {
+    "LOGIN": "Logga in",
+    "OAUTH2_LOGIN": "Logga in via Google",
+    "SGGW_EMPLOYEE_LOGIN": "Logga in som SGGW-anställd",
+    "LOGIN_DESC": "Inloggning för kunder och partners",
+    "GRENKE_BTN": "Inloggning för anställda på Grenke",
+    "EMAIL": "E-postadress",
+    "PASSWORD": "Lösenord",
+    "FORGET_PASSWORD": "Har du glömt ditt lösenord?",
+    "CREATE_FREE_ACCOUNT": "Skapa ett gratis konto",
+    "LOGOUT_SUCCESS": "Du har loggat ut",
+    "INVALID_CREDENTIALS": "Din e-postadress eller ditt lösenord är inte korrekt.",
+    "ACCOUNT_BLOCKED": "På grund av att du upprepade gånger angett ett felaktigt lösenord har ditt konto blockerats i 5 minuter. För att komma åt ditt konto det tidigare, välj ´Glömt ditt lösenord´.",
+    "ACTIVATED_ACCOUNT": "Kontot har aktiverats.",
+    "FIRST_NAME": "Namn",
+    "GIVEN_NAMES": "Förnamn",
+    "LAST_NAME": "Efternamn",
+    "PHONE_NUMBER": "Mobilnummer",
+    "NEW_ACCOUNT": "Nytt konto",
+    "ALREADY_HAVE_ACCOUNT": "Skapa ett gratis konto och signera dokument på distans - var du än är, när du vill. Det är snabbt och enkelt som aldrig förr. \nHar du redan ett konto?",
+    "CREATE_NEW_PASSWORD": "Skapa nytt lösenord",
+    "ACCEPT_TERMS": "Jag bekräftar att jag har läst och godkänner <a href=\"{{terms}}\" target=\"_blank\">Användarvillkor</a>.",
+    "ACCEPT_TERMS_2": "För att kunna tillhandahålla tjänster på högsta nivå användscookies i applikationen. \nMer information om detta och om behandlingen av personuppgifter finns i <a href=\"{{policy}}\" target=\"_blank\">Privacy Policy</a>.",
+    "CREATE_ACCOUNT": "Skapa konto",
+    "SENT_EMAIL": "Vi har skickat ett e-postmeddelande till dig",
+    "SENT_EMAIL_DESCRIPTION": "Kontrollera din inkorg, klicka aktiveringslänken från meddelandet och bekräfta registreringen.",
+    "LINK_EXPIRED": "Den här länken är inte längre aktiv",
+    "LINK_EXPIRED_DESCRIPTION": "Du måste bekräfta din e-postadress inom 48 timmar. Oroa dig inte, vi kan skicka ett nytt e-postmeddelande till dig med en aktiveringslänk.",
+    "SEND_NEW_LINK": "Skicka ny aktiveringslänk",
+    "LOGOUT": "Logga ut",
+    "NATIONALITY": "Medborgarskap",
+    "SESSION_EXPIRED": "Din session har gått ut. Logga in igen.",
+    "MOBILE_VERIFICATION": "Bekräfta på mobilapplikationen",
+    "2FA_VERIFICATION_MAIN": "Gå till Approve-appen på din registrerade mobil",
+    "2FA_VERIFICATION_SUB": "Bekräfta att du vill signera dina valda dokument",
+    "PARTNERED": "I samarbete med",
+    "YOUR_PASS_CHANGED": "Ditt lösenord har ändrats",
+    "CONFIRM_CHANGE": "Bekräfta ändringar",
+    "CONFIRM_YOU_DATA": "Bekräfta dina uppgifter",
+    "ALMOST_READY": "Du är nästan redo! Din e-postadress har verifierats. Bekräfta informationen nedan för att komma igång."
+  },
+  "WELCOME": {
+    "TITLE": "Välkommen till SIGNIUS Professional",
+    "MESSAGE": "skickade dokumentet/dokumenten till dig för signering. Verifiera ditt telefonnummer och skaffa ett gratis konto för att signera dokumentet/dokumenten elektroniskt.",
+    "FOLDER": "Dokumentmapp",
+    "PHONE_CONFIRM": "Bekräfta telefonnummer"
+  },
+  "WELCOME_TOOLTIP": {
+    "DATE_AT": "klockan",
+    "OK_UNDERSTAND": "Ok, jag förstår",
+    "GOT_NEW_SIGNATURES_PACK": "Du har fått kvalificerade signaturer!",
+    "GOW_NEW_SIGNATURES_PACK_DESC": "Personen som skickade dokumenten till dig för signering köpte ett kvalificerat signaturpaket åt dig så att du kan signera dessa dokument gratis.",
+    "VIEW_PACKAGES": "Se paket"
+  },
+  "WELCOME_EASY_TOOLTIP": {
+    "WELCOME": "Välkommen<span>&nbsp;till SIGNIUS Professional</span>!",
+    "GIFT_INFO": "Här är en liten present för att komma igång :) Glad signering!"
+  },
+  "DOCUMENTS": {
+    "CHECKBOX_ALERT": "För att underteckna dokumenten, markera rutorna.",
+    "APPROVE_DOCUMENT": "Spara data",
+    "SIGN_ON_FIRST_PAGE": "Placera underskriften högst upp i dokumentet",
+    "XML": {
+      "MODAL": {
+        "HEADER": "Signera XML-filer på SIGNIUS",
+        "CONTENT": "Nu kan du enkelt och säkert signera XML-filer, t.ex. finansiella rapporter, även av flera personer. Upptäck nya möjligheter!"
+      }
+    },
+    "TYPE_ALERT": "Du kan bara lägga till filer i ett format (PDF eller XML) i en mapp - välj en annan mapp ",
+    "APPROVER": {
+      "HEADER": "Lägg till en person som godkänner dokumentet/dokumenten",
+      "DELETE": "Ta bort personen som godkänner dokumentet/dokumenten",
+      "FORM_LABEL": "Godkännarens e-postadress",
+      "HEADER_ADD": "Godkännare",
+      "APPROVE": "Godkänna",
+      "DECLINE": "Avvisa dokumentet",
+      "DECLINE_MODAL": {
+        "HEADER": "Avslag på dokument",
+        "LABEL": "Ange skäl till avslag"
+      },
+      "APPROVE_DOCUMENT": "Godkänna dokumentet",
+      "ACCEPT_DOCUMENT": "Dokumentet har godkänts",
+      "REJECT_DOCUMENT": "Dokumentet har godkänts"
+    },
+    "SIGNING": {
+      "HEADER": "Undertecknare"
+    },
+    "CONSENT": {
+      "HEADER": "Avancerad konfiguration för dokument",
+      "SUB_TITLE": "Ladda upp konfigurationsfil för det här dokumentet",
+      "DOC_BTN": "Välj konfigurationsfil",
+      "TABS": {
+        "CONSENT": "Godkännanden",
+        "FIELDS": "Redigerbara fält"
+      },
+      "GO_TO": "Bläddra till godkännanden",
+      "CHECK": "Markera godkännanden",
+      "DESC": "Granska alla sidor i dokumentet och ge de nödvändiga godkännanden för att fortsätta",
+      "BUTTON": "Bekräfta och fortsätt",
+      "DELETE": {
+        "TXT": "Är du säker på att du vill ta bort konfigurationsfilen?",
+        "ACCEPT": "Ja, radera filen"
+      },
+      "PREV": "Förhandsgranskning:",
+      "DELETE_BTN": "Ta bort filen",
+      "REQ": "(Krävs)"
+    },
+    "ORDERED_BY":"Beställd av",
+    "DOCUMENTS": "Dokument",
+    "PAID": "(Betald)",
+    "FILE_WITHOUT_SIGNATURES": "<i class=\"icon icon-file\"></i><p class=\"heading\">Dokumentet innehåller inte tidigare inlämnade underskrifter.</p><p class=\"body\">Den kommer att signeras i den högsta LTA/LTV-standarden (Long Term Archiving/Validation) - med signaturvalidering och en tidsstämpel.</p>",
+    "ALL_SIGNATURES_VALIDATED": "<i class=\"icon icon-file-signatures-validated\"></i><p class=\"heading\">Dokumentet innehåller tidigare inlämnade underskrifter.</p><p class=\"body\">Alla har godkänt valideringen. Dokumentet kommer att signeras i den högsta LTA/LTV-standarden (Long Term Archiving/Validation) - med validering av alla signaturer och en tidsstämpel.</p>",
+    "NOT_ALL_SIGNATURES_VALIDATED": "<i class=\"icon icon-file-signatures-not-validated\"></i><p class=\"heading\">Dokumentet innehåller tidigare inlämnade underskrifter.</p><p class=\"body\">Minst en av dessa signaturer klarade inte LTA-valideringen. Dokumentet kommer att signeras i B-T standard - med tidsstämpel. Verifiering av några av de tidigare inskickade signaturerna kan vara felaktiga.</p>",
+    "DOCUMENT_TO_FILL": "<i class=\"icon icon-file_editable\"></i><p class=\"heading\">Dokumentet innehåller ett interaktivt formulär</p><p class=\"body\">Undertecknaren kommer att bli ombedd att fylla i formuläret innan undertecknandet. </p>",
+    "DOCUMENT_CONSENT" : "Avancerad konfiguration för dokument",
+    "SIGN_ALL": "Jag sinerar alla ({{value}})",
+    "SIGN_ALL_PAY": "Jag skriver under och betalar ({{value}})",
+    "READ_ALL_DOCUMENTS": "Jag har läst de signerade dokumenten",
+    "REDIRECT": "Nästa",
+    "DOWNLOAD_SIGNED_DOCUMENTS": "Ladda ner signerade dokument",
+    "ALL_DOCUMENT_SIGNED": "Alla dokument har signerats",
+    "DOCUMENTS_SIGNED": "Undertecknade dokument: {{value}}",
+    "PREPARING_FILES": "Förbereder filer för nedladdning",
+    "SELECT_FILE": "Välj fil",
+    "SELECT_FILES": "Välj filer",
+    "DRAG_IT_HERE": "eller dra den hit",
+    "WHICH_FILES":"Vilka filer?",
+    "DRAG_THEM_HERE": "eller dra dem hit",
+    "DROP_IT_HERE": "Släpp filen här",
+    "DROP_THEM_HERE": "Släpp filer här",
+    "NAME_DOCUMENT": "Ditt dokumentnamn",
+    "CONFIRM_CANCEL_ORDER": "Ja, sluta lägga till dokument",
+    "CANCEL_ORDER_CONFIRM_TITLE": "Är du säker på att du vill sluta lägga till dokumentet i signaturen?",
+    "CONFIRM_STOP_ADDING_DOCUMENTS": "Ja, sluta lägga till dokumentet",
+    "ARE_YOU_SURE_STOP_ADDING_DOCUMENTS": "Är du säker på att du vill sluta lägga till dokumenten för signering?",
+    "CANCEL_ORDER_CONFRIM_MESSAGE": "Om du avbryter nu kommer dina ändringar inte att sparas och du kommer tillbaka till mappen.",
+    "DOCUMENT_TO_SIGN": "Dokument som ska signeras",
+    "ADD_SIGNERS": "Lägg till undertecknare",
+    "ADD_SIGNERS_DESC": "Ett e-postmeddelande med en länk till dokumentet skickas automatiskt till den första undertecknaren. \nEfter att ha signerat dokumentet kommer länken att skickas automatiskt till andra personer i den ordning du anger.",
+    "ADD_ANOTHER": "Lägg till nästa",
+    "ADD_MESSAGE": "Lägg till ett meddelande till alla på listan",
+    "DELETE_MESSAGE": "Radera meddelande",
+    "LABEL_MESSAGE": "Meddelandetext",
+    "PLACEHOLDER_MESSAGE": "God morgon...",
+    "ERROR_MESSAGE": "Meddelandet kan vara upp till {{value}} tecken långt",
+    "REQUIRED": "Obligatoriskt",
+    "ADD_ME": "Lägg till mig",
+    "CONTACT_SELF": "{{name}} (du)",
+    "SIGN_DOCUMENT": "Signera detta dokument",
+    "SIGNERS": "Undertecknare",
+    "APPROVERS": "Godkännare",
+    "SIGNERS_FULL_LIST": "Fullständig lista över undertecknare och mapplänkar",
+    "SIGNED_BY": "Signerad av {{value1}} / {{value2}} personer",
+    "SIGNED": "Signerad",
+    "SIGNED_VALUE": "{{value1}}/{{value2}} personer",
+    "CREATION_TIME": "{{value1}} vi {{value2}}",
+    "SAVE_DOCUMENT_INFO": "Spara dokumentet i enhetens minne för att komma åt det i framtiden.",
+    "SEE_WHO": "Se vem",
+    "I_SIGN": "Jag signerar",
+    "I_SIGN_FREE": "Jag signerar (betald)",
+    "SIGN_PAID_TOOLTIP_TITLE": "Signaturkostnaden har redan betalats",
+    "SIGN_PAID_TOOLTIP_MESSAGE": "Du tar inte på dig kostnaden för att signera detta dokument.",
+    "READ_DOCUMENT_CONFIRMATION": "Jag har läst ovanstående dokument",
+    "DOWNLOAD_SIGNED_DOCUMENT": "Ladda ner signerat dokument",
+    "SENT_BY": "Mappägare",
+    "ADDING_DOCUMENT": "Lägga till dokument i mappen",
+    "ADDING_DOCUMENTS": "Lägga till dokument",
+    "WE_COULD_NOT_ADD_SOME_DOCUMENTS": "Vi kunde inte lägga till vissa dokument",
+    "ERROR_XML_CONTAINS_SIGNATURES": "Du kan inte lägga till ett XML-dokument som redan har signerats. Välj en fil utan signatur och försök igen.",
+    "ERROR_INVALID_XML_FILE_CONTENT": "Data i XML-filen är i ett felaktigt format. Kontrollera filstrukturen och försök igen.",
+    "ERRORS_DETECTED": "Upptäcktes avvikelser",
+    "DOCUMENTS_CONTAINS_ERRORS": "Följande dokument kan inte läggas till i mappen:",
+    "ERROR_VIRUS_FOUND": "Ett virus upptäcktes i den här filen",
+    "ERROR_FILE_IS_PROTECTED_WITH_PASSWORD": "Lösenordsskyddad fil",
+    "ERROR_FILE_SIZE_EXCEEDS": "Filstorleken överskrider {{value}}",
+    "ERROR_MIME_TYPE_NOT_SUPPORTED": "Felaktigt filformat",
+    "ERROR_FILE_TYPE_IS_NOT_SUPPORTED": "Felaktigt filformat",
+    "ERROR_DOCUMENT_UPLOAD_FILENAME_TOO_LONG": "Filnamnet är för långt - Max 100 tecken",
+    "ERROR_DOCUMENT_UPLOAD_INCORRECT_FILENAME": "Filnamnet innehåller ogiltiga tecken. Tillåtna tecken är: A-Z, a-z, 0-9, ,.'!@#$%^&()-=_+",
+    "ERROR_FILE_WITH_SAME_NAME_ALREADY_EXISTS": "En fil med detta namn finns redan i den här mappen",
+    "ERROR_FILE_CONTAINS_ACTIVE_FORMS": "Felaktig format på filen. Vänligen konvertera filen till icke-interaktiv och försök igen.",
+    "ERROR_FILE_HAS_DIFFERENT_EXTENSION": "Du kan bara lägga till filer i ett format (PDF eller XML) i en mapp - välj en annan mapp",
+    "DOCUMENT_HAS_SIGNATURE": "Detta dokument har redan en signatur",
+    "ADDING_DOCUMENTS_TO_FOLDER": "Lägga till dokument i mapp",
+    "ADDING_DOCUMENTS_INFO": {
+      "HEADER": "Tillåtna filer",
+      "TERM_2": "Filnamn upp till 100 tecken",
+      "TERM_4": "Endast en fil med samma namn per mapp."
+    },
+    "DOCUMENTS_TO_SIGN": "Dokument beordrade att underteckna: {{value}}",
+    "FILES": "filer",
+    "ADDING_DOCUMENT_DISABLE": "Endast den person som skapade mappen kan lägga till dokument i den.",
+    "ADD_THIS_DOCUMENT": "Skicka dokument för signering",
+    "CLOSE_PREVIEW": "Stäng förhandsgranskning",
+    "SIGNER_EMAIL": "Undertecknarens e-postadress",
+    "PHONE_NUMBER": "Mobilnummer",
+    "USER_FOLDER_LINK": "Dedikerad länk till mapp",
+    "COPY": "Kopiera",
+    "COPIED": "Kopierat",
+    "COPY_LINK": "Kopiera direktlänk",
+    "COPIED_LINK": "Kopierat!",
+    "READY": "Klart",
+    "NO_SIGNERS": "Inga undertecknare har lagts till",
+    "SIGN_SELECTED_DOCUMENTS": "Signera valda dokument",
+    "MAX_FILE_SIZE": "Inte större än {{value}}",
+    "MAX_FILES_SIZE": "Maximal filstorlek: {{value}} MB",
+    "SIGN_IN_PROGRESS": "Signerar...",
+    "IDENTIFICATION_FAILED_TITLE": "Tyvärr har identifieringen inte lyckats",
+    "IDENTIFICATION_FAILED": "Se till att du har ett giltigt ID-kort eller pass, en fungerande webbkamera och mikrofon och lämpliga villkor för konversation och försök igen.",
+    "SIGN_FAILED": "Dokumentsignering misslyckades",
+    "SESSION_FAILED": "Skapandet av signeringssessionen misslyckades",
+    "BACK_TO_FOLDER": "Tillbaka till mapp",
+    "VERIFICATION_IN_PROGRESS": "Väntar på din identitetsbekräftelse",
+    "SHOW_DOCUMENT": "Förhandsgranska",
+    "DOCUMENT_PREVIEW": "Förhandsgranskning av dokument",
+    "LIST_OF_SIGNERS": "Lista över undertecknare",
+    "DOWNLOAD_ORIGINAL_DOCUMENT": "Ladda ner originaldokument",
+    "DOCUMENT_NOT_SENT": "Beställningen har inte skickats till undertecknarna",
+    "CHECK": "Kontrollera",
+    "BUY_MORE_SIGNATURES": "Köp ett avancerat signaturpaket med KYC-identifikation",
+    "BUY_MORE_QUALIFIED_SIGNATURES": "Köp ett paket med kvalificerade signaturer",
+    "ADDED_NOTIFICATION": "<h2>Dokument som lagts till i mappen: {{value1}}</h2> <em>Vi har tagit </em> <strong>{{value2}} {{value3}}</strong> <em> från ditt paket.</em>",
+    "ADDED_NOTIFICATION_WITHOUT_DESCRIPTION": "<h2>Dokument som lagts till i mappen: {{value1}}</h2>",
+    "FILE_WITH_SAME_NAME_ALREADY_EXISTS": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>En fil med detta namn finns redan i den här mappen</h2>",
+    "FILE_IS_PROTECTED_WITH_PASSWORD": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Filen är lösenordsskyddat!</h2>",
+    "FILE_CONTAINS_ACTIVE_FORMS": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Felaktig format på filen!</h2> <br/> <em>Vänligen konvertera filen till icke-interaktiv och försök igen.</em>",
+    "VIRUS_FOUND": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Filen är infekterad!</h2> <em> Vi har upptäckt ett vitus i den uppladdade filen. Processen att ladda upp detta dokument har avbrutits.</em>",
+    "DOCUMENT_UPLOAD_INCORRECT_FILENAME": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Filnamnet innehåller otillåtna tecken.</h2> <em> Tillåtna tecken är: A-Ź, a-ź, 0-9, ,.'!@#$%^&()-=_+</em>",
+    "DOCUMENT_UPLOAD_FILENAME_TOO_LONG": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Filnamnet är för långt.</h2> <em>Filnamnet kan vara max 100 tecken lång. </em>",
+    "DELETE_DOCUMENT": "Ta bort dokument",
+    "DELETE_FAILED_TITLE": "Det går inte att ta bort dokument",
+    "DELETE_FAILED_NOT_OWNER": "Du har inte tillräckliga behörigheter för att ta bort det här dokumentet. \nDokumentet kan <strong> endast </strong> raderas av den person som beställer dess signering eller ägaren till mappen i vilken dokumentet befinner sig.",
+    "OK_UNDERSTAND": "OK, jag förstår",
+    "SELECT_SIGNATURE_TYPE": "Välj signaturtyp",
+    "ADVANCED": "Avancerat & KYC",
+    "QUALIFIED": "Kvalificerad",
+    "EASY": "Avancerad",
+    "EASY_TOOLTIP": "För att använda en avancerad signatur, skapa en ny dokumentmapp. En typ av signatur tilldelas varje mapp.",
+    "EASY_DESC": "När du snabbt behöver signera dokument med en användare som du/ditt företag känner till<span>När ingen skriftlig form krävs och för kontrakt med lägre grad av formalisering</span><span><b>Identitetsverifiering</b> via e-post och SMS-kod</span> ",
+    "ADVANCED_DESC": "För de flesta kontrakt och dokument i affärsrelationer<span>När ingen skriftlig form krävs</span><span>Utfärdad på basis av<b> fjärridentitetsverifiering</b></span><span>Du kan använda den för att signera t.ex. kommersiella kontrakt och avtal, NDAs, mandatavtal och kontrakt för specifikt arbete, semesterförfrågningar mm.</span> ",
+    "QUALIFIED_DESC": "Signatur som motsvarar en handskriven signatur<span>Certifierad av ett personligt kvalificerat certifikat</span><span>För kontrakt och dokument som kräver skriftlig form</span><span>Utfärdad på basis av<b> fjärrcertifierad identitetsverifiering</b></span><span>Du kan underteckna nästan alla dokument med den, inklusive officiella dokument, anställningsavtal, anbudserbjudanden, läkarintyg etc.</span> ",
+    "FIND_OUT_MORE": "Läs mer",
+    "ADVANCED_TOOLTIP": "För att använda en avancerad signatur med KYC-identifikation, skapa en ny dokumentmapp. En typ av signatur tilldelas varje mapp.",
+    "QUALIFIED_TOOLTIP": "För att använda en kvalificerad signatur, skapa en ny dokumentmapp. Varje mapp tilldelas en typ av signatur.",
+    "SWITCH": "Switch",
+    "YOU_HAVE_QUALIFIED_SIGNATURES": "Du har kvalificerade signaturer",
+    "SWITCH_TO_ADVANCED_SIGNATURES": "Byt till avancerade signaturer med KYC-identifikation",
+    "EASY_SIGNATURE": "Avancerad signatur",
+    "ADVANCED_SIGNATURE": "Avancerad signatur & KYC",
+    "QUALIFIED_SIGNATURE": "Kvalificerad signatur",
+    "NO_SIGNATURE": "Ingen signatur vald",
+    "PRIMARY": "Grundläggande",
+    "HIGH": "Hög",
+    "HIGHEST": "Högst",
+    "COMPARE_THE_SIGNATURES": "Jämför signaturer",
+    "QUALIFIED_NOT_ENOUGH": "Du har inte tillräckligt med kvalificerade signaturer i det aktiva paketet för att signera detta dokument. Signera först de valda dokumenten med detta paket och aktivera (eller köp) sedan ett nytt paket för att signera mer.",
+    "DELETED_DOCUMENT": "Dokumentet har tagits bort",
+    "FULL_STORAGE_MODAL_TITLE": "Det är slut på diskutrymme!",
+    "FULL_STORAGE_MODAL_MESSAGE": "Du har inte tillräckligt med diskutrymme för att lägga till ytterligare dokument. Ta bort onödiga dokument för att frigöra utrymme.",
+    "CURRENT_STORAGE": "Aktuell användning:",
+    "CURRENT_STORAGE_SEPARATOR": "från",
+    "DOWNLOAD_MENU": {
+      "HEADER": "LADDA NER DOKUMENT",
+      "ORIGINAL": "Original",
+      "SIGNED": "Signerad",
+      "SEE_WHO": "Se vem som skrivit på"
+    },
+    "SIGNED_DATE": "{{date}} klockan {{time}}",
+    "SEND_REMINDER": "Skicka påminnelsemail",
+    "DELETE_MODAL": {
+      "TITLE": "Ta bort dokument",
+      "DELETE_MESSAGE": "Är du säker på att du vill <strong> permanent </strong> ta bort det här dokumentet från plattformen?",
+      "DELETE_SIGNED_MESSAGE": "<strong> Ladda ner det signerade dokumentet innan du tar bort det </strong> och arkivera det på egen hand.",
+      "DELETE_THIS_DOCUMENT": "Ta bort detta dokument",
+      "DELETE_WITHOUT_DOWNLOAD_DOCUMENT": "Ta bort utan att ladda ner",
+      "DOWNLOAD_AND_DELETE_DOCUMENT": "Ladda ner och ta bort"
+    },
+    "PREVIEW": {
+      "GO_TO_LIST_OF_SIGNERS": "Gå till listan över undertecknare"
+    },
+    "ADD_GRAPH_REPRESENTATION": "Lägg till grafisk representation av signaturer",
+    "DO_NOT_ADD": "Lägg inte till",
+    "QUALIFIED_ONLY": "endast kvalificerad",
+    "ADD_FIRST_PAGE": "Visualisering på första sidan av dokumentet",
+    "ADD_LAST_PAGE": "Ytterligare sida i slutet av dokumentet",
+    "INDICATE_PLACE_OF_SIGN": "Ange platsen själv",
+    "INDICATE_PLACE_OF_SIGN_DISABLED_INFO": "vid uppladdning av max 1 dokument",
+    "MANUAL_TOOLTIP_MESSAGE": "Du väljer var på dokumentet en lista över personer som undertecknat det ska visas, tillsammans med tidpunkten för undertecknandet.",
+    "FIRST_PAGE_WITH_QUALIFIED_SIGNATURE_TOOLTIP_MESSAGE": "I sidofältet på den första dokumentsidan kommer en lista över de personer som undertecknade dokumentet att visas tillsammans med tidpunkten för deras underskrifter.",
+    "LAST_PAGE_WITHOUT_SIGNATURES": "Sidan som läggs till i slutet av dokumentet kommer att innehålla en lista över personer som undertecknat dokumentet tillsammans med status och tidpunkt för deras underskrifter.",
+    "LAST_PAGE_WITH_SIGNATURES": "Om det finns några tidigare inskickade signaturer på dokumentet tar du bort dem om du väljer det här alternativet.",
+    "FIRST_PAGE_WITH_OTHER_SIGNATURES_TOOLTIP_MESSAGE": "I sidofältet på den första dokumentsidan kommer en lista över de personer som undertecknade dokumentet att visas tillsammans med tidpunkten för deras underskrifter. I fallet med en avancerad signatur kommer detta att vara en lista över undertecknarnas e-postadresser.",
+    "DEFINE_ORDER": "Bestäm signeringsordningen",
+    "CHANGE_DOCUMENT_TITLE": "Ändring av dokumentnamn",
+    "DOCUMENT_NAME_ERROR": "Dokumentnamnet kan vara upp till {{value}} tecken långt",
+    "MAX_SIGNERS": "Max. {{value}} undertecknare",
+    "MAX_8_SIGNERS_INFO": "Visualisering på dokumentets första sida tillåter inte fler än 8 undertecknare. Välj en annan grafisk representation av signaturer eller justera antalet undertecknare.",
+    "MAX_12_SIGNERS_INFO": "Den valda grafiska representationen av signaturer tillåter inte fler än 12 undertecknare. Justera antalet undertecknare eller välj \"Lägg inte till\".",
+    "WHICH_DOCUMENT": "Dokument {{value1}} av {{value2}}",
+    "SHOW_DOCUMENTS": "Visa dokument...",
+    "DOCUMENTS_TO_SIGN_STATUS": "som ska undertecknas",
+    "SIGNED_DOCUMENTS": "undertecknade dokument",
+    "OTHER_DOCUMENTS": "andra dokument",
+    "NO_DOCUMENTS_FOUND": "Inga dokument hittades",
+    "FINISHED": "färdiga",
+    "FILTERS_ADDED": "Lagt till...",
+    "FILTERING": "Filtrering",
+    "FILTERS_RETURN": "Återställa",
+    "FILTERS_SOON": "Kommer snart:",
+    "FILTERS_NO_DOCUMENTS":"Dina filterinställningar gömde mapparna.",
+    "FILTERING_TOLTIP_HEADER": "Nytt - filtrering och sortering!",
+    "FILTERING_TOLTIP_CONTENT": "Nu kan du filtrera och sortera dokument och mappar bekvämt. Kolla in de nya alternativen!",
+    "DOCUMENTS_TOLTIP_HEADER": "Vi har introducerat en ny flik \"Dokument\"",
+    "DOCUMENTS_TOLTIP_CONTENT": "Nu kan du visa och söka efter dokument från alla mappar på ett och samma ställe. Det gör det lättare för dig att hitta de filer du behöver utan att behöva leta igenom flera mappar.",
+    "FILTERS_SUBMIT": "Tillämpa",
+    "FILTERS_CANCEL": "Avbryt",
+    "TO_FILL": "Uzupełnij dokument"
+  },
+  "FILTERS":{
+    "IN_PROGRESS": "pågår"
+  },
+  "PIN_CONFIRMATION": {
+    "CODE": {
+      "TITLE": "Vi har skickat ett sms till dig med koden",
+      "STEP": "<strong>Steg 2.</strong> Vi kommer nu att bekräfta om telefonnumret du har angett är korrekt.",
+      "LABEL": "Nytt mobilnummer",
+      "ERROR": "E-mail-koden är felaktig"
+    },
+    "SMS_ERROR": "Ett oväntat fel inträffade. Försök igen.",
+    "TITLE": "Vi \n har skickat ett SMS till dig",
+    "YOUR_PHONE_NUMBER": "Ditt mobilnummer",
+    "ENTER_SMS_CODE": "Ange kod från SMS",
+    "Medvetenhet": "Jag är medveten om att jag kommer att signera detta dokument genom att fortsätta.",
+    "SEND_CODE_AGAIN": "Skicka koden igen",
+    "CHALLENGE_ERROR": "SMS-koden är felaktig",
+    "TIME_TO_UNLOCK": "{{value}} kvar för att låsa upp sessionen",
+    "ATTEMPTS_LEFT": "{{value}} försök kvar",
+    "RESEND_TIME": "Det finns fortfarande {{timeLeft}} innan du kan skicka om",
+    "SMS_CODE_SENT": "SMS med kod har skickats",
+    "EMAIL": {
+      "TITLE": "Vi har skickat dig ett e-postmeddelande med koden",
+      "ENTER_YOUR_EMAIL_CODE": "Ange koden från e-post",
+      "SEND_CODE_AGAIN": "Skicka e-postmeddelande igen",
+      "YOUR_EMAIL": "Din e-postadress",
+      "STEP": "<strong>Steg 1.</strong> För att öka säkerheten kommer vi att bekräfta din e-postadress."
+    }
+  },
+  "FOLDERS": {
+    "FOLDERS": "Mappar",
+    "DOCUMENTS": "Dokument",
+    "SHOW_ONLY_MY": "Visa bara mina mappar",
+    "FIND_DOCUMENTS": "Sök efter dokument",
+    "FOLDER_CREATED": "Mapp skapad",
+    "DOCUMENTS_FOLDERS": "Dokumentmappar",
+    "CREATE_FOLDER": "Skapa mapp<br>och lägg till dokument för signatur",
+    "SIGNERS": "Undertecknare",
+    "ADD_NEW_FOLDER": "Lägg till mapp",
+    "NAME_YOUR_FOLDER": "Ange namn på mappen",
+    "FOLDER_NAME_ERROR": "Mappnamn kan vara upp till {{value}} tecken",
+    "ADD_CONFIRM": "Bekräfta",
+    "FOLDER_SIGNERS": "Undertecknare av denna mapp",
+    "DELETE_FOLDER": "Ta bort den här mappen",
+    "CHANGE_FOLDER_NAME": "Byt namn på mappen",
+    "DELETE_MODAL_TITLE": "Ta bort mapp",
+    "DELETE_MODAL_MESSAGE": "Är du säker på att du vill ta bort den här mappen?",
+    "EDIT_MODAL_TITLE": "Byt namn på mappen",
+    "SAVE_CHANGE": "Spara ändringar",
+    "NAME_CHANGED": "Mappnamnet har ändrats",
+    "DELETED": "Mappen har tagits bort",
+    "DELETE_MODAL_ERROR_TITLE": "Kan inte ta bort mappen",
+    "DELETE_MODAL_ERROR_MESSAGE": "Det finns återställda signerade dokument i mappen. Ta bort dem först för att kunna radera mappen.",
+    "DELETE_MODAL_ERROR_CONFIRM": "OK, jag förstår",
+    "DOCUMENTS_TO_SIGN": "Dokument som ska signeras",
+    "SELECTED_TO_BE_SIGNED": "Vald för signatur",
+    "FOLDERS_PREVIEW": "Förhandsgranska anställdas mappar",
+    "PREVIEW_FOLDERS": "Förhandsgranskning av personalmappar",
+    "NO_FOLDERS": "Användaren äger inga mappar.",
+    "FOLDERS_PREVIEW_REMOVED": "Förhandsvisningen av medarbetarmappar har flyttats till avsnittet \"<a href=\"{{url}}\">Mitt team</a>\" i Inställningar.",
+    "SHOW_FOLDERS": "Visa mappar...",
+    "WITH_SIGNED_DOCUMENTS": "med undertecknade dokument",
+    "WITH_DOCUMENTS_TO_SIGN": "med dokument som skall undertecknas",
+    "OTHER_FOLDERS": "Övriga mappar",
+    "CREATED_BY_ME": " av mig",
+    "CREATED_BY_OTHERS": "av andra",
+    "TUTORIAL": {
+      "STEP_1_HEADER": "Lägg till dokument för underskrift",
+      "STEP_1_CONTENT": "Signera och delegera dokument för underskrift - börja här.",
+      "STEP_1_BACK": "Hoppa till",
+      "STEP_1_NEXT": "Nästa",
+      "STEP_2_HEADER": "Verifiera din identitet",
+      "STEP_2_CONTENT": "Köp ett signaturpaket och gå igenom identitetsverifieringsprocessen.",
+      "STEP_2_CLOSE": "Slutför"
+    }
+  },
+  "DASHBOARD": {
+    "GET_READY": "Gör dig redo att signera. <br> Vilken signatur behöver du?",
+    "GET_READY_SMALL": "Gör dig redo att signera",
+    "MY_SIGNATURES": "Mina signaturer",
+    "PREPARE_SIGN": "Förbered dig på att signera",
+    "STEPS_INFO": "Du är bara två steg från att signera dokument online. Köp ett signaturpaket och verifiera din identitet. Vi börjar!",
+    "BUY_SIGNATURES": "Köp signaturer",
+    "SEE_PACKAGES": "Visa paket",
+    "IDENTITY_VERIFICATION": "Identitetsverifiering",
+    "IDENTITY_INFO": "<strong> Identitetsverifiering är en kort, engångs- och säker process </strong> där vi kommer att verifiera dina uppgifter innan du signerar det första dokumentet på plattformen (eller i händelse av ändring av uppgifter).",
+    "NO_SIGN_EASY": "Du har inga avancerade signaturer.",
+    "NO_SIGN_ADVANCED": "Du har inga avancerade signaturer med KYC-identifikation.",
+    "NO_SIGN_QUALIFIED": "Du har inga kvalificerade signaturer",
+    "YOU_HAVE_SIGNATURES": "Du har signaturer",
+    "PURCHASED_BY_QUALIFIED": "Kvalificerade signaturer betalda av {{value}}",
+    "PURCHASED_BY_ADVANCED": "Avancerade signaturer med KYC betald av {{value}}",
+    "PURCHASED_BY_EASY": "Avancerade signaturer betalas av {{value}}",
+    "NOT_VERIFIED": "Din identitet har inte verifierats ännu.",
+    "TO_FILL": "Den första undertecknaren måste fylla i formuläret i dokumentet",
+    "CONFIRM_IDENTITY": "Bekräfta identitet",
+    "IDENTITY_CONFIRMED": "Identiteten bekräftad",
+    "START_SIGNING": "Du kan börja signera!",
+    "READY": "Klart!"
+  },
+  "PARTNER": {
+    "MBANK": {
+      "HEADER": "Signatursplattform"
+    }
+  },
+  "PAYMENTS": {
+    "SELECT_OPTION": "Jag väljer",
+    "CHANGE_PRODUCT": "Ändra produkt",
+    "CHANGE_METHOD": "Ändringsma betalnetod",
+    "PAY_SUB_BUTTON": "Betala och börja prenumerera",
+    "CARD_NUMBER": "Kortnummer",
+    "EXPIRATION_DATE": "Utgångsdatum",
+    "CVV": "Säkerhetskod",
+    "INVOICE_CHECKBOX": "Jag vill få en momsfaktura",
+    "PAYMENT_PROCESSING": "Betalningshantering",
+    "SELECT_PAY_METHOD": "Välj betalningsmetod",
+    "CHANGE_INVOICE_DETAILS": "Ändra fakturainformation",
+    "PRODUKTNAMN": {
+      "SIGNATURES_PACK": "Engångssignatur",
+      "Prenumeration": {
+        "MONTHLY": "Månadspaket",
+        "YEARLY": "Årspaket"
+      }
+    },
+    "EMPTY_PACKAGE_LABEL": "Jag vill inte köpa paketet",
+    "PRODUCT_DESC": {
+      "SIGN_SINGLE": "Signera 1 valt dokument",
+      "DATE": "Datum",
+      "RECEIVED_FROM": "TAGITS EMOT FRÅN",
+      "PACK": "PAKET",
+      "SIGNATURES_PACK": {
+        "HOURLY": "Signaturpaket {{value}}  giltiga i en timme",
+        "MONTHLY": "Signaturpaket {{value}} giltigt i en månad",
+        "YEARLY": "Signaturpaket {{value}} giltigt i ett år"
+      },
+      "Prenumeration": {
+        "MONTHLY": "Registrera dig till {{value}} dokument varje månad",
+        "YEARLY": "Signaturpaket {{value}} giltigt för hela året"
+      }
+    },
+    "SELECTED_PRODUCT_DESC": {
+      "SIGNATURES_PACK": "Vald paket: {{value}} signaturer",
+      "SUBSCRIPTION": {
+        "MONTHLY": "/ månad, förnyas automatiskt",
+        "YEARLY": "/ år, förnyas automatiskt"
+      }
+    },
+    "PAYMENT_SUCCESS": {
+      "SUBSCRIPTION": "Ditt e-signaturpaket är redan aktivt!",
+      "SIGNATURES_PACK": "Tjänsten är betalad, tack"
+    },
+    "AGREEMENT": {
+      "SUBSCRIPTION": "Prenumerationen startar efter att betalningen har mottagits. \nJag godkänner att mitt kort debiteras med ovanstående belopp och att förnya min prenumeration med jämna mellanrum i enlighet med <a href=\"{{url}}\" target=\"_blank\">Användarvillkor</a>, tills jag säger upp min prenumeration."
+    },
+    "PAYMENT_FAILED": "Betalning misslyckades",
+    "TRY_AGAIN": "Försök igen",
+    "SUBSCRIPTION": "Prenumeration",
+    "MONTHLY": "månad",
+    "YEARLY": "år",
+    "SINGLE_SIGNATURE": "1 signatur",
+    "SIGNATURES_NUMBER": "{{value}} signaturer",
+    "NETTO": "nät",
+    "ACCEPT_TERMS": "Jag har läst och godkänner <br> <a href=\"{{url}}\" target=\"_blank\">Villkor och Regler </a>.",
+    "ACTIVATE_INFO": "Ditt signaturpaket <br> kommer nu att aktiveras",
+    "QUALIFIED": [
+      "Kvalificerad elektronisk signatur",
+      "Kvalificerade elektroniska signaturer"
+    ],
+    "ADVANCED": [
+      "avancerad signatur & KYC",
+      "avancerade signaturer & KYC"
+    ],
+    "EASY": [
+      "avancerad signatur",
+      "avancerade signaturer"
+    ]
+  },
+  "PROFILE": {
+    "ACCOUNT": "Konto",
+    "MY_TEAM": "Mitt lag",
+    "ADMINS": "Administratörer",
+    "ADMIN": "Administratör",
+    "ADMINS_DESC": "De kan lägga till personer i teamet, blockera deras konton och se alla deras dokumentmappar.",
+    "NO_OTHER_ADMINS": "(Inga andra administratörer)",
+    "EMPLOYEES": "Anställda",
+    "EMPLOYEE": "Anställd",
+    "EMPLOYESS_DESC": "De skickar dokument för underskrift inom företagets paket. De har inga ytterligare behörigheter.",
+    "NO_OTHER_EMPLOYESS": "(Inga anställda)",
+    "INVITATION_DECLINED": "Inbjudan avvisades",
+    "INVITATION_PENDING": "Inbjudan väntar",
+    "INVITATION_SENT": "Inbjudan skickad",
+    "ADD_PERRSON": "Lägg till en person",
+    "ADDING_PEOPLE": "Lägga till folk i laget",
+    "SEND_INVITATION": "Skicka inbjudan",
+    "ROLE": "Roller",
+    "CANCEL_INVITATION": "Avbryt inbjudan",
+    "BLOCK_ACCOUNT": "Blockera kontot",
+    "UNLOCK_ACCOUNT": "Lås upp konto",
+    "ADD_ANOTHER": "Lägg till en till",
+    "SIGNATURES": "Avancerade signaturer & KYC",
+    "CARD_DETAILS": "Betalkort",
+    "INVOICE": "Fakturadetaljer",
+    "PERSONAL_DATA": "Personliga data",
+    "EMAIL": "Din e-postadress",
+    "PART_OF_THE_TEAM": "Du tillhör laget",
+    "APP_LANGUAGE": "Applikationsspråk",
+    "DATA_CHANGED": "Mina uppgifter har ändrats",
+    "IDENTITY_DOCUMENT": "Identitetsdokument",
+    "NO_IDENTITY_CONFIRMED": "Ingen bekräftad identitet",
+    "NEW_IDENTIFICATION_REQUIRED": "Vi kommer att fjärrverifiera din identitet nästa gång du signerar dokumentet.",
+    "INVOICE_ALWAYS": "Jag vill få en momsfaktura efter varje köp",
+    "SIGNATURES_AVAILABLE": "Tillgängliga signaturer",
+    "UNTIL_DATE": "till {{value}}",
+    "RENEWAL": "Förnyelse",
+    "DISABLE_RENEWAL": "Inaktivera förnyelse av prenumeration",
+    "DISABLE_RENEWAL_SHORT": "Inaktivera förnyelse",
+    "DISABLE_RENEWAL_CONFIRMATION_TITLE": "Förnyelse av prenumeration har inaktiverats",
+    "DISABLE_RENEWAL_CONFIRMATION_MESSAGE": "Tjänsten du köpte kommer att förbli aktiv, men dina betalkortsuppgifter kommer att raderas och tjänsten förnyas inte automatiskt.",
+    "COST": "Kostnad",
+    "DELETE_CARD": "Ta bort kortet",
+    "DELETE_CARD_CONFIRMATION_TITLE": "Raderar kortuppgifter",
+    "DELETE_CARD_CONFIRMATION_MESSAGE": "Om du tar bort ditt kort kommer också automatisk prenumerationsförnyelse att inaktiveras. \nTjänsten du har köpt kommer att förbli aktiv, men förnyas inte automatiskt - vi kommer inte att debitera ditt kort.",
+    "DELETE_CARD_CONFIRMATION_MESSAGE_2": "Betalkortsuppgifterna som du angav kommer att raderas.",
+    "WAITING_PAYMENT_CONFIRM": "Vi väntar på transaktionsbekräftelsen",
+    "NO_CARD": "Kortinformation kommer att visas här efter köp av ett signaturpaket med prenumeration.",
+    "QUALIFIED_SIGNATURES": "Kvalificerade signaturer",
+    "MY_QUALIFIED_SIGNATURES": "Mina kvalificerade signaturer",
+    "MY_ADVANCED_SIGNATURES": "Mina avancerade signaturer & KYC",
+    "SIGNATURES_PACKS": "Signaturpaket",
+    "PENDING_ACTIVATION": "Väntar på aktivering",
+    "PACKAGE_OVERVIEW": "Paketöversikt",
+    "SHOW_ONLY_MINE": "Visa bara mina",
+    "PURCHASED_FOR": "Köp för",
+    "PURCHASED_DATE": "Köpdatum",
+    "PURCHASED_PACKAGE": "Köpt paket",
+    "RECEIVED_FROM": "Mottagna från",
+    "PACKAGE": "Paket",
+    "DATE": "Datum",
+    "PER_MONTH": "/månad",
+    "PER_YEAR": "/ år.",
+    "PURCHASED_NO_DATA": "Här hittar du alla paket du har köpt.",
+    "RECEIVED_NO_DATA": "Här hittar du alla mottagna paket.",
+    "NO_RESULTS": "Inga resultat",
+    "EASY": "Avancerade signaturer",
+    "MY_EASY_SIGNATURES": "Mina avancerade signaturer",
+    "SETTINGS": "Inställningarv",
+    "AUTOMATIC_DOCUMENT_DELETION_TITLE": "Automatisk radering av dokument",
+    "AUTOMATIC_DOCUMENT_DELETION_MESSAGE": "Dokument som du har lagt till för mer än 30 dagar sedan kommer att raderas varje dag vid midnatt (UTC).",
+    "TEAM_AUTOMATIC_DOCUMENT_DELETION_MESSAGE": "Dokument som lagts till av dig och dina teammedlemmar kommer automatiskt att tas bort från plattformen efter 30 dagar.",
+    "INVITATION_WAITING": "Inbjudan väntar",
+    "INVITATION_REJECTED": "Inbjudan avvisad",
+    "SHOW_ONLY_ACTIVE_ACCOUNTS": "Visa endast<br/>aktiva konton",
+    "SIGN_DOCUMENT_TO_ACTIVATE": "Signera dokumentet för att aktivera paketet som tillhandahålls av {{value}}.",
+    "DELETING_ACCOUNT": "Ta bort ditt konto",
+    "DELETE_ACCOUNT": "Radera konto",
+    "CURRENT_PASS": "Ange det aktuella lösenordet",
+    "DELETE_ACCOUNT_FOREVER": "Ta bort konto för alltid",
+    "HOW_WE_CAN_IMPROVE": "Hur kan vi förbättra plattformen? (frivillig)",
+    "DELETE_WARNING": "När du har raderat ditt konto kommer mapparna du har skapat och dokumenten du har lagt till att <strong>raderas för alltid</strong> och din data kommer att anonymiseras. <span>Alla dina signaturpaket kommer att avaktiveras oavsett deras status. Förnyelsen av alla aktiva prenumerationer kommer automatiskt att inaktiveras.</span>",
+    "DELETE_BC_USER_WARNING": "N När du tar bort en anställds konto kommer mappar som han har skapat och dokument han har lagt till att <strong>raderas oåterkalleligt</strong> och hans data kommer att anonymiseras. Alla hans signaturpaket kommer att avaktiveras oavsett deras status. Förnyelse av hans/hennes prenumerationer kommer automatiskt att avaktiveras.",
+    "DOCUMENTS_DELETION": "Radering av dokument pågår...",
+    "FOLDERS_DELETION": "Radering av mappar pågår...",
+    "ACOUNT_DELETION": "Anonymisering av dina uppgifter pågår...",
+    "ACOUNT_DELETED": "Kontot har tagits bort.",
+    "CREATE_NEW_PASSWORD": "Skapa ett nytt lösenord",
+    "CURRENT_PASSWORD": "Nuvarande lösenord",
+    "CONFIRM_CHANGE": "Bekräfta ändringar",
+    "INCORECT_PASS": "Du har angett ett felaktigt lösenord.",
+    "CHANGE_REQUEST_BLOCKED": "På grund av flera felaktiga lösenordsinmatningar har möjligheten att ändra ditt lösenord blockerats i 5 minuter. Vänligen försök igen senare.",
+    "MEMBERS": "Medlemmar",
+    "SETUP": "Uppstart",
+    "IDENTITY_DESC": "Identitetsverifiering för kvalificerad signatur",
+    "IDENTITY_QUAL": "Behöver du en kvalificerad signatur?",
+    "IDENTITY_QUAL_BTN": "Köp paket, verifiera identitet",
+    "IDENTITY_DESC_TOOLTIP": {
+      "HEADER": "För att få en kvalificerad signatur krävs en verifiering av din identitet.",
+      "DOT1": "Denna process är säker och krävs enligt lag.",
+      "DOT2": "Vi genomför den en gång innan den kvalificerade signaturen utfärdas och när dina uppgifter ändras.",
+      "DOT3": "Processen tar vanligtvis 5–20 minuter, beroende på vald metod, kvaliteten på internetanslutningen och tekniska förhållanden (t.ex. belysning och kamera).",
+      "DOT4": "Ha ditt ID-kort eller pass redo."
+    },
+    "SECURITY": {
+      "TITLE": "Säkerhet",
+      "DESC": "Välj en auktoriseringsmetod",
+      "APP": "Auktorisationsansökan",
+      "SMS": "Ta emot engångskoder i SMS som skickas till ditt telefonnummer",
+      "2FA": "Ta emot koder i auktoriseringsappen parad med SIGNIUS på din mobila enhet",
+      "BADAGE": "Rekommenderad",
+      "CONNECT": "Ansluta!",
+      "SMS_HEADER": "SMS",
+      "RECONNECT": "återanslut",
+      "2FA_MODAL": {
+        "TITLE": "Skanna QR-koden",
+        "VER_CODE": "Verifierings kod:",
+        "ERROR": "Fel kod eller fel uppstod",
+        "SCAN_CODE_TXT_1": "1. Ladda ner auktoriseringsapplikationen från mobilapplikationsbutiken till din mobila enhet",
+        "SCAN_CODE_TXT_2": "2. För att para ihop den valda auktoriseringsapplikationen med SIGNIUS, skanna QR-koden nedan."
+      }
+    }
+  },
+  "SIGN_SUMMARY": {
+    "TITLE": "Dokument för signatur",
+    "SUBTITLE": "Du håller på att signera följande dokument elektroniskt:",
+    "ALL_DOCUMENTS": "Alla dokument ({{value}})",
+    "IDENTIFICATION_DATA": "Din dejt, die für die Signierung verwendet werden",
+    "IDENTITY_CONFIRMATION": "Jag bekräftar att mina uppgifter är uppdaterade",
+    "SIGN_SELECTED": "Signera dokument",
+    "IDENTITY_CHANGED": "Mina uppgifter har ändrats",
+    "WAIT_A_MINUTE": "Vänta en stund!",
+    "DOCUMENT_BEING_SIGNED": "Dokumentet undertecknas för närvarande av en annan person. Av tekniska skäl kan endast en person underteckna ett dokument åt gången.",
+    "LESS_THAN_2_MINUTES": "Det tar mindre än 2 minuter.",
+    "CANCEL_AND_SIGN_LATER": "Avbryt och underteckna senare",
+    "YOU_CAN_SIGN": "Du kan skriva under nu!",
+    "THANKS_FOR_PATIENCE": "Tack för ditt tålamod.",
+    "CONTINUE": "Fortsätt",
+    "YOUR_SIGNATURE_SYMBOL": "Din grafiska signatursymbol",
+    "GRAPHICAL_SYMBOL_INFO": "Typen av signatursymbol<br> påverkar inte signaturens<br> giltighet.",
+    "CHANGE_SYMBOL": "Byt symbol",
+    "SELECT_SYMBOL": "Välj typ av signatursymbol",
+    "NAME_DISPLAYED": "Namnet visas på dokumentet",
+    "NAME_LENGTH_ERROR": "Namnet kan vara upp till {{value}} tecken långt",
+    "QUEUE_INFO_HEADING": "Undertecknandet av flera dokument pågår...",
+    "QUEUE_INFO_TEXT": "Det kräver lite mer tid.",
+    "QUEUE_INFO_TEXT2": "Du behöver inte vänta – du kan fortsätta med andra saker och helt enkelt kontrollera hur signeringen fortskrider i mappen.",
+    "BATCH_EXCEEDED_SUBTITLE": "Du är på väg att elektroniskt signera {{value}} dokument",
+    "ORANGE_TITLE": "Godkänna och signera dokument"
+  },
+  "IDENTITY_METHOD_SELECTOR": {
+    "SELECT_PROVIDER": "Välj identifieringsmetod",
+    "VIDEO_1": "Videoidentifiering",
+    "VIDEO_2": "För personer med kamera, mikrofon och bra internetuppkoppling",
+    "VIDEO_3": "Prata med vår representant som kommer att verifiera din identitet.",
+    "VIDEO_4": "Du behöver ett ID-kort eller pass.",
+    "AUTHOLOGIC_1": "Identifiering via elektronisk bank",
+    "AUTHOLOGIC_2": "Dina bankuppgifter är säkra. Banken bekräftar endast ditt namn och efternamn åt oss.",
+    "VERIMI_1": "Digital identitetshubb",
+    "VERIMI_2": "Verimi-användare med en bekräftad digital identitet kan signera dokument omedelbart.",
+    "VERIMI_3": "Du är inte en Verimi-användare? Bekräfta din identitet bekvämt med eID-funktionen på ditt ID-kort.",
+    "IDENTT": "Testidentifiering",
+    "NECT_1": "Självidentifiering",
+    "NECT_2": "Bekräfta din identitet i NECT-appen på din smartphone.",
+    "NECT_3": "Spela in ditt ID-kort och selfievideo - 2 minuter och du är klar!"
+  },
+  "IDENTITY_DATA": {
+    "PERSONAL_TITLE": "Titel (valfritt)",
+    "PERSONAL_TITLE_MAX": "Totalt max 75 tecken i fälten: Titel, Förnamn, Efternamn",
+    "PERSONAL_DATA_CHANGE": "Ändring av personuppgifter",
+    "FIRST_NAME": "Namn",
+    "LAST_NAME": "Efternamn",
+    "NATIONALITY": "Medborgarskap",
+    "DOCUMENT_TYPE": "Dokumenttyp",
+    "DOCUMENT_NUMBER": "Dokumentnummer",
+    "PESEL": "PESEL",
+    "GIVEN_NAMES": "Givna namn",
+    "ISSUING_AUTHORITY": "Utfärdande myndighet",
+    "DOCUMENT_SERIES_AND_NUMBER": "Dokumentnummer",
+    "DATE_OF_BIRTH": "Födelsedatum",
+    "DOCUMENT_EXPIRE_DATE": "Utgångsdatum",
+    "PHONE_NUMBER": "Mobilnummer",
+    "IDENTITY_DOCUMENT_CHANGED": "Mitt ID har ändrats",
+    "CONFIRMED_IDENTITY_DOCUMENT": "Bekräftad identitetshandling",
+    "NEW_IDENTIFICATION_REQUIRED_INFO": "<strong> OBS! </strong> <br/> <em> För att ändra de bekräftade uppgifterna måste du gå igenom processen för identitetsverifiering igen. <br/> Om det närmar sig utgångsdatumet för din identitetshandling har gått ut, kom ihåg att förlänga den innan nästa bekräftelse av din identitet. </em> ",
+    "EXTERNAL_ID": "ID-nummer",
+    "PROVIDE_DATA_FROM_ID_CARD": "Ange detaljer från ditt identitetskort",
+    "PROVIDE_DATA_FROM_PASSPORT": "Ange detaljer från ditt pass",
+    "VERIFICATION": {
+      "TITLE": "Nu kommer vi att bekräfta din identitet",
+      "DESC_1": "Du är på väg att ansluta till en videokonsult som guidar dig steg för steg genom identifieringsprocessen.",
+      "DESC_2": "<strong> Förbered ett giltigt ID </strong> (ID-kort eller pass) och ha din <strong> mobiltelefon </strong> nära till hands.",
+      "DESC_3": "Efter att ha klarat verifieringsprocessen kommer du att kunna signera dokument med en elektronisk signatur.",
+      "VIDEO": "Videosamtal med en konsult"
+    },
+    "EMAIL": "E-postadress"
+  },
+  "HELP": {
+    "BUTTON": "HELP",
+    "TITLE": "Har du några frågor? \nBehöver du hjälp?",
+    "EMAIL_MESSAGE": "Kontakta oss",
+    "TUTORIAL_HEADER": "Handledning",
+    "TUTORIAL_MESSAGE": "Lär dig steg för steg hur du använder plattformen",
+    "FAQ_MESSAGE": "Hitta svar på vanliga frågor",
+    "GITBOOK_MESSAGE": "Utforska vår plattformsguide full av instruktioner"
+  },
+  "VIDEO_VERIFICATION": {
+    "START": "Start",
+    "PHOTO_OF_ID": "Foto av ID",
+    "DATA_FROM_ID": "Data från ID",
+    "VIDEO_CALL": "Videosamtal",
+    "TITLE": "Videoverifiering",
+    "BEFORE_YOU_CONNECT": "Innan du kontaktar en konsult...",
+    "MAKE_SURE_YOU_HAVE": "Se till att du har:",
+    "VALID_IDENTITY_CARD_PASSPORT": "ett giltigt identitetskort eller pass",
+    "WORKING_CAMERA_MIC": "en fungerande kamera och mikrofon",
+    "STABLE_INTERNET": "en stabil internetuppkoppling",
+    "FEW_MINUTES": "några minuters lugn stund",
+    "START_CONVERSATION": "Starta konversation",
+    "NEXT": "Nästa"
+  },
+  "BIRTH_DATE_VERIFICATION": {
+    "TITLE": "Det verkar som om ditt konto redan finns!",
+    "MESSAGE": "Den här e-postadressen är redan registrerad. För att säkerställa att det är ditt konto, vänligen ange ditt födelsedatum.",
+    "TITLE_DATE_INVALID": "Det angivna födelsedatumet stämmer inte överens med e-postadressen.",
+    "MESSAGE_DATE_INVALID": "Skapa ett nytt konto med en annan e-postadress för att börja signera dokument för SIGNIUS Professional."
+  },
+  "VERIFICATION_OFFLINE": {
+    "TITLE": "Identitetsverifiering",
+    "SUBTITLE": "Kom tillbaka till oss vid det här laget.",
+    "MESSAGE": "För att säkerställa fullständig säkerhet för transaktionen kommer vi att verifiera din identitet en gång innan vi signerar det första dokumentet (eller vid uppgiftsändring). \nEfter att ha bekräftat din identitet kommer du att kunna signera dokumenten när som helst.",
+    "BACK_TO_FOLDER": "Tillbaka till mapp"
+  },
+  "IDENTITY_TM_CONFIRMATION": {
+    "TITLE": "Välj vilken typ av dokument du vill använda för identifiering",
+    "NATIONAL_ID_LABEL_OPTION": "ID-kort",
+    "PASSPORT_LABEL_OPTION": "Pass",
+    "TYPE_CHANGE_CONFIRM_TITLE": "Du kan bara lägga till en dokumenttyp.",
+    "TYPE_CHANGE_CONFIRM_MESSAGE": "Ta bort dokumentfoton som redan har lagts till?",
+    "TYPE_CHANGE_CONFIRM_BUTTON": "Radera foton och fortsätt"
+  },
+  "WEBCAM_COMPONENT": {
+    "ID_FRONT_PHOTO": "Foto av dokumentets framsida",
+    "ID_BACK_PHOTO": "Foto på baksidan av dokumentet",
+    "PASSPORT_PHOTO": "Fotosida",
+    "TURN_ON_CAMERA": "Sätt på kameran",
+    "SNAPSHOT": "Ta en bild",
+    "SELECT_FILE": "Välj fil",
+    "REMOVE_PHOTO": "Radera denna bild",
+    "UPLOAD_ERROR": "Ett oväntat fel inträffade när filen laddades upp. Försök igen.",
+    "OR": "Eller",
+    "PHOTO_ADDED": "Tillagt",
+    "MAX_SIZE_EXCEEDED": "Den valda filen överskrider den maximala filstorleksgränsen ({{size}})",
+    "ALLOWED_FILE": "{{extensions}}. Max {{size}}"
+  },
+  "PAYMENT_DETAILS": {
+    "TITLE": "Bestämma vems signaturkostnader du ska täcka",
+    "TITLE_QUALIFIED": "Valfritt: Köp paket åt dina undertecknare",
+    "SUBTITLE": "Signaturer för undertecknarna som väljs nedan kommer att tas från ditt paket",
+    "SUBTITLE_QUALIFIED": "Genom att skicka ett dokument för signatur kan du köpa ett kvalificerat signaturpaket för utvalda personer. De kommer att kunna använda det för att signera både dina och andra dokument.",
+    "SIGNS": "Signaturer",
+    "SIGNS_OWNED": "Tillgängliga",
+    "SIGNS_NEEDED": "Nödvändiga",
+    "NUMBER_SELECTED_SIGNERS": "antal utvalda undertecknare",
+    "NUMBER_DOCUMENTS": "antal dokument",
+    "SIGNS_MISSING": "Saknas",
+    "SIGNS_REMAINING": "Återstående",
+    "NEW_SIGNERS_TITLE": "Nya undertecknare",
+    "NEW_SIGNER": "1 ny undertecknare × {{price}}",
+    "NEW_SIGNERS": "{{count}} nya undertecknare × {{price}}",
+    "TOTAL_PRICE": "Totalt att betala",
+    "SIGNER_PAYS": "Undertecknaren betalar",
+    "BUY_MORE_TO_CONTINUE": "För att fortsätta, köp ett signaturpaket",
+    "NEW": "Ny",
+    "ADD_DOCUMENT": "Skicka för signatur",
+    "SELECT_PACKAGE": "Välj ett paket",
+    "SELECT_PACKAGE_TITLE": "Välj ett signaturpaket",
+    "CHANGE_PACKAGE": "Ändra paket",
+    "GO_TO_PAYMENT": "Gå till betalning",
+    "STOP_PAYMENT": "Stoppa betalning",
+    "TOOLTIP_TITLE": "Bekräftelse av nya användares identitet",
+    "TOOLTIP_CONTENT": "Vi verifierar identiteten för varje ny användare för att säkerställa fullständig säkerhet för tjänsten. Kostnaden för engångsidentifiering är {{value}}. Genom att täcka kostnaderna för att identifiera nya undertecknare tillåter du dem att skapa en konto och signera kostnadsfritt.",
+    "USER_TOOLTIP_CONTENT": "Kostnaden för din signatur måste betalas av dig.",
+    "AVAILABLE_SIGNATURES": "Ägda signaturer",
+    "PURCHASED": "Köpt",
+    "WANT_TO_BAY": "Jag vill köpa mer",
+    "ALREADY_HAVE_SIGNATURE": "Du har redan kvalificerade signaturer"
+  },
+  "PRODUCTS": {
+    "YEARLY_SUBSCRIPTION": "Årlig prenumeration",
+    "MONTHLY_SUBSCRIPTION": "Månadsprenumeration",
+    "SIGNATURE_PACK": "Engångsköp",
+    "SIGNATURES_QUANTITY": "Antal signaturer",
+    "UNIT_PRICE": "{{value}} för signatur",
+    "SUBSCRIPTION_INFO_RENEWED": "Månatlig förnyelsepaket.",
+    "SUBSCRIPTION_INFO_RESIGNATION": "Du kan avsluta prenumerationen när som helst.",
+    "SIGNATURE_PACK_INFO": "Paket giltigt i ett år från inköpsdatumet.",
+    "PROMOTIONAL_TEXT": "Du sparar 20 %",
+    "PER_YEAR": "/år",
+    "PER_MONTH": "/månad",
+    "QUALIFIED_SIGNATURES_COUNT": "{{value}} kvalificerade signaturer",
+    "ADVANCED_SIGNATURES_COUNT": "{{value}} avancerade signaturer & KYC",
+    "EASY_SIGNATURES_COUNT": "{{value}} avancerade signaturer",
+    "ONE_QUALIFIED_SIGNATURE": "1 kvalificerad signatur",
+    "QUALIFIED_DESCRIPTION": "Här kan du kontrollera statusen för dina kvalificerade signaturpaket. Signera eventuella dokument med det aktiva paketet - paket är inte associerade med något dokument. En kvalificerad signatur tilldelas alltid en specifik person.",
+    "ADVANCED_DESCRIPTION": "Här kan du kontrollera statusen för dina avancerade signaturpaket med KYC-identifikation. Kom ihåg att genom att delegera dokument för signering kan du vidarebefordra dina avancerade signaturer till andra undertecknare, vilket gör det möjligt för dem att signera gratis.",
+    "EASY_DESCRIPTION": "Här kan du kontrollera statusen för dina avancerade signaturpaket. Kom ihåg att genom att delegera dokument för signering kan du vidarebefordra dina avancerade signaturer till andra undertecknare, vilket gör det möjligt för dem att signera gratis.",
+    "COST": "Kostnad",
+    "EXPIRE": "upphör att gälla",
+    "EXPIRE_DATE": "{{date}} kl. {{time}}",
+    "EASY": {
+      "DESC_WEEKLY": "Paket aktivt i 7 dagar från inköpsdatumet.",
+      "DESC_MONTHLY": "Paket aktivt i 30 dagar från inköpsdatumet.",
+      "DESC_YEARLY": "Paket aktivt i 1 år från inköpsdatumet.",
+      "SELECT_PRODUCT": "Välj ett avancerat signaturpaket",
+      "SELECT_PRODUCT_DESC": "Ett bra val för situationer där du snabbt vill signera dokument med en redan verifierad användare, där inget skriftligt formulär krävs och för kontrakt med lägre risk för ansvar. En signatur utfärdas utan identitetsverifiering, omedelbart."
+    },
+    "ADVANCED": {
+      "DESC_WEEKLY": "Paket aktivt i 7 dagar från inköpsdatumet.",
+      "DESC_MONTHLY": "Paket aktivt i 30 dagar från inköpsdatumet.",
+      "DESC_YEARLY": "Paket aktivt i 1 år från inköpsdatumet.",
+      "SELECT_PRODUCT": "Välj ett avancerat signaturpaket med KYC-identifikation",
+      "SELECT_PRODUCT_DESC": "Rekommenderas för de flesta kontrakt och dokument i affärsrelationer och i avsaknad av skriftlig form. Du kan till exempel signera kommersiella kontrakt, NDA-kontrakt och specifika arbetskontrakt. Utfärdas baserat på fjärridentitetsverifiering."
+    },
+    "QUALIFIED": {
+      "SELECT_PRODUCT": "Välj ett kvalificerat signaturpaket",
+      "SELECT_PRODUCT_DESC": "Signaturen motsvarar en handskriven signatur. Det används för dokument som kräver en skriftlig form. Certifierad av ett registrerat kvalificerat certifikat. Du kan signera nästan alla dokument med den, t.ex. officiella handlingar, anställningsavtal, anbudserbjudanden. Utfärdad på basis av fjärrcertifierad identitetsverifiering.",
+      "VALID_FOR_HOURLY": "giltigt i 1h",
+      "VALID_FOR_MONTHLY": "giltigt i 30 dagar",
+      "VALID_FOR_YEARLY": "giltigt i 1 år",
+      "VALID_FOR_TWO_YEARS": "giltigt i 2 år",
+      "VALID_FOR_DAILY": "giltigt i 24 timmar",
+      "DESC_HOURLY": "Paket giltigt i 1 timme från första signaturen.",
+      "DESC_WEEKLY": "Paket aktivt i 7 dagar från första signaturen.",
+      "DESC_MONTHLY": "Paket aktivt i 30 dagar från första signaturen.",
+      "DESC_YEARLY": "Paket aktivt i 1 år från första signaturen.",
+      "DESC_TWO_YEARS": "Paket giltigt i 2 år från första signaturen.",
+      "DESC_DAILY": "Paket aktivt i 24 timmar efter första signaturen."
+    }
+  },
+  "VOUCHER": {
+    "LABEL": "Ange koden från vouchern",
+    "BUTTON_TEXT": "Använd",
+    "MY_NOTIFICATION_FOR_QUALIFIED": "<h2> Vouchern har använts! </h2> <em>{{value}} kvalificerad signaturpaket har lagts till på kontot: {{user}} </em>",
+    "MY_NOTIFICATION_FOR_ADVANCED": "<h2> Vouchern har använts! </h2> <em>{{value}} avancerat signaturpaket med KYC-identifikation lagt till kontot {{user}} </em>",
+    "MY_NOTIFICATION_FOR_EASY": "<h2> Vouchern har använts! </h2> <em>{{value}} paket med avancerade signaturer läggs till kontot: {{user}} </em>",
+    "I_WANT_TO_USE": "Jag vill använda min voucher",
+    "USE_VOUCHER": "Använd vouchern för ett signaturpaket"
+  },
+  "BATCH": {
+    "LOADING_IN_PROGRES": "Loading documents",
+    "VERIFICATION_TITLE": "För att dina signaturer ska vara giltiga, läs alla undertecknade dokument först.",
+    "VIEWED": "Granskade",
+    "PAGES": "sidor",
+    "SIGN_ABOVE": "Signera ovanstående dokument"
+  },
+  "TIMESTAMP": {
+    "ID_NUMBER": "ID-nummer",
+    "PLEASE_APPROVE": "Vänligen godkänn",
+    "APPROVE_DOCUMENT": "Jag vill godkänna detta",
+    "APPROVE_DOCUMENTS": "Godkänn ovanstående dokument",
+    "LOADING_MESSAGE": "Dokumentet tidsstämplas",
+    "ERROR_MESSAGE": "Tidsstämpelfel",
+    "SUCCESS_MESSAGE": "Dokument ({{value}}) tidsstämplade framgångsrikt",
+    "REJECTED": "Ravvisad",
+    "REJECTED_MODAL": {
+      "HEADER": "Orsak till avslag",
+      "MESSAGE_HEADER": "Meddelande från avsändaren"
+    }
+  },
+  "USER_ORDERS": {
+    "TITLE": "Du har nyligen köpt för den här personen",
+    "ORDER_DATE": "{{date}} klockan {{time}}"
+  },
+  "PROMO_MODAL": {
+    "TITLE": "Skriv under <span> dokument på mindre än en minut från nu! </span>",
+    "LIST_1": {
+      "PARAGRAPH_1": "Använd e-signatur var du än är, 24 timmar om dygnet",
+      "PARAGRAPH_2": "Du bestämmer vem som betalar för andras signatur(er), du eller dina undertecknare",
+      "PARAGRAPH_3": "Var miljövänlig och #paperless - ta hand om miljön!"
+    },
+    "LIST_2": {
+      "PARAGRAPH_1": "Beställ dokument som ska signeras av andra",
+      "PARAGRAPH_2": "Undertecknaren kommer automatiskt att få en inbjudan att signera"
+    },
+    "LINK": "<a href=\"{{url}}\" target=\"_blank\">Läs mer här <i class=\"icon icon-external-link\"></i></a>"
+  },
+  "INCENTIVE_TO_REGISTER_MODAL": {
+    "TITLE": "Grattis! Dokument redan undertecknade.",
+    "PARAGRAPH": "På SIGNIUS Professional-plattformen kan du signera dokument med vem som helst runt om i världen, 24/7.",
+    "DISMISS": "Senare",
+    "REGISTER": "Skaffa ditt gratiskonto nu"
+  },
+  "BUSINESS_CLIENT_INVITATION_MODAL": {
+    "TITLE": "Inbjudan att gå med i laget",
+    "INVITATION_FROM": "bjuder in dig att gå med i laget:",
+    "YOUR_ACCOUNT": "Ditt konto:",
+    "WILL_BE_SIGNED": "kommer att tilldelas laget.",
+    "WHAT_SHOULD_YOU_KNOW": "Vad bör du veta?",
+    "WHEN_YOU_JOIN_THE_TEAM": "När du går med i laget:",
+    "PARAGRAPH_1": "kommer från och med nu att täcka alla kostnader för dina underskrifter och underskrifter från andra som du skickar dokument till för underskrift.",
+    "PARAGRAPH_2": "Administratören kommer att ha en inblick i alla dina dokumentmappar.",
+    "PARAGRAPH_3": "Administratören har rätt att tillfälligt eller permanent blockera ditt konto.",
+    "PARAGRAPH_4": "Administratören kommer att kunna ta bort ditt konto oåterkalleligt.",
+    "YOU_ACCEPT_CONDITION": "Genom att gå med i laget accepterar du ovanstående villkor.",
+    "INVITATION_REJECTED": "Inbjudan avvisad",
+    "INVITATION_ACCEPTED": "Inbjudan accepterad"
+  },
+  "MODAL": {
+    "NO_REG_IDENTIFICATION": {
+      "TITLE": "Är dina uppgifter felaktiga?",
+      "DESCRIPTION": "Kontakta personen som beställer dokumentet så att du kan underteckna: <a href=\"mailto:{{email}}\">{{email}}</a> och be henne rätta det.",
+      "WHAT_NEXT": "Vad ska beställaren göra?",
+      "STEP_1": "Ta bort dokument som var feladresserade från mappen",
+      "STEP_2": "Lägg till dessa dokument igen i mappen genom att ange korrekta undertecknare",
+      "STEP_3": "Skicka in dokument för underskrift igen",
+      "FINALLY": "Be beställaren att följa stegen ovan så att du kan underteckna dokumentet.",
+      "CONFIRM": "Okej jag förstår"
+    }
+  },
+  "TUTORIAL_KEYS": {
+    "NEW_DOCS_VIEW": {
+      "HEADER": "Ny dokumentvy nu tillgänglig!",
+      "CONTENT": "Du kan nu välja önskad vy av dokumenten i mappen - \"Kakelvy\" eller \"Listvy\". Klicka på ikonen och anpassa mapparnas utseende efter dina behov."
+    }
+  },
+  "ACCESSIBILITY": {
+    "DROPDOWN_LABEL": "Expandera tillgänglighetsinställningar",
+    "ACCESSIBILITY_KIND_HEADER": {
+      "CONTRAST": "KONTRAST",
+      "TEXT_SIZE": "TEXTSTORLEK"
+    },
+    "MODULES": {
+      "PROFILE": {
+        "COMPONENTS": {
+          "PURCHASED_PACKAGES_TABLE": {
+            "SHOW_MINE_LABEL": "Visa bara mina paket"
+          },
+          "TEAM_MEMBER_MENU": {
+            "TEAM_MEMBER_MENU_BUTTON": "Öppna menyn för anställda",
+            "DELETE_REJECTED_BUTTON": "Ta bort avvisad inbjudan"
+          }
+        },
+        "PAGES": {
+          "PROFILE_ACCOUNT": {
+            "LANG_SELECT_LABEL": "Välj språk",
+            "AUTO_DOC_DELETE_SWITCH_LABEL": "Ändra inställning för automatisk borttagning av dokument"
+          },
+          "PROFILE_TEAM": {
+            "SHOW_ACTIVE_ACCOUNTS": "Visa endast aktiva konton"
+          }
+        }
+      },
+      "DOCUMENTS": {
+        "MODALS": {
+          "IDENTIFICATION_FORM_MODAL": {
+            "ID_CHANGED": "Min identitetshandling har ändrats"
+          }
+        },
+        "PAGES": {
+          "DOCUMENTS": {
+            "GO_HOME_LABEL": "Gå till startsidan"
+          },
+          "SIGN_SUMMARY": {
+            "ACCEPT_TERMS": "Jag har läst och godkänner de allmänna villkoren för förtroendetjänster"
+          }
+        },
+        "COMPONENTS": {
+          "DOCUMENTS_LIST": {
+            "CONTACTS": {
+              "DETERMINE_SIGN_ORDER": "Fastställa ordningen för undertecknande"
+            },
+            "DOCUMENTS_LIST_ITEM": {
+              "SELECT_DOC_LABEL": "Välj dokument att underteckna"
+            }
+          },
+          "SIGNERS_LINK_LIST": {
+            "DEDICATED_LINK": "Dedikerad länk till mappen {{ username }}"
+          }
+        }
+      }
+    },
+    "SHARED": {
+      "COMPONENTS": {
+        "CHANGE_SIGNATURE": {
+          "CHANGE_SYMBOL_MODAL": {
+            "FILE_INPUT": "Välj din fil"
+          }
+        },
+        "FOLDER_ACTIONS": {
+          "SORTING_DROPDOWN": {
+            "DROPDOWN_LABEL": "Expandera sorteringsinställningar",
+            "SORTING_DATE": "Sortera efter skapandedatum",
+            "SORTING_NAME": "Sortera efter namn",
+            "NEWEST": "från nyaste",
+            "OLDEST": "från den äldsta",
+            "FROM_A": "från en",
+            "FROM_Z": "från Z"
+          },
+          "FOLDER-_MENU": {
+            "EDIT": "Redigera"
+          },
+          "FILTRATION_DROPDOWN": {
+            "TO_SIGN_LABEL": "Visa mappar med dokument att underteckna",
+            "SIGNED_LABEL": "Visa mappar med undertecknade dokument",
+            "OTHERS_LABEL": "Visa övriga mappar",
+            "CREATED_BY_ME_LABEL": "Visa mappar skapade av dig",
+            "CREATED_BY_OTHERS_LABEL": "Visa mappar skapade av andra"
+          }
+        },
+        "CHECKBOX": {
+          "CHECKBOX": {
+            "CONTENT": "Bekräfta"
+          }
+        },
+        "INVOICE_FORM": {
+          "ALWAYS_GET_INVOICE_LABEL": "Få alltid faktura efter varje köp",
+          "SELECT_COUNTRY": "Välj land",
+          "NIP_INPUT_LABEL": "Ange momsregistreringsnummer",
+          "INVOICE_FOR_INDIVIDUAL_LABEL": "Fakturan är för en fysisk person",
+          "INVOICE_NAME_LABEL": "Ange namn och efternamn",
+          "INVOICE_ADDRESS_LABEL": "Ange adress",
+          "INVOICE_POSTAL_CODE_LABEL": "Ange postnummer",
+          "INVOICE_CITY_LABEL": "Ange stad"
+        },
+        "PASSWORD_INPUT": {
+          "CONTENT": "Ange lösenord"
+        },
+        "PHONE_INPUT": {
+          "CONTENT": "Ange telefonnummer"
+        }
+      }
+    },
+    "AUTH": {
+      "LOGIN": {
+        "LOADING": "Laddar",
+        "LOGIN_FORM": "Inloggningsformulär",
+        "LOGO": "Signius-logotyp",
+        "TENANT_LOGO": "Hyresvärdens logotyp",
+        "ALERT_MESSAGE": "Alertmeddelande",
+        "EMAIL_INPUT": "Ange e-postadress",
+        "PASSWORD_INPUT": "Ange lösenord",
+        "FORGOT_PASSWORD_BUTTON": "Glömt lösenord",
+        "LOGIN_BUTTON": "Logga in",
+        "CREATE_ACCOUNT_BUTTON": "Skapa konto",
+        "GOOGLE_AUTH_BUTTON": "Logga in med Google",
+        "AZURE_AUTH_BUTTON": "Logga in med Azure",
+        "KEYCLOAK_AUTH_BUTTON": "Logga in med Keycloak"
+      },
+      "LINK-EXPIRED-CONFIRMATION": {
+        "RESEND_BUTTON": "Skicka länken igen"
+      },
+      "REGISTRATION": {
+        "LOADING": "Laddar",
+        "REGISTRATION_FORM": "Registreringsformulär för användare",
+        "LOGO": "Signius-logotyp",
+        "TENANT_LOGO": "Hyresvärdens logotyp",
+        "EMAIL_INPUT": "Ange e-postadress",
+        "PHONE_NUMBER_INPUT": "Ange telefonnummer",
+        "FIRST_NAME_INPUT": "Ange förnamn",
+        "LAST_NAME_INPUT": "Ange efternamn",
+        "PASSWORD_INPUT": "Ange lösenord",
+        "TERMS_CHECKBOX": "Jag godkänner villkoren",
+        "CREATE_ACCOUNT_BUTTON": "Skapa konto"
+      },
+      "OAUTH2-REGISTRATION": {
+        "LOADING": "Laddar",
+        "REGISTRATION_FORM": "Registreringsformulär för användare",
+        "LOGO": "Signius-logotyp",
+        "TENANT_LOGO": "Hyresvärdens logotyp",
+        "EMAIL_INPUT": "Ange e-postadress",
+        "PHONE_NUMBER_INPUT": "Ange telefonnummer",
+        "FIRST_NAME_INPUT": "Ange förnamn",
+        "LAST_NAME_INPUT": "Ange efternamn",
+        "TERMS_CHECKBOX": "Jag godkänner villkoren",
+        "SUBMIT_BUTTON": "Bekräfta registrering"
+      },
+      "PASSWORD-CHANGE": {
+        "PASSWORD-CHANGE-FORM": {
+          "FORM": "Formulär för lösenordsändring",
+          "LOGO_SIGNIUS": "Signius-logotyp, klicka för att logga in",
+          "LOGO_TENANT": "Hyresvärdens logotyp, klicka för att logga in",
+          "PASSWORD_INPUT": "Ange lösenord",
+          "RESET_PASSWORD_BUTTON": "Återställ lösenord"
+        },
+        "PASSWORD-CHANGE-REQUEST": {
+          "FORM": "Formulär för lösenordsändring",
+          "LOGO": "Signius-logotyp",
+          "TENANT-LOGO": "Hyresvärdens logotyp",
+          "EMAIL_INPUT": "Ange e-postadress",
+          "RESET_PASSWORD_BUTTON": "Återställ lösenord"
+        }
+      },
+      "SMS-LOGIN": {
+        "PAGE": "SMS-verifikation",
+        "YOUR_PHONE_NUMBER": "Ditt telefonnummer",
+        "ENTER_SMS_CODE": "Ange SMS-kod",
+        "SEND_CODE_AGAIN": "Skicka kod igen",
+        "SMS_CODE_SENT": "SMS-kod skickad"
+      },
+      "WELCOME": {
+        "PHONE_CONFIRM": "Bekräfta telefonnummer"
+      }
+    },
+    "BATCH": {
+      "COMPONENTS": {
+        "BATCH-DOCUMENT-PAGE": {
+          "DOCUMENT_PAGE": "Dokumentsida"
+        },
+        "BATCH-DOCUMENT-PAGE-THUMBNAIL": {
+          "THUMBNAIL_DOCUMENT": "Dokumentminiatyr",
+          "DOCUMENT_PAGE": "Dokumentsida",
+          "MARKED_AS_READ": "Markerad som läst",
+          "PAGE_NUMBER": "Sidnummer"
+        },
+        "BATCH-DOCUMENT-PREVIEW": {
+          "DOCUMENT_VIEWER": "Dokumentvisare",
+          "SIDEBAR_SCROLL": "Sidofältets rullning",
+          "DOCUMENT_THUMBNAILS": "Dokumentminiatyrer",
+          "DOCUMENT_THUMBNAIL": "Dokumentminiatyr",
+          "DOCUMENT_PAGE": "Dokumentsida",
+          "CONTENT_SCROLL": "Innehållets rullning"
+        },
+        "BATCH-LIST": {
+          "DOCUMENT_LIST": "Dokumentlista",
+          "DOCUMENT": "Dokument"
+        },
+        "BATCH-LIST-ITEM": {
+          "THUMBNAIL_DOCUMENT": "Dokumentminiatyr",
+          "CONFIRMED_DOCUMENT": "Bekräftat dokument",
+          "DOCUMENT_NAME": "Dokumentnamn",
+          "PAGE_COUNTER": "Sidräknare"
+        }
+      },
+      "PAGES": {
+        "BATCH-VERIFICATION": {
+          "BATCH-VERIFICATION": {
+            "DOCUMENT_LIST": "Dokumentlista"
+          }
+        }
+      }
+    },
+    "DASHBOARD": {
+      "COMPONENTS": {
+        "DASHBOARD-IDENTITY": {
+          "IDENTITY_VERIFICATION_STATUS": "Identitetsverifieringsstatus",
+          "IDENTITY_VERIFIED": "Identitet verifierad",
+          "IDENTITY_VERIFICATION_REQUIRED": "Identitetsverifiering krävs",
+          "IDENTITY_VERIFICATION_NOT_READY": "Identitetsverifiering inte klar",
+          "CONFIRM_IDENTITY_BUTTON": "Bekräfta identitet"
+        },
+        "DASHBOARD-PURCHASE": {
+          "PURCHASED_SIGNATURES": "Köpta signaturer",
+          "BUY_SIGNATURES": "Köp signaturer"
+        },
+        "DASHBOARD-READY": {
+          "READY": "Klar"
+        }
+      },
+      "PAGES": {
+        "DASHBOARD": {
+          "CONTENT_LABEL": "Instrumentbrädesinnehåll",
+          "BACK_BUTTON_LABEL": "Bakåtknapp",
+          "PURCHASE_DETAILS_LABEL": "Köpdetaljer",
+          "IDENTITY_LABEL": "Identitet",
+          "READY_TO_SIGN_LABEL": "Klar att signera"
+        },
+        "DASHBOARD-VERIFIED-METHOD": {
+          "VERIFICATION_METHOD_SELECT": "Välj metod för identitetsverifiering",
+          "BACK_BUTTON": "Bakåtknapp",
+          "ACTION_FAILED": "Åtgärden misslyckades"
+        }
+      }
+    },
+    "PROFILE": {
+      "HOME_BUTTON": "Tillbaka till profil",
+      "PAGES": {
+        "PROFILE-ACCOUNT": {
+          "YOUR_EMAIL_INPUT": "Din e-postadress",
+          "YOUR_ORGANISATION_INPUT": "Din organisation",
+          "YOUR_CARD_NUMBER_INPUT": "Ditt kortnummer",
+          "YOUR_FIRST_NAME_INPUT": "Ditt förnamn",
+          "YOUR_SECOND_NAME_INPUT": "Ditt efternamn",
+          "YOUR_PHONE_NUMBER_INPUT": "Ditt telefonnummer",
+          "SELECTED_LANGUAGE": "Valt språk"
+        }
+      }
+    },
+    "VERIFICATION": {
+      "BIRTH-DATE-VERIFICATION": {
+        "DATEPICKER": "Välj ditt födelsedatum",
+        "SUBMIT_BUTTON": "Skicka in",
+        "CREATE_NEW_ACCOUNT": "Skapa nytt konto",
+        "BACK_BUTTON": "Tillbaka"
+      },
+      "IDENTITY-ITEM": {
+        "IDENTITY_METHOD_SELECT": "Välj metod för identitetsverifiering",
+        "IDENTITY_METHOD_NAME": "Metodens namn",
+        "IDENTITY_METHOD_SUBTITLE": "Metodens undertitel"
+      },
+      "PHOTO-UPLOADER": {
+        "IDENTITY_CONFIRMATION_TITLE": "Identitetsbekräftelse",
+        "SELECT_ID_CARD": "Välj ID-kort",
+        "SELECT_PASSPORT": "Välj pass",
+        "TAKE_ID_FRONT_PHOTO": "Ta foto på framsidan av ID-dokumentet",
+        "TAKE_ID_BACK_PHOTO": "Ta foto på baksidan av ID-dokumentet",
+        "TAKE_PASSPORT_PHOTO": "Ta foto på passet"
+      },
+      "SELECT-VERIFICATION-METHOD": {
+        "WERYFIKACJA_WIDEO": "Videoverifiering",
+        "LOADING_SIGNATURE": "Laddar signatur"
+      },
+      "UPLOAD-DOCUMENT-VERIFICATION": {
+        "UPLOAD_PHOTO": "Ladda upp foto",
+        "VERIFICATION_STEP_UPLOAD_PHOTO": "Verifieringssteg - Ladda upp foto",
+        "VERIFICATION_STEP_ID_DATA": "Verifieringssteg - ID-data",
+        "VERIFICATION_STEP_INFO": "Verifieringssteg - Information",
+        "VERIFICATION_STEP_VIDEO": "Verifieringssteg - Video"
+      },
+      "VERIFICATION-FORM": {
+        "GIVEN_NAME_INPUT": "Ange förnamn",
+        "LAST_NAME_INPUT": "Ange efternamn",
+        "NATIONALITY_SELECT": "Välj din nationalitet",
+        "PESEL_INPUT": "Ange PESEL-nummer",
+        "ISSUING_AUTHORITY_INPUT": "Ange utfärdande myndighet",
+        "BIRTH_DATE_INPUT": "Välj ditt födelsedatum",
+        "DOCUMENT_NUMBER_INPUT": "Ange serienummer och nummer för ID-dokumentet",
+        "DOCUMENT_EXPIRE_DATE_INPUT": "Välj utgångsdatum för ID-dokumentet"
+      },
+      "VIDEO-VERIFICATION-CONTAINER": {
+        "START_VERIFICATION": "Börja verifiering",
+        "START_VIDEO_VERIFICATION": "Börja videoverifiering",
+        "UPLOAD_DOCUMENTS_FOR_VERIFICATION": "Ladda upp dokument för verifiering"
+      },
+      "VIDEO-VERIFICATION-START": {
+        "ICON_ID_CARD_ALT": "Ikon för ID-kort",
+        "ICON_CAMERA_WEB_ALT": "Ikon för webbkamera",
+        "ICON_SIGNAL_BARS_ALT": "Ikon för anslutningsstyrka",
+        "ICON_BELL_SLASH_ALT": "Ikon för ljud av",
+        "ICON_START_VERIFICATION": "Människa som visar ID-kort"
+      },
+      "WEBCAM-PHOTO-UPLOADER": {
+        "CAPTURED_PHOTO": "Fångat foto",
+        "SELECT_FILE": "Välj fil"
+      }
+    },
+    "DOCUMENTS": {
+      "COMPONENTS": {
+        "ADD_PAGE": {
+          "ADD_GRAPH_REPRESENTATION": "Lägg till grafisk representation",
+          "ADD_FIRST_PAGE": "Lägg till första sidan",
+          "ADD_LAST_PAGE": "Dodaj ostatnią stronę",
+          "INDICATE_PLACE_OF_SIGN": "Ange plats för underskrift",
+          "DO_NOT_ADD": "Lägg inte till",
+          "CLOSE_TOOLTIP": "Stäng",
+          "HELP": "Hjälp"
+        },
+        "BATCH-DOCUMENT-ITEM": {
+          "SHOW_DOCUMENT": "Visa dokument",
+          "DELETE_DOCUMENT": "Ta bort dokument",
+          "FILE_WITHOUT_SIGNATURES": "Fil utan underskrifter",
+          "ALL_SIGNATURES_VALIDATED": "Alla underskrifter verifierade",
+          "EDIT_DOCUMENT": "Redigera dokumentnamn",
+          "NOT_ALL_SIGNATURES_VALIDATED": "Inte alla underskrifter verifierade"
+        },
+        "CONTACTS": {
+          "CONTACT-FORM": {
+            "FORM_LABEL": "Kontaktformulär",
+            "EMAIL_INPUT": "Ange e-postadress",
+            "PHONE_INPUT": "Ange telefonnummer",
+            "NAME_INPUT": "Ange förnamn",
+            "SURNAME_INPUT": "Ange efternamn",
+            "CANCEL_BUTTON": "Avbryt",
+            "ADD_ME_BUTTON": "Lägg till mig",
+            "SAVE_CHANGES_BUTTON": "Spara ändringar",
+            "CONTACT_SUGGESTIONS": "Kontaktförslag"
+          },
+          "CONTACT-ROW": {
+            "CONTACT_ROW": "Kontakt",
+            "SCROLL_BUTTON": "Bläddringsknapp",
+            "EDIT_BUTTON": "Redigera",
+            "REMOVE_BUTTON": "Ta bort",
+            "CLEAR_BUTTON": "Rensa",
+            "CONTACT_FORM": "Kontaktformulär"
+          }
+        },
+        "CONTACTS-TIMESTAMP": {
+          "CONTACT-ITEM": {
+            "CONTACT-TIMESTAMP-ITEM": {
+              "FORM_LABEL": "Kontaktformulär",
+              "ID_NUMBER_INPUT": "Ange ID-nummer",
+              "EMAIL_INPUT": "Ange e-postadress",
+              "CONTACT_SUGGESTIONS": "Kontaktförslag"
+            }
+          },
+          "ADD_SIGNERS": "Lägg till underskrivare",
+          "ADD_ANOTHER": "Lägg till en till",
+          "DRAG_BUTTON": "Dra-knapp",
+          "REMOVE_BUTTON": "Ta bort",
+          "CLEAR_BUTTON": "Rensa",
+          "MOVE_UP": "Flytta uppåt",
+          "MOVE_DOWN": "Flytta nedåt"
+        },
+        "DOCUMENT-ADD": {
+          "ADDING_DOCUMENTS": "Lägger till dokument",
+          "BACK_BUTTON": "Tillbaka",
+          "FOLDER_DETAILS": "Mappdetaljer",
+          "DOCUMENT_UPLOADER": "Ladda upp dokument",
+          "MULTI_DOCUMENT_UPLOADER": "Ladda upp flera dokument",
+          "SIGNATURE_TYPE_SELECTION": "Välj underskriftstyp",
+          "ADD_PAGE": "Lägg till sida",
+          "CONTACTS": "Kontakter",
+          "CONTACTS_TIMESTAMP": "Datum och tid för användarunderskrift"
+        },
+        "DOCUMENT-MENU": {
+          "EXPAND_BUTTON": "Expandera meny"
+        },
+        "DOCUMENT-VIEWER": {
+          "CUSTOM-SIGN-PLACEMENT": {
+            "PDF_VIEWER": "PDF-visningsprogram",
+            "LOADING": "Laddar",
+            "TOGGLE_DOCUMENT": "Växla dokument",
+            "BACK": "Tillbaka",
+            "PREVIOUS_DOCUMENT": "Föregående dokument",
+            "NEXT_DOCUMENT": "Nästa dokument"
+          },
+          "PDF-VIEWER": {
+            "CLOSE_BUTTON": "Stäng"
+          },
+          "DOCUMENT_THUMBNAIL": "Dokumentminiatyr",
+          "DELETED_DOCUMENT_THUMBNAIL": "Raderad dokumentminiatyr",
+          "SHOW_PREVIEW": "Visa hela dokumentet"
+        },
+        "MODALS": {
+          "IDENTIFICATION-FORM-MODAL": {
+            "FIRST_NAME_INPUT": "Ange förnamn",
+            "LAST_NAME_INPUT": "Ange efternamn",
+            "PHONE_NUMBER_INPUT": "Ange telefonnummer"
+          }
+        },
+        "REMINDER-BUTTON": {
+          "REMIND_BUTTON": "Skicka påminnelse"
+        },
+        "SELECT-ALL-CHECKBOX": {
+          "SELECT_ALL": "Markera alla"
+        },
+        "SIGN-ALL-CHECKBOX": {
+          "SIGN_ALL": "Underskriv alla"
+        },
+        "SIGNATURE-TYPE": {
+          "EASY_SIGNATURE": "Välj enkel underskrift",
+          "ADVANCED_SIGNATURE": "Välj avancerad underskrift med KYC",
+          "QUALIFIED_SIGNATURE": "Välj kvalificerad underskrift"
+        },
+        "SWITCH-VIEW-BUTTONS": {
+          "GRID_VIEW": "Växla till rutnätsvy",
+          "LIST_VIEW": "Växla till listvy"
+        }
+      },
+      "FOLDERS": {
+        "COMPONENTS": {
+          "DASBOARD-BAR": {
+            "SELECT_SIGNATURE_TYPE": "Välj underskriftstyp",
+            "REQUIRES_COMPLETION": "Kräver slutförande"
+          },
+          "FOLDER-ADD-BUTTON": {
+            "ADD_FOLDER_BUTTON": "Lägg till mapp"
+          }
+        }
+      },
+      "TENANT": {
+        "SGGW": {
+          "SGGW_FOOTER_CONTENT": "„SGGW - Tillgängligt universitet\", medfinansierat av Kunskapsutbildningens operativa program (Prioriterad axel: III. Högre utbildning för ekonomi och utveckling, Åtgärd: 3.5 Heltäckande universitetsprogram)"
+        }
+      }
+    }
+  },
+  "DOCUMENT": {
+    "FIELD": {
+      "VALIDATION": {
+        "MAX-LENGTH": "Fältvärdet är för långt",
+        "REQUIRED": "Fältet är obligatoriskt"
+      }
+    }
+  }
+}
+

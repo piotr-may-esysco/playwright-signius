@@ -1,0 +1,1610 @@
+{
+  "COMMON": {
+    "YOU": "Ty",
+    "CANCEL": "Anuluj",
+    "CLOSE": "Zamknij",
+    "SAVE_CHANGES": "Zapisz",
+    "ADD": "Dodaj",
+    "NEXT": "Dalej",
+    "NEVERMIND": "Anuluj",
+    "CHANGE": "Zmień",
+    "OPEN": "Otwórz",
+    "SEND": "Wyślij",
+    "SEARCH_PLACEHOLDER": "Szukaj...",
+    "SEARCH_PLACEHOLDER_NEW_HOME_FEATURE": {
+      "FOLDERS": "Szukaj folderów...",
+      "DOCUMENTS": "Szukaj po nazwie dokumentu..."
+    },
+    "CHANGES_SAVED": "Zmiany zostały zapisane",
+    "CHANGES_PHONE": "Numer telefonu został zmieniony",
+    "COLLAPSE": "Zwiń",
+    "PAY": "Zapłać",
+    "REJECT": "Odrzuć",
+    "ACCEPT": "Zaakceptuj",
+    "INVOICE": {
+      "NIP": "NIP",
+      "NIP_MANDATORY": "NIP (OBOWIĄZKOWE)",
+      "NAME": "Imię i nazwisko lub nazwa firmy",
+      "NAME_SURNAME": "Imię i nazwisko",
+      "ADDRESS": "Adres",
+      "POSTAL_CODE": "Kod pocztowy",
+      "CITY": "Miejscowość",
+      "COUNTRY": "Kraj",
+      "IS_INDIVIDUAL_BILLING": "Faktura na osobę fizyczną"
+    },
+    "SUPPORT_EMAIL": "support@signius.eu",
+    "SUPPORT_PHONE_NUMBER": "+48 61 415 22 12",
+    "MODAL_SUPPORT_EMAIL": "business.support@signius.eu",
+    "NONE": "Brak",
+    "SUMMARY": "Podsumowanie",
+    "BACK": "Wróć",
+    "TYPE_WORD": "Wpisz słowo “{{value}}”",
+    "DELETE_WORD": "USUŃ",
+    "SIGNATURES": ["podpis", "podpisy", "podpisów"],
+    "BACK_TO_APPLICATION": "Wróć do aplikacji",
+    "OR": "lub",
+    "OR_CONTINUE_WITH": "lub kontynuuj z",
+    "NEW": "Nowość",
+    "INDICATE_THE_LOCATION": "Wskaż miejsce",
+    "STANDARD": "Standard",
+    "FONT": "Czcionka",
+    "YOUR_FILE": "Twój plik",
+    "SELECT": "Wybierz",
+    "CREATE_NEW_ACCOUNT": "Załóż nowe konto"
+  },
+  "INFO": {
+    "THIS_DOCUMENT_HAS_BEEN_DELETED_BY_DOCUMENT_OWNER": "Ten dokument został usunięty przez zlecającego"
+  },
+  "ERROR": {
+    "DOCUMENT_ALREADY_SIGNED": "Dokument został już przez Ciebie podpisany lub jesteś ponownie na liście podpisujących. Skontaktuj się z osobą, która dodała dokument",
+    "UNKNOWN": "Coś poszło nie tak...",
+    "ERROR_DURING_SIGNING": "Wystąpił błąd podczas podpisywania.",
+    "VALIDATION": {
+      "INCORRECT_NUMBER": "Podany numer jest nieprawidłowy",
+      "ADULTS_ONLY": "Tylko osoby pełnoletnie",
+      "DATE_NOT_EARLIER_THAN_TODAY": "Data nie wcześniejsza niż dziś",
+      "FILE_TYPE_INVALID": "Dopuszczalne są tylko pliki w formacie {{value}}",
+      "FILE_SIZE_INVALID": "Maksymalny rozmiar pliku wynosi {{value}}",
+      "FIELD_REQUIRED": "Pole jest wymagane",
+      "FIELD_INVALID": "Pole zawiera nieprawidłową wartość",
+      "FIELD_POST_CODE": "Błędny kod",
+      "ALLOWED_CHARACTERS": "Dozwolone znaki to: A-Z, 0-9"
+    },
+    "EXCEPTION": {
+      "USER_EXISTS": "Użytkownik już istnieje",
+      "RE_CAPTCHA_FAILED": "Wystąpił błąd reCaptcha",
+      "SESSION_NOT_FOUND": "Wystąpił błąd sesji. Wybierz dokumenty ponownie"
+    },
+    "CERTIFICATE_EXPIRED": {
+      "TITLE": "Spróbuj podpisać ponownie",
+      "TIME_EXCEEDED": "Przekroczono limit czasu na podpisanie dokumentu.",
+      "CONTACT_US": "W przypadku pytań, skontaktuj się z naszym zespołem obsługi klienta."
+    },
+    "FORBIDDEN": "Twoja sesja wygasła. Zaloguj się ponownie.",
+    "FORBIDDEN_LONG_TEXT": "Zostałeś automatycznie wylogowany z aplikacji lub nie posiadasz wystarczających uprawnień.",
+    "NOT_FOUND": "Nie znaleziono strony o takim adresie",
+    "NO_ACCESS": "Brak dostępu",
+    "SESSION_EXPIRED": "Twoja sesja wygasła.",
+    "SESSION_EXPIRED_SUBTITLE": "Otwórz otrzymany link ponownie.",
+    "PAYMENT": "Błąd płatności. Spróbuj jeszcze raz",
+    "VOUCHER": {
+      "INVALID": "Nieprawidłowy kod vouchera",
+      "USED_OR_INACTIVE": "Kod wygasł lub został już wykorzystany"
+    }
+  },
+  "LANGUAGE": {
+    "PL": "Polski",
+    "EN": "English",
+    "DE": "Deutsch",
+    "MT": "Maltański",
+    "UK": "Українська",
+    "SV": "Svenska",
+    "CS": "Čeština",
+    "SK": "Slovenský"
+  },
+  "ENUM": {
+    "DOCUMENT_STATUS": {
+      "SIGNED": "Podpisany",
+      "SIGNING_IN_PROGRESS": "Do podpisania",
+      "UPLOADED": "Oczekujący",
+      "REJECTED": "Odrzucony"
+    },
+    "PRODUCT_TYPE": {
+      "SIGN": "Podpis kwalifikowany",
+      "IDENTITY_TM_IDENTITY_VERIFICATION": "Wideoidentyfikacja"
+    },
+    "FOLDER_TYPE_FILTER": {
+      "RECEIVING": "Odebrane",
+      "SENDING": "Zlecone"
+    },
+    "FILTERS":{
+      "FINISHED": "zakończono",
+      "AWAITING": "w toku",
+      "IN_PROGRESS": "do podpisu",
+      "SIGNED": "podpisano",
+      "CANCELED": "zakończono",
+      "WAITING_FOR_APPROVE": "do zatwierdzenia",
+      "REJECTED": "odrzucono",
+      "AWAITING_COMPLETION": "do wypełnienia"
+    },
+    "SIGN_STATUS": {
+      "SIGNED": "Podpisano",
+      "IN_PROGRESS": "Do podpisu",
+      "AWAITING": "W toku",
+      "NOT_SENT": "Nie wysłano",
+      "CANCELED": "Zakończono",
+      "LOCKED": "Procesuję...",
+      "TO_APPROVE": "Do zatwierdzenia",
+      "REJECTED": "Odrzucono",
+      "AWAITING_COMPLETION": "do wypełnienia"
+    },
+    "CURRENCY": {
+      "PLN": "zł",
+      "EUR": "€"
+    },
+    "DOCUMENT_TYPE": {
+      "ID": "Dowód osobisty",
+      "IDCARD": "Dowód osobisty",
+      "PASSPORT": "Paszport",
+      "A": "Karta Pobytu",
+      "P": "Paszport"
+    },
+    "DAYS": {
+      "MONDAY": "poniedziałek",
+      "TUESDAY": "wtorek",
+      "WEDNESDAY": "środa",
+      "THURSDAY": "czwartek",
+      "FRIDAY": "piątek",
+      "SATURDAY": "sobota",
+      "SUNDAY": "niedziela"
+    },
+    "SIGNATURE_TYPE": {
+      "EASY": "Podpis zaawansowany",
+      "QUALIFIED": "Podpis kwalifikowany",
+      "ADVANCED": "Podpis zaawansowany & KYC",
+      "TIMESTAMP": "Timestamp"
+    },
+    "PACK_ORIGIN": {
+      "BOUGHT": "Kupione",
+      "RECEIVED": "Otrzymane"
+    }
+  },
+  "VARIANTS": {
+    "PERSONS_1": "{{value}} osoba",
+    "PERSONS_2": "{{value}} osoby",
+    "PERSONS_3": "{{value}} osób"
+  },
+  "PASSWORD": {
+    "MIN_LENGTH": "min. {{value}} znaków",
+    "DIGIT": "cyfra",
+    "BIG_LETTER": "wielka litera",
+    "SMALL_LETTER": "mała litera",
+    "SPECIAL_CHAR": "znak specjalny"
+  },
+  "PASSWORD_RESET": {
+    "EMAIL_LABEL": "Podaj swój adres email",
+    "PASSWORD_LABEL": "Stwórz nowe hasło",
+    "REQUEST_TITLE": "Zresetuj swoje hasło",
+    "REQUEST_MESSAGE": "Zapomniałeś hasła? \nNie martw się, załatwimy to w mgnieniu oka.",
+    "REQUEST_BUTTON": "Resetuj hasło",
+    "CONFIRMATION_TITLE": "Wysłaliśmy do Ciebie email",
+    "CONFIRMATION_MESSAGE": "Sprawdź swoją skrzynkę odbiorczą, kliknij w przesłany przez nas link i ustaw nowe hasło.",
+    "NEW_PASSWORD_TITLE": "Stwórz nowe, silne hasło",
+    "NEW_PASSWORD_BUTTON": "Potwierdź hasło",
+    "USER_ACTIVATE_LINK_ALREADY_USED_ERROR": "Ten link został już wykorzystany do zmiany hasła."
+  },
+  "AUTH": {
+    "LOGIN": "Zaloguj się",
+    "OAUTH2_LOGIN": "Zaloguj przez Google",
+    "SGGW_EMPLOYEE_LOGIN": "Logowanie dla pracowników SGGW",
+    "LOGIN_DESC": "Logowanie dla klientów i partnerów",
+    "GRENKE_BTN": "Logowanie dla pracowników Grenke",
+    "EMAIL": "Adres email",
+    "PASSWORD": "Hasło",
+    "FORGET_PASSWORD": "Zapomniałeś hasła?",
+    "CREATE_FREE_ACCOUNT": "Załóż darmowe konto",
+    "LOGOUT_SUCCESS": "Wylogowano pomyślnie",
+    "INVALID_CREDENTIALS": "Twój adres email lub podane hasło są niezgodne.",
+    "ACCOUNT_BLOCKED": "Ze względu na wielokrotne wprowadzenie nieprawidłowego hasła, Twoje konto zostało zablokowane na 5 minut. Aby je odblokować wcześniej wybierz opcję 'Zapomniałeś hasła'.",
+    "ACTIVATED_ACCOUNT": "Konto zostało aktywowane.",
+    "FIRST_NAME": "Imię",
+    "GIVEN_NAMES": "Imię/Imiona",
+    "LAST_NAME": "Nazwisko",
+    "PHONE_NUMBER": "Numer telefonu komórkowego",
+    "NEW_ACCOUNT": "Nowe konto",
+    "ALREADY_HAVE_ACCOUNT": "Załóż darmowe konto i podpisuj dokumenty zdalnie - gdziekolwiek jesteś, kiedykolwiek chcesz. Szybko i łatwo, jak nigdy dotąd.\nMasz już konto?",
+    "CREATE_NEW_PASSWORD": "Stwórz nowe hasło",
+    "ACCEPT_TERMS": "Potwierdzam, że przeczytałem i akceptuję <a href=\"{{terms}}\" target=\"_blank\">Regulamin korzystania z usługi</a>.",
+    "ACCEPT_TERMS_2": "W celu świadczenia usług na najwyższym poziomie, w aplikacji wykorzystywane są pliki cookies. \nWięcej informacji o tym i o przetwarzaniu danych osobowych dostępnych jest w <a href=\"{{policy}}\" target=\"_blank\">Polityce Prywatności</a>.",
+    "CREATE_ACCOUNT": "Utwórz konto",
+    "SENT_EMAIL": "Wysłaliśmy do Ciebie email",
+    "SENT_EMAIL_DESCRIPTION": "Sprawdź swoją skrzynkę odbiorczą, użyj linka aktywacyjnego z naszej wiadomości i potwierdź rejestrację.",
+    "LINK_EXPIRED": "Ten link nie jest już aktywny",
+    "LINK_EXPIRED_DESCRIPTION": "Adres email trzeba potwierdzić w ciągu 48 godzin. Nie przejmuj się, możemy wysłać Ci kolejny email z linkiem aktywacyjnym.",
+    "SEND_NEW_LINK": "Wyślij nowy link aktywacyjny",
+    "LOGOUT": "Wyloguj",
+    "NATIONALITY": "Obywatelstwo",
+    "SESSION_EXPIRED": "Twoja sesja wygasła. Zaloguj się ponownie.",
+    "MOBILE_VERIFICATION": "Potwierdź na aplikacji mobilnej",
+    "2FA_VERIFICATION_MAIN": "Go to the Approve application on your registered mobile device",
+    "2FA_VERIFICATION_SUB": "Confirm that you wish to sign your chosen documents",
+    "PARTNERED": "We współpracy z",
+    "YOUR_PASS_CHANGED": "Twoje hasło zostało zmienione",
+    "CONFIRM_YOU_DATA": "Potwierdź swoje dane",
+    "ALMOST_READY": "Już prawie gotowe! Twój adres e-mail został zweryfikowany. Potwierdź poniższe informacje, aby rozpocząć."
+  },
+  "WELCOME": {
+    "TITLE": "Witamy w SIGNIUS Professional",
+    "MESSAGE": "wysłał/a Tobie dokument(y) do podpisu. Potwierdź swój numer telefonu i załóż darmowe konto, aby podpisać dokument(y) elektronicznie.",
+    "FOLDER": "Folder dokumentów",
+    "PHONE_CONFIRM": "Potwierdź numer telefonu"
+  },
+  "WELCOME_TOOLTIP": {
+    "DATE_AT": "o",
+    "OK_UNDERSTAND": "Ok, rozumiem",
+    "GOT_NEW_SIGNATURES_PACK": "Otrzymałeś podpisy kwalifikowane!",
+    "GOW_NEW_SIGNATURES_PACK_DESC": "Osoba, która wysłała Ci dokumenty do podpisu kupiła dla Ciebie pakiet podpisów kwalifikowanych, abyś mógł podpisać te dokumenty za darmo.",
+    "VIEW_PACKAGES": "Zobacz pakiety"
+  },
+  "WELCOME_EASY_TOOLTIP": {
+    "WELCOME": "Witaj<span>&nbsp;w SIGNIUS Professional</span>!",
+    "GIFT_INFO": "Oto mały upominek na dobry początek :) Miłego podpisywania!"
+  },
+  "DOCUMENTS": {
+    "CHECKBOX_ALERT": "Aby podpisać dokumenty, zaznacz odpowiednie pola.",
+    "APPROVE_DOCUMENT": "Zapisz dane",
+    "SIGN_ON_FIRST_PAGE": "Umieść podpis na górze dokumentu",
+    "XML": {
+      "MODAL": {
+        "HEADER": "Podpisuj pliki XML na platformie SIGNIUS",
+        "CONTENT": "Teraz łatwo i bezpiecznie podpiszesz pliki XML, np. sprawozdania finansowe, nawet przez kilka osób. Odkryj nowe możliwości!"
+      }
+    },
+    "TYPE_ALERT": "Do folderu możesz dodać pliki tylko w jednym formacie (PDF albo XML) - wybierz inny folder",
+    "APPROVER": {
+      "HEADER": "Dodaj osobę zatwierdzającą dokument(y)",
+      "DELETE": "Usuń osobę zatwierdzającą dokument(y)",
+      "FORM_LABEL": "Adres e-mail osoby zatwierdzającej",
+      "HEADER_ADD": "Osoba zatwierdzająca",
+      "APPROVE": "Zatwierdź",
+      "DECLINE": "Odrzuć dokument",
+      "DECLINE_MODAL": {
+        "HEADER": "Odrzucenie dokumentu",
+        "LABEL": "Podaj powód odrzucenia"
+      },
+      "APPROVE_DOCUMENT": "Zatwierdź dokument",
+      "ACCEPT_DOCUMENT": "Dokument został zatwierdzony",
+      "REJECT_DOCUMENT": "Dokument został odrzucony"
+    },
+    "SIGNING": {
+      "HEADER": "Osoby podpisujące"
+    },
+    "CONSENT": {
+      "HEADER": "Zaawansowana konfiguracja dla dokumentu",
+      "SUB_TITLE": "Prześlij plik konfiguracyjny dla tego dokumentu",
+      "DOC_BTN": "Wybierz plik konfiguracyjny",
+      "TABS": {
+        "CONSENT": "Zgody",
+        "FIELDS": "Pola edytowalne"
+      },
+      "GO_TO": "Przewiń do zgód",
+      "CHECK": "Zaznacz zgody",
+      "DESC": "Przejrzyj wszystkie strony dokumentu i udziel wymaganych zgód, aby kontynuować",
+      "BUTTON": "Zatwierdź i kontynuuj",
+      "DELETE": {
+        "TXT": "Czy na pewno chcesz usunąć plik konfiguracyjny?",
+        "ACCEPT": "Tak, usuń plik"
+      },
+      "PREV": "Podgląd",
+      "DELETE_BTN": "Usuń plik",
+      "REQ": "(Wymagane)"
+    },
+    "ORDERED_BY":"Zlecone przez",
+    "DOCUMENTS": "Dokumenty",
+    "PAID": "(Opłacono)",
+    "FILE_WITHOUT_SIGNATURES": "<i class=\"icon icon-file\"></i><p class=\"heading\">Dokument nie zawiera złożonych wcześniej podpisów.</p><p class=\"body\">Zostanie podpisany w najwyższym standardzie LTA/LTV (Long Term Archiving/Validation) – z walidacją podpisów i znacznikiem czasu.</p>",
+    "ALL_SIGNATURES_VALIDATED": "<i class=\"icon icon-file-signatures-validated\"></i><p class=\"heading\">Dokument zawiera złożone wcześniej podpisy.</p><p class=\"body\">Wszystkie pozytywnie przeszły walidację. Dokument zostanie podpisany w najwyższym standardzie LTA/LTV (Long Term Archiving/Validation) – z walidacją wszystkich podpisów i znacznikiem czasu.</p>",
+    "NOT_ALL_SIGNATURES_VALIDATED": "<i class=\"icon icon-file-signatures-not-validated\"></i><p class=\"heading\">Dokument zawiera złożone wcześniej podpisy.</p><p class=\"body\"> Co najmniej 1 z tych podpisów nie przeszedł pozytywnie walidacji na LTA. Dokument zostanie podpisany w standardzie B-T - ze znacznikiem czasu. Weryfikacja części złożonych wcześniej podpisów może być nieprawidłowa.</p>",
+    "DOCUMENT_TO_FILL": "<i class=\"icon icon-file_editable\"></i><p class=\"heading\">Dokument zawiera interaktywny formularz</p><p class=\"body\">Podpisujący zostanie poproszony o wypełnienie formularza przed złożeniem podpisu.</p>",
+    "DOCUMENT_CONSENT" : "Dodaj zaawansowaną konfigurację dla dokumentu",
+    "SIGN_ALL": "Podpisuję wszystkie ({{value}})",
+    "SIGN_ALL_PAY": "Podpisuję i płacę ({{value}})",
+    "READ_ALL_DOCUMENTS": "Zapoznałem/am się z podpisywanymi dokumentami",
+    "REDIRECT": "Idź dalej",
+    "REDIRECT_ORANGE": "Wroć do sklepu",
+    "DOWNLOAD_SIGNED_DOCUMENTS": "Pobierz podpisane dokumenty",
+    "ALL_DOCUMENT_SIGNED": "Podpisano wszystkie dokumenty",
+    "DOCUMENTS_SIGNED": "Podpisano dokumenty: {{value}}",
+    "PREPARING_FILES": "Przygotowanie plików do pobrania",
+    "SELECT_FILE": "Wybierz plik",
+    "SELECT_FILES": "Wybierz pliki",
+    "DRAG_IT_HERE": "albo przeciągnij go tutaj",
+    "DRAG_THEM_HERE": "albo przeciągnij je tutaj",
+    "DROP_IT_HERE": "Upuść plik tutaj",
+    "WHICH_FILES":"Jakie pliki?",
+    "DROP_THEM_HERE": "Upuść pliki tutaj",
+    "NAME_DOCUMENT": "Twoja nazwa dokumentu",
+    "CONFIRM_CANCEL_ORDER": "Tak, przerwij dodawanie dokumentu",
+    "CANCEL_ORDER_CONFIRM_TITLE": "Czy na pewno chcesz przerwać dodawanie dokumentu do podpisu?",
+    "CONFIRM_STOP_ADDING_DOCUMENTS": "Tak, przerwij dodawanie dokumentów",
+    "ARE_YOU_SURE_STOP_ADDING_DOCUMENTS": "Czy na pewno chcesz przerwać dodawanie dokumentów do podpisu?",
+    "CANCEL_ORDER_CONFRIM_MESSAGE": "Przerywając teraz, wprowadzone zmiany nie zostaną zapisane i powrócisz do folderu.",
+    "DOCUMENT_TO_SIGN": "Dokument do podpisania",
+    "ADD_SIGNERS": "Dodaj podpisujących",
+    "ADD_MESSAGE": "Dodaj wiadomość do wszystkich na liście",
+    "DELETE_MESSAGE": "Usuń wiadomość",
+    "LABEL_MESSAGE": "Treść wiadomości",
+    "PLACEHOLDER_MESSAGE": "Dzień dobry...",
+    "ERROR_MESSAGE": "Wiadomość może mieć maksymalnie {{value}} znaków",
+    "ERROR_XML_CONTAINS_SIGNATURES": "Nie możesz dodać dokumentu XML, który został już podpisany. Wybierz plik bez podpisu i spróbuj ponownie.",
+    "ERROR_INVALID_XML_FILE_CONTENT": "Dane w pliku XML są w niepoprawnym formacie. Sprawdź strukturę pliku i spróbuj ponownie.",
+    "ADD_SIGNERS_DESC": "Wiadomość email z linkiem do dokumentu zostanie wysłana automatycznie do pierwszego podpisującego. \nPo podpisaniu przez niego dokumentu, link będzie przesyłany automatycznie do kolejnych osób zgodnie z ustaloną przez Ciebie kolejnością.",
+    "ADD_ANOTHER": "Dodaj kolejną osobę",
+    "REQUIRED": "Wymagane",
+    "ADD_ME": "Dodaj mnie",
+    "CONTACT_SELF": "{{name}} (Ty)",
+    "SIGN_DOCUMENT": "Podpisz ten dokument",
+    "SIGNERS": "Podpisujący",
+    "APPROVERS": "Osoba zatwierdzająca",
+    "SIGNERS_FULL_LIST": "Pełna lista podpisujących i linki do folderu",
+    "SIGNED_BY": "Podpisały {{value1}}/{{value2}} osoby",
+    "SIGNED": "Podpisały",
+    "SIGNED_VALUE": "{{value1}}/{{value2}} osoby",
+    "CREATION_TIME": "{{value1}} o {{value2}}",
+    "SAVE_DOCUMENT_INFO": "Zapisz dokument w pamięci swojego urządzenia, by wrócić do niego w przyszłości.",
+    "SEE_WHO": "Zobacz kto",
+    "I_SIGN": "Podpisuję",
+    "I_SIGN_FREE": "Podpisuję (opłacono)",
+    "SIGN_PAID_TOOLTIP_TITLE": "Koszt podpisu został już opłacony",
+    "SIGN_PAID_TOOLTIP_MESSAGE": "Nie ponosisz kosztu podpisania tego dokumentu.",
+    "READ_DOCUMENT_CONFIRMATION": "Zapoznałem/am się z powyższym dokumentem",
+    "DOWNLOAD_SIGNED_DOCUMENT": "Pobierz podpisany dokument",
+    "SENT_BY": "Właściciel folderu",
+    "ADDING_DOCUMENT": "Dodawanie dokumentu do folderu",
+    "ADDING_DOCUMENTS": "Dodawanie dokumentów",
+    "WE_COULD_NOT_ADD_SOME_DOCUMENTS": "Nie mogliśmy dodać niektórych dokumentów",
+    "ERRORS_DETECTED": "Wykryto niezgodności",
+    "DOCUMENTS_CONTAINS_ERRORS": "Poniższych dokumentów nie możemy dodać do folderu:",
+    "ERROR_VIRUS_FOUND": "W tym pliku wykryto wirusa",
+    "ERROR_FILE_IS_PROTECTED_WITH_PASSWORD": "Plik zabezpieczony hasłem",
+    "ERROR_FILE_SIZE_EXCEEDS": "Rozmiar pliku przekracza {{value}}",
+    "ERROR_MIME_TYPE_NOT_SUPPORTED": "Niewłaściwy format pliku",
+    "ERROR_FILE_TYPE_IS_NOT_SUPPORTED": "Niewłaściwy format pliku",
+    "ERROR_DOCUMENT_UPLOAD_FILENAME_TOO_LONG": "Zbyt długa nazwa pliku - maks. 100 znaków",
+    "ERROR_DOCUMENT_UPLOAD_INCORRECT_FILENAME": "Nazwa pliku zawiera niedozwolone znaki. Dozwolone znaki to: A-Ź, a-ź, 0-9, ,.'!@#$%^&()-=_+ ",
+    "ERROR_FILE_WITH_SAME_NAME_ALREADY_EXISTS": "Plik o tej nazwie istnieje już w tym folderze",
+    "ERROR_FILE_HAS_DIFFERENT_EXTENSION": "Do folderu możesz dodać pliki tylko w jednym formacie (PDF albo XML) - wybierz inny folder",
+    "ERROR_FILE_CONTAINS_ACTIVE_FORMS": "Nieprawidłowy format pliku. Przekonwertuj plik na nieinteraktywny i spróbuj ponownie.",
+    "DOCUMENT_HAS_SIGNATURE": "Ten dokument posiada już podpis",
+    "ADDING_DOCUMENTS_TO_FOLDER": "Dodawanie dokumentów do folderu",
+    "ADDING_DOCUMENTS_INFO": {
+      "HEADER": "Dozwolone pliki",
+      "TERM_2": "Nazwa pliku do 100 znaków",
+      "TERM_4": "Tylko jeden plik o danej nazwie w danym folderze."
+    },
+    "DOCUMENTS_TO_SIGN": "Dokumenty zlecane do podpisania: {{value}}",
+    "FILES": "plików",
+    "ADDING_DOCUMENT_DISABLE": "Tylko osoba, która utworzyła folder może dodawać do niego dokumenty.",
+    "ADD_THIS_DOCUMENT": "Wyślij dokument do podpisu",
+    "CLOSE_PREVIEW": "Zamknij podgląd",
+    "SIGNER_EMAIL": "Adres email osoby podpisującej",
+    "PHONE_NUMBER": "Numer telefonu komórkowego",
+    "USER_FOLDER_LINK": "Dedykowany link do folderu",
+    "COPY": "Skopiuj",
+    "COPIED": "Skopiowano",
+    "COPY_LINK": "Skopiuj bezpośredni link",
+    "COPIED_LINK": "Skopiowano!",
+    "READY": "Gotowe",
+    "NO_SIGNERS": "Nie dodano żadnych podpisujących",
+    "SIGN_SELECTED_DOCUMENTS": "Podpisz wybrane dokumenty",
+    "MAX_FILE_SIZE": "Nie większy niż {{value}}",
+    "MAX_FILES_SIZE": "Maksymalna wielkość pliku: {{value}} MB",
+    "SIGN_IN_PROGRESS": "Trwa podpisywanie...",
+    "IDENTIFICATION_FAILED_TITLE": "Niestety identyfikacja nie powiodła się",
+    "IDENTIFICATION_FAILED": "Upewnij się, że masz przy sobie ważny dowód osobisty lub paszport, sprawną kamerkę internetową i mikrofon oraz odpowiednie warunki do rozmowy i spróbuj ponownie.",
+    "SIGN_FAILED": "Podpisanie dokumentu nie powiodło się",
+    "SESSION_FAILED": "Tworzenie sesji podpisywania nie powiodło się",
+    "BACK_TO_FOLDER": "Wróć do folderu",
+    "VERIFICATION_IN_PROGRESS": "Oczekiwanie na potwierdzenie Twojej tożsamości",
+    "SHOW_DOCUMENT": "Podgląd",
+    "DOCUMENT_PREVIEW": "Podgląd dokumentu",
+    "LIST_OF_SIGNERS": "Lista podpisujących",
+    "DOWNLOAD_ORIGINAL_DOCUMENT": "Pobierz oryginalny dokument",
+    "DOCUMENT_NOT_SENT": "Zlecenie nie zostało wysłane do podpisujących",
+    "CHECK": "Sprawdź",
+    "BUY_MORE_SIGNATURES": "Dokup pakiet podpisów zaawansowanych z identyfikacją KYC",
+    "BUY_MORE_QUALIFIED_SIGNATURES": "Dokup pakiet podpisów kwalifikowanych",
+    "ADDED_NOTIFICATION": "<h2>Dokumenty dodane do folderu: {{value1}}</h2> <em>Pobraliśmy</em> <strong>{{value2}} {{value3}}</strong> <em>z Twojego pakietu.</em>",
+    "ADDED_NOTIFICATION_WITHOUT_DESCRIPTION": "<h2>Dokumenty dodane do folderu: {{value1}}</h2>",
+    "FILE_WITH_SAME_NAME_ALREADY_EXISTS": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Plik o tej nazwie istnieje już w tym folderze</h2>",
+    "FILE_IS_PROTECTED_WITH_PASSWORD": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Plik zabezpieczony hasłem!</h2>",
+    "FILE_CONTAINS_ACTIVE_FORMS": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Nieprawidłowy format pliku!</h2> <br/> <em>Przekonwertuj plik na nieinteraktywny i spróbuj ponownie.</em>",
+    "VIRUS_FOUND": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Plik jest zainfekowany!</h2> <em>W przesyłanym pliku wykryliśmy wirusa. Proces przesyłania tego dokumentu został przerwany.</em>",
+    "DOCUMENT_UPLOAD_INCORRECT_FILENAME": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Nazwa pliku zawiera niedozwolone znaki.</h2> <em>Dozwolone znaki to: A-Ź, a-ź, 0-9, ,.'!@#$%^&()-=_+</em>",
+    "DOCUMENT_UPLOAD_FILENAME_TOO_LONG": "<i class=\"icon icon-file-text mr-1\"></i>{{filename}}<h2>Zbyt długa nazwa pliku.</h2> <em>Nazwa pliku może mieć maksymalnie 100 znaków.</em>",
+    "DELETE_DOCUMENT": "Usuń dokument",
+    "DELETE_FAILED_TITLE": "Nie można usunąć dokumentu",
+    "DELETE_FAILED_NOT_OWNER": "Nie masz wystarczających uprawnień do usunięcia tego dokumentu. \nDokument może usunąć <strong>wyłącznie</strong> osoba zlecająca na nim podpis lub właściciel folderu, w którym ten dokument się znajduje.",
+    "OK_UNDERSTAND": "OK, rozumiem",
+    "SELECT_SIGNATURE_TYPE": "Wybierz rodzaj podpisu",
+    "ADVANCED": "Zaawansowany & KYC",
+    "QUALIFIED": "Kwalifikowany",
+    "EASY": "Zaawansowany",
+    "EASY_TOOLTIP": "Aby użyć podpisu zaawansowanego, utwórz nowy folder dokumentów. Każdemu folderowi przypisany jest jeden rodzaj podpisu.",
+    "EASY_DESC": "Gdy potrzebujesz szybko podpisać dokumenty ze znanym Tobie/Twojej firmie użytkownikiem<span>W sytuacji braku wymogu formy pisemnej i dla umów o niższym stopniu sformalizowania</span><span><b>Weryfikacja tożsamości</b> na podstawie email i kodu SMS</span>",
+    "ADVANCED_DESC": "Dla większości umów i dokumentów w relacjach biznesowych<span>W sytuacji braku prawnego wymogu formy pisemnej</span><span>Wydawany w oparciu o <b>zdalną weryfikację tożsamości</b></span><span>Podpiszesz nim np. umowy i kontrakty handlowe, umowy NDA, umowy zlecenie / o dzieło, wnioski urlopowe itp.</span>",
+    "QUALIFIED_DESC": "Podpis równoważny z podpisem własnoręcznym<span>Poświadczony imiennym certyfikatem kwalifikowanym</span><span>Dla umów i dokumentów wymagających formy pisemnej</span><span>Wydawany w oparciu o <b>zdalną certyfikowaną weryfikację tożsamości</b></span><span>Podpiszesz nim prawie wszystkie dokumenty, m.in. dokumenty urzędowe, umowy o pracę, oferty przetargowe, orzeczenia lekarskie itp.</span>",
+    "FIND_OUT_MORE": "Dowiedz się więcej",
+    "ADVANCED_TOOLTIP": "Aby użyć podpisu zaawansowanego z identyfikacją KYC, utwórz nowy folder dokumentów. Każdemu folderowi przypisany jest jeden rodzaj podpisu.",
+    "QUALIFIED_TOOLTIP": "Aby użyć podpisu kwalifikowanego, utwórz nowy folder dokumentów. Każdemu folderowi przypisany jest jeden rodzaj podpisu.",
+    "SWITCH": "Przełącz",
+    "YOU_HAVE_QUALIFIED_SIGNATURES": "Posiadasz podpisy Kwalifikowane",
+    "SWITCH_TO_ADVANCED_SIGNATURES": "Przełącz na podpisy zaawansowane z identyfikacją KYC",
+    "EASY_SIGNATURE": "Podpis zaawansowany",
+    "ADVANCED_SIGNATURE": "Podpis zaawansowany & KYC",
+    "QUALIFIED_SIGNATURE": "Podpis kwalifikowany",
+    "NO_SIGNATURE": "Brak wybranego podpisu",
+    "PRIMARY": "Podstawowa",
+    "HIGH": "Wysoka",
+    "HIGHEST": "Najwyższa",
+    "COMPARE_THE_SIGNATURES": "Porównaj podpisy",
+    "QUALIFIED_NOT_ENOUGH": "W aktywnym pakiecie nie posiadasz wystarczającej ilości podpisów kwalifikowanych, by podpisać ten dokument. Podpisz najpierw zaznaczone dokumenty korzystając z tego pakietu, a następnie aktywuj (lub kup) nowy pakiet, by podpisywać kolejne.",
+    "DELETED_DOCUMENT": "Dokument usunięty",
+    "FULL_STORAGE_MODAL_TITLE": "Brak miejsca na dysku!",
+    "FULL_STORAGE_MODAL_MESSAGE": "Nie masz wystarczającej ilości miejsca na dysku, by dodać kolejny dokument. Usuń niepotrzebne dokumenty, by zwolnić miejsce.",
+    "CURRENT_STORAGE": "Aktualne wykorzystanie:",
+    "CURRENT_STORAGE_SEPARATOR": "z",
+    "DOWNLOAD_MENU": {
+      "HEADER": "POBIERZ DOKUMENT",
+      "ORIGINAL": "Oryginalny",
+      "SIGNED": "Podpisany",
+      "SEE_WHO": "Zobacz kto podpisał"
+    },
+    "SIGNED_DATE": "{{date}} o {{time}}",
+    "SEND_REMINDER": "Wyślij email z przypomnieniem",
+    "DELETE_MODAL": {
+      "TITLE": "Usuwanie dokumentu",
+      "DELETE_MESSAGE": "Czy na pewno chcesz <strong>trwale</strong> usunąć ten dokument z platformy?",
+      "DELETE_SIGNED_MESSAGE": "<strong>Pobierz podpisany dokument przed jego usunięciem</strong> i archiwizuj go dalej we własnym zakresie.",
+      "DELETE_THIS_DOCUMENT": "Usuń ten dokument",
+      "DELETE_WITHOUT_DOWNLOAD_DOCUMENT": "Usuń bez pobierania",
+      "DOWNLOAD_AND_DELETE_DOCUMENT": "Pobierz i usuń"
+    },
+    "PREVIEW": {
+      "GO_TO_LIST_OF_SIGNERS": "Przewiń do listy podpisujących",
+      "ON_FIRST_PAGE": "Umieść podpisy na pierwszej stronie"
+    },
+    "ADD_GRAPH_REPRESENTATION": "Dodaj graficzną reprezentację podpisów",
+    "DO_NOT_ADD": "Nie dodawaj",
+    "QUALIFIED_ONLY": "tylko kwalifkowany",
+    "ADD_FIRST_PAGE": "Wizualizacja na pierwszej stronie dokumentu",
+    "ADD_LAST_PAGE": "Dodatkowa strona na końcu dokumentu",
+    "INDICATE_PLACE_OF_SIGN": "Wskaż miejsce samodzielnie",
+    "INDICATE_PLACE_OF_SIGN_DISABLED_INFO": "przy dodawaniu maks. 1 dokumentu",
+    "MANUAL_TOOLTIP_MESSAGE": "Wybierasz na dokumencie miejsce, w którym pojawi się lista osób, które podpisały dokument wraz z czasem złożenia podpisów.",
+    "FIRST_PAGE_WITH_QUALIFIED_SIGNATURE_TOOLTIP_MESSAGE": "Na marginesie pierwszej strony dokumentu pojawi się lista osób, które podpisały dokument wraz z czasem złożenia podpisów.",
+    "LAST_PAGE_WITHOUT_SIGNATURES": "Na dodanej na końcu dokumentu stronie znajdzie się lista osób, które podpisały dokument wraz ze statusem i czasem złożenia podpisów.",
+    "LAST_PAGE_WITH_SIGNATURES": "Jeśli na dokumencie znajdują się wcześniej złożone podpisy, wybranie tej opcji spowoduje ich usunięcie.",
+    "FIRST_PAGE_WITH_OTHER_SIGNATURES_TOOLTIP_MESSAGE": "Na marginesie pierwszej strony dokumentu pojawi się lista osób, które podpisały dokument wraz z czasem złożenia podpisów. W przypadku podpisu zaawansowanego będzie to lista adresów mailowych.",
+    "DEFINE_ORDER": "Ustal kolejność podpisywania",
+    "CHANGE_DOCUMENT_TITLE": "Zmiana nazwy dokumentu",
+    "DOCUMENT_NAME_ERROR": "Nazwa dokumentu może mieć maksymalnie {{value}} znaków",
+    "MAX_SIGNERS": "Maks. {{value}} podpisujących",
+    "MAX_8_SIGNERS_INFO": "Wizualizacja na pierwszej stronie dokumentu dopuszcza nie więcej niż 8 podpisujących. Wybierz inną graficzną reprezentację podpisu lub dopasuj liczbę podpisujących.",
+    "MAX_12_SIGNERS_INFO": "Wybrana graficzna reprezentacja podpisu dopuszcza nie więcej niż 12 podpisujących. Dopasuj liczbę podpisujących lub wybierz opcję \"Nie dodawaj\".",
+    "WHICH_DOCUMENT": "Dokument {{value1}} z {{value2}}",
+    "SHOW_DOCUMENTS": "Wyświetl dokumenty...",
+    "DOCUMENTS_TO_SIGN_STATUS": "do podpisu",
+    "SIGNED_DOCUMENTS": "podpisane",
+    "OTHER_DOCUMENTS": "w toku",
+    "FINISHED": "zakończone",
+    "NO_DOCUMENTS_FOUND": "Nie znaleziono dokumentów",
+    "FILTERS_NO_DOCUMENTS":"Twoje ustawienia filtrów ukryły foldery.",
+    "FILTERS_RETURN": "Przywróć",
+    "FILTERS_SUBMIT": "Zastosuj",
+    "FILTERS_CANCEL": "Anuluj",
+    "FILTERS_ADDED": "dodane",
+    "FILTERS_SOON": "wkrótce:",
+    "FILTERING": "Filtrowanie",
+    "FILTERING_TOLTIP_HEADER": "Nowość - filtrowanie i sortowanie!",
+    "FILTERING_TOLTIP_CONTENT": "Teraz możesz wygodnie filtrować i sortować dokumenty i foldery. Sprawdź nowe opcje!",
+    "DOCUMENTS_TOLTIP_HEADER": "Dodaliśmy nową zakładkę \"Dokumenty\"",
+    "DOCUMENTS_TOLTIP_CONTENT": "Teraz możesz przeglądać i wyszukiwać dokumenty z wszystkich folderów w jednym miejscu. Ułatwi Ci to odnajdywanie potrzebnych plików bez konieczności przeszukiwania wielu folderów.",
+    "TO_FILL": "Uzupełnij dokument"
+  },
+  "PIN_CONFIRMATION": {
+    "CODE": {
+      "TITLE": "Wysłaliśmy do Ciebie SMS z kodem",
+      "STEP": "<strong>Krok 2.</strong> Teraz potwierdzimy, czy podany przez Ciebie numer telefonu jest poprawny.",
+      "LABEL": "nowy numer tel. komókowego",
+      "ERROR": "Kod e-mail niepoprawny"
+    },
+    "SMS_ERROR": "Wystąpił nieoczekiwany błąd. Spróbuj ponownie.",
+    "TITLE": "Wysłaliśmy \ndo Ciebie SMS",
+    "YOUR_PHONE_NUMBER": "Numer Twojego tel. komórkowego",
+    "ENTER_SMS_CODE": "Wpisz kod z SMS",
+    "AWAREMENT": "Jestem świadomy/a, że kontynuując ten proces, złożę podpis na tym dokumencie.",
+    "SEND_CODE_AGAIN": "Wyślij kod ponownie",
+    "CHALLENGE_ERROR": "Kod SMS niepoprawny",
+    "TIME_TO_UNLOCK": "Pozostało {{value}} do odblokowania sesji",
+    "ATTEMPTS_LEFT": "Pozostało {{value}} prób",
+    "RESEND_TIME": "Jeszcze {{timeLeft}} zanim możesz wysłać ponownie",
+    "SMS_CODE_SENT": "SMS z kodem został wysłany",
+    "STEP": "<strong>Krok 2.</strong> Teraz potwierdzimy, czy podany przez Ciebie numer telefonu jest poprawny. ",
+    "EMAIL": {
+      "TITLE": "Wysłaliśmy do Ciebie e-mail z kodem",
+      "ENTER_YOUR_EMAIL_CODE": "Wpisz kod z e-maila",
+      "YOUR_EMAIL": "Twój adres e-mail",
+      "SEND_CODE_AGAIN": "Wyślij email ponownie",
+      "STEP": "<strong>Krok 1.</strong> Aby zwiększyć bezpieczeństwo, potwierdzimy Twój adres e-mail."
+    }
+  },
+  "FILTERS":{
+    "FINISHED": "zakończono",
+    "TO_SIGN": "do podpisu",
+    "IN_PROGRESS": "w toku",
+    "SIGNED": "podpisano",
+    "REJECTED": "odrzucono"
+  },
+  "FOLDERS": {
+    "FOLDERS": "Foldery",
+    "DOCUMENTS": "Dokumenty",
+    "SHOW_ONLY_MY": "Pokaż tylko moje foldery",
+    "FIND_DOCUMENTS": "Znajdź dokumenty",
+    "FOLDER_CREATED": "Folder utworzono",
+    "DOCUMENTS_FOLDERS": "Foldery dokumentów",
+    "CREATE_FOLDER": "Utwórz folder<br>i dodaj dokumenty do podpisu",
+    "SIGNERS": "Podpisujący",
+    "ADD_NEW_FOLDER": "Dodawanie folderu",
+    "NAME_YOUR_FOLDER": "Nazwij ten folder",
+    "FOLDER_NAME_ERROR": "Nazwa folderu może mieć maksymalnie {{value}} znaków",
+    "ADD_CONFIRM": "Potwierdź",
+    "FOLDER_SIGNERS": "Podpisujący tego folderu",
+    "DELETE_FOLDER": "Usuń ten folder",
+    "CHANGE_FOLDER_NAME": "Zmień nazwę folderu",
+    "DELETE_MODAL_TITLE": "Usuwanie folderu",
+    "DELETE_MODAL_MESSAGE": "Czy na pewno chcesz usunąć ten folder?",
+    "EDIT_MODAL_TITLE": "Zmiana nazwy folderu",
+    "SAVE_CHANGE": "Zapisz zmianę",
+    "NAME_CHANGED": "Nazwa folderu została zmieniona",
+    "DELETED": "Folder został usunięty",
+    "DELETE_MODAL_ERROR_TITLE": "Nie można usunąć folderu",
+    "DELETE_MODAL_ERROR_MESSAGE": "W folderze znajdują się nieusunięte podpisane dokumenty. Usuń je najpierw, by móc usunąć folder.",
+    "DELETE_MODAL_ERROR_CONFIRM": "OK, rozumiem",
+    "DOCUMENTS_TO_SIGN": "Dokumenty do podpisania",
+    "SELECTED_TO_BE_SIGNED": "Wybrano do podpisania",
+    "FOLDERS_PREVIEW": "Podgląd folderów pracowników",
+    "PREVIEW_FOLDERS": "Podgląd folderów pracownika",
+    "NO_FOLDERS": "Użytkownik nie posiada żadnych folderów.",
+    "FOLDERS_PREVIEW_REMOVED": "Podgląd folderów pracowników został przeniesiony do sekcji \"<a href=\"{{url}}\">Mój zespół</a>\" w Ustawieniach.",
+    "SHOW_FOLDERS": "Wyświetl foldery...",
+    "WITH_SIGNED_DOCUMENTS": "z dokumentami podpisanymi",
+    "WITH_DOCUMENTS_TO_SIGN": "z dokumentami do podpisania",
+    "OTHER_FOLDERS": "pozostałe foldery",
+    "CREATED_BY_ME": "przeze mnie",
+    "CREATED_BY_OTHERS": "przez innych",
+    "TUTORIAL": {
+      "STEP_1_HEADER": "Dodaj dokument(y) do podpisu",
+      "STEP_1_CONTENT": "Podpisuj i deleguj dokumenty do podpisu - zacznij tutaj.",
+      "STEP_1_BACK": "Pomiń",
+      "STEP_1_NEXT": "Następny",
+      "STEP_2_HEADER": "Zweryfikuj swoją tożsamość",
+      "STEP_2_CONTENT": "Kup pakiet podpisów i przejdź proces weryfikacji tożsamości.",
+      "STEP_2_CLOSE": "Zakończ"
+    }
+  },
+  "DASHBOARD": {
+    "GET_READY": "Przygotuj się do podpisywania.<br> Który podpis potrzebujesz?",
+    "GET_READY_SMALL": "Przygotuj się do<br> podpisywania",
+    "MY_SIGNATURES": "Moje podpisy",
+    "PREPARE_SIGN": "Przygotuj się do podpisywania",
+    "STEPS_INFO": "Tylko 2 kroki dzielą Cię od podpisywania dokumentów online. Kup pakiet podpisów i zweryfikuj swoją tożsamość. Zaczynamy!",
+    "BUY_SIGNATURES": "Kup podpisy",
+    "SEE_PACKAGES": "Zobacz pakiety",
+    "IDENTITY_VERIFICATION": "Weryfikacja tożsamości",
+    "IDENTITY_INFO": "<strong>Weryfikacja tożsamości to krótki, jednorazowy i bezpieczny proces,</strong> w którym zweryfikujemy Twoje dane przed podpisaniem pierwszego dokumentu na platformie (lub w sytuacji zmiany danych).",
+    "NO_SIGN_EASY": "Nie posiadasz podpisów zaawansowanych",
+    "NO_SIGN_ADVANCED": "Nie posiadasz podpisów zaawansowanych z identyfikacją KYC",
+    "NO_SIGN_QUALIFIED": "Nie posiadasz podpisów kwalifikowanych",
+    "YOU_HAVE_SIGNATURES": "Posiadasz podpisy",
+    "PURCHASED_BY_QUALIFIED": "Podpisy kwalifikowane opłacone przez {{value}}",
+    "PURCHASED_BY_ADVANCED": "Podpisy zaawansowane z identyfikacją KYC opłacone przez {{value}}",
+    "PURCHASED_BY_EASY": "Podpisy zaawansowane opłacone przez {{value}}",
+    "NOT_VERIFIED": "Twoja tożsamość nie została jeszcze zweryfikowana.",
+    "TO_FILL": "Pierwsza osoba podpisująca będzie musiała wypełnić formularz w dokumencie",
+    "CONFIRM_IDENTITY": "Potwierdź tożsamość",
+    "IDENTITY_CONFIRMED": "Tożsamość potwierdzona",
+    "START_SIGNING": "Możesz zacząć podpisywać!",
+    "READY": "Gotowe!"
+  },
+  "PARTNER": {
+    "MBANK": {
+      "HEADER": "Platforma podpisów"
+    }
+  },
+  "PAYMENTS": {
+    "SELECT_OPTION": "Wybieram",
+    "CHANGE_PRODUCT": "Zmień produkt",
+    "CHANGE_METHOD": "Zmień metodę płatności",
+    "PAY_SUB_BUTTON": "Zapłać i uruchom subskrypcję",
+    "CARD_NUMBER": "Numer karty",
+    "EXPIRATION_DATE": "Data ważności",
+    "CVV": "Kod bezp.",
+    "INVOICE_CHECKBOX": "Chcę otrzymać fakturę VAT",
+    "PAYMENT_PROCESSING": "Przetwarzanie płatności",
+    "SELECT_PAY_METHOD": "Wybierz metodę płatności",
+    "CHANGE_INVOICE_DETAILS": "Zmień dane do faktury",
+    "PRODUCT_NAME": {
+      "SIGNATURES_PACK": "Podpis jednorazowy",
+      "SUBSCRIPTION": {
+        "MONTHLY": "Pakiet miesięczny",
+        "YEARLY": "Pakiet roczny"
+      }
+    },
+    "EMPTY_PACKAGE_LABEL": "Nie chcę kupić pakietu",
+    "PRODUCT_DESC": {
+      "SIGN_SINGLE": "Podpisz 1 wybrany dokument",
+      "DATE": "DATA",
+      "RECEIVED_FROM": "OTRZYMANY OD",
+      "PACK": "PAKIET",
+      "SIGNATURES_PACK": {
+        "HOURLY": "Pakiet {{value}} podpisów ważny przez godzinę",
+        "MONTHLY": "Pakiet {{value}} podpisów ważny przez miesiąc",
+        "YEARLY": "Pakiet {{value}} podpisów ważny przez rok"
+      },
+      "SUBSCRIPTION": {
+        "MONTHLY": "Podpisuj do {{value}} dokumentów miesięcznie",
+        "YEARLY": "Pakiet {{value}} podpisów ważnych cały rok"
+      }
+    },
+    "SELECTED_PRODUCT_DESC": {
+      "SIGNATURES_PACK": "Wybrany pakiet: {{value}} podpisów",
+      "SUBSCRIPTION": {
+        "MONTHLY": " / miesiąc, odnawiany automatycznie",
+        "YEARLY": " / rok, odnawiany automatycznie"
+      }
+    },
+    "PAYMENT_SUCCESS": {
+      "SUBSCRIPTION": "Twój pakiet e-podpisów jest już aktywny!",
+      "SIGNATURES_PACK": "Usługa opłacona, dziękujemy"
+    },
+    "AGREEMENT": {
+      "SUBSCRIPTION": "Subskrypcja rozpocznie się po zaksięgowaniu płatności. \nZezwalam na obciążenie mojej karty powyższą kwotą oraz na okresowe odnawianie subskrypcji zgodnie z <a href=\"{{url}}\" target=\"_blank\">Warunkami użytkowania usługi</a>, dopóki nie anuluję subskrypcji."
+    },
+    "PAYMENT_FAILED": "Płatność nie powiodła się",
+    "TRY_AGAIN": "Spróbuj jeszcze raz",
+    "SUBSCRIPTION": "Subskrypcja",
+    "MONTHLY": "miesiąc",
+    "YEARLY": "rok",
+    "SINGLE_SIGNATURE": "1 podpis",
+    "SIGNATURES_NUMBER": "{{value}} podpisów",
+    "NETTO": "netto",
+    "ACCEPT_TERMS": "Zapoznałem się i akceptuję <br> <a href=\"{{url}}\" target=\"_blank\">Regulamin Usług Zaufania</a>.",
+    "ACTIVATE_INFO": "Twój pakiet podpisów <br>zostanie teraz aktywowany",
+    "QUALIFIED": ["kwalifikowany", "kwalifikowanych"],
+    "ADVANCED": ["zaawansowany & KYC", "zaawansowanych & KYC"],
+    "EASY": ["zaawansowany", "zaawansowanych"]
+  },
+  "PROFILE": {
+    "ACCOUNT": "Konto",
+    "MY_TEAM": "Mój zespół",
+    "ADMINS": "Administratorzy",
+    "ADMIN": "Administrator",
+    "ADMINS_DESC": "Mogą dodawać osoby do swojego zespołu, blokować ich konta i przeglądać wszystkie ich foldery z dokumentami.",
+    "NO_OTHER_ADMINS": "(Brak innych administratorów)",
+    "EMPLOYEES": "Pracownicy",
+    "EMPLOYEE": "Pracownik",
+    "EMPLOYESS_DESC": "Wysyłają dokumenty do podpisu w ramach pakietów firmy. Nie mają dodatkowych uprawnień.",
+    "NO_OTHER_EMPLOYESS": "(Brak pracowników)",
+    "INVITATION_DECLINED": "Zaproszenie odrzucone",
+    "INVITATION_PENDING": "Zaproszenie oczekuje",
+    "INVITATION_SENT": "Zaproszenie wysłane",
+    "ADD_PERRSON": "Dodaj osobę",
+    "ADDING_PEOPLE": "Dodawanie osób do zespołu",
+    "SEND_INVITATION": "Wyślij zaproszenie",
+    "ROLE": "Rola",
+    "CANCEL_INVITATION": "Anuluj zaproszenie",
+    "BLOCK_ACCOUNT": "Zablokuj konto",
+    "UNLOCK_ACCOUNT": "Odblokuj konto",
+    "ADD_ANOTHER": "Dodaj kolejną",
+    "SIGNATURES": "Podpisy zaawansowane & KYC",
+    "CARD_DETAILS": "Karta płatnicza",
+    "INVOICE": "Dane do faktury",
+    "PERSONAL_DATA": "Dane osobowe",
+    "EMAIL": "Twój adres email",
+    "PART_OF_THE_TEAM": "Należysz do zespołu",
+    "APP_LANGUAGE": "Język aplikacji",
+    "DATA_CHANGED": "Moje dane się zmieniły",
+    "IDENTITY_DOCUMENT": "Dokument tożsamości",
+    "NO_IDENTITY_CONFIRMED": "Brak potwierdzonej tożsamości",
+    "NEW_IDENTIFICATION_REQUIRED": "Przy najbliższym podpisywaniu dokumentu zweryfikujemy zdalnie Twoją tożsamość.",
+    "INVOICE_ALWAYS": "Chcę otrzymywać fakturę VAT po każdym zakupie",
+    "SIGNATURES_AVAILABLE": "Dostępne podpisy",
+    "UNTIL_DATE": "do {{value}}",
+    "RENEWAL": "Odnowienie",
+    "DISABLE_RENEWAL": "Wyłącz odnawianie subskrypcji",
+    "DISABLE_RENEWAL_SHORT": "Wyłącz odnawianie",
+    "DISABLE_RENEWAL_CONFIRMATION_TITLE": "Wyłączenie odnawiania subskrypcji",
+    "DISABLE_RENEWAL_CONFIRMATION_MESSAGE": "Zakupiona przez Ciebie usługa pozostanie aktywna, ale dane Twojej karty płatniczej zostaną usunięte, a usługa nie odnowi się automatycznie.",
+    "COST": "Koszt",
+    "DELETE_CARD": "Usuń kartę",
+    "DELETE_CARD_CONFIRMATION_TITLE": "Usuwanie danych karty płatniczej",
+    "DELETE_CARD_CONFIRMATION_MESSAGE": "Usunięcie karty wyłączy również automatyczne odnawianie subskrypcji.\nZakupiona przez Ciebie usługa pozostanie aktywna, ale nie odnowi się automatycznie - nie obciążymy Twojej karty.",
+    "DELETE_CARD_CONFIRMATION_MESSAGE_2": "Podane przez Ciebie dane karty płatniczej zostaną usunięte.",
+    "WAITING_PAYMENT_CONFIRM": "Czekamy na potwierdzenie transakcji",
+    "NO_CARD": "Dane karty pojawią się tu po wykupieniu pakietu podpisów z subskrypcją.",
+    "QUALIFIED_SIGNATURES": "Podpisy kwalifikowane",
+    "MY_QUALIFIED_SIGNATURES": "Moje podpisy kwalifikowane",
+    "MY_ADVANCED_SIGNATURES": "Moje podpisy zaawansowane & KYC",
+    "SIGNATURES_PACKS": "Pakiety podpisów",
+    "PENDING_ACTIVATION": "Oczekujące na aktywację",
+    "PACKAGE_OVERVIEW": "Przegląd pakietów",
+    "SHOW_ONLY_MINE": "Pokaż tylko moje",
+    "PURCHASED_FOR": "Zakup dla",
+    "PURCHASED_DATE": "Data zakupu",
+    "PURCHASED_PACKAGE": "Kupiony pakiet",
+    "RECEIVED_FROM": "Otrzymany od",
+    "PACKAGE": "Pakiet",
+    "DATE": "Data",
+    "PER_MONTH": "/mies.",
+    "PER_YEAR": "/year.",
+    "PURCHASED_NO_DATA": "Tutaj znajdziesz wszystkie zakupione przez Ciebie pakiety.",
+    "RECEIVED_NO_DATA": "Tutaj znajdziesz wszystkie otrzymane pakiety.",
+    "NO_RESULTS": "Brak wyników",
+    "EASY": "Podpisy zaawansowane",
+    "MY_EASY_SIGNATURES": "Moje podpisy zaawansowane",
+    "SETTINGS": "Ustawienia",
+    "AUTOMATIC_DOCUMENT_DELETION_TITLE": "Automatyczne usuwanie dokumentów",
+    "AUTOMATIC_DOCUMENT_DELETION_MESSAGE": "Dokumenty, które zostały przez Ciebie dodane ponad 30 dni temu, będą usuwane codziennie o północy (UTC).",
+    "TEAM_AUTOMATIC_DOCUMENT_DELETION_MESSAGE": "Dokumenty dodane przez Ciebie i członków Twojego zespołu będą automatycznie usuwane z platformy po 30 dniach.",
+    "INVITATION_WAITING": "Zaproszenie oczekuje",
+    "INVITATION_REJECTED": "Zaproszenie odrzucone",
+    "SHOW_ONLY_ACTIVE_ACCOUNTS": "Wyświetl same<br/>aktywne konta",
+    "SIGN_DOCUMENT_TO_ACTIVATE": "Podpisz dokument, aby aktywować pakiet dostarczony przez {{value}}.",
+    "DELETING_ACCOUNT": "Usuwanie konta",
+    "DELETE_ACCOUNT": "Usuń konto",
+    "CURRENT_PASS": "Podaj bieżące hasło",
+    "DELETE_ACCOUNT_FOREVER": "Usuń konto na zawsze",
+    "HOW_WE_CAN_IMPROVE": "Jak możemy usprawnić platformę? (opcjonalne)",
+    "DELETE_WARNING": "Gdy usuniesz konto, utworzone przez Ciebie foldery i dodane dokumenty zostaną <strong>bezpowrotnie usunięte</strong>, a Twoje dane zostaną zanonimizowane. <span>Wszystkie Twoje pakiety podpisów zostaną dezaktywowane bez względu na ich status. Odnawianie wszelkich subskrypcji zostanie automatycznie wyłączone.</span>",
+    "DELETE_BC_USER_WARNING": "Gdy usuniesz konto Pracownika, utworzone przez niego foldery i dodane dokumenty zostaną <strong>bezpowrotnie usunięte</strong>, a jego dane zostaną zanonimizowane. Wszystkie jego pakiety podpisów zostaną dezaktywowane bez względu na ich status. Odnawianie posiadanych przez niego subskrypcji zostanie automatycznie wyłączone.",
+    "DOCUMENTS_DELETION": "Trwa usuwanie dokumentów...",
+    "FOLDERS_DELETION": "Trwa usuwanie folderów...",
+    "ACOUNT_DELETION": "Trwa usuwanie konta...",
+    "ACOUNT_DELETED": "Konto zostało usunięte.",
+    "CREATE_NEW_PASSWORD": "Utwórz nowe hasło",
+    "CURRENT_PASSWORD": "Bieżące hasło",
+    "CONFIRM_CHANGE": "Potwierdź zmianę",
+    "INCORECT_PASS": "Wpisałeś/aś nieprawidłowe hasło.",
+    "CHANGE_REQUEST_BLOCKED": "Ze względu na wielokrotne wprowadzenie nieprawidłowego hasła, możliwość zmiany hasła została zablokowana na 5 minut. Spróbuj ponownie później.",
+    "MEMBERS": "Członkowie",
+    "SETUP": "Konfiguracja",
+    "IDENTITY_DESC": "Weryfikacja tożsamości dla podpisu kwalifikowanego",
+    "IDENTITY_DESC_TOOLTIP": {
+      "HEADER": "Aby uzyskać podpis kwalifikowany, konieczna jest weryfikacja Twojej tożsamości.",
+      "DOT1": "Proces ten jest bezpieczny i wymagany przez prawo.",
+      "DOT2": "Realizujemy go jednorazowo przed wydaniem podpisu kwalifikowanego, oraz gdy zmienią się Twoje dane.",
+      "DOT3": "Proces trwa zwykle 5–20 minut, w zależności od wybranej metody, jakości połączenia internetowego oraz warunków technicznych (np. oświetlenia i kamery).",
+      "DOT4": "Przygotuj dowód osobisty lub paszport."
+    },
+    "IDENTITY_QUAL": "Potrzebujesz podpis kwalifikowany?",
+    "IDENTITY_QUAL_BTN": "Kup pakiet i potwierdź tożsamość",
+    "SECURITY": {
+      "TITLE": "Bezpieczeństwo",
+      "DESC": "Wybierz metodę autoryzacji",
+      "APP": "Aplikacja autoryzacyjna",
+      "SMS": "Otrzymuj jednorazowe kody w wiadomościach SMS wysyłanych na Twój numer telefonu",
+      "2FA": "Otrzymuj kody w aplikacji autoryzującej sparowanej z SIGNIUS na swoim urządzeniu mobilnym",
+      "BADAGE": "Polecane",
+      "CONNECT": "Połącz!",
+      "SMS_HEADER": "SMS",
+      "RECONNECT": "Połącz ponownie",
+      "2FA_MODAL": {
+        "TITLE": "Zeskanuj kod QR",
+        "VER_CODE": "Kod weryfikacyjny:",
+        "ERROR": "Błędny kod lub błąd systemu",
+        "SCAN_CODE_TXT_1": "1. Ze sklepu z aplikacjami mobilnymi pobierz na swoje urządzenie mobilne aplikację autoryzującą",
+        "SCAN_CODE_TXT_2": "2. Aby sparować wybraną aplikację autoryzującą z SIGNIUSem zeskanuj poniższy kod QR."
+      }
+    }
+  },
+  "SIGN_SUMMARY": {
+    "TITLE": "Dokumenty do podpisu",
+    "SUBTITLE": "Za chwilę podpiszesz elektronicznie poniższe dokumenty:",
+    "ALL_DOCUMENTS": "Wszystkie dokumenty ({{value}})",
+    "IDENTIFICATION_DATA": "Dane które zostaną użyte do podpisania",
+    "IDENTITY_CONFIRMATION": "Potwierdzam aktualność moich danych",
+    "SIGN_SELECTED": "Podpisz dokumenty",
+    "SIGN_SELECTED_AND_PAY": "Podpisuję dokumenty i płacę",
+    "IDENTITY_CHANGED": "Moje dane się zmieniły",
+    "WAIT_A_MINUTE": "Zaczekaj chwilę!",
+    "DOCUMENT_BEING_SIGNED": "Dokument jest właśnie podpisywany przez inną osobę. Z przyczyn technicznych tylko jedna osoba może podpisywać dokument w danym momencie.",
+    "LESS_THAN_2_MINUTES": "Zajmie to mniej niż 2 minuty.",
+    "CANCEL_AND_SIGN_LATER": "Przerwij i podpisz później",
+    "YOU_CAN_SIGN": "Już możesz podpisać!",
+    "THANKS_FOR_PATIENCE": "Dziękujemy za cierpliwość.",
+    "CONTINUE": "Kontynuuj",
+    "YOUR_SIGNATURE_SYMBOL": "Twój graficzny symbol podpisu",
+    "GRAPHICAL_SYMBOL_INFO": "Rodzaj symbolu podpisu nie<br> wpływa na ważność<br> złożonego podpisu.",
+    "CHANGE_SYMBOL": "Zmień symbol",
+    "SELECT_SYMBOL": "Wybierz rodzaj symbolu podpisu",
+    "NAME_DISPLAYED": "Nazwa wyświetlana na dokumencie",
+    "NAME_LENGTH_ERROR": "Nazwa może mieć maksymalnie {{value}} znaków",
+    "QUEUE_INFO_HEADING": "Trwa podpisywanie wielu dokumentów...",
+    "QUEUE_INFO_TEXT": "Wymaga to nieco więcej czasu.",
+    "QUEUE_INFO_TEXT2": "Nie musisz czekać - możesz zająć się innymi sprawami, a postęp podpisywania sprawdzisz po prostu w folderze.",
+    "BATCH_EXCEEDED_SUBTITLE": "Za chwilę podpiszesz elektronicznie {{value}} dokumentów",
+    "ORANGE_TITLE": "Zaakceptuj i podpisz dokumenty"
+  },
+  "IDENTITY_METHOD_SELECTOR": {
+    "SELECT_PROVIDER": "Wybierz metodę identyfikacji",
+    "VIDEO_1": "Wideoidentyfikacja",
+    "VIDEO_2": "Dla osób z kamerą, mikrofonem i dobrym połączeniem internetowym",
+    "VIDEO_3": "Porozmawiaj z naszym przedstawicielem, który potwierdzi Twoją tożsamość.",
+    "VIDEO_4": "Potrzebny będzie dowód osobisty lub paszport.",
+    "AUTHOLOGIC_1": "Identyfikacja przez bankowość elektroniczną",
+    "AUTHOLOGIC_2": "Twoje dane bankowe są bezpieczne. Bank potwierdza dla nas jedynie imię i nazwisko.",
+    "VERIMI_1": "Digital Identity Hub",
+    "VERIMI_2": "Użytkownicy Verimi z potwierdzoną tożsamością cyfrową mogą natychmiast podpisywać dokumenty.",
+    "VERIMI_3": "Nie jesteś użytkownikiem Verimi? Potwierdź wygodnie swoją tożsamość za pomocą funkcji eID swojego dowodu osobistego.",
+    "IDENTT": "Testowa identyfikacja",
+    "NECT_1": "Identyfikacja przez selfie",
+    "NECT_2": "Potwierdź tożsamość w aplikacji NECT na swoim smartfonie.",
+    "NECT_3": "Nagraj swój dowód osobisty i video selfie - 2 minuty i gotowe!",
+    "MOBYWATEL": {
+      "HEADER": "mObywatel",
+      "TXT": "Szybko i bezpiecznie potwierdź swoją tożsamość za pomocą aplikacji mObywatel.",
+      "METHOD": {
+        "HEADER":"Aplikacja mObywatel",
+        "TXT":"Aby potwierdzić swoją tożsamość, zeskanuj kod QR aplikacją mObywatel.",
+        "MOBILE_TXT": "Aby potwierdzić swoją tożsamość:",
+        "REFRESH":"Odśwież kod QR",
+        "KEY": "W aplikacji mObywatel wprowadź poniższy klucz.",
+        "COPY_BTN": "Skopiuj kod",
+        "CUSTOM_CODE": {
+          "HEADER": "Nie możesz zeskanować kodu QR?",
+          "TXT": "W aplikacji mObywatel wprowadź poniższy klucz."
+        },
+        "INSTRUCTION": {
+          "FIRST_STEP": "1. Zaloguj się do aplikacji mObywatel",
+          "SECOND_STEP": "2. W dolnej części ekranu wybierz ikonę z kodem QR.",
+          "THIRD_STEP": "3. Zeskanuj kod ze strony."
+        },
+        "INSTRUCTION_MOBILE": {
+          "FIRST_STEP": "1. Kliknij poniższy przycisk “Skopiuj kod”",
+          "SECOND_STEP": "2. Zaloguj się do aplikacji mObywatel.",
+          "THIRD_STEP": "3. W dolnej części ekranu wybierz ikonę z kodem QR.",
+          "FOURTH_STEP": "4. Wklej kod w pole tekstowe."
+        }
+      }
+    },
+    "IDNOW_VIDEO": "Wideoweryfikacja przez IDnow",
+    "IDNOW_VIDEO_2": "Dla osób z kamerą, mikrofonem i dobrym połączeniem internetowym",
+    "IDNOW_VIDEO_3": "Porozmawiaj z naszym przedstawicielem, który potwierdzi Twoją tożsamość. Potrzebny będzie dowód osobisty lub paszport.",
+    "IDNOW_AUTO": "Wideoweryfikacja przez IDnow Auto"
+  },
+  "IDENTITY_DATA": {
+    "PERSONAL_TITLE": "Tytuł (opcjonalne)",
+    "PERSONAL_TITLE_MAX": "Łącznie maks. 75 znaków w polach: Tytuł, Imię, Nazwisko",
+    "PERSONAL_DATA_CHANGE": "Zmiana danych osobowych",
+    "FIRST_NAME": "Imię",
+    "LAST_NAME": "Nazwisko",
+    "NATIONALITY": "Obywatelstwo",
+    "DOCUMENT_TYPE": "Typ dokumentu",
+    "DOCUMENT_NUMBER": "Numer dokumentu",
+    "PESEL": "PESEL",
+    "GIVEN_NAMES": "Imiona",
+    "ISSUING_AUTHORITY": "Organ wydający",
+    "DOCUMENT_SERIES_AND_NUMBER": "Seria i numer dokumentu",
+    "DATE_OF_BIRTH": "Data urodzenia",
+    "DOCUMENT_EXPIRE_DATE": "Termin ważności",
+    "PHONE_NUMBER": "Nr tel. komórkowego",
+    "IDENTITY_DOCUMENT_CHANGED": "Mój dokument tożsamości się zmienił",
+    "CONFIRMED_IDENTITY_DOCUMENT": "Potwierdzony dokument tożsamości",
+    "NEW_IDENTIFICATION_REQUIRED_INFO": "<strong>Uwaga!</strong><br/> <em>Zmiana potwierdzonych danych wymaga ponownego przejścia procesu weryfikacji tożsamości. <br/> Jeśli zbliża się termin ważności twojego dokumentu tożsamości, pamiętaj o jego przedłużeniu przed kolejnym potwierdzeniem tożsamości.</em>",
+    "EXTERNAL_ID": "ID number",
+    "PROVIDE_DATA_FROM_ID_CARD": "Podaj dane z dowodu osobistego",
+    "PROVIDE_DATA_FROM_PASSPORT": "Podaj dane z paszportu",
+    "VERIFICATION": {
+      "TITLE": "Teraz potwierdzimy Twoją tożsamość",
+      "DESC_1": "Za chwilę połączysz się z wideo konsultantem, który poprowadzi Cię krok po kroku przez proces identyfikacji.",
+      "DESC_2": "<strong>Przygotuj ważny dokument tożsamości</strong> (dowód osobisty lub paszport) i miej w zasięgu ręki swój <strong>telefon komórkowy</strong>.",
+      "DESC_3": "Po pozytywnym przejściu procesu weryfikacji będziesz mógł podpisywać dokumenty podpisem elektronicznym.",
+      "VIDEO": "Wideo rozmowa z konsultantem"
+    },
+    "EMAIL": "Adres email"
+  },
+  "HELP": {
+    "BUTTON": "Pomoc",
+    "TITLE": "Masz pytania? \nPotrzebujesz wsparcia?",
+    "EMAIL_MESSAGE": "Skontaktuj się z nami",
+    "TUTORIAL_HEADER": "Tutorial",
+    "TUTORIAL_MESSAGE": "Zobacz krok po kroku, jak korzystać z platformy",
+    "FAQ_MESSAGE": "Znajdź odpowiedzi na najczęściej zadawane pytania",
+    "GITBOOK_MESSAGE": "Poznaj nasz przewodnik po platformie pełen instrukcji"
+  },
+  "VIDEO_VERIFICATION": {
+    "START": "Start",
+    "PHOTO_OF_ID": "Zdjęcia ID",
+    "DATA_FROM_ID": "Dane z ID",
+    "VIDEO_CALL": "Wideo rozmowa",
+    "TITLE": "Wideoweryfikacja",
+    "BEFORE_YOU_CONNECT": "Zanim połączysz się z wideo konsultantem...",
+    "MAKE_SURE_YOU_HAVE": "Upewnij się, że masz:",
+    "VALID_IDENTITY_CARD_PASSPORT": "ważny dowód osobisty lub paszport",
+    "WORKING_CAMERA_MIC": "dobrze działającą kamerkę i mikrofon",
+    "STABLE_INTERNET": "stabilny Internet",
+    "FEW_MINUTES": "kilka minut czasu w ciszy i spokoju",
+    "START_CONVERSATION": "Rozpocznij rozmowę",
+    "NEXT": "Następne",
+    "CONSENTS": "Zgody"
+  },
+  "BIRTH_DATE_VERIFICATION": {
+    "TITLE": "Wygląda na to, że Twoje konto już istnieje!",
+    "MESSAGE": "Ten adres e-mail jest już zarejestrowany. Aby upewnić się, czy to Twoje konto, podaj swoją datę urodzenia.",
+    "TITLE_DATE_INVALID": "Podana data urodzenia nie jest zgodna z adresem e-mail.",
+    "MESSAGE_DATE_INVALID": "Załóż nowe konto korzystając z innego adresu e-mail, aby zacząć podpisywać dokumenty na SIGNIUS Professional."
+  },
+  "VERIFICATION_OFFLINE": {
+    "TITLE": "Weryfikacja tożsamości",
+    "SUBTITLE": "Wróć do nas w tym czasie.",
+    "MESSAGE": "Aby zapewnić pełne bezpieczeństwo transakcji, jednorazowo przed podpisaniem pierwszego dokumentu (lub w przypadku zmiany danych) zweryfikujemy Twoją tożsamość. \nPo potwierdzeniu tożsamości będziesz mógł podpisywać dokumenty w dowolnym momencie.",
+    "BACK_TO_FOLDER": "Wróć do folderu"
+  },
+  "IDENTITY_TM_CONFIRMATION": {
+    "TITLE": "Wybierz typ dokumentu, którego chcesz użyć do identyfikacji",
+    "NATIONAL_ID_LABEL_OPTION": "Dowód osobisty",
+    "PASSPORT_LABEL_OPTION": "Paszport",
+    "TYPE_CHANGE_CONFIRM_TITLE": "Możesz dodać tylko jeden typ dokumentu.",
+    "TYPE_CHANGE_CONFIRM_MESSAGE": "Czy usunąć dodane już zdjęcia dokumentów?",
+    "TYPE_CHANGE_CONFIRM_BUTTON": "Usuń zdjęcia i kontynuuj"
+  },
+  "WEBCAM_COMPONENT": {
+    "ID_FRONT_PHOTO": "Zdjęcie awersu dokumentu",
+    "ID_BACK_PHOTO": "Zdjęcie rewersu dokumentu",
+    "PASSPORT_PHOTO": "Zdjęcie strony z fotografią",
+    "TURN_ON_CAMERA": "Włącz aparat",
+    "SNAPSHOT": "Zrób zdjęcie",
+    "SELECT_FILE": "Wybierz plik",
+    "REMOVE_PHOTO": "Usuń to zdjęcie",
+    "UPLOAD_ERROR": "Wystąpił nieoczekiwany błąd podczas przesyłania pliku. Spróbuj ponownie.",
+    "OR": "albo",
+    "PHOTO_ADDED": "Dodano",
+    "MAX_SIZE_EXCEEDED": "Wybrany plik przekracza ograniczenie maksymalnego rozmiaru pliku ({{size}})",
+    "ALLOWED_FILE": "{{extensions}}. Maks. {{size}}"
+  },
+  "PAYMENT_DETAILS": {
+    "TITLE": "Zdecyduj, czyj koszt podpisu pokryjesz",
+    "TITLE_QUALIFIED": "Opcjonalnie: Kup pakiety swoim podpisującym",
+    "SUBTITLE": "Podpisy wybranych poniżej podpisujących zostaną pobrane z Twojego pakietu",
+    "SUBTITLE_QUALIFIED": "Wysyłając dokument do podpisu, możesz kupić wybranym osobom pakiet podpisów kwalifikowanych. Będą one mogły użyć go do podpisania zarówno Twojego, jak i innych dokumentów.",
+    "SIGNS": "Podpisy",
+    "SIGNS_OWNED": "Posiadane",
+    "SIGNS_NEEDED": "Potrzebne",
+    "NUMBER_SELECTED_SIGNERS": "ilość zaznaczonych podpisujących",
+    "NUMBER_DOCUMENTS": "ilość dokumentów",
+    "SIGNS_MISSING": "Brakujące",
+    "SIGNS_REMAINING": "Pozostanie",
+    "NEW_SIGNERS_TITLE": "Nowi podpisujący",
+    "NEW_SIGNER": "1 nowy podpisujący × {{price}}",
+    "NEW_SIGNERS": "{{count}} nowych podpisujących × {{price}}",
+    "TOTAL_PRICE": "Razem do zapłaty",
+    "SIGNER_PAYS": "Płaci podpisujący",
+    "BUY_MORE_TO_CONTINUE": "Aby kontynuować dokup pakiet podpisów",
+    "NEW": "Nowy",
+    "ADD_DOCUMENT": "Przekaż do podpisu",
+    "SELECT_PACKAGE": "Wybierz pakiet",
+    "SELECT_PACKAGE_TITLE": "Wybierz pakiet podpisów",
+    "CHANGE_PACKAGE": "Zmień pakiet",
+    "GO_TO_PAYMENT": "Przejdź do płatności",
+    "STOP_PAYMENT": "Przerwij płatność",
+    "TOOLTIP_TITLE": "Potwierdzenie tożsamości nowych użytkowników",
+    "TOOLTIP_CONTENT": "Weryfikujemy tożsamość każdego nowego użytkownika, aby zapewnić pełne bezpieczeństwo usługi. Koszt jednorazowej identyfikacji to {{value}}. Pokrywając koszt identyfikacji nowych podpisujących, umożliwiasz im założenie konta i złożenie podpisu za darmo.",
+    "USER_TOOLTIP_CONTENT": "Koszt Twojego podpisu musi zostać pokryty przez Ciebie.",
+    "AVAILABLE_SIGNATURES": "Posiadane podpisy",
+    "PURCHASED": "Kupiono",
+    "WANT_TO_BAY": "Chcę kupić więcej",
+    "ALREADY_HAVE_SIGNATURE": "Posiadasz już podpisy kwalifikowane"
+  },
+  "PRODUCTS": {
+    "YEARLY_SUBSCRIPTION": "Subskrypcja roczna",
+    "MONTHLY_SUBSCRIPTION": "Subskrypcja miesięczna",
+    "SIGNATURE_PACK": "Zakup jednorazowy",
+    "SIGNATURES_QUANTITY": "Ilość podpisów",
+    "UNIT_PRICE": "{{value}} za podpis",
+    "SUBSCRIPTION_INFO_RENEWED": "Pakiet odnawiany co miesiąc.",
+    "SUBSCRIPTION_INFO_RESIGNATION": "Możesz zrezygnować z subskrypcji w dowolnym momencie.",
+    "SIGNATURE_PACK_INFO": "Pakiet ważny przez rok od dnia zakupu.",
+    "PROMOTIONAL_TEXT": "Oszczędzasz 20%",
+    "PER_YEAR": " / rok",
+    "PER_MONTH": " / miesiąc",
+    "QUALIFIED_SIGNATURES_COUNT": "{{value}} podpisów kwalifikowanych",
+    "ADVANCED_SIGNATURES_COUNT": "{{value}} podpisów zaawansowanych z KYC",
+    "EASY_SIGNATURES_COUNT": "{{value}} podpisów zaawansowanych",
+    "ONE_QUALIFIED_SIGNATURE": "1 podpis kwalifikowany",
+    "QUALIFIED_DESCRIPTION": "Tutaj sprawdzisz status swoich pakietów podpisów kwalifikowanych. Podpisuj dowolne dokumenty korzystając z aktywnego pakietu - pakiety nie są powiązane z żadnym dokumentem. Podpis kwalifikowany jest zawsze przypisany do konkretnej osoby.",
+    "ADVANCED_DESCRIPTION": "Tutaj sprawdzisz status swoich pakietów podpisów zaawansowanych z identyfikacją KYC. Pamiętaj, zlecając dokumenty do podpisu możesz przekazywać swoje podpisy zaawansowane innym podpisującym, umożliwiając im tym samym podpisywanie za darmo.",
+    "EASY_DESCRIPTION": "Tutaj sprawdzisz status swoich pakietów podpisów zaawansowanych. Pamiętaj, zlecając dokumenty do podpisu możesz przekazywać swoje podpisy zaawansowane innym podpisującym, umożliwiając im tym samym podpisywanie za darmo.",
+    "COST": "Koszt",
+    "EXPIRE": "wygasa",
+    "EXPIRE_DATE": "{{date}} o {{time}}",
+    "EASY": {
+      "DESC_WEEKLY": "Pakiet aktywny przez 7 dni od dnia zakupu.",
+      "DESC_MONTHLY": "Pakiet aktywny przez 30 dni od dnia zakupu.",
+      "DESC_YEARLY": "Pakiet aktywny przez 1 rok od dnia zakupu.",
+      "SELECT_PRODUCT": "Wybierz pakiet podpisów zaawansowanych",
+      "SELECT_PRODUCT_DESC": "Dobry wybór w sytuacjach, gdy zależy Ci na szybkim podpisaniu dokumentów z już zweryfikowanym użytkownikiem, w sytuacji braku wymogu formy pisemnej i dla umów o niższym ryzyku odpowiedzialności. Podpis wydawany bez weryfikacji tożsamości, natychmiast."
+    },
+    "ADVANCED": {
+      "DESC_WEEKLY": "Pakiet aktywny przez 7 dni od dnia zakupu.",
+      "DESC_MONTHLY": "Pakiet aktywny przez 30 dni od dnia zakupu.",
+      "DESC_YEARLY": "Pakiet aktywny przez 1 rok od dnia zakupu.",
+      "SELECT_PRODUCT": "Wybierz pakiet podpisów zaawansowanych z identyfikacją KYC",
+      "SELECT_PRODUCT_DESC": "Polecany dla większości umów i dokumentów w relacjach biznesowych i w sytuacji braku wymogu formy pisemnej. Podpiszesz nim np. kontrakty handlowe, umowy NDA, umowy zlecenie i o dzieło. Wydawany w oparciu o zdalną weryfikację tożsamości."
+    },
+    "QUALIFIED": {
+      "SELECT_PRODUCT": "Wybierz pakiet podpisów kwalifikowanych",
+      "SELECT_PRODUCT_DESC": "Podpis równoważny z podpisem własnoręcznym. Stosowany w przypadku dokumentów wymagających formy pisemnej. Poświadczony imiennym certyfikatem kwalifikowanym. Podpiszesz nim prawie wszystkie dokumenty, m.in. dokumenty urzędowe, umowy o pracę, oferty przetargowe. Wydawany w oparciu o zdalną certyfikowaną weryfikację tożsamości.",
+      "VALID_FOR_HOURLY": "ważny 1h",
+      "VALID_FOR_MONTHLY": "ważny 30 dni",
+      "VALID_FOR_YEARLY": "ważny 1 rok",
+      "VALID_FOR_TWO_YEARS": "ważny 2 lata",
+      "VALID_FOR_DAILY": "ważny 24 godziny",
+      "DESC_HOURLY": "Pakiet ważny przez 1 godzinę od złożenia pierwszego podpisu.",
+      "DESC_WEEKLY": "Pakiet aktywny przez 7 dni od złożenia pierwszego podpisu.",
+      "DESC_MONTHLY": "Pakiet aktywny przez 30 dni od złożenia pierwszego podpisu.",
+      "DESC_YEARLY": "Pakiet aktywny przez 1 rok od złożenia pierwszego podpisu.",
+      "DESC_TWO_YEARS": "Pakiet ważny przez 2 lata od złożenia pierwszego podpisu.",
+      "DESC_DAILY": "Pakiet aktywny przez 24 godziny od złożenia pierwszego podpisu."
+    }
+  },
+  "VOUCHER": {
+    "LABEL": "Wpisz kod z vouchera",
+    "BUTTON_TEXT": "Zrealizuj",
+    "MY_NOTIFICATION_FOR_QUALIFIED": "<h2>Voucher zrealizowany!</h2> <em>Pakiet {{value}} podpisów kwalifikowanych dodano do konta: {{user}}</em>",
+    "MY_NOTIFICATION_FOR_ADVANCED": "<h2>Voucher zrealizowany!</h2> <em>Pakiet {{value}} podpisów zaawansowanych z identyfikacją KYC dodano do konta: {{user}}</em>",
+    "MY_NOTIFICATION_FOR_EASY": "<h2>Voucher zrealizowany!</h2> <em>Pakiet {{value}} podpisów zaawansowanych dodano do konta: {{user}}</em>",
+    "I_WANT_TO_USE": "Chcę zrealizować voucher",
+    "USE_VOUCHER": "Zrealizuj voucher na pakiet podpisów"
+  },
+  "BATCH": {
+    "LOADING_IN_PROGRES": "Loading documents",
+    "VERIFICATION_TITLE": "Aby Twoje podpisy były ważne, zapoznaj się najpierw ze wszystkimi podpisywanymi dokumentami.",
+    "VIEWED": "Przejrzane",
+    "PAGES": "stron",
+    "SIGN_ABOVE": "Podpisz powyższe dokumenty"
+  },
+  "TIMESTAMP": {
+    "ID_NUMBER": "ID number",
+    "PLEASE_APPROVE": "Do zatwierdzenia",
+    "APPROVE_DOCUMENT": "I want to approve this",
+    "APPROVE_DOCUMENTS": "Approve above documents",
+    "LOADING_MESSAGE": "Document is being time stamped",
+    "ERROR_MESSAGE": "Time stamp error",
+    "SUCCESS_MESSAGE": "Documents ({{value}}) time stamped successfuly",
+    "REJECTED": "Odrzucono",
+    "REJECTED_MODAL": {
+      "HEADER": "Powód odrzucenia",
+      "MESSAGE_HEADER": "Wiadomość od osoby zlecającej"
+    }
+  },
+  "USER_ORDERS": {
+    "TITLE": "Ostatnio kupiłeś/aś dla tej osoby",
+    "ORDER_DATE": "{{date}} o {{time}}"
+  },
+  "PROMO_MODAL": {
+    "TITLE": "Od teraz podpisuj dokumenty <span>w mniej niż minutę!</span>",
+    "LIST_1": {
+      "PARAGRAPH_1": "Korzystaj z e-podpisu, gdziekolwiek jesteś, 24h/dobę",
+      "PARAGRAPH_2": "Ty decydujesz kto płaci za podpis(y) innych, Ty czy Twoi podpisujący",
+      "PARAGRAPH_3": "Bądź eko i #paperless – dbaj o środowisko!"
+    },
+    "LIST_2": {
+      "PARAGRAPH_1": "Zlecaj dokumenty do podpisu innym osobom",
+      "PARAGRAPH_2": "Podpisujący automatycznie dostanie zaproszenie do podpisu"
+    },
+    "LINK": "<a href=\"{{url}}\" target=\"_blank\">Dowiedz się więcej <i class=\"icon icon-external-link\"></i></a>"
+  },
+  "INCENTIVE_TO_REGISTER_MODAL": {
+    "TITLE": "Gratulacje! Dokumenty już podpisane.",
+    "PARAGRAPH": "Na platformie SIGNIUS Professional podpiszesz dokumenty z każdym na całym świecie, 24h/dobę.",
+    "DISMISS": "Później",
+    "REGISTER": "Załóż bezpłatne konto teraz"
+  },
+  "BUSINESS_CLIENT_INVITATION_MODAL": {
+    "TITLE": "Zaproszenie do zespołu",
+    "INVITATION_FROM": "zaprasza Cię do swojego zespołu:",
+    "YOUR_ACCOUNT": "Twoje konto:",
+    "WILL_BE_SIGNED": "zostanie przypisane do zespołu.",
+    "WHAT_SHOULD_YOU_KNOW": "Co warto wiedzieć?",
+    "WHEN_YOU_JOIN_THE_TEAM": "Gdy dołączysz do zespołu:",
+    "PARAGRAPH_1": "będzie od teraz pokrywać koszty Twoich podpisów i podpisów innych osób, którym wysyłasz dokumenty do podpisania.",
+    "PARAGRAPH_2": "Administrator zespołu będzie miał wgląd we wszystkie Twoje foldery dokumentów.",
+    "PARAGRAPH_3": "Administrator będzie miał prawo tymczasowo lub trwale zablokować Twoje konto.",
+    "PARAGRAPH_4": "Administrator będzie mógł bezpowrotnie usunąć Twoje konto.",
+    "YOU_ACCEPT_CONDITION": "Dołączając do zespołu, akceptujesz powyższe warunki.",
+    "INVITATION_REJECTED": "Zaproszenie odrzucone",
+    "INVITATION_ACCEPTED": "Zaproszenie zaakceptowane"
+  },
+  "MODAL": {
+    "NO_REG_IDENTIFICATION": {
+      "TITLE": "Twoje dane są błędne?",
+      "DESCRIPTION": "Skontaktuj się z osobą zlecającą Tobie dokument do podpisu: <a href=\"mailto:{{email}}\">{{email}}</a> i poproś, by je poprawiła.",
+      "WHAT_NEXT": "Co powinien zrobić Zlecający?",
+      "STEP_1": "Usunąć z folderu dokumenty, które zostały błędnie zaadresowane",
+      "STEP_2": "Ponownie dodać te dokumenty do folderu wpisując poprawne dane podpisujących",
+      "STEP_3": "Przekazać raz jeszcze dokumenty do podpisu",
+      "FINALLY": "Poproś Zlecającego, by wykonał powyższe kroki, abyś Ty mógł podpisać dokument.",
+      "CONFIRM": "Ok, rozumiem"
+    }
+  },
+  "TUTORIAL_KEYS": {
+    "NEW_DOCS_VIEW": {
+      "HEADER": "Nowy widok dokumentów już dostępny!",
+      "CONTENT": "Teraz możesz wybrać preferowany widok dokumentów w folderze - \"Widok kafelków\" lub \"Widok listy\". Kliknij w ikonę i  dopasuj wygląd folderu do swoich potrzeb."
+    }
+  },
+  "ACCESSIBILITY": {
+    "DROPDOWN_LABEL": "Rozwiń ustawienia dostępności",
+    "ACCESSIBILITY_KIND_HEADER": {
+      "CONTRAST": "KONTRAST",
+      "TEXT_SIZE": "ROZMIAR TEKSTU"
+    },
+    "MODULES": {
+      "PROFILE": {
+        "COMPONENTS": {
+          "PURCHASED_PACKAGES_TABLE": {
+            "SHOW_MINE_LABEL": "Wyświetl tylko moje pakiety"
+          },
+          "TEAM_MEMBER_MENU": {
+            "TEAM_MEMBER_MENU_BUTTON": "Otwórz menu pracownika",
+            "DELETE_REJECTED_BUTTON": "Usuń odrzucone zaproszenie"
+          }
+        },
+        "PAGES": {
+          "PROFILE_ACCOUNT": {
+            "LANG_SELECT_LABEL": "Wybierz język",
+            "AUTO_DOC_DELETE_SWITCH_LABEL": "Zmień ustawienie automatycznego usuwania dokumentów"
+          },
+          "PROFILE_TEAM": {
+            "SHOW_ACTIVE_ACCOUNTS": "Pokaż wyłącznie aktywne konta"
+          }
+        }
+      },
+      "DOCUMENTS": {
+        "PAGES": {
+          "DOCUMENTS": {
+            "GO_HOME_LABEL": "Wróć na stronę główną"
+          },
+          "SIGN_SUMMARY": {
+            "ACCEPT_TERMS": "Zapoznałem się i akceptuję Regulamin Usług Zaufania"
+          }
+        },
+        "COMPONENTS": {
+          "MODALS": {
+            "IDENTIFICATION_FORM_MODAL": {
+              "ID_CHANGED": "Mój dokument tożsamości się zmienił"
+            }
+          },
+          "CONTACTS": {
+            "DETERMINE_SIGN_ORDER": "Ustal kolejność podpisywania"
+          },
+          "DOCUMENTS_LIST": {
+            "DOCUMENTS_LIST_ITEM": {
+              "SELECT_DOC_LABEL": "Wybierz dokument do podpisania"
+            }
+          },
+          "SIGNERS_LINK_LIST": {
+            "DEDICATED_LINK": "Dedykowany link do folderu {{ username }}"
+          }
+        }
+      }
+    },
+    "SHARED": {
+      "COMPONENTS": {
+        "CHANGE_SIGNATURE": {
+          "CHANGE_SYMBOL_MODAL": {
+            "FILE_INPUT": "Wybierz Twój plik"
+          }
+        },
+        "FOLDER_ACTIONS": {
+          "SORTING_DROPDOWN": {
+            "DROPDOWN_LABEL": "Rozwiń ustawienia sortowania",
+            "SORTING_DATE": "Sortuj wg daty utworzenia",
+            "SORTING_NAME": "Sortuj wg nazwy",
+            "NEWEST": "od najnowszych",
+            "OLDEST": "od najstarszych",
+            "FROM_A": "od A",
+            "FROM_Z": "od Z"
+          },
+          "FOLDER-_MENU": {
+            "EDIT": "Edytuj"
+          },
+          "FILTRATION_DROPDOWN": {
+            "TO_SIGN_LABEL": "Wyświetl foldery z dokumentami do podpisania",
+            "SIGNED_LABEL": "Wyświetl foldery z dokumentami podpisanymi",
+            "OTHERS_LABEL": "Wyświetl pozostałe foldery",
+            "CREATED_BY_ME_LABEL": "Wyświetl foldery utworzone przez Ciebie",
+            "CREATED_BY_OTHERS_LABEL": "Wyświetl foldery utworzone przez innych"
+          }
+        },
+        "CHECKBOX": {
+          "CHECKBOX": {
+            "CONTENT": "Potwierdź"
+          }
+        },
+        "INVOICE_FORM": {
+          "ALWAYS_GET_INVOICE_LABEL": "Otrzymuj faktury po każdym zakupie",
+          "SELECT_COUNTRY": "Wybierz kraj",
+          "NIP_INPUT_LABEL": "Wprowadź NIP",
+          "INVOICE_FOR_INDIVIDUAL_LABEL": "Faktura jest na osobę fizyczną",
+          "INVOICE_NAME_LABEL": "Wprowadź imie i nazwisko",
+          "INVOICE_ADDRESS_LABEL": "Wprowadź adres",
+          "INVOICE_POSTAL_CODE_LABEL": "Wprowadź kod pocztowy",
+          "INVOICE_CITY_LABEL": "Wprowadź miasto"
+        },
+        "PASSWORD_INPUT": {
+          "CONTENT": "Wprowadź hasło"
+        },
+        "PHONE_INPUT": {
+          "CONTENT": "Wprowadź numer telefonu"
+        }
+      }
+    },
+    "AUTH": {
+      "LOGIN": {
+        "LOADING": "Ładowanie",
+        "LOGIN_FORM": "Formularz logowania",
+        "LOGO": "Logo Signius",
+        "TENANT_LOGO": "Logo firmy tenanta",
+        "ALERT_MESSAGE": "Komunikat alertu",
+        "EMAIL_INPUT": "Wprowadź e-mail",
+        "PASSWORD_INPUT": "Wprowadź hasło",
+        "FORGOT_PASSWORD_BUTTON": "Przypomnij hasło",
+        "LOGIN_BUTTON": "Zaloguj",
+        "CREATE_ACCOUNT_BUTTON": "Utwórz konto",
+        "GOOGLE_AUTH_BUTTON": "Zaloguj się za pomocą Google",
+        "AZURE_AUTH_BUTTON": "Zaloguj się za pomocą Azure",
+        "KEYCLOAK_AUTH_BUTTON": "Zaloguj się za pomocą Keycloak"
+      },
+      "LINK-EXPIRED-CONFIRMATION": {
+        "RESEND_BUTTON": "Wyślij ponownie link"
+      },
+      "REGISTRATION": {
+        "LOADING": "Ładowanie",
+        "REGISTRATION_FORM": "Formularz rejestracji użytkownika",
+        "LOGO": "Logo Signius",
+        "TENANT_LOGO": "Logo firmy tenanta",
+        "EMAIL_INPUT": "Wprowadź e-mail",
+        "PHONE_NUMBER_INPUT": "Wprowadź numer telefonu",
+        "FIRST_NAME_INPUT": "Wprowadź imię",
+        "LAST_NAME_INPUT": "Wprowadź nazwisko",
+        "PASSWORD_INPUT": "Wprowadź hasło",
+        "TERMS_CHECKBOX": "Akceptuję regulamin",
+        "CREATE_ACCOUNT_BUTTON": "Utwórz konto"
+      },
+      "OAUTH2-REGISTRATION": {
+        "LOADING": "Ładowanie",
+        "REGISTRATION_FORM": "Formularz rejestracji użytkownika",
+        "LOGO": "Logo Signius",
+        "TENANT_LOGO": "Logo firmy najemcy",
+        "EMAIL_INPUT": "wprowadź e-mail",
+        "PHONE_NUMBER_INPUT": "Wprowadź numer telefonu",
+        "FIRST_NAME_INPUT": "Wprowadź imię",
+        "LAST_NAME_INPUT": "Wprowadź nazwisko",
+        "TERMS_CHECKBOX": "Akceptuję regulamin",
+        "SUBMIT_BUTTON": "Potwierdzam rejestrację"
+      },
+      "PASSWORD-CHANGE": {
+        "PASSWORD-CHANGE-FORM": {
+          "FORM": "Formularz zmiany hasła",
+          "LOGO_SIGNIUS": "Logo Signius, kliknij, aby zalogować się",
+          "LOGO_TENANT": "Logo tenanta, kliknij, aby zalogować się",
+          "PASSWORD_INPUT": "Wprowadź hasło",
+          "RESET_PASSWORD_BUTTON": "Zresetuj hasło"
+        },
+        "PASSWORD-CHANGE-REQUEST": {
+          "FORM": "Formularz zmiany hasła",
+          "LOGO": "Logo Signius",
+          "TENANT-LOGO": "Logo firmy tenanta",
+          "EMAIL_INPUT": "Wprowadź e-mail",
+          "RESET_PASSWORD_BUTTON": "Zresetuj hasło"
+        }
+      },
+      "SMS-LOGIN": {
+        "PAGE": "Weryfikacja SMS",
+        "YOUR_PHONE_NUMBER": "Twój numer telefonu",
+        "ENTER_SMS_CODE": "Wprowadź kod SMS",
+        "SEND_CODE_AGAIN": "Wyślij kod ponownie",
+        "SMS_CODE_SENT": "Kod SMS wysłany"
+      },
+      "WELCOME": {
+        "PHONE_CONFIRM": "Potwierdź numer telefonu"
+      }
+    },
+    "BATCH": {
+      "COMPONENTS": {
+        "BATCH-DOCUMENT-PAGE": {
+          "DOCUMENT_PAGE": "Strona dokumentu"
+        },
+        "BATCH-DOCUMENT-PAGE-THUMBNAIL": {
+          "THUMBNAIL_DOCUMENT": "Miniatura dokumentu",
+          "DOCUMENT_PAGE": "Strona dokumentu",
+          "MARKED_AS_READ": "Zaznaczono jako przeczytane",
+          "PAGE_NUMBER": "Numer strony"
+        },
+        "BATCH-DOCUMENT-PREVIEW": {
+          "DOCUMENT_VIEWER": "Przeglądarka dokumentów",
+          "SIDEBAR_SCROLL": "Przewijanie paska bocznego",
+          "DOCUMENT_THUMBNAILS": "Miniatury dokumentów",
+          "DOCUMENT_THUMBNAIL": "Miniatura dokumentu",
+          "DOCUMENT_PAGE": "Strona dokumentu",
+          "CONTENT_SCROLL": "Przewijanie zawartości"
+        },
+        "BATCH-LIST": {
+          "DOCUMENT_LIST": "Lista dokumentów",
+          "DOCUMENT": "Dokument"
+        },
+        "BATCH-LIST-ITEM": {
+          "THUMBNAIL_DOCUMENT": "Miniatura dokumentu",
+          "CONFIRMED_DOCUMENT": "Dokument zatwierdzony",
+          "DOCUMENT_NAME": "Nazwa dokumentu",
+          "PAGE_COUNTER": "Licznik stron"
+        }
+      },
+      "PAGES": {
+        "BATCH-VERIFICATION": {
+          "BATCH-VERIFICATION": {
+            "DOCUMENT_LIST": "Lista dokumentów"
+          }
+        }
+      }
+    },
+    "DASHBOARD": {
+      "COMPONENTS": {
+        "DASHBOARD-IDENTITY": {
+          "IDENTITY_VERIFICATION_STATUS": "Status weryfikacji tożsamości",
+          "IDENTITY_VERIFIED": "Tożsamość zweryfikowana",
+          "IDENTITY_VERIFICATION_REQUIRED": "Wymagana weryfikacja tożsamości",
+          "IDENTITY_VERIFICATION_NOT_READY": "Weryfikacja tożsamości nie jest gotowa",
+          "CONFIRM_IDENTITY_BUTTON": "Potwierdz tożsamość"
+        },
+        "DASHBOARD-PURCHASE": {
+          "PURCHASED_SIGNATURES": "Zakupione podpisy",
+          "BUY_SIGNATURES": "Kup podpisy"
+        },
+        "DASHBOARD-READY": {
+          "READY": "Gotowe"
+        }
+      },
+      "PAGES": {
+        "DASHBOARD": {
+          "CONTENT_LABEL": "Zawartość pulpitu",
+          "BACK_BUTTON_LABEL": "Wróć",
+          "PURCHASE_DETAILS_LABEL": "Szczegóły zakupu",
+          "IDENTITY_LABEL": "Tożsamość",
+          "READY_TO_SIGN_LABEL": "Gotowy do podpisu"
+        },
+        "DASHBOARD-VERIFIED-METHOD": {
+          "VERIFICATION_METHOD_SELECT": "Wybierz metodę weryfikacji tożsamości",
+          "BACK_BUTTON": "Wróć",
+          "ACTION_FAILED": "Niepowodzenie akcji"
+        }
+      }
+    },
+    "PROFILE": {
+      "HOME_BUTTON": "Wróć do profilu",
+      "PAGES": {
+        "PROFILE-ACCOUNT": {
+          "YOUR_EMAIL_INPUT": "Twój adres email",
+          "YOUR_ORGANISATION_INPUT": "Twoja organizacja",
+          "YOUR_CARD_NUMBER_INPUT": "Twój numer karty",
+          "YOUR_FIRST_NAME_INPUT": "Twoje imię",
+          "YOUR_SECOND_NAME_INPUT": "Twoje nazwisko",
+          "YOUR_PHONE_NUMBER_INPUT": "Twój numer telefonu",
+          "SELECTED_LANGUAGE": "Wybrany język"
+        }
+      }
+    },
+    "VERIFICATION": {
+      "BIRTH-DATE-VERIFICATION": {
+        "DATEPICKER": "Wybierz swoją datę urodzenia",
+        "SUBMIT_BUTTON": "Prześlij",
+        "CREATE_NEW_ACCOUNT": "Utwórz nowe konto",
+        "BACK_BUTTON": "Wróć"
+      },
+      "IDENTITY-ITEM": {
+        "IDENTITY_METHOD_SELECT": "Wybierz metodę weryfikacji tożsamości",
+        "IDENTITY_METHOD_NAME": "Nazwa metody",
+        "IDENTITY_METHOD_SUBTITLE": "Podtytuł metody"
+      },
+      "PHOTO-UPLOADER": {
+        "IDENTITY_CONFIRMATION_TITLE": "Potwierdzenie tożsamości",
+        "SELECT_ID_CARD": "Wybierz dowód osobisty",
+        "SELECT_PASSPORT": "Wybierz paszport",
+        "TAKE_ID_FRONT_PHOTO": "Zrób zdjęcie przodu dokumentu tożsamości",
+        "TAKE_ID_BACK_PHOTO": "Zrób zdjęcie tyłu dokumentu tożsamości",
+        "TAKE_PASSPORT_PHOTO": "Zrób zdjęcie paszportu"
+      },
+      "SELECT-VERIFICATION-METHOD": {
+        "WERYFIKACJA_WIDEO": "Weryfikacja wideo",
+        "LOADING_SIGNATURE": "Ładowanie podpisu"
+      },
+      "UPLOAD-DOCUMENT-VERIFICATION": {
+        "UPLOAD_PHOTO": "Prześlij zdjęcie",
+        "VERIFICATION_STEP_UPLOAD_PHOTO": "Krok weryfikacji - Prześlij zdjęcie",
+        "VERIFICATION_STEP_ID_DATA": "Krok weryfikacji - Dane ID",
+        "VERIFICATION_STEP_INFO": "Krok weryfikacji - Informacje",
+        "VERIFICATION_STEP_VIDEO": "Krok weryfikacji - Wideo"
+      },
+      "VERIFICATION-FORM": {
+        "GIVEN_NAME_INPUT": "Wprowadź imię",
+        "LAST_NAME_INPUT": "Wprowadź nazwisko",
+        "NATIONALITY_SELECT": "Wybierz obywatelstwo",
+        "PESEL_INPUT": "Wprowadź numer PESEL",
+        "ISSUING_AUTHORITY_INPUT": "Wprowadź nazwę organu wydającego",
+        "BIRTH_DATE_INPUT": "Wybierz swoją datę urodzenia",
+        "DOCUMENT_NUMBER_INPUT": "Wprowadź serię i numer dokumentu tożsamości",
+        "DOCUMENT_EXPIRE_DATE_INPUT": "Wybierz datę ważności dokumentu"
+      },
+      "VIDEO-VERIFICATION-CONTAINER": {
+        "START_VERIFICATION": "Rozpoczęcie weryfikacji",
+        "START_VIDEO_VERIFICATION": "Rozpoczęcie weryfikacji wideo",
+        "UPLOAD_DOCUMENTS_FOR_VERIFICATION": "Prześlij dokumenty do weryfikacji"
+      },
+      "VIDEO-VERIFICATION-START": {
+        "ICON_ID_CARD_ALT": "Ikona dowodu osobistego",
+        "ICON_CAMERA_WEB_ALT": "Ikona kamery internetowej",
+        "ICON_SIGNAL_BARS_ALT": "Ikona stabilności połączenia",
+        "ICON_BELL_SLASH_ALT": "Ikona wyciszenia",
+        "ICON_START_VERIFICATION": "Człowiek pokazujący dowód osobisty"
+      },
+      "WEBCAM-PHOTO-UPLOADER": {
+        "CAPTURED_PHOTO": "Przechwycone zdjęcie",
+        "SELECT_FILE": "Wybierz plik"
+      }
+    },
+    "DOCUMENTS": {
+      "COMPONENTS": {
+        "ADD_PAGE": {
+          "ADD_GRAPH_REPRESENTATION": "Dodaj reprezentację graficzną",
+          "ADD_FIRST_PAGE": "Dodaj pierwszą stronę",
+          "ADD_LAST_PAGE": "Dodaj ostatnią stronę",
+          "INDICATE_PLACE_OF_SIGN": "Wskaż miejsce podpisu",
+          "DO_NOT_ADD": "Nie dodawaj",
+          "CLOSE_TOOLTIP": "Zamknij",
+          "HELP": "Pomoc"
+        },
+        "BATCH-DOCUMENT-ITEM": {
+          "SHOW_DOCUMENT": "Pokaż dokument",
+          "DELETE_DOCUMENT": "Usuń dokument",
+          "FILE_WITHOUT_SIGNATURES": "Plik bez podpisów",
+          "ALL_SIGNATURES_VALIDATED": "Wszystkie podpisy zweryfikowane",
+          "EDIT_DOCUMENT": "Edytuj nazwę dokumentu",
+          "NOT_ALL_SIGNATURES_VALIDATED": "Nie wszystkie podpisy zostały zweryfikowane"
+        },
+        "CONTACTS": {
+          "CONTACT-FORM": {
+            "FORM_LABEL": "Formularz kontaktowy",
+            "EMAIL_INPUT": "Wprowadź adres e-mail",
+            "PHONE_INPUT": "Wprowadź numer telefonu",
+            "NAME_INPUT": "Wprowadź imię",
+            "SURNAME_INPUT": "Wprowadź nazwisko",
+            "CANCEL_BUTTON": "Anuluj",
+            "ADD_ME_BUTTON": "Dodaj mnie",
+            "SAVE_CHANGES_BUTTON": "Zapisz zmiany",
+            "CONTACT_SUGGESTIONS": "Sugestie kontaktów"
+          },
+          "CONTACT-ROW": {
+            "CONTACT_ROW": "Kontakt",
+            "SCROLL_BUTTON": "Przycisk przewijania",
+            "EDIT_BUTTON": "Edytuj",
+            "REMOVE_BUTTON": "Usuń",
+            "CLEAR_BUTTON": "Wyczyść",
+            "CONTACT_FORM": "Formularz kontaktowy"
+          }
+        },
+        "CONTACTS-TIMESTAMP": {
+          "CONTACT-ITEM": {
+            "CONTACT-TIMESTAMP-ITEM": {
+              "FORM_LABEL": "Formularz kontaktowy",
+              "ID_NUMBER_INPUT": "Wprowadź numer dokumentu tożsamości",
+              "EMAIL_INPUT": "Wprowadź adres e-mail",
+              "CONTACT_SUGGESTIONS": "Sugestie kontaktów"
+            }
+          },
+          "ADD_SIGNERS": "Dodaj podpisujących",
+          "ADD_ANOTHER": "Dodaj kolejnego",
+          "DRAG_BUTTON": "Przycisk przeciągania",
+          "REMOVE_BUTTON": "Usuń",
+          "CLEAR_BUTTON": "Wyczyść",
+          "MOVE_UP": "Przesuń w górę",
+          "MOVE_DOWN": "Przesuń w dół"
+        },
+        "DOCUMENT-ADD": {
+          "ADDING_DOCUMENTS": "Dodawanie dokumentów",
+          "BACK_BUTTON": "Powrót",
+          "FOLDER_DETAILS": "Szczegóły folderu",
+          "DOCUMENT_UPLOADER": "Przesyłanie dokumentu",
+          "MULTI_DOCUMENT_UPLOADER": "Przesyłanie wielu dokumentów",
+          "SIGNATURE_TYPE_SELECTION": "Wybór typu podpisu",
+          "ADD_PAGE": "Dodawanie strony",
+          "CONTACTS": "Kontakty",
+          "CONTACTS_TIMESTAMP": "Data i czas podpisu dokumentu przez użytkownika"
+        },
+        "DOCUMENT-MENU": {
+          "EXPAND_BUTTON": "Rozwiń menu"
+        },
+        "DOCUMENT-VIEWER": {
+          "CUSTOM-SIGN-PLACEMENT": {
+            "PDF_VIEWER": "Przeglądarka PDF",
+            "LOADING": "Ładowanie",
+            "TOGGLE_DOCUMENT": "Przełączanie dokumentu",
+            "BACK": "Wróć",
+            "PREVIOUS_DOCUMENT": "Poprzedni dokument",
+            "NEXT_DOCUMENT": "Następny dokument"
+          },
+          "PDF-VIEWER": {
+            "CLOSE_BUTTON": "Zamknij"
+          },
+          "DOCUMENT_THUMBNAIL": "Miniatura dokumentu",
+          "DELETED_DOCUMENT_THUMBNAIL": "Usunięta miniatura dokumentu",
+          "SHOW_PREVIEW": "Podgląd całego dokumentu"
+        },
+        "MODALS": {
+          "IDENTIFICATION-FORM-MODAL": {
+            "FIRST_NAME_INPUT": "Wprowadź imię",
+            "LAST_NAME_INPUT": "Wprowadź nazwisko",
+            "PHONE_NUMBER_INPUT": "Wprowadź numer telefonu"
+          }
+        },
+        "REMINDER-BUTTON": {
+          "REMIND_BUTTON": "Wyślij przypomnienie"
+        },
+        "SELECT-ALL-CHECKBOX": {
+          "SELECT_ALL": "Zaznacz wszystko"
+        },
+        "SIGN-ALL-CHECKBOX": {
+          "SIGN_ALL": "Podpisz wszystko"
+        },
+        "SIGNATURE-TYPE": {
+          "EASY_SIGNATURE": "Wybierz podpis zaawansowany",
+          "ADVANCED_SIGNATURE": "Wybierz podpis zaawansowany z KYC",
+          "QUALIFIED_SIGNATURE": "Wybierz podpis kwalifikowany"
+        },
+        "SWITCH-VIEW-BUTTONS": {
+          "GRID_VIEW": "Przełącz na widok kafelków",
+          "LIST_VIEW": "Przełącz na widok listy"
+        }
+      }
+    },
+    "FOLDERS": {
+      "COMPONENTS": {
+        "DASBOARD-BAR": {
+          "SELECT_SIGNATURE_TYPE": "Wybierz typ podpisu",
+          "REQUIRES_COMPLETION": "Wymaga ukończenia"
+        },
+        "FOLDER-ADD-BUTTON":{
+          "ADD_FOLDER_BUTTON": "Dodaj folder"
+        }
+      }
+    }
+  },
+  "TENANT": {
+    "SGGW": {
+      "SGGW_FOOTER_CONTENT": "„SGGW – Uczelnia dostępna”, współfinansowanego z Programu Operacyjnego Wiedza Edukacja Rozwój (Oś priorytetowa: III. Szkolnictwo wyższe dla gospodarki i rozwoju, Działanie: 3.5 Kompleksowe programy szkół wyższych)"
+    }
+  },
+  "GOOGLE_AUTH": {
+    "TITLE": "Wymagana autoryzacja Google Authenticator",
+    "ENTER_CODE": "Wpisz kod weryfikacyjny uwierzytelniania dwuskładnikowego"
+  },
+  "DOCUMENT": {
+    "FIELD": {
+      "VALIDATION": {
+        "MAX-LENGTH": "Zbyt długa wartość pola",
+        "REQUIRED": "Pole jest wymagane"
+      }
+    }
+  }
+}
