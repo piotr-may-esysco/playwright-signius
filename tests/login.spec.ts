@@ -50,6 +50,35 @@ test.describe('login page tests PL', () => {
     )
   })
 
+  test('check hovers', async ({ page }) => {
+    await loginPage.emailInput.fill(defaultUser1.email)
+    await loginPage.passwordInput.fill(defaultUser1.password)
+
+    await loginPage.loginButton.hover()
+    await page.waitForTimeout(500)
+
+    await expect(loginPage.loginButton).toHaveCSS(
+      'background-color',
+      'rgb(242, 73, 0)'
+    )
+
+    await loginPage.registerButton.hover()
+    await page.waitForTimeout(500)
+
+    await expect(loginPage.registerButton).toHaveCSS(
+      'color',
+      'rgb(255, 255, 255)'
+    )
+
+    await loginPage.forgotPassowrdButton.hover()
+    await page.waitForTimeout(500)
+
+    await expect(loginPage.forgotPassowrdButton).toHaveCSS(
+      'color',
+      'rgb(0, 0, 0)'
+    )
+  })
+
   test('check focus', async ({ page }) => {
     await loginPage.validateFocusOnInput(loginPage.emailInput)
     await loginPage.validateFocusOnInput(loginPage.passwordInput)
@@ -109,7 +138,7 @@ test.describe('login page tests PL', () => {
     await loginPage.loginButton.click()
 
     const foldersPage = new FoldersPage(page)
-    
+
     await expect(foldersPage.navbar.userEmail).toHaveText(defaultUser1.email)
     await expect(foldersPage.navbar.userName).toHaveText(
       defaultUser1.names + ' ' + defaultUser1.surname

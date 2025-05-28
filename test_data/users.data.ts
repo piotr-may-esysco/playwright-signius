@@ -1,5 +1,5 @@
 export const defaultUser1 = {
-  email: 'ptest0610@gmail.com',
+  email: 'ptest0610+2@gmail.com',
   password: '!Admin1234',
   phoneNumber: '111 111 111',
   country: 'pl',
@@ -8,7 +8,7 @@ export const defaultUser1 = {
 }
 
 export const defaultUser2 = {
-  email: 'jntestsignius@gmail.com',
+  email: 'jntestsignius+2@gmail.com',
   password: '!Admin1234',
   phoneNumber: '222 222 222',
   country: 'pl',
