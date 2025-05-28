@@ -36,12 +36,13 @@ export class FoldersPage {
         .locator('sig-folder-item')
         .filter({ hasText: folderName })
         .locator('button[name="folder-menu--button-menu"]')
+        .first()
         .click()
 
       await this.page.locator('li[name="folder-menu--button-delete"]').click()
 
       const deleteFolderDialog = new DeleteFolderComponent(this.page)
-      deleteFolderDialog.confirmButton.click()
+      await deleteFolderDialog.confirmButton.click()
     } catch {
       console.log('Folder: ' + folderName + ' not found')
     }
@@ -50,6 +51,8 @@ export class FoldersPage {
   async getFoldersNames(): Promise<string[]> {
     const result: string[] = []
     const folders = await this.folders.allInnerTexts()
+    console.log(folders)
+
     for (let folder of folders) {
       const folderName = folder.split('\n\n')[1]
       result.push(folderName)
