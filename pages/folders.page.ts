@@ -18,7 +18,7 @@ export class FoldersPage {
 
     this.searchBox = page.locator('sig-folder-search-input input').first()
     this.showMyFoldersSwitch = page.locator('input.sig-switch-input')
-    this.findDocumentsButton = page.locator('button').nth(4) //TODO: add id to the object
+    this.findDocumentsButton = page.locator('button').nth(4) // TODO: add id to the object
 
     this.navbar = new NavbarComponent(page)
   }

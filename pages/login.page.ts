@@ -9,6 +9,9 @@ export class LoginPage {
   registerButton: Locator
   accessibilityButton: Locator
   forgotPassowrdButton: Locator
+  googleAuthButton: Locator
+  azureAuthButton: Locator
+  keycloakAuthButton: Locator
 
   wrongCredentialsMessage: Locator
 
@@ -38,6 +41,10 @@ export class LoginPage {
 
     this.emailLabel = page.locator('label').first()
     this.passwordLabel = page.locator('label').nth(1)
+
+    this.googleAuthButton = page.locator('button').nth(4)
+    this.azureAuthButton = page.locator('button').nth(5)
+    this.keycloakAuthButton = page.locator('button').nth(6)
   }
 
   async validateFocusOnInput(input: Locator): Promise<void> {
@@ -48,16 +55,13 @@ export class LoginPage {
     )
   }
 
-  async validateFocusOnButton(
-    button: Locator,
-    expectedOutlineColour: string
-  ): Promise<void> {
-    await button.focus()
+  async validateFocusOnButton(button: Locator): Promise<void> {
+    // await button.focus({ timeout: 300 })
 
-    await expect(button).toHaveCSS(
-      'outline',
-      expectedOutlineColour + ' none 0px'
-    )
+    await expect(button).toHaveCSS('outline', 'rgb(56, 92, 219) solid 2px')
+    // await button.focus({ timeout: 300 })
+
+    await expect(button).toHaveCSS('outline-color', 'rgb(56, 92, 219)')
   }
 
   async login(email: string, password: string): Promise<void> {

@@ -86,24 +86,21 @@ test.describe('login page tests PL', () => {
     await loginPage.emailInput.fill(defaultUser1.email)
     await loginPage.passwordInput.fill(defaultUser1.password)
 
-    await page.waitForTimeout(500)
+    await loginPage.passwordInput.press('Tab')
+    await loginPage.validateFocusOnButton(loginPage.forgotPassowrdButton)
+    await loginPage.forgotPassowrdButton.press('Tab')
+    await loginPage.validateFocusOnButton(loginPage.loginButton)
+    await loginPage.loginButton.press('Tab')
 
-    await loginPage.validateFocusOnButton(
-      loginPage.registerButton,
-      'rgb(100, 98, 98)'
-    )
-    await loginPage.validateFocusOnButton(
-      loginPage.accessibilityButton,
-      'rgb(47, 46, 46)'
-    )
-    await loginPage.validateFocusOnButton(
-      loginPage.forgotPassowrdButton,
-      'rgb(56, 92, 219)'
-    )
-    await loginPage.validateFocusOnButton(
-      loginPage.loginButton,
-      'rgb(255, 255, 255)'
-    )
+    await loginPage.validateFocusOnButton(loginPage.registerButton)
+    await loginPage.registerButton.press('Tab')
+    await loginPage.validateFocusOnButton(loginPage.googleAuthButton)
+    await loginPage.googleAuthButton.press('Tab')
+    await loginPage.validateFocusOnButton(loginPage.azureAuthButton)
+    await loginPage.azureAuthButton.press('Tab')
+    await loginPage.validateFocusOnButton(loginPage.keycloakAuthButton)
+    await loginPage.keycloakAuthButton.press('Tab')
+    await loginPage.validateFocusOnButton(loginPage.accessibilityButton)
   })
 
   test('incorrect password', async ({ page }) => {

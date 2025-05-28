@@ -62,7 +62,7 @@ test.describe('login page tests PL', () => {
 
   test('Upload multiple files into a folder', async ({ page }) => {
     // TODO: update when file in folder component is compleated
-
+    // TODO: now working 
     const folderName = 'fileFolder'
     const paths = [
       '../documents-for-tests/4plik.pdf',
