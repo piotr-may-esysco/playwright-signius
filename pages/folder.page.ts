@@ -50,10 +50,22 @@ export class FolderPage {
     const fileChooser = await fileChooserPromise
     // await this.addFilesField.setInputFiles(path)
     await fileChooser.setFiles(path.join(__dirname, filePath))
+    console.log(path.join(__dirname, filePath))
+
     // await this.addFilesField.check()
 
-    await this.page.waitForTimeout(3000)
+    // await this.page.waitForTimeout(3000)
   }
 
-  async uploadFiles(paths: string[]): Promise<void> {}
+  async uploadFiles(paths: string[]): Promise<void> {
+    for (let i = 0; i < paths.length; i++) {
+      paths[i] = path.join(__dirname, paths[i])
+      // console.log(paths[i])
+    }
+
+    const fileChooserPromise = this.page.waitForEvent('filechooser')
+    await this.chooseFilesButton.click()
+    const fileChooser = await fileChooserPromise
+    await fileChooser.setFiles(paths)
+  }
 }

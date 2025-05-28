@@ -44,14 +44,46 @@ test.describe('login page tests PL', () => {
   })
 
   test('Upload single file into a folder', async ({ page }) => {
+    // TODO: update when file in folder component is compleated
     const folderName = 'fileFolder'
+    const filePath = '../documents-for-tests/4plik.pdf'
     await foldersPage.createFolder(folderName)
     await page.waitForTimeout(500)
 
     const folderPage = new FolderPage(page)
-    await folderPage.uploadFile('../documents-for-tests/4plik.pdf')
+    await folderPage.uploadFile(filePath)
 
     await expect(folderPage.files.first()).toHaveText(/4plik/)
+
+    // clean-up
+    await page.goto(page_data.urls.folders)
+    await foldersPage.deleteFolder(folderName)
+  })
+
+  test('Upload multiple files into a folder', async ({ page }) => {
+    // TODO: update when file in folder component is compleated
+
+    const folderName = 'fileFolder'
+    const paths = [
+      '../documents-for-tests/4plik.pdf',
+      '../documents-for-tests/000.pdf',
+      '../documents-for-tests/33plik33.pdf',
+      '../documents-for-tests/AAA.pdf',
+      '../documents-for-tests/innyplik.pdf',
+    ]
+
+    await foldersPage.createFolder(folderName)
+    await page.waitForTimeout(500)
+
+    const folderPage = new FolderPage(page)
+    await folderPage.uploadFiles(paths)
+    const allTexts = await folderPage.files.all()
+    for (let file of allTexts) {
+      console.log(await file.innerText())
+    }
+
+    await expect(folderPage.files.first()).toHaveText(/4plik/)
+    await expect(folderPage.files.last()).toHaveText(/innyplik/)
 
     // clean-up
     await page.goto(page_data.urls.folders)
