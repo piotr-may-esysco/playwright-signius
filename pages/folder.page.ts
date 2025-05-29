@@ -7,6 +7,8 @@ export class FolderPage {
   deleteFolderButton: Locator
   chooseFilesButton: Locator
   cancelUploadButton: Locator
+  cancelAddingButton: Locator
+  continueButton: Locator
 
   addFilesField: Locator
 
@@ -24,6 +26,7 @@ export class FolderPage {
 
   files: Locator
   documents: Locator
+  signatureTypeTooltip: Locator
 
   constructor(private page: Page) {
     this.homeButton = page.locator('button[name="documents--button-go-back"]')
@@ -35,6 +38,10 @@ export class FolderPage {
     )
     this.chooseFilesButton = page.locator(
       'button.btn.d-flex.flex-row.fs-unmask.btn-primary.ng-star-inserted'
+    )
+    this.cancelAddingButton = page.locator('.cancel-btn')
+    this.continueButton = page.locator(
+      'button[name="documents--button-summary"]'
     )
 
     this.addFilesField = page.locator('input[file-uploader--input-file]')
@@ -52,6 +59,8 @@ export class FolderPage {
     this.uploadProgressTitle = this.uploadProgressModal.locator('h4')
 
     this.files = page.locator('sig-batch-document-item')
+
+    this.signatureTypeTooltip = page.locator('bs-tooltip-container')
   }
 
   async uploadFile(filePath: string): Promise<void> {
@@ -78,5 +87,9 @@ export class FolderPage {
     await this.chooseFilesButton.click()
     const fileChooser = await fileChooserPromise
     await fileChooser.setFiles(paths)
+  }
+
+  async proceed(): Promise<void> {
+    await this.continueButton.click()
   }
 }

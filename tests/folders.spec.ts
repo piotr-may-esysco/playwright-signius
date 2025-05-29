@@ -116,7 +116,60 @@ test.describe('Folders tests', () => {
     await foldersPage.deleteFolder(folderName)
   })
 
-  //   test.afterAll(async ({ page }) => {
-  //     // TODO: add removal of created folders
-  //   })
+  test.only('Check signatures on files', async ({ page }) => {
+    const folderName = 'signatureTypesFolder'
+    const paths = [
+      '../documents-for-tests/4plik.pdf',
+      '../documents-for-tests/signedDocumentBT.pdf',
+      '../documents-for-tests/signedDocumentLTA.pdf',
+    ]
+    const expectedProgressText = `${paths.length}/${paths.length} ${textContent.DOCUMENTS.FILES}`
+
+    await foldersPage.createFolder(folderName)
+    await page.waitForTimeout(500)
+
+    const folderPage = new FolderPage(page)
+    await folderPage.uploadFiles(paths)
+
+    await expect
+      .soft(folderPage.uploadProgressText)
+      .toHaveText(expectedProgressText, { timeout: 15000 })
+
+    const filesIcons = folderPage.files.locator('i.ng-star-inserted')
+    const tooltipContentLocator = folderPage.signatureTypeTooltip
+      .locator('.ng-star-inserted')
+      .first()
+
+    let tooltipCorrectContent =
+      textContent.DOCUMENTS.FILE_WITHOUT_SIGNATURES.replace(/<[^>]+>/g, '')
+
+    await expect.soft(filesIcons.nth(0)).toContainClass('icon-file') //bs-tooltip-container
+    await filesIcons.nth(0).hover()
+    await expect
+      .soft(tooltipContentLocator)
+      .toContainText(tooltipCorrectContent)
+
+    tooltipCorrectContent =
+      textContent.DOCUMENTS.NOT_ALL_SIGNATURES_VALIDATED.replace(/<[^>]+>/g, '')
+    await filesIcons.nth(1).hover()
+    await expect
+      .soft(filesIcons.nth(1))
+      .toContainClass('icon-file-signatures-not-validated')
+    await expect
+      .soft(tooltipContentLocator)
+      .toContainText(tooltipCorrectContent)
+
+    tooltipCorrectContent =
+      textContent.DOCUMENTS.ALL_SIGNATURES_VALIDATED.replace(/<[^>]+>/g, '')
+    await filesIcons.nth(2).hover()
+    await expect
+      .soft(filesIcons.nth(2))
+      .toContainClass('icon-file-signatures-validated')
+    await expect
+      .soft(tooltipContentLocator)
+      .toContainText(tooltipCorrectContent)
+
+    await page.goto(page_data.urls.folders)
+    await foldersPage.deleteFolder(folderName)
+  })
 })
