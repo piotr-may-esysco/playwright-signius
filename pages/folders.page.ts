@@ -14,7 +14,8 @@ export class FoldersPage {
 
   constructor(private page: Page) {
     this.newFolderButton = page.locator('sig-folder-add-button') //.first()
-    this.folders = page.locator('sig-folder-item') // multiple objects possible
+    this.folders = page.locator('sig-folder-item') // multiple objects possible .folder-item
+    // this.folders = page.locator('.folder-item') // multiple objects possible .folder-item
 
     this.searchBox = page.locator('sig-folder-search-input input').first()
     this.showMyFoldersSwitch = page.locator('input.sig-switch-input')

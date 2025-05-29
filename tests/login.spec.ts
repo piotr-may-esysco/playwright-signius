@@ -5,14 +5,16 @@ import { defaultUser1 } from '../test_data/users.data'
 import { FoldersPage } from '../pages/folders.page'
 import { getTextContent } from '../test_data/page-content.data'
 
-test.describe('login page tests PL', () => {
+test.describe('login page tests', () => {
   let loginPage: LoginPage
   let textContent
-  test.beforeEach(async ({ page }) => {
+  test.beforeEach(async ({ page }, testInfo) => {
+    const language = testInfo.project.use.locale?.slice(0, 2)
+    textContent = getTextContent(language ?? 'pl')
+
     await page.goto(page_data.urls.login)
     loginPage = new LoginPage(page)
     await page.waitForLoadState('domcontentloaded')
-    textContent = getTextContent('pl')
   })
 
   test('has correct title', async ({ page }) => {

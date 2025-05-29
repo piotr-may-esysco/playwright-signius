@@ -31,16 +31,24 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'retain-on-failure',
-    video: 'retain-on-failure',
+    video: 'on',
     baseURL: 'https://sp-test.signius.eu/',
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
+      name: 'chromium_pl',
       use: { ...devices['Desktop Chrome'], locale: 'pl-PL' },
     },
+    // {
+    //   name: 'chromium_en',
+    //   use: { ...devices['Desktop Chrome'], locale: 'pl-PL' },
+    // },
+    // {
+    //   name: 'chromium_de',
+    //   use: { ...devices['Desktop Chrome'], locale: 'pl-PL' },
+    // },
 
     // {
     //   name: 'firefox',

@@ -6,6 +6,7 @@ export class FolderPage {
   renameFolderButton: Locator
   deleteFolderButton: Locator
   chooseFilesButton: Locator
+  cancelUploadButton: Locator
 
   addFilesField: Locator
 
@@ -15,6 +16,11 @@ export class FolderPage {
   folderOwnerText: Locator
   addFilesTitle: Locator
   dragFilesText: Locator
+  uploadProgressText: Locator
+  uploadProgressTitle: Locator
+
+  uploadProgressModal: Locator
+  uploadProgressModal2: Locator
 
   files: Locator
   documents: Locator
@@ -39,6 +45,11 @@ export class FolderPage {
     this.folderOwnerText = page.locator('p.folder-subtitle.ng-star-inserted')
     this.addFilesTitle = page.locator('h2').first() // TODO: check after adding files and documents
     this.dragFilesText = page.locator('div.drag-info')
+
+    this.uploadProgressModal = page.locator('.complete-modal')
+    this.uploadProgressModal2 = page.locator('.complete-modal')
+    this.uploadProgressText = this.uploadProgressModal.locator('p')
+    this.uploadProgressTitle = this.uploadProgressModal.locator('h4')
 
     this.files = page.locator('sig-batch-document-item')
   }
