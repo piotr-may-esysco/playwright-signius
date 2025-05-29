@@ -86,13 +86,12 @@ test.describe('Folders tests', () => {
       '../documents-for-tests/AAA.pdf',
       '../documents-for-tests/innyplik.pdf',
     ]
-    const expectedProgressText = `${paths.length}/${paths.length} ${textContent.DOCUMENTS.FILES}`
 
     await foldersPage.createFolder(folderName)
     await page.waitForTimeout(500)
 
     const folderPage = new FolderPage(page)
-    await folderPage.uploadFiles(paths)
+    await folderPage.uploadFiles(paths, textContent.DOCUMENTS.FILES)
     // const allTexts = await folderPage.files.all()
 
     await folderPage.uploadProgressModal.waitFor({ state: 'attached' })
@@ -103,9 +102,6 @@ test.describe('Folders tests', () => {
       .soft(folderPage.uploadProgressTitle)
       .toHaveText(textContent.DOCUMENTS.ADDING_DOCUMENTS)
 
-    await expect
-      .soft(folderPage.uploadProgressText)
-      .toHaveText(expectedProgressText)
     // await folderPage.uploadProgressModal.waitFor({ state: 'attached' }) // TODO: check if this can be reomoved
 
     await expect.soft(folderPage.files.first()).toHaveText(/4plik/)
@@ -116,24 +112,19 @@ test.describe('Folders tests', () => {
     await foldersPage.deleteFolder(folderName)
   })
 
-  test.only('Check signatures on files', async ({ page }) => {
+  test('Check signatures on files', async ({ page }) => {
     const folderName = 'signatureTypesFolder'
     const paths = [
       '../documents-for-tests/4plik.pdf',
       '../documents-for-tests/signedDocumentBT.pdf',
       '../documents-for-tests/signedDocumentLTA.pdf',
     ]
-    const expectedProgressText = `${paths.length}/${paths.length} ${textContent.DOCUMENTS.FILES}`
 
     await foldersPage.createFolder(folderName)
     await page.waitForTimeout(500)
 
     const folderPage = new FolderPage(page)
-    await folderPage.uploadFiles(paths)
-
-    await expect
-      .soft(folderPage.uploadProgressText)
-      .toHaveText(expectedProgressText, { timeout: 15000 })
+    await folderPage.uploadFiles(paths, textContent.DOCUMENTS.FILES)
 
     const filesIcons = folderPage.files.locator('i.ng-star-inserted')
     const tooltipContentLocator = folderPage.signatureTypeTooltip

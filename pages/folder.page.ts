@@ -1,4 +1,4 @@
-import { Locator, Page } from '@playwright/test'
+import { expect, Locator, Page } from '@playwright/test'
 import path from 'path'
 
 export class FolderPage {
@@ -77,7 +77,12 @@ export class FolderPage {
     // await this.page.waitForTimeout(3000)
   }
 
-  async uploadFiles(paths: string[]): Promise<void> {
+  async uploadFiles(
+    paths: string[],
+    transferingFilesText: string
+  ): Promise<void> {
+    const expectedProgressText = `${paths.length}/${paths.length} ${transferingFilesText}`
+
     for (let i = 0; i < paths.length; i++) {
       paths[i] = path.join(__dirname, paths[i])
       // console.log(paths[i])
@@ -87,6 +92,10 @@ export class FolderPage {
     await this.chooseFilesButton.click()
     const fileChooser = await fileChooserPromise
     await fileChooser.setFiles(paths)
+
+    await expect
+      .soft(this.uploadProgressText)
+      .toHaveText(expectedProgressText, { timeout: 15000 })
   }
 
   async proceed(): Promise<void> {

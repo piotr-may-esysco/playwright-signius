@@ -48,7 +48,7 @@ test.describe('Registration Tests', () => {
       textContent.AUTH.ACCEPT_TERMS2
     )
     await expect(registrationPage.registerButton).toHaveText(
-      textContent.AUTH.CREATE_ACCOUNT
+      textContent.AUTH.CREATE_ACCOUNT + ' ' + textContent.AUTH.LOGIN
     )
   })
 
