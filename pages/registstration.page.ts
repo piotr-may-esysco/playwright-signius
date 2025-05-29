@@ -12,12 +12,15 @@ export class RegistrationPage {
 
   registerButton: Locator
   accessibilityButton: Locator
+  showPasswordButton: Locator
 
   countrySelector: Locator
 
   passwordRequirements: Locator
 
   loginLink: Locator
+  terms1Link: Locator
+  terms2Link: Locator
 
   emailLabel: Locator
   phoneLabel: Locator
@@ -62,6 +65,8 @@ export class RegistrationPage {
       .locator('button.outlined-accessibility-button')
       .first()
 
+    this.showPasswordButton = page.locator('.visibility-button')
+
     this.passwordRequirements = page.locator('sig-password-rule-indicator') // Multiple elements
 
     this.emailLabel = page.locator('label').first()
@@ -69,6 +74,9 @@ export class RegistrationPage {
     this.firstNameLabel = page.locator('label').nth(2)
     this.lastNameLabel = page.locator('label').nth(3)
     this.passwordLabel = page.locator('label').nth(4)
+
+    this.terms1Link = this.page.locator('sig-checkbox a')
+    this.terms2Link = this.cookiesText.locator('a')
   }
 
   async validateFocusOnInput(input: Locator): Promise<void> {
@@ -80,11 +88,6 @@ export class RegistrationPage {
   }
 
   async validateFocusOnButton(button: Locator): Promise<void> {
-    // await button.focus({ timeout: 300 })
-
-    await expect(button).toHaveCSS('outline', 'rgb(56, 92, 219) solid 2px')
-    // await button.focus({ timeout: 300 })
-
     await expect(button).toHaveCSS('outline-color', 'rgb(56, 92, 219)')
   }
 
@@ -115,11 +118,4 @@ export class RegistrationPage {
     await this.passwordInput.fill(password)
     await this.termsCheckbox.check()
   }
-
-  //   async login(email: string, password: string): Promise<void> {
-  //     await this.emailInput.fill(email)
-  //     await this.passwordInput.fill(password)
-
-  //     await this.loginButton.click()
-  //   }
 }
