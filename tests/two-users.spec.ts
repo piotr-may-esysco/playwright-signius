@@ -1,7 +1,6 @@
 import { test, expect } from '@playwright/test'
 import { page_data } from '../test_data/page.data'
 import { LoginPage } from '../pages/login.page'
-import { loginPageDataPL } from '../test_data/login.data'
 import { defaultUser1, defaultUser2 } from '../test_data/users.data'
 
 test.describe('two users tests', () => {

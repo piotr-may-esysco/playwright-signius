@@ -1,14 +1,14 @@
-import { test, expect } from '@playwright/test'
 import { page_data } from '../test_data/page.data'
 import { LoginPage } from '../pages/login.page'
 import { defaultUser1 } from '../test_data/users.data'
 import { FoldersPage } from '../pages/folders.page'
 import { getTextContent } from '../test_data/page-content.data'
+import { test, expect } from '@playwright/test'
 
 test.describe('login page tests', () => {
   let loginPage: LoginPage
   let textContent
-  test.beforeEach(async ({ page }, testInfo) => {
+  test.beforeEach(async ({ page, locale }, testInfo) => {
     const language = testInfo.project.use.locale?.slice(0, 2)
     textContent = getTextContent(language ?? 'pl')
 
@@ -140,7 +140,7 @@ test.describe('login page tests', () => {
 
     await expect(foldersPage.navbar.userEmail).toHaveText(defaultUser1.email)
     await expect(foldersPage.navbar.userName).toHaveText(
-      defaultUser1.names + ' ' + defaultUser1.surname
+      defaultUser1.firstName + ' ' + defaultUser1.lastName
     )
 
     // TODO: assert main page
