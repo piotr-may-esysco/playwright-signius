@@ -1,0 +1,44 @@
+import { test, expect } from '@playwright/test'
+import { page_data } from '../test_data/page.data'
+import { LoginPage } from '../pages/login.page'
+import { defaultUser1, defaultUser2, fakeUser } from '../test_data/users.data'
+import { RegistrationPage } from '../pages/registstration.page'
+
+test.describe('Registration Capcha', () => {
+  // let registrationPage: RegistrationPage
+
+  test.beforeEach(async ({ page }, testInfo) => {
+    testInfo.setTimeout(10 * 60 * 1000)
+  })
+
+  test.skip('Capcha test', async ({ page }) => {
+    const iterations = 2
+    let phoneNumber = 500000000
+    for (let i = 0; i < iterations; i++) {
+      // Go to registration page
+      await page.goto(page_data.urls.login)
+      const loginPage = new LoginPage(page)
+      await loginPage.registerButton.click()
+      await page.waitForLoadState('domcontentloaded')
+      const registrationPage = new RegistrationPage(page)
+
+      // fill first form
+      await registrationPage.fillRegisterForm(
+        fakeUser.email,
+        phoneNumber.toString(),
+        fakeUser.country,
+        fakeUser.firstName,
+        fakeUser.lastName,
+        fakeUser.password
+      )
+      await expect(registrationPage.registerButton).toBeEnabled()
+      await registrationPage.registerButton.click()
+
+      // check if passed
+      await expect(page.locator('h2').first()).toHaveText(
+        'Wysłaliśmy do Ciebie SMS z kodem'
+      )
+      phoneNumber++
+    }
+  })
+})
