@@ -161,4 +161,15 @@ test.describe('login page tests', () => {
       page_data.urls.basic + page_data.urls.registation
     )
   })
+
+  test('screenshot tests', async ({ page }) => {
+    await expect(page).toHaveScreenshot()
+
+    await expect(loginPage.loginButton).toHaveScreenshot()
+
+    await loginPage.emailInput.fill(defaultUser1.email)
+    await loginPage.passwordInput.fill(defaultUser1.password)
+
+    await expect(loginPage.loginButton).toHaveScreenshot()
+  })
 })

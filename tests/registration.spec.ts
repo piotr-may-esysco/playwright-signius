@@ -39,16 +39,16 @@ test.describe('Registration Tests', () => {
     //   textContent.AUTH.NEW_ACCOUNT
     // )
     await expect(registrationPage.registerText).toHaveText(
-      textContent.AUTH.ALREADY_HAVE_ACCOUNT
+      textContent.AUTH.ALREADY_HAVE_ACCOUNT + ' ' + textContent.AUTH.LOGIN
     )
-    await expect(registrationPage.termsCheckbox).toHaveText(
-      textContent.AUTH.ACCEPT_TERMS
+    await expect(page.locator('.sig-checkbox-label div')).toHaveText(
+      textContent.AUTH.ACCEPT_TERMS.replace(/<[^>]+>/g, '')
     )
     await expect(registrationPage.cookiesText).toHaveText(
-      textContent.AUTH.ACCEPT_TERMS2
+      textContent.AUTH.ACCEPT_TERMS_2.replace(/<[^>]+>/g, '')
     )
     await expect(registrationPage.registerButton).toHaveText(
-      textContent.AUTH.CREATE_ACCOUNT + ' ' + textContent.AUTH.LOGIN
+      textContent.AUTH.CREATE_ACCOUNT //+ ' ' + textContent.AUTH.LOGIN
     )
   })
 
