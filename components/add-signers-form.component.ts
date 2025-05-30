@@ -45,9 +45,8 @@ export class AddSignersForm {
 
   async selectCounty(country: string): Promise<void> {
     await this.countrySelector.click()
-    const regExpString = '\\' + country
     const id = `#iti-0__item-${country}-preferred`
-    await this.page.locator(id).first().click()
+    await this.page.locator(id).last().click()
   }
 
   async addMe(): Promise<void> {

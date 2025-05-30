@@ -27,7 +27,7 @@ test.describe('Commisioning Tests', () => {
     testInfo.setTimeout(50000)
   })
 
-  test.only('Commision document for 2 users', async ({ page }) => {
+  test('Commision document for 2 users', async ({ page }) => {
     const folderName = '2usersFolder'
     const paths = ['../documents-for-tests/4plik.pdf']
 
@@ -62,6 +62,45 @@ test.describe('Commisioning Tests', () => {
         page.locator('h2[name="document-list-item--status-label-in_progress"]')
       )
       .toHaveText(textContent.ENUM.SIGN_STATUS.IN_PROGRESS)
+
+    await page.goto(page_data.urls.folders)
+    await foldersPage.deleteFolder(folderName)
+  })
+
+  test('Commision document for 3 users using method', async ({
+    page,
+    browser,
+  }) => {
+    const folderName = '3usersMethodFolder'
+    const paths = ['../documents-for-tests/4plik.pdf']
+    const signers = [defaultUser2, fakeUser]
+
+    await foldersPage.performFullComissionAdvanced(
+      paths,
+      signers,
+      true,
+      folderName,
+      language
+    )
+
+    const context2 = await browser.newContext()
+    const page2 = await context2.newPage()
+    await page2.goto(page_data.urls.basic)
+    const loginPage2 = new LoginPage(page2)
+    await loginPage2.login(defaultUser2.email, defaultUser2.password)
+    const foldersPage2 = new FoldersPage(page2)
+    await foldersPage2.folders
+      .locator('p[name="folder-item--label-name"]')
+      .filter({ hasText: folderName })
+      .first()
+      .click()
+    await expect
+      .soft(
+        page2
+          .locator('h2[name="document-list-item--status-label-in_progress"]')
+          .first()
+      )
+      .toHaveText(textContent['ENUM'].SIGN_STATUS.IN_PROGRESS)
 
     await page.goto(page_data.urls.folders)
     await foldersPage.deleteFolder(folderName)

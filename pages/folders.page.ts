@@ -1,7 +1,12 @@
-import { Locator, Page } from '@playwright/test'
+import { Locator, Page, expect } from '@playwright/test'
 import { NavbarComponent } from '../components/navbar.component'
 import { AddFolderComponent } from '../components/add-folder.component'
 import { DeleteFolderComponent } from '../components/delete-folder.component'
+import { defaultUser2, TestUser } from '../test_data/users.data'
+import { FolderPage } from './folder.page'
+import { getTextContent } from '../test_data/page-content.data'
+import { CommissioningPage } from './comissioning.page'
+import { CoverPage } from './cover.page'
 
 export class FoldersPage {
   folders: Locator // TODO: check how multiple folders behave
@@ -59,5 +64,59 @@ export class FoldersPage {
       result.push(folderName)
     }
     return result
+  }
+
+  /**  This method performs full commission of files to the users.
+   * User must be logged in to perform this action.
+   * @param filePaths - document paths for signing
+   * @param signers - all users (except commissioner) that will have to sign the documents.
+   * @param currentUserIncluded - if current user should be added in signers list
+   * @param folderName - name of new folder where documents will be added
+   * @param language - browser language for text verification
+   */
+  async performFullComissionAdvanced(
+    filePaths: string[],
+    signers: TestUser[],
+    currentUserIncluded: boolean,
+    folderName: string,
+    language: string
+  ): Promise<void> {
+    // TODO: add graphical representation options
+    const paths = ['../documents-for-tests/4plik.pdf']
+    await this.createFolder(folderName)
+    await this.page.waitForTimeout(500)
+
+    let textContent = getTextContent(language)
+    const folderPage = new FolderPage(this.page)
+    await folderPage.uploadFiles(paths, textContent['DOCUMENTS'].FILES)
+
+    await folderPage.continueButton.click()
+
+    const commissioningPage = new CommissioningPage(this.page)
+    await commissioningPage.advancedSignatureOption.click()
+    await commissioningPage.graphicalReprezentaionOptions.first().click()
+
+    if (currentUserIncluded) {
+      await commissioningPage.addSignerForm.addMe()
+    }
+
+    for (let signer of signers) {
+      await commissioningPage.addAnotherSignerButton.click()
+      await commissioningPage.addSignerForm.addSignerAdvanced(signer)
+    }
+
+    await commissioningPage.summaryButton.click()
+
+    const coverPage = new CoverPage(this.page)
+
+    await coverPage.paymentOrCommisionButton.click()
+
+    await expect
+      .soft(
+        this.page.locator(
+          'h2[name="document-list-item--status-label-in_progress"]'
+        )
+      )
+      .toHaveText(textContent['ENUM'].SIGN_STATUS.IN_PROGRESS)
   }
 }
