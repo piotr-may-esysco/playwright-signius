@@ -137,12 +137,12 @@ test.describe('Commisioning Tests', () => {
     await folderPage.continueButton.click()
 
     const commissioningPage = new CommissioningPage(page)
-    await commissioningPage.advancedSignatureOption.click()
+    await commissioningPage.qualifiedSignatureOption.click()
     await commissioningPage.graphicalReprezentaionOptions.first().click()
 
     await commissioningPage.addSignerForm.addMe()
     await commissioningPage.addAnotherSignerButton.click()
-    await commissioningPage.addSignerForm.addSignerAdvanced(defaultUser2)
+    await commissioningPage.addSignerForm.addSignerQualified(defaultUser2)
 
     await commissioningPage.summaryButton.click()
 
@@ -163,7 +163,7 @@ test.describe('Commisioning Tests', () => {
     await page.goto(page_data.urls.folders)
 
     const afterSignaturesQuantity = Number(
-      await foldersPage.signaturesBar.advancedSignatures.textContent()
+      await foldersPage.signaturesBar.qualifiedSignatures.textContent()
     )
     expect(afterSignaturesQuantity).toEqual(beforeSignaturesQuantity - 2)
     await foldersPage.deleteFolder(folderName)
