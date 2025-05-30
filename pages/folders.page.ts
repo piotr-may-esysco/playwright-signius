@@ -7,6 +7,7 @@ import { FolderPage } from './folder.page'
 import { getTextContent } from '../test_data/page-content.data'
 import { CommissioningPage } from './comissioning.page'
 import { CoverPage } from './cover.page'
+import { SignaturesBarComponent } from '../components/signatures-bar.componan'
 
 export class FoldersPage {
   folders: Locator // TODO: check how multiple folders behave
@@ -16,6 +17,7 @@ export class FoldersPage {
   newFolderButton: Locator
 
   navbar: NavbarComponent
+  signaturesBar: SignaturesBarComponent
 
   constructor(private page: Page) {
     this.newFolderButton = page.locator('sig-folder-add-button') //.first()
@@ -27,6 +29,7 @@ export class FoldersPage {
     this.findDocumentsButton = page.locator('button').nth(4) // TODO: add id to the object
 
     this.navbar = new NavbarComponent(page)
+    this.signaturesBar = new SignaturesBarComponent(page)
   }
 
   async createFolder(folderName: string): Promise<void> {

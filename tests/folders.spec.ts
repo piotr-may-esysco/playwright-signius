@@ -22,6 +22,18 @@ test.describe('Folders tests', () => {
     testInfo.setTimeout(40000)
   })
 
+  test('Signatures bar toogle test', async ({ page }) => {
+    await expect(foldersPage.signaturesBar.advancedSignatures).toBeVisible()
+
+    await foldersPage.signaturesBar.toggle()
+
+    await expect(foldersPage.signaturesBar.advancedSignatures).not.toBeVisible()
+
+    await foldersPage.signaturesBar.toggle()
+
+    await expect(foldersPage.signaturesBar.advancedSignatures).toBeVisible()
+  })
+
   test('Create and delete a folder', async ({ page }) => {
     const folderName = 'testFolder'
     await foldersPage.createFolder(folderName)

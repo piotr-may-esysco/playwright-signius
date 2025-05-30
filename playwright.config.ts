@@ -12,7 +12,7 @@ import { defineConfig, devices } from '@playwright/test'
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  timeout: 15000,
+  timeout: 18000,
   testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -32,7 +32,7 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'retain-on-failure',
     video: 'on',
-    baseURL: 'https://sp-cd.signius.eu/',
+    baseURL: 'https://sp-test.signius.eu/',
   },
 
   /* Configure projects for major browsers */

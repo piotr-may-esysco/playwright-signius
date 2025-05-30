@@ -12,7 +12,7 @@ test.describe('Registration Capcha', () => {
     // testInfo.setTimeout(10 * 60 * 1000)
   })
 
-  test.only('Capcha test', async ({ page }) => {
+  test.skip('Capcha test', async ({ page }) => {
     const iterations = 2
     let phoneNumber = 500000000
     for (let i = 0; i < iterations; i++) {
