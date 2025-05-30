@@ -92,13 +92,17 @@ export class RegistrationPage {
   }
 
   async selectCounty(country: string): Promise<void> {
+    // await this.countrySelector.click()
+    // const regExpString = '\\' + country
+    // await this.page
+    //   .locator('li.iti__country')
+    //   .filter({ hasText: new RegExp(regExpString) })
+    //   .first()
+    //   .click()
     await this.countrySelector.click()
     const regExpString = '\\' + country
-    await this.page
-      .locator('li.iti__country')
-      .filter({ hasText: new RegExp(regExpString) })
-      .first()
-      .click()
+    const id = `#iti-0__item-${country}-preferred`
+    await this.page.locator(id).first().click()
   }
 
   async fillRegisterForm(

@@ -4,6 +4,7 @@ import { LoginPage } from '../pages/login.page'
 import { defaultUser1, defaultUser2, fakeUser } from '../test_data/users.data'
 import { RegistrationPage } from '../pages/registstration.page'
 import { getTextContent } from '../test_data/page-content.data'
+import removeHTML from '../helpers/remove-html'
 
 test.describe('Registration Tests', () => {
   // let registrationPage: RegistrationPage
@@ -42,10 +43,10 @@ test.describe('Registration Tests', () => {
       textContent.AUTH.ALREADY_HAVE_ACCOUNT + ' ' + textContent.AUTH.LOGIN
     )
     await expect(page.locator('.sig-checkbox-label div')).toHaveText(
-      textContent.AUTH.ACCEPT_TERMS.replace(/<[^>]+>/g, '')
+      removeHTML(textContent.AUTH.ACCEPT_TERMS)
     )
     await expect(registrationPage.cookiesText).toHaveText(
-      textContent.AUTH.ACCEPT_TERMS_2.replace(/<[^>]+>/g, '')
+      removeHTML(textContent.AUTH.ACCEPT_TERMS_2)
     )
     await expect(registrationPage.registerButton).toHaveText(
       textContent.AUTH.CREATE_ACCOUNT //+ ' ' + textContent.AUTH.LOGIN

@@ -1,4 +1,13 @@
-export const defaultUser1 = {
+export type TestUser = {
+  email: string
+  password: string
+  phoneNumber: string
+  country: string
+  firstName: string
+  lastName: string
+}
+
+export const defaultUser1: TestUser = {
   email: 'ptest0610+2@gmail.com',
   password: '!Admin1234',
   phoneNumber: '111 111 111',
@@ -7,7 +16,7 @@ export const defaultUser1 = {
   lastName: 'Testowy',
 }
 
-export const defaultUser2 = {
+export const defaultUser2: TestUser = {
   email: 'jntestsignius+2@gmail.com',
   password: '!Admin1234',
   phoneNumber: '222 222 222',
@@ -16,11 +25,11 @@ export const defaultUser2 = {
   lastName: 'Testowy',
 }
 
-export const fakeUser = {
+export const fakeUser: TestUser = {
   email: 'fakeGuy@gmail.com',
   password: '!Admin1234',
   phoneNumber: '500000000',
-  country: '+48',
+  country: 'pl',
   firstName: 'Janusz',
   lastName: 'Testowy',
 }

@@ -1,6 +1,7 @@
 import { Locator, Page } from '@playwright/test'
+import { AddSignersForm } from '../components/add-signers-form.component'
 
-export class Comissioning {
+export class CommissioningPage {
   goBackButton: Locator
   findOutMoreButton: Locator
   addAnotherSignerButton: Locator
@@ -22,7 +23,7 @@ export class Comissioning {
 
   orderOfSigningSwitch: Locator
 
-  addSignerForm: Locator
+  addSignerForm: AddSignersForm
 
   constructor(private page: Page) {
     this.goBackButton = page.locator('button.go-back-btn')
@@ -51,6 +52,6 @@ export class Comissioning {
 
     this.orderOfSigningSwitch = page.locator('sig-switch')
 
-    // TODO: add people form
+    this.addSignerForm = new AddSignersForm(page)
   }
 }

@@ -59,6 +59,7 @@ export class FolderPage {
     this.uploadProgressTitle = this.uploadProgressModal.locator('h4')
 
     this.files = page.locator('sig-batch-document-item')
+    this.documents = page.locator('old-sig-document-list-item')
 
     this.signatureTypeTooltip = page.locator('bs-tooltip-container')
   }

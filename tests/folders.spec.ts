@@ -5,6 +5,7 @@ import { defaultUser1 } from '../test_data/users.data'
 import { FoldersPage } from '../pages/folders.page'
 import { FolderPage } from '../pages/folder.page'
 import { getTextContent } from '../test_data/page-content.data'
+import removeHTML from '../helpers/remove-html'
 
 test.describe('Folders tests', () => {
   let foldersPage: FoldersPage
@@ -131,8 +132,9 @@ test.describe('Folders tests', () => {
       .locator('.ng-star-inserted')
       .first()
 
-    let tooltipCorrectContent =
-      textContent.DOCUMENTS.FILE_WITHOUT_SIGNATURES.replace(/<[^>]+>/g, '')
+    let tooltipCorrectContent = removeHTML(
+      textContent.DOCUMENTS.FILE_WITHOUT_SIGNATURES
+    )
 
     await expect.soft(filesIcons.nth(0)).toContainClass('icon-file') //bs-tooltip-container
     await filesIcons.nth(0).hover()
@@ -140,8 +142,9 @@ test.describe('Folders tests', () => {
       .soft(tooltipContentLocator)
       .toContainText(tooltipCorrectContent)
 
-    tooltipCorrectContent =
-      textContent.DOCUMENTS.NOT_ALL_SIGNATURES_VALIDATED.replace(/<[^>]+>/g, '')
+    tooltipCorrectContent = removeHTML(
+      textContent.DOCUMENTS.NOT_ALL_SIGNATURES_VALIDATED
+    )
     await filesIcons.nth(1).hover()
     await expect
       .soft(filesIcons.nth(1))
@@ -150,8 +153,9 @@ test.describe('Folders tests', () => {
       .soft(tooltipContentLocator)
       .toContainText(tooltipCorrectContent)
 
-    tooltipCorrectContent =
-      textContent.DOCUMENTS.ALL_SIGNATURES_VALIDATED.replace(/<[^>]+>/g, '')
+    tooltipCorrectContent = removeHTML(
+      textContent.DOCUMENTS.ALL_SIGNATURES_VALIDATED
+    )
     await filesIcons.nth(2).hover()
     await expect
       .soft(filesIcons.nth(2))
