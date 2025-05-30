@@ -54,4 +54,12 @@ export class CommissioningPage {
 
     this.addSignerForm = new AddSignersForm(page)
   }
+
+  /**
+   * Chooses option for graphical representation
+   * @param nth 1 - First page; 2 - Additional page 3 - Choose place 4 - Do not add
+   */
+  async chooseGraphicalRepresentationOption(nth: number) {
+    await this.graphicalReprezentaionOptions.nth(nth + 1).click()
+  }
 }

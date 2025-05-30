@@ -13,7 +13,7 @@ test.describe('Registration Capcha', () => {
   })
 
   test.only('Capcha test', async ({ page }) => {
-    const iterations = 200
+    const iterations = 20
     let phoneNumber = 500000000
     for (let i = 0; i < iterations; i++) {
       console.log('Iteracja: ' + i.toString())

@@ -63,4 +63,13 @@ export class AddSignersForm {
 
     await this.saveButton.click()
   }
+
+  async addSignerQualified(user: TestUser): Promise<void> {
+    await this.selectCounty(user.country)
+
+    await this.emailInput.fill(user.email)
+    await this.phoneNumerInput.fill(user.phoneNumber)
+
+    await this.saveButton.click()
+  }
 }
