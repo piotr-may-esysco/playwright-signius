@@ -20,9 +20,9 @@ export class FolderPage {
   dragFilesText: Locator
   uploadProgressText: Locator
   uploadProgressTitle: Locator
+  ownedSignaturesText : Locator
 
   uploadProgressModal: Locator
-  uploadProgressModal2: Locator
 
   files: Locator
   documents: Locator
@@ -54,9 +54,9 @@ export class FolderPage {
     this.dragFilesText = page.locator('div.drag-info')
 
     this.uploadProgressModal = page.locator('.complete-modal')
-    this.uploadProgressModal2 = page.locator('.complete-modal')
     this.uploadProgressText = this.uploadProgressModal.locator('p')
     this.uploadProgressTitle = this.uploadProgressModal.locator('h4')
+    this.ownedSignaturesText = page.locator('.footer-signs-summary')
 
     this.files = page.locator('sig-batch-document-item')
     this.documents = page.locator('old-sig-document-list-item')

@@ -109,7 +109,7 @@ test.describe('Folders tests', () => {
 
     await folderPage.uploadProgressModal.waitFor({ state: 'attached' })
     await expect
-      .soft(folderPage.uploadProgressModal2)
+      .soft(folderPage.uploadProgressModal)
       .toHaveCSS('background-color', 'rgb(119, 189, 31)')
     await expect
       .soft(folderPage.uploadProgressTitle)

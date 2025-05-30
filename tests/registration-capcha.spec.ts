@@ -9,13 +9,15 @@ test.describe('Registration Capcha', () => {
   // let registrationPage: RegistrationPage
 
   test.beforeEach(async ({ page }, testInfo) => {
-    // testInfo.setTimeout(10 * 60 * 1000)
+    testInfo.setTimeout(4 * 60 * 1000)
   })
 
-  test.skip('Capcha test', async ({ page }) => {
-    const iterations = 2
+  test.only('Capcha test', async ({ page }) => {
+    const iterations = 200
     let phoneNumber = 500000000
     for (let i = 0; i < iterations; i++) {
+      console.log('Iteracja: ' + i.toString())
+
       // Go to registration page
       await page.goto(page_data.urls.login)
       const loginPage = new LoginPage(page)
@@ -44,9 +46,9 @@ test.describe('Registration Capcha', () => {
 
       await smsVerification.codeInput.fill('111111')
 
-      // await expect(page.locator('h1.confirmation-title')).toHaveText(
-      //   'Wysłaliśmy do Ciebie email'
-      // )
+      await expect(page.locator('h1.confirmation-title')).toHaveText(
+        'Wysłaliśmy do Ciebie email'
+      )
       phoneNumber++
     }
   })
