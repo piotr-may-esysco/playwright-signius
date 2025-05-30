@@ -3,15 +3,16 @@ import { page_data } from '../test_data/page.data'
 import { LoginPage } from '../pages/login.page'
 import { defaultUser1, defaultUser2, fakeUser } from '../test_data/users.data'
 import { RegistrationPage } from '../pages/registstration.page'
+import { SMSVerification } from '../components/sms-verification.component'
 
 test.describe('Registration Capcha', () => {
   // let registrationPage: RegistrationPage
 
   test.beforeEach(async ({ page }, testInfo) => {
-    testInfo.setTimeout(10 * 60 * 1000)
+    // testInfo.setTimeout(10 * 60 * 1000)
   })
 
-  test.skip('Capcha test', async ({ page }) => {
+  test.only('Capcha test', async ({ page }) => {
     const iterations = 2
     let phoneNumber = 500000000
     for (let i = 0; i < iterations; i++) {
@@ -33,11 +34,19 @@ test.describe('Registration Capcha', () => {
       )
       await expect(registrationPage.registerButton).toBeEnabled()
       await registrationPage.registerButton.click()
+      await page.waitForLoadState('domcontentloaded')
+      const smsVerification = new SMSVerification(page)
 
       // check if passed
-      await expect(page.locator('h2').first()).toHaveText(
+      await expect(smsVerification.smsSendedHeader).toHaveText(
         'Wysłaliśmy do Ciebie SMS z kodem'
       )
+
+      await smsVerification.codeInput.fill('111111')
+
+      // await expect(page.locator('h1.confirmation-title')).toHaveText(
+      //   'Wysłaliśmy do Ciebie email'
+      // )
       phoneNumber++
     }
   })
